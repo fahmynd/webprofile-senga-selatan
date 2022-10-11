@@ -2,7 +2,7 @@
   "homepage": "http://fahmynd.github.io/webprofile-senga-selatan",
   "name": "webprofile-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@amcharts/amcharts5": "^5.2.29",
     "@testing-library/jest-dom": "^5.16.5",
