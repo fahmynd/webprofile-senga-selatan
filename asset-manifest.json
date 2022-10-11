@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webprofile-senga-selatan/static/css/main.7c5fca8a.css",
+    "main.js": "/webprofile-senga-selatan/static/js/main.f38a6737.js",
+    "index.html": "/webprofile-senga-selatan/index.html",
+    "main.7c5fca8a.css.map": "/webprofile-senga-selatan/static/css/main.7c5fca8a.css.map",
+    "main.f38a6737.js.map": "/webprofile-senga-selatan/static/js/main.f38a6737.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c5fca8a.css",
+    "static/js/main.f38a6737.js"
+  ]
+}
