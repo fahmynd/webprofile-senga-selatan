@@ -1,4 +1,5 @@
 import React from 'react'
+import { InstagramEmbed } from 'react-social-media-embed'
 
 function InstagramSection() {
     return (
@@ -16,9 +17,8 @@ function InstagramSection() {
                 </div>
                 <div className="row mt-4">
                     <div className="col-md-12">
-                        <div className="tagembed-container" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
-                            <div className="tagembed-socialwall" data-wall-id="28083" view-url="https://widget.tagembed.com/28083?view"></div>
-                            <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <InstagramEmbed url="https://www.instagram.com/p/CeOejjElDa4/" width={500} />
                         </div>
                     </div>
                 </div>

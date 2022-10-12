@@ -1,4 +1,5 @@
 import React from 'react'
+import { YouTubeEmbed } from 'react-social-media-embed';
 
 function YoutubeSection() {
     return (
@@ -14,12 +15,9 @@ function YoutubeSection() {
                         </p>
                     </div>
                 </div>
-                <div className="row mt-4">
-                    <div className="col-md-12">
-                        <div className="tagembed-container" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
-                            <div className="tagembed-socialwall" data-wall-id="28083" view-url="https://widget.tagembed.com/28083?view"></div>
-                            <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script>
-                        </div>
+                <div className="row mt-4 justify-content-center">
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <YouTubeEmbed url="https://www.youtube.com/watch?v=Ja4GDlIIdr4" width={600} height={400} />
                     </div>
                 </div>
             </div>

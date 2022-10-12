@@ -36,9 +36,7 @@ class WisataDesa extends React.Component {
                         <div className="col-md-8 text-center">
                             <h2 className="fw-bold sub-judul">Wisata Desa</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Similique saepe hic aut provident aperiam, nostrum repellat ex
-                                iste adipisci ut blanditiis dolor
+                                Kabupaten Luwu menyimpan sejuta pesona wisata alam. Yang terbaru adalah kawasan wisata Mangrove atau hutan bakau yang terletak di Desa Senga Selatan, Kecamatan Belopa.
                             </p>
                         </div>
                     </div>
@@ -47,68 +45,30 @@ class WisataDesa extends React.Component {
                             <div className="main-content">
                                 <OwlCarousel id="caroWisataDesa" className="owl-carousel owl-theme" {...options}>
                                     <div className="item">
-                                        <img src={"https://images.unsplash.com/photo-1510797215324-95aa89f43c33?fit=crop&fm=jpg&h=800&q=80&w=1200"} alt="" />
+                                        <img src="assets/img/wisata/wisata1.jpg" alt="" />
                                         <div className="item-info">
-                                            <p className="wisata-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="wisata-desa__judul clr-white">Hammock Labulawang</p>
                                             <p className="wisata-desa_desc clr-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Similique saepe hic aut provident aperiam, nostrum
-                                                repellat ex iste adipisci ut blanditiis dolor
+                                                Wisata hammock ini berada di perkebunan pohon jati putih. Pohon-pohon itu menjulang tinggi dan berjejer rapi.
+                                                Ketika berkunjung ke tempat ini, Hammock menjadi syarat wajib untuk bersantai sambil berayun menikmati pemandangan indah.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src={"https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?fit=crop&fm=jpg&h=800&q=80&w=1200"} alt="" />
+                                        <img src="assets/img/wisata/wisata2.jpg" alt="" />
                                         <div className="item-info">
-                                            <p className="wisata-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="wisata-desa__judul clr-white">Kampung Kuliner Pakde</p>
                                             <p className="wisata-desa_desc clr-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Similique saepe hic aut provident aperiam, nostrum
-                                                repellat ex iste adipisci ut blanditiis dolor
+                                                Kampung Kuliner Pakde merupakan salah satu unit usaha Bumdesa Masagenae Desa Senga Selatan yang bertujuan untuk meningkatkan kesejahteraan UMKM Lokal, dengan memfasilitasi tempat atau kawasan kuliner demi meningkatkan pendapatan masyarakat Desa Senga Selatan. Di Kampung Kuliner Pakde juga, para pengunjung akan di suguhkan aneka menu yang luar biasa enaknya.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src={"https://images.unsplash.com/photo-1509149037-37dc57ccbd13?fit=crop&fm=jpg&h=800&q=80&w=1200"} alt="" />
+                                        <img src="assets/img/wisata/wisata3.jpeg" alt="" />
                                         <div className="item-info">
-                                            <p className="wisata-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="wisata-desa__judul clr-white">Jembatan Pelangi</p>
                                             <p className="wisata-desa_desc clr-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Similique saepe hic aut provident aperiam, nostrum
-                                                repellat ex iste adipisci ut blanditiis dolor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <img src={"https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?fit=crop&fm=jpg&h=800&q=80&w=1200"} alt="" />
-                                        <div className="item-info">
-                                            <p className="wisata-desa__judul clr-white">Nama Wisata</p>
-                                            <p className="wisata-desa_desc clr-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Similique saepe hic aut provident aperiam, nostrum
-                                                repellat ex iste adipisci ut blanditiis dolor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <img src={"https://images.unsplash.com/photo-1509149037-37dc57ccbd13?fit=crop&fm=jpg&h=800&q=80&w=1200"} alt="" />
-                                        <div className="item-info">
-                                            <p className="wisata-desa__judul clr-white">Nama Wisata</p>
-                                            <p className="wisata-desa_desc clr-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Similique saepe hic aut provident aperiam, nostrum
-                                                repellat ex iste adipisci ut blanditiis dolor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <img src={"https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?fit=crop&fm=jpg&h=800&q=80&w=1200"} alt="" />
-                                        <div className="item-info">
-                                            <p className="wisata-desa__judul clr-white">Nama Wisata</p>
-                                            <p className="wisata-desa_desc clr-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Similique saepe hic aut provident aperiam, nostrum
-                                                repellat ex iste adipisci ut blanditiis dolor
+                                                Jembatan ini menjadi salah satu tempat favorit pengunjung untuk berfoto.
                                             </p>
                                         </div>
                                     </div>

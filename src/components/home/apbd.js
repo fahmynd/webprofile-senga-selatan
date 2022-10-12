@@ -22,7 +22,7 @@ function Apbd() {
                                 <div className="card apbd-card">
                                     <div className="card-body">
                                         <p className="fw-bold clr-white">Pendapatan Desa:</p>
-                                        <p id="pendapatanDesa" className="text-end">Rp2.000.000.000</p>
+                                        <p id="pendapatanDesa" className="text-end">Rp1.437.909.473</p>
                                     </div>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ function Apbd() {
                                 <div className="card apbd-card apbd-card__2">
                                     <div className="card-body">
                                         <p className="fw-bold clr-white">Belanja Desa:</p>
-                                        <p id="pendapatanDesa" className="text-end">Rp2.000.000.000</p>
+                                        <p id="pendapatanDesa" className="text-end">Rp1.437.909.473</p>
                                     </div>
                                 </div>
                             </div>

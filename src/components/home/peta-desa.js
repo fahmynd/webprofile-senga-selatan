@@ -19,7 +19,7 @@ function PetaDesa() {
                     <div className="col-md-12">
                         <div className="mapouter">
                             <div className="gmap_canvas">
-                                <iframe title='petaDesa' width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=digides&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe><Link to="https://putlocker-is.org"></Link><br />
+                                <iframe title='petaDesa' width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=senga%20selatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe><Link to="https://putlocker-is.org"></Link><br />
                                 <Link to="https://www.embedgooglemap.net">show google map on website</Link>
                             </div>
                         </div>

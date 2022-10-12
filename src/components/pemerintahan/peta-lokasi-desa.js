@@ -9,9 +9,7 @@ function PetaLokasiDesa() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Peta Lokasi Desa</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                            Senga Selatan adalah desa yang berada di kecamatan Belopa, Kabupaten Luwu, Sulawesi Selatan, Indonesia.
                         </p>
                     </div>
                 </div>
@@ -24,7 +22,7 @@ function PetaLokasiDesa() {
                                     width="100%"
                                     height="100%"
                                     id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=digides&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    src="https://maps.google.com/maps?q=senga%20selatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                     frameBorder="0"
                                     scrolling="no"
                                     marginHeight="0"
@@ -41,7 +39,7 @@ function PetaLokasiDesa() {
                     <div className="col-lg-6 mb-5">
                         <div className="card peta-lokasi-desa__card">
                             <div className="card-body">
-                                <h4>Desa DIGIDES</h4>
+                                <h4>Desa Senga Selatan</h4>
                                 <h5 className="mt-4">Batas Desa</h5>
                                 <div className="row">
                                     <div className="col-md-6">

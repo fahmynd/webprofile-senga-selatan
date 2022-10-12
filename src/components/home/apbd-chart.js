@@ -25,23 +25,23 @@ function ApbdChart(props) {
         // Define data
         let data = [{
             belanja: "Penyelenggaraan Pemerintahan Desa",
-            value: 2025,
+            value: 420098120,
         },
         {
             belanja: "Pelaksanaan Pembangunan Desa",
-            value: 1882,
+            value: 347938200,
         },
         {
             belanja: "Pembinaan Kemasyarakatan",
-            value: 1809,
+            value: 150004153,
         },
         {
             belanja: "Pemberdayaan Masyarakat",
-            value: 1322,
+            value: 84269000,
         },
         {
             belanja: "Penanggulangan Bencana dan Mendesak",
-            value: 1122,
+            value: 435600000,
         },
         ];
 

@@ -8,7 +8,7 @@ function InfoSingkatDesa() {
                     <div className="col-md-6">
                         <div className="vertical-center">
                             <img src="assets/img/logo/logo-digides.png" width="70" alt="" />
-                            <span className="info-singkat-desa__nama fw-bold center-v">Desa <span id="#namaDesa">DIGIDES</span></span>
+                            <span className="info-singkat-desa__nama fw-bold center-v">Desa <span id="#namaDesa">Senga Selatan</span></span>
                             <p className="mt-3">
                                 Praesent sapien massa, convallis a pellentesque nec, egestas non
                                 nisi. Nulla quis lorem ut libero malesuada feugiat. Quisque

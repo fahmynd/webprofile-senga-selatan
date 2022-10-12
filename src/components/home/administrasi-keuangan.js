@@ -20,7 +20,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">99</p>
+                                        <p className="adm-umum-jumlah fw-bold">6</p>
                                         <p className="adm-umum-judul">APB Desa</p>
                                     </div>
                                 </div>
@@ -28,7 +28,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">99</p>
+                                        <p className="adm-umum-jumlah fw-bold">0</p>
                                         <p className="adm-umum-judul">RAB Desa</p>
                                     </div>
                                 </div>
@@ -36,7 +36,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">99</p>
+                                        <p className="adm-umum-jumlah fw-bold">0</p>
                                         <p className="adm-umum-judul">Kas Kegiatan</p>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">99</p>
+                                        <p className="adm-umum-jumlah fw-bold">1</p>
                                         <p className="adm-umum-judul">Kas Umum</p>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">99</p>
+                                        <p className="adm-umum-jumlah fw-bold">0</p>
                                         <p className="adm-umum-judul">Kas Pembantu</p>
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">99</p>
+                                        <p className="adm-umum-jumlah fw-bold">1</p>
                                         <p className="adm-umum-judul">Bank Buku Desa</p>
                                     </div>
                                 </div>

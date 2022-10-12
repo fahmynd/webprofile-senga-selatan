@@ -10,8 +10,8 @@ function Jumbotron() {
                             <h2>Desa Senga Selatan</h2>
                             <p className="fs-6">
                                 Assalamu'alaikum warahmatullahi wabarakatuh.
-                                <p>Selamat Datang di “Website Desa Senga Selatan“, melalui website ini kami berupaya menghadirkan informasi seputar kegiatan dan program Desa Senga Selatan“, Kecamatan Belopa, Kabupaten Luwu, Prov. Sulawesi Selatan.</p>
-                                <p>Website ini kami hadirkan untuk mengikuti perkembangan dunia Teknologi Informasi (IT) yang kian pesat. Lahir dari sebuah ide kreatif dan inovatif, serta merupakan sebuah terobosan kami untuk lebih mendekatkan diri kepada masyarakat luas. Kami berupaya agar informasi tentang Desa Senga Selatan menjadi lebih terbuka dan interaktif.</p>
+                                Selamat Datang di “Website Desa Senga Selatan“, melalui website ini kami berupaya menghadirkan informasi seputar kegiatan dan program Desa Senga Selatan“, Kecamatan Belopa, Kabupaten Luwu, Prov. Sulawesi Selatan.
+                                Website ini kami hadirkan untuk mengikuti perkembangan dunia Teknologi Informasi (IT) yang kian pesat. Lahir dari sebuah ide kreatif dan inovatif, serta merupakan sebuah terobosan kami untuk lebih mendekatkan diri kepada masyarakat luas. Kami berupaya agar informasi tentang Desa Senga Selatan menjadi lebih terbuka dan interaktif.
                                 Kami sampaikan terima kasih kepada semua pihak yang telah banyak memberikan bantuan, dukungan dan kontribusi, baik berupa tenaga, pemikiran dan dorongan semangat, hingga Website ini dapat terealisasi. Semoga dengan adanya Website ini dapat bermanfaat dan menjadi salah satu upaya peningkatan pelayanan Desa Senga Selatan.
                             </p>
                         </div>
