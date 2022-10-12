@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import bgContent from '../../assets/img/bg/bg-konten-jualan.webp'
+import pakde from '../../assets/img/foto-pakde.png'
 import makananDonat from '../../assets/img/jualan/makanan-donat.jpg'
 import makananLasaro from '../../assets/img/jualan/makanan-lasaro.jpg'
 import makananSate from '../../assets/img/jualan/makanan-sate.jpg'
 import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
 import minumanJuice from '../../assets/img/jualan/minuman-juice.jpg'
+import pete from '../../assets/img/jualan/pete.jpg'
 
 function KontenBelanja() {
     return (
@@ -16,7 +17,7 @@ function KontenBelanja() {
                         <p className="jumbo-kontenBelanja">Banyak Keperluan Tapi Malas ke Pasar? <span className="clr-green">Belanja Disini Saja!</span></p>
                     </div>
                     <div className="col-lg-5 text-center">
-                        <img className="img-kontenBelanja" src={bgContent} width="70%" alt='' />
+                        <img className="img-kontenBelanja" src={pakde} width="70%" alt='' />
                     </div>
                 </div>
                 <div className="container">
@@ -201,7 +202,7 @@ function KontenBelanja() {
                                     <div className="row mt-3">
                                         <div className="col-md-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={pete} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">
@@ -230,7 +231,7 @@ function KontenBelanja() {
                                     <div className="row mt-3">
                                         <div className="col-md-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={pete} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">

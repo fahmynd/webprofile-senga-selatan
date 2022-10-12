@@ -53,7 +53,7 @@ function KontenInfografis() {
                                             APBD Tahun <span id="tahunInfografis">2022</span>
                                         </h3>
                                         <p className="mb-0">
-                                            Desa <span>Barang</span> Kabupaten <span>Soppeng</span>
+                                            Desa <span>Senga Selatan</span> Kabupaten <span>Luwu</span>
                                         </p>
                                         <p>Provinsi <span>Sulawesi Selatan</span></p>
                                     </div>
@@ -107,7 +107,7 @@ function KontenInfografis() {
                                                         </p>
                                                     </div>
                                                     <div className="col-md-6 text-center center-v">
-                                                        <p className="card-idm__jumlah">Rp2.288.197.896.-</p>
+                                                        <p className="card-idm__jumlah fs-4">Rp1.437.909.473,-</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -124,8 +124,8 @@ function KontenInfografis() {
                                                         </p>
                                                     </div>
                                                     <div className="col-md-6 text-center center-v">
-                                                        <p className="card-idm__infoStatus">
-                                                            Rp2.288.197.896.-
+                                                        <p className="card-idm__infoStatus fs-4">
+                                                            Rp1.437.909.473,-
                                                         </p>
                                                     </div>
                                                 </div>
@@ -653,7 +653,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Perempuan</p>
                                                     <img src={prIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.731</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -662,7 +662,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Laki-Laki</p>
                                                     <img src={lkIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.781</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -671,7 +671,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Total Penduduk</p>
                                                     <img src={tpIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.512</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -703,32 +703,32 @@ function KontenInfografis() {
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 1</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>SLTA/Sederajat</td>
+                                                            <td className="td-center">1.015</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 2</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Tamat SD/Sederajat</td>
+                                                            <td className="td-center">672</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 3</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Tidak/Belum Sekolah</td>
+                                                            <td className="td-center">558</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 4</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>SLTP/Sederajat</td>
+                                                            <td className="td-center">546</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 5</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Belum Tamat SD/Sederajat</td>
+                                                            <td className="td-center">365</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 6</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Diploma IV/Strata I</td>
+                                                            <td className="td-center">243</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pendidikan 7</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Diploma III/Sarjana Muda</td>
+                                                            <td className="td-center">61</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -739,48 +739,48 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pendidikan 1</p>
+                                                            <p className="penduduk-card__jumlah">1.015</p>
+                                                            <p className="penduduk-card__info">SLTA/Sederajat</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pendidikan 2</p>
+                                                            <p className="penduduk-card__jumlah">672</p>
+                                                            <p className="penduduk-card__info">Tamat SD/Sederajat</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pendidikan 3</p>
+                                                            <p className="penduduk-card__jumlah">558</p>
+                                                            <p className="penduduk-card__info">Tidak/Belum Sekolah</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pendidikan 4</p>
+                                                            <p className="penduduk-card__jumlah">546</p>
+                                                            <p className="penduduk-card__info">SLTP/Sederajat</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pendidikan 5</p>
+                                                            <p className="penduduk-card__jumlah">365</p>
+                                                            <p className="penduduk-card__info">Belum Tamat SD/Sederajat</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pendidikan 6</p>
+                                                            <p className="penduduk-card__jumlah">243</p>
+                                                            <p className="penduduk-card__info">Diploma IV/Strata I</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -807,32 +807,32 @@ function KontenInfografis() {
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 1</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Pelajar/Mahasiswa</td>
+                                                            <td className="td-center">984</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 2</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Belum/Tidak Bekerja</td>
+                                                            <td className="td-center">760</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 3</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Mengurus Rumah Tangga</td>
+                                                            <td className="td-center">708</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 4</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Wiraswasta</td>
+                                                            <td className="td-center">301</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 5</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Petani/Pekebun</td>
+                                                            <td className="td-center">296</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 6</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Pegawai Negeri Sipil (PNS)</td>
+                                                            <td className="td-center">156</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Pekerjaan 7</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>Karyawan Honorer</td>
+                                                            <td className="td-center">88</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -843,48 +843,48 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pekerjaan 1</p>
+                                                            <p className="penduduk-card__jumlah">984</p>
+                                                            <p className="penduduk-card__info">Pelajar/Mahasiswa</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pekerjaan 2</p>
+                                                            <p className="penduduk-card__jumlah">760</p>
+                                                            <p className="penduduk-card__info">Belum/Tidak Bekerja</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pekerjaan 3</p>
+                                                            <p className="penduduk-card__jumlah">708</p>
+                                                            <p className="penduduk-card__info">Mengurus Rumah Tangga</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pekerjaan 4</p>
+                                                            <p className="penduduk-card__jumlah">301</p>
+                                                            <p className="penduduk-card__info">Wiraswasta</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pekerjaan 5</p>
+                                                            <p className="penduduk-card__jumlah">296</p>
+                                                            <p className="penduduk-card__info">Petani/Pekebun</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Pekerjaan 6</p>
+                                                            <p className="penduduk-card__jumlah">156</p>
+                                                            <p className="penduduk-card__info">Pegawai Negeri Sipil (PNS)</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -910,32 +910,32 @@ function KontenInfografis() {
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 1</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>15 - 19</td>
+                                                            <td className="td-center">374</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 2</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>10 - 14</td>
+                                                            <td className="td-center">352</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 3</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>20 - 24</td>
+                                                            <td className="td-center">346</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 4</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>25 - 29</td>
+                                                            <td className="td-center">297</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 5</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>40 - 44</td>
+                                                            <td className="td-center">267</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 6</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>5 - 9</td>
+                                                            <td className="td-center">262</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Jenis Kelompok Umur 7</td>
-                                                            <td className="td-center">999</td>
+                                                            <td>35 - 39</td>
+                                                            <td className="td-center">241</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -946,48 +946,40 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Kelompok Umur 1</p>
+                                                            <p className="penduduk-card__jumlah">1.039</p>
+                                                            <p className="penduduk-card__info">Dewasa</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Kelompok Umur 2</p>
+                                                            <p className="penduduk-card__jumlah">991</p>
+                                                            <p className="penduduk-card__info">Remaja</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Kelompok Umur 3</p>
+                                                            <p className="penduduk-card__jumlah">912</p>
+                                                            <p className="penduduk-card__info">Orang Tua</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Kelompok Umur 4</p>
+                                                            <p className="penduduk-card__jumlah">398</p>
+                                                            <p className="penduduk-card__info">Anak-anak</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Kelompok Umur 5</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-6 col-lg-4 mb-3">
-                                                    <div className="card penduduk-card">
-                                                        <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">999</p>
-                                                            <p className="penduduk-card__info">Jenis Kelompok Umur 6</p>
+                                                            <p className="penduduk-card__jumlah">228</p>
+                                                            <p className="penduduk-card__info">Balita</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1007,7 +999,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Belum Kawin</p>
                                                     <img src={bkIcon} alt="icon belum kawin" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.821</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1016,7 +1008,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Kawin</p>
                                                     <img src={kIcon} alt="icon kawin" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.471</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1025,7 +1017,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Cerai Mati</p>
                                                     <img src={cmIcon} alt="icon cerai mati" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">105</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1034,7 +1026,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Cerai Hidup</p>
                                                     <img src={cIcon} alt="icon hidup" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">68</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1052,7 +1044,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Islam</p>
                                                     <img src={islamIcon} alt="icon agama islam" height="180" />
-                                                    <p id="jumlahAgamaIslam" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahAgamaIslam" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.500</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1061,7 +1053,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Kristen</p>
                                                     <img src={kristenIcon} alt="icon agama kristen" height="180" />
-                                                    <p id="jumlahAgamaKristen" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahAgamaKristen" className="card-demografi-penduduk__jumlah mb-0 mt-4">6</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1070,7 +1062,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Katolik</p>
                                                     <img src={katolikIcon} alt="icon agama katolik" height="180" />
-                                                    <p id="jumlahAgamaKatolik" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahAgamaKatolik" className="card-demografi-penduduk__jumlah mb-0 mt-4">0</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1079,7 +1071,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Hindu</p>
                                                     <img src={hinduIcon} alt="icon agama hindu" height="180" />
-                                                    <p id="jumlahAgamaHindu" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahAgamaHindu" className="card-demografi-penduduk__jumlah mb-0 mt-4">0</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1088,7 +1080,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Budha</p>
                                                     <img src={budhaIcon} alt="icon agama budha" height="180" />
-                                                    <p id="jumlahAgamaBudha" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahAgamaBudha" className="card-demografi-penduduk__jumlah mb-0 mt-4">0</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1097,7 +1089,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Konghucu</p>
                                                     <img src={konghucuIcon} alt="icon agama konghucu" height="180" />
-                                                    <p id="jumlahAgamaKonghucu" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
+                                                    <p id="jumlahAgamaKonghucu" className="card-demografi-penduduk__jumlah mb-0 mt-4">0</p>
                                                 </div>
                                             </div>
                                         </div>

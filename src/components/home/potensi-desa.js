@@ -66,7 +66,7 @@ class PotensiDesa extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src="assets/img/potensi/potensi.jpg" alt="" />
+                                        <img src={potensi} alt="" />
                                         <div className="item-info">
                                             <p className="potensi-desa__judul clr-white">Nama Wisata</p>
                                         </div>

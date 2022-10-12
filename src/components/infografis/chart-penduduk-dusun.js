@@ -48,20 +48,29 @@ function ChartPendudukDusun(props) {
         // Set data
         // https://www.amcharts.com/docs/v5/charts/percent-charts/pie-chart/#Setting_data
         series.data.setAll([{
-            dusun: "Dusun 1",
-            value: 501.9
+            dusun: "Kalobang",
+            value: 1025
         }, {
-            dusun: "Dusun 2",
-            value: 301.9
+            dusun: "Taddette",
+            value: 806
         }, {
-            dusun: "Dusun 3",
-            value: 201.1
+            dusun: "Labulawang",
+            value: 494
         }, {
-            dusun: "Dusun 4",
-            value: 165.8
+            dusun: "Mangali-Ali",
+            value: 452
         }, {
-            dusun: "Dusun 5",
-            value: 99
+            dusun: "Walenna Barat",
+            value: 346
+        }, {
+            dusun: "Walenna Timur",
+            value: 294
+        }, {
+            dusun: "Senga Selatan",
+            value: 89
+        }, {
+            dusun: "Walenna",
+            value: 5
         }]);
 
 

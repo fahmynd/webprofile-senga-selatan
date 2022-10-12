@@ -22,7 +22,7 @@ import YoutubeSection from "../components/home/youtube-section";
 
 function Home() {
     useEffect(function () {
-        document.title = "Desa DIGIDES";
+        document.title = "Desa Senga Selatan";
     }, []);
     return (
         <>

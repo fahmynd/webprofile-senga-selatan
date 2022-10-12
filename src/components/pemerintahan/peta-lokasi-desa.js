@@ -46,11 +46,11 @@ function PetaLokasiDesa() {
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <p className="peta-lokasi-desa__lokasi fw-bold">Utara</p>
-                                                <span>Desa Tangkoro</span>
+                                                <span>Kelurahan Senga</span>
                                             </div>
                                             <div className="col-md-12">
                                                 <p className="peta-lokasi-desa__lokasi fw-bold">Barat</p>
-                                                <span>Desa Tangkoro</span>
+                                                <span>Desa Pasamai</span>
                                             </div>
                                         </div>
                                     </div>
@@ -58,11 +58,11 @@ function PetaLokasiDesa() {
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <p className="peta-lokasi-desa__lokasi fw-bold">Selatan</p>
-                                                <span>Desa Tangkoro</span>
+                                                <span>Desa Kasiwiang</span>
                                             </div>
                                             <div className="col-md-12">
-                                                <p className="peta-lokasi-desa__lokasi fw-bold">Timu</p>
-                                                <span>Desa Tangkoro</span>
+                                                <p className="peta-lokasi-desa__lokasi fw-bold">Timur</p>
+                                                <span>Teluk Bone</span>
                                             </div>
                                         </div>
                                     </div>
@@ -71,13 +71,13 @@ function PetaLokasiDesa() {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <p className="peta-lokasi-desa__lokasi fw-bold">Luas Desa:</p>
-                                        <span>-</span>
+                                        <span>7766437m<sup>2</sup></span>
                                     </div>
                                     <div className="col-md-6">
                                         <p className="peta-lokasi-desa__lokasi fw-bold">
                                             Jumlah Penduduk:
                                         </p>
-                                        <span>1500 Jiwa</span>
+                                        <span>3521 Jiwa</span>
                                     </div>
                                 </div>
                             </div>
