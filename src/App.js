@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/scroll-to-top";
+import './assets/css/my-style.css'
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
             <Navbar />
             <ScrollToTop>
                 <Routes>
-                    <Route path="/home" element={<Home />} />
+                    <Route exact path="/home" element={<Home />} />
                     <Route path="/pemerintahan" element={<Pemerintahan />} />
                     <Route path="/infografis" element={<Infografis />} />
                     <Route path="/idm" element={<Idm />} />

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import potensi from '../../assets/img/potensi/potensi.jpg'
 
 const options = {
     loop: true,
@@ -47,19 +48,19 @@ class PotensiDesa extends React.Component {
                             <div className="main-content">
                                 <OwlCarousel id="caroPotensiDesa" className="owl-carousel owl-theme" {...options}>
                                     <div className="item">
-                                        <img src="assets/img/potensi/potensi.jpg" alt="" />
+                                        <img src={potensi} alt="" />
                                         <div className="item-info">
                                             <p className="potensi-desa__judul clr-white">Nama Wisata</p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src="assets/img/potensi/potensi.jpg" alt="" />
+                                        <img src={potensi} alt="" />
                                         <div className="item-info">
                                             <p className="potensi-desa__judul clr-white">Nama Wisata</p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src="assets/img/potensi/potensi.jpg" alt="" />
+                                        <img src={potensi} alt="" />
                                         <div className="item-info">
                                             <p className="potensi-desa__judul clr-white">Nama Wisata</p>
                                         </div>

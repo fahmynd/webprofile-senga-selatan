@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import makananDonat from '../../assets/img/jualan/makanan-donat.jpg'
+import makananSate from '../../assets/img/jualan/makanan-sate.jpg'
+import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
+import minumanJuice from '../../assets/img/jualan/minuman-juice.jpg'
 
 function BeliDariDesa() {
     return (
@@ -18,7 +22,7 @@ function BeliDariDesa() {
                 <div className="row mt-5">
                     <div className="col-md-6 col-lg-3 mb-4">
                         <div className="card beli-card">
-                            <img src="assets/img/jualan/jualan1.jpg" className="card-img-top beli-card__img" alt="" />
+                            <img src={minumanJuice} className="card-img-top beli-card__img" alt="" />
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-md-12">
@@ -43,7 +47,7 @@ function BeliDariDesa() {
                     </div>
                     <div className="col-md-6 col-lg-3 mb-4">
                         <div className="card beli-card">
-                            <img src="assets/img/jualan/jualan2.jpg" className="card-img-top beli-card__img" alt="" />
+                            <img src={makananDonat} className="card-img-top beli-card__img" alt="" />
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-md-12">
@@ -68,7 +72,7 @@ function BeliDariDesa() {
                     </div>
                     <div className="col-md-6 col-lg-3 mb-4">
                         <div className="card beli-card">
-                            <img src="assets/img/jualan/jualan3.jpg" className="card-img-top beli-card__img" alt="..." />
+                            <img src={minumanCendol} className="card-img-top beli-card__img" alt="..." />
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-md-12">
@@ -93,7 +97,7 @@ function BeliDariDesa() {
                     </div>
                     <div className="col-md-6 col-lg-3 mb-4">
                         <div className="card beli-card">
-                            <img src="assets/img/jualan/jualan4.jpg" className="card-img-top beli-card__img" alt="..." />
+                            <img src={makananSate} className="card-img-top beli-card__img" alt="..." />
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-md-12">

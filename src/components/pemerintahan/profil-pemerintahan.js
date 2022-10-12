@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../assets/img/logo/logo-digides.png'
 
 function ProfilPemerintahan() {
     return (
@@ -12,7 +13,7 @@ function ProfilPemerintahan() {
                         </p>
                     </div>
                     <div className="col-md-6 text-center">
-                        <img src="/assets/img/logo/logo-digides.png" alt="" width="90%" />
+                        <img src={logo} alt="" width="90%" />
                     </div>
                 </div>
             </div>

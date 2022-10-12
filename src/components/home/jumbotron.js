@@ -1,4 +1,5 @@
 import React from 'react'
+import pakde from '../../assets/img/foto-pakde.png'
 
 function Jumbotron() {
     return (
@@ -18,7 +19,7 @@ function Jumbotron() {
                     </div>
                     <div className="col-md-7 text-center d-none d-lg-block">
                         <div className="wrapper-foto-pakde">
-                            <img src="assets/img/foto-pakde.png" alt="" width="55%" />
+                            <img src={pakde} alt="" width="55%" />
                         </div>
                         <div className="masking"></div>
                         <div className="wrapper-info-pakde">

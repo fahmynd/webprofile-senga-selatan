@@ -48,17 +48,15 @@ class VisiMisi extends React.Component {
                             </div>
                             <div className="wrap-misi mt-4">
                                 <h3 className="fw-bold">Misi</h3>
-                                <ol>
-                                    <li>Meningkatkan kualitas pendidikan dan keahlian tenaga produktif di Desa Senga Selatan dengan mengadakan pelatihan-pelatihan keterampilan</li>
-                                    <li>Meningkatkan kualitas pembangunan infrastruktur Desa yang merata dan berkeadilan</li>
-                                    <li>Membangun tradisi pelayanan publik yang prima, terukur dan amanah</li>
-                                    <li>Mendorong ditegakkannya hukum, HAM dan kehidupan demokrasi yang sehat berdasarkan rasa keadilan masyarakat</li>
-                                    <li>Melestarikan tradisi dan kearifan lokal Tana Luwu dalam satu strategi kebudayaan yang elegan dan visioner</li>
-                                    <li>Merajut silaturahmi dan kekompakan diantara sesama warga Desa Senga Selatan melalui wadah kegiatan yang rutin diadakan secara periodik : mingguan ataupun bulanan</li>
-                                    <li>Membudayakan dan mengembangkan pengelolaan pelestarian lingkungan alam yang berbasis pada sumber daya alam lokal dan sumber daya manusia</li>
-                                    <li>Menjadikan agama dan spiritualitas serta kearifan budaya lokal sebagai sumber inspirasi dan basis nilai utama dalam membangun Desa Senga Selatan secara terencana, holistik, dan berkelanjutan</li>
-                                    <li>Menjadikan Desa Senga Selatan sebagai Desa yang asri dan bersih</li>
-                                </ol>
+                                <p>Meningkatkan kualitas pendidikan dan keahlian tenaga produktif di Desa Senga Selatan dengan mengadakan pelatihan-pelatihan keterampilan</p>
+                                <p>Meningkatkan kualitas pembangunan infrastruktur Desa yang merata dan berkeadilan</p>
+                                <p>Membangun tradisi pelayanan publik yang prima, terukur dan amanah</p>
+                                <p>Mendorong ditegakkannya hukum, HAM dan kehidupan demokrasi yang sehat berdasarkan rasa keadilan masyarakat</p>
+                                <p>Melestarikan tradisi dan kearifan lokal Tana Luwu dalam satu strategi kebudayaan yang elegan dan visioner</p>
+                                <p>Merajut silaturahmi dan kekompakan diantara sesama warga Desa Senga Selatan melalui wadah kegiatan yang rutin diadakan secara periodik : mingguan ataupun bulanan</p>
+                                <p>Membudayakan dan mengembangkan pengelolaan pelestarian lingkungan alam yang berbasis pada sumber daya alam lokal dan sumber daya manusia</p>
+                                <p>Menjadikan agama dan spiritualitas serta kearifan budaya lokal sebagai sumber inspirasi dan basis nilai utama dalam membangun Desa Senga Selatan secara terencana, holistik, dan berkelanjutan</p>
+                                <p>Menjadikan Desa Senga Selatan sebagai Desa yang asri dan bersih</p>
                             </div>
                         </div>
                         <div className="col-lg-6 mb-5">

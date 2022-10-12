@@ -3,6 +3,19 @@ import { Link } from 'react-router-dom'
 import ChartBelanjaDesa from './chart-belanja-desa'
 import ChartPendapatanDesa from './chart-pendapatan-desa'
 import ChartPendudukDusun from './chart-penduduk-dusun'
+import prIcon from '../../assets/img/icon/icon-perempuan.svg'
+import lkIcon from '../../assets/img/icon/icon-laki.svg'
+import tpIcon from '../../assets/img/icon/icon-total-penduduk.svg'
+import bkIcon from '../../assets/img/icon/icon-belum-kawin.svg'
+import kIcon from '../../assets/img/icon/icon-kawin.svg'
+import cmIcon from '../../assets/img/icon/icon-cerai-mati.svg'
+import cIcon from '../../assets/img/icon/icon-cerai.svg'
+import islamIcon from '../../assets/img/icon/icon-islam.svg'
+import kristenIcon from '../../assets/img/icon/icon-kristen.svg'
+import katolikIcon from '../../assets/img/icon/icon-katolik.svg'
+import hinduIcon from '../../assets/img/icon/icon-hindu.svg'
+import budhaIcon from '../../assets/img/icon/icon-budha.svg'
+import konghucuIcon from '../../assets/img/icon/icon-konghucu.svg'
 
 function KontenInfografis() {
     return (
@@ -639,7 +652,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Perempuan</p>
-                                                    <img src="assets/img/icon/icon-perempuan.svg" alt="icon jumlah perempuan" height="230" />
+                                                    <img src={prIcon} alt="icon jumlah perempuan" height="230" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -648,7 +661,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Laki-Laki</p>
-                                                    <img src="assets/img/icon/icon-laki.svg" alt="icon jumlah perempuan" height="230" />
+                                                    <img src={lkIcon} alt="icon jumlah perempuan" height="230" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -657,7 +670,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Total Penduduk</p>
-                                                    <img src="assets/img/icon/icon-total-penduduk.svg" alt="icon jumlah perempuan" height="230" />
+                                                    <img src={tpIcon} alt="icon jumlah perempuan" height="230" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -993,7 +1006,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Belum Kawin</p>
-                                                    <img src="assets/img/icon/icon-belum-kawin.svg" alt="icon belum kawin" height="180" />
+                                                    <img src={bkIcon} alt="icon belum kawin" height="180" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1002,7 +1015,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Kawin</p>
-                                                    <img src="assets/img/icon/icon-kawin.svg" alt="icon kawin" height="180" />
+                                                    <img src={kIcon} alt="icon kawin" height="180" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1011,7 +1024,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Cerai Mati</p>
-                                                    <img src="assets/img/icon/icon-cerai-mati.svg" alt="icon cerai mati" height="180" />
+                                                    <img src={cmIcon} alt="icon cerai mati" height="180" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1020,7 +1033,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Cerai Hidup</p>
-                                                    <img src="assets/img/icon/icon-cerai.svg" alt="icon hidup" height="180" />
+                                                    <img src={cIcon} alt="icon hidup" height="180" />
                                                     <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1038,7 +1051,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Islam</p>
-                                                    <img src="assets/img/icon/icon-islam.svg" alt="icon agama islam" height="180" />
+                                                    <img src={islamIcon} alt="icon agama islam" height="180" />
                                                     <p id="jumlahAgamaIslam" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1047,7 +1060,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Kristen</p>
-                                                    <img src="assets/img/icon/icon-kristen.svg" alt="icon agama kristen" height="180" />
+                                                    <img src={kristenIcon} alt="icon agama kristen" height="180" />
                                                     <p id="jumlahAgamaKristen" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1056,7 +1069,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Katolik</p>
-                                                    <img src="assets/img/icon/icon-katolik.svg" alt="icon agama katolik" height="180" />
+                                                    <img src={katolikIcon} alt="icon agama katolik" height="180" />
                                                     <p id="jumlahAgamaKatolik" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1065,7 +1078,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Hindu</p>
-                                                    <img src="assets/img/icon/icon-hindu.svg" alt="icon agama hindu" height="180" />
+                                                    <img src={hinduIcon} alt="icon agama hindu" height="180" />
                                                     <p id="jumlahAgamaHindu" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1074,7 +1087,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Budha</p>
-                                                    <img src="assets/img/icon/icon-budha.svg" alt="icon agama budha" height="180" />
+                                                    <img src={budhaIcon} alt="icon agama budha" height="180" />
                                                     <p id="jumlahAgamaBudha" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>
@@ -1083,7 +1096,7 @@ function KontenInfografis() {
                                             <div className="card card-demografi-penduduk">
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Konghucu</p>
-                                                    <img src="assets/img/icon/icon-konghucu.svg" alt="icon agama konghucu" height="180" />
+                                                    <img src={konghucuIcon} alt="icon agama konghucu" height="180" />
                                                     <p id="jumlahAgamaKonghucu" className="card-demografi-penduduk__jumlah mb-0 mt-4">9999</p>
                                                 </div>
                                             </div>

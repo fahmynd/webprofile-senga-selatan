@@ -3,6 +3,10 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from 'react-router-dom';
+import wisata1 from '../../assets/img/wisata/wisata1.jpg'
+import wisata2 from '../../assets/img/wisata/wisata2.jpg'
+import wisata3 from '../../assets/img/wisata/wisata3.jpg'
+import dots from '../../assets/img/bg/dots.png'
 
 const options = {
     stagePadding: 50,
@@ -45,7 +49,7 @@ class WisataDesa extends React.Component {
                             <div className="main-content">
                                 <OwlCarousel id="caroWisataDesa" className="owl-carousel owl-theme" {...options}>
                                     <div className="item">
-                                        <img src="assets/img/wisata/wisata1.jpg" alt="" />
+                                        <img src={wisata1} alt="" />
                                         <div className="item-info">
                                             <p className="wisata-desa__judul clr-white">Hammock Labulawang</p>
                                             <p className="wisata-desa_desc clr-white">
@@ -55,7 +59,7 @@ class WisataDesa extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src="assets/img/wisata/wisata2.jpg" alt="" />
+                                        <img src={wisata2} alt="" />
                                         <div className="item-info">
                                             <p className="wisata-desa__judul clr-white">Kampung Kuliner Pakde</p>
                                             <p className="wisata-desa_desc clr-white">
@@ -64,7 +68,7 @@ class WisataDesa extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src="assets/img/wisata/wisata3.jpeg" alt="" />
+                                        <img src={wisata3} alt="" />
                                         <div className="item-info">
                                             <p className="wisata-desa__judul clr-white">Jembatan Pelangi</p>
                                             <p className="wisata-desa_desc clr-white">
@@ -87,7 +91,7 @@ class WisataDesa extends React.Component {
                         </div>
                     </div>
                 </div>
-                <img className="bg-dots-right" src="assets/img/bg/dots.png" alt="" />
+                <img className="bg-dots-right" src={dots} alt="" />
             </section>
         )
     }

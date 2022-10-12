@@ -1,5 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import bgContent from '../../assets/img/bg/bg-konten-jualan.webp'
+import makananDonat from '../../assets/img/jualan/makanan-donat.jpg'
+import makananLasaro from '../../assets/img/jualan/makanan-lasaro.jpg'
+import makananSate from '../../assets/img/jualan/makanan-sate.jpg'
+import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
+import minumanJuice from '../../assets/img/jualan/minuman-juice.jpg'
 
 function KontenBelanja() {
     return (
@@ -10,7 +16,7 @@ function KontenBelanja() {
                         <p className="jumbo-kontenBelanja">Banyak Keperluan Tapi Malas ke Pasar? <span className="clr-green">Belanja Disini Saja!</span></p>
                     </div>
                     <div className="col-lg-5 text-center">
-                        <img className="img-kontenBelanja" src="./assets/img/bg/bg-konten-jualan.webp" width="70%" alt='' />
+                        <img className="img-kontenBelanja" src={bgContent} width="70%" alt='' />
                     </div>
                 </div>
                 <div className="container">
@@ -62,19 +68,18 @@ function KontenBelanja() {
                                     <div className="row mt-3">
                                         <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={makananDonat} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
+                                                            <p className="beli-card__judul">Donat Bomboloni</p>
                                                         </div>
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
+                                                            <p className="beli-card__harga">Rp4.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
                                                             <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -87,19 +92,18 @@ function KontenBelanja() {
                                         </div>
                                         <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={makananLasaro} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
+                                                            <p className="beli-card__judul">Lasaro</p>
                                                         </div>
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
+                                                            <p className="beli-card__harga">Rp13.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
                                                             <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -112,144 +116,18 @@ function KontenBelanja() {
                                         </div>
                                         <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={makananSate} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
+                                                            <p className="beli-card__judul">Sate Mama Citra</p>
                                                         </div>
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
+                                                            <p className="beli-card__harga">Rp15.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
                                                             <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -266,19 +144,18 @@ function KontenBelanja() {
                                     <div className="row mt-3">
                                         <div className="col-md-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={minumanCendol} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
+                                                            <p className="beli-card__judul">Susu Cendol Cheese by Happy99</p>
                                                         </div>
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
+                                                            <p className="beli-card__harga">Rp10.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
                                                             <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -291,371 +168,18 @@ function KontenBelanja() {
                                         </div>
                                         <div className="col-md-3 mb-4">
                                             <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
+                                                <img src={minumanJuice} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
                                                     <div className="row">
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
+                                                            <p className="beli-card__judul">Healty Juice</p>
                                                         </div>
                                                         <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
+                                                            <p className="beli-card__harga">Rp12.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
                                                             <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="row mt-3">
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -670,206 +194,7 @@ function KontenBelanja() {
                                 </div>
                                 <div className="tab-pane fade" id="pakaian" role="tabpanel" aria-labelledby="pakaian-tab">
                                     <div className="row mt-3">
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="sayuran" role="tabpanel" aria-labelledby="sayuran-tab">
@@ -899,360 +224,10 @@ function KontenBelanja() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="buah" role="tabpanel" aria-labelledby="buah-tab">
                                     <div className="row mt-3">
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Petai</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp15.000/ikat</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Paket
-                                                                Sayur, Etalase: Semua Etalase.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div className="col-md-3 mb-4">
                                             <div className="card beli-card">
                                                 <img src="assets/img/jualan/pete.jpg" className="card-img-top beli-card__img" alt="" />

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import logo from '../assets/img/logo/logo-digides.png'
 
 function Navbar() {
     return (
@@ -8,7 +9,7 @@ function Navbar() {
                 <div className="row" width="40%">
                     <div id="brandWrap" className="col-3">
                         <Link className="navbar-brand" to="/home">
-                            <img id="logoNavbar" src="assets/img/logo/logo-digides.png" alt="" className="d-inline-block align-text-top" />
+                            <img id="logoNavbar" src={logo} alt="" className="d-inline-block align-text-top" />
                         </Link>
                     </div>
                     <div id="infoNavWrap" className="col-9 center-v">

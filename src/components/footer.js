@@ -1,4 +1,9 @@
 import React from 'react'
+import logo from '../assets/img/logo/logo-digides.png'
+import facebook from '../assets/img/sosmed/facebook.svg'
+import instagram from '../assets/img/sosmed/instagram.svg'
+import twitter from '../assets/img/sosmed/twitter.svg'
+import youtube from '../assets/img/sosmed/youtube.svg'
 
 function Footer() {
     return (
@@ -8,7 +13,7 @@ function Footer() {
                     <div className="col-md-6 col-lg-3">
                         <div className="row">
                             <div className="col-md-3 col-lg-3">
-                                <img id="" src="assets/img/logo/logo-digides.png" alt="" height="50" className="d-inline-block align-text-top" />
+                                <img id="" src={logo} alt="" height="50" className="d-inline-block align-text-top" />
                             </div>
                             <div className="col-md-9 col-lg-9">
                                 <p className="info-nav-footer">
@@ -54,16 +59,16 @@ function Footer() {
                     <div className="col-md-3">
                         <p className="footer-text_judul clr-white">Sosial Media</p>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pemdes.selatan.3/">
-                            <img className="me-1" src="assets/img/sosmed/facebook.svg" alt="" width="25" />
+                            <img className="me-1" src={facebook} alt="" width="25" />
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/pemdessengaselatan/">
-                            <img className="me-1" src="assets/img/sosmed/instagram.svg" alt="" width="25" />
+                            <img className="me-1" src={instagram} alt="" width="25" />
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://twitter.com/pemdessengasel/">
-                            <img className="me-1" src="assets/img/sosmed/twitter.svg" alt="" width="25" />
+                            <img className="me-1" src={twitter} alt="" width="25" />
                         </a>
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC24pHBJoaZ6H3aaKmUwSezw">
-                            <img className="me-1" src="assets/img/sosmed/youtube.svg" alt="" width="25" />
+                            <img className="me-1" src={youtube} alt="" width="25" />
                         </a>
                     </div>
                 </div>

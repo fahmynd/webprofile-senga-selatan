@@ -1,4 +1,5 @@
 import React from 'react'
+import blobs from '../../assets/img/bg/blobs3.png'
 
 function AdministrasiKeuangan() {
     return (
@@ -69,7 +70,7 @@ function AdministrasiKeuangan() {
                     </div>
                 </div>
             </div>
-            <img id="blobs-3" src="assets/img/bg/blobs3.png" alt="" />
+            <img id="blobs-3" src={blobs} alt="" />
         </section>
     )
 }

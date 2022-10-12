@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from '../../assets/img/logo/logo-digides.png'
+import bgDesa from '../../assets/img/bg/bg-tentang-desa.png'
 
 function InfoSingkatDesa() {
     return (
@@ -7,34 +9,21 @@ function InfoSingkatDesa() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="vertical-center">
-                            <img src="assets/img/logo/logo-digides.png" width="70" alt="" />
+                            <img src={logo} width="70" alt="" />
                             <span className="info-singkat-desa__nama fw-bold center-v">Desa <span id="#namaDesa">Senga Selatan</span></span>
                             <p className="mt-3">
-                                Praesent sapien massa, convallis a pellentesque nec, egestas non
-                                nisi. Nulla quis lorem ut libero malesuada feugiat. Quisque
-                                velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis
-                                lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia
-                                eget consectetur sed, convallis at tellus. <br />
-                                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-                                dui. Donec sollicitudin molestie malesuada. Donec rutrum congue
-                                leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt
-                                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.
+                                Desa Senga Selatan yang dulunya masih disebut Senga berasal dari kata “senge” yang artinya desa yang dikenang sepanjang masa sebab pada zaman dahulu di desa tersebut terjadi perang antara Cilellang dengan Senge.
                             </p>
                             <p>
-                                Praesent sapien massa, convallis a pellentesque nec, egestas non
-                                nisi. Nulla quis lorem ut libero malesuada feugiat. Quisque
-                                velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis
-                                lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia
-                                eget consectetur sed, convallis at tellus. <br />
-                                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-                                dui. Donec sollicitudin molestie malesuada. Donec rutrum congue
-                                leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt
-                                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.
+                                Batas wilayah Desa Senga Selatan adalah, sebelah Utara berbatasan dengan Kelurahan Senga, sebelah Timur berbatasan dengan Teluk Bone, sebelah Selatan berbatasan dengan Desa Kasiwiang, sebelah Barat berbatasan dengan Desa Pasamai.
+                            </p>
+                            <p>
+                                Luas wilayah Desa Senga Selatan kurang lebih 11,20 Km². Kondisi geologis wilayah Desa Senga Selatan bervariasi atas relief kasar dan dataran rendah. Lapisan tanah terdiri atas batuan sedimen yang terbentuk atas batu pasir tufaan, batu pasir bersusun andesit, batu lempung, batu lanal, konglomerat dan breksi.
                             </p>
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img className="bg-tentang-desa" src="assets/img/bg/bg-tentang-desa.png" alt="" />
+                        <img className="bg-tentang-desa" src={bgDesa} alt="" />
                     </div>
                 </div>
             </div>

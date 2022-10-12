@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import berita1 from '../../assets/img/berita/berita1.jpg'
+import berita2 from '../../assets/img/berita/berita2.jpg'
+import berita3 from '../../assets/img/berita/berita3.jpeg'
+import berita4 from '../../assets/img/berita/berita4.jpg'
 
 function Berita() {
     return (
@@ -13,7 +17,7 @@ function Berita() {
                 <div className="row mt-4">
                     <div className="col-md-12 col-lg-5 mb-5">
                         <div className="card berita-card">
-                            <img src="assets/img/berita1.jpg" className="card-img-top img-berita" alt="" />
+                            <img src={berita1} className="card-img-top img-berita" alt="" />
                             <div className="card-body">
                                 <p className="berita-card__judul">
                                     Pemdes Senga Selatan Salurkan BLT DD Triwulan ke III Kepada 121 Penerima
@@ -50,7 +54,7 @@ function Berita() {
                                     <div className="card-body">
                                         <div className="row">
                                             <div className="col-md-3 full-col">
-                                                <img src="assets/img/berita2.jpg" className="card-img-top img-berita-panjang" alt="..." />
+                                                <img src={berita2} className="card-img-top img-berita-panjang" alt="..." />
                                             </div>
                                             <div className="col-md-9 pt-2 pb-2 pe-4 ps-4">
                                                 <p className="berita-card__judul berita-card__judul_panjang">
@@ -80,7 +84,7 @@ function Berita() {
                                     <div className="card-body">
                                         <div className="row">
                                             <div className="col-md-3 full-col">
-                                                <img src="assets/img/berita3.jpeg" className="card-img-top img-berita-panjang" alt="..." />
+                                                <img src={berita3} className="card-img-top img-berita-panjang" alt="..." />
                                             </div>
                                             <div className="col-md-9 pt-2 pb-2 pe-4 ps-4">
                                                 <p className="berita-card__judul berita-card__judul_panjang">
@@ -110,7 +114,7 @@ function Berita() {
                                     <div className="card-body">
                                         <div className="row">
                                             <div className="col-md-3 full-col">
-                                                <img src="assets/img/berita4.jpg" className="card-img-top img-berita-panjang" alt="..." />
+                                                <img src={berita4} className="card-img-top img-berita-panjang" alt="..." />
                                             </div>
                                             <div className="col-md-9 pt-2 pb-2 pe-4 ps-4">
                                                 <p className="berita-card__judul berita-card__judul_panjang">

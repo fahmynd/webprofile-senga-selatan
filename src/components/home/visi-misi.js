@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from '../../assets/img/logo/logo-digides.png'
+import dots from '../../assets/img/bg/dots.png'
 
 function VisiMisi() {
     return (
@@ -13,7 +15,7 @@ function VisiMisi() {
             <div className="container">
                 <div className="row mt-10">
                     <div className="col-md-6 text-center center-v">
-                        <img className="center-v" src="assets/img/logo/logo-digides.png" alt="" width="50%" />
+                        <img className="center-v" src={logo} alt="" width="50%" />
                     </div>
                     <div className="col-md-6 text-center">
                         <div className="wrap-visi">
@@ -37,7 +39,7 @@ function VisiMisi() {
                     </div>
                 </div>
             </div>
-            <img className="bg-dots" src="assets/img/bg/dots.png" alt="" />
+            <img className="bg-dots" src={dots} alt="" />
         </section>
     )
 }
