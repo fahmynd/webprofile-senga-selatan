@@ -7,7 +7,7 @@ function Navbar() {
             <div className="container-fluid">
                 <div className="row" width="40%">
                     <div id="brandWrap" className="col-3">
-                        <Link className="navbar-brand" to="/">
+                        <Link className="navbar-brand" to="/home">
                             <img id="logoNavbar" src="assets/img/logo/logo-digides.png" alt="" className="d-inline-block align-text-top" />
                         </Link>
                     </div>
@@ -25,7 +25,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/home">Home</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/pemerintahan">Pemerintahan</NavLink>
