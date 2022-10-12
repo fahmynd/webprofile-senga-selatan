@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/webprofile-senga-selatan/static/css/main.a3cd2f17.css",
-    "main.js": "/webprofile-senga-selatan/static/js/main.205dd695.js",
+    "main.css": "/webprofile-senga-selatan/static/css/main.3d1bb69c.css",
+    "main.js": "/webprofile-senga-selatan/static/js/main.f7c6b258.js",
     "static/media/wisata1.jpg": "/webprofile-senga-selatan/static/media/wisata1.4fc4a4acaac36888d135.jpg",
     "static/media/potensi.jpg": "/webprofile-senga-selatan/static/media/potensi.e72a539e1a9c9a03416a.jpg",
     "static/media/wisata2.jpg": "/webprofile-senga-selatan/static/media/wisata2.fbcfeac7f63fb8aaab59.jpg",
     "static/media/bg-jumbotron.png": "/webprofile-senga-selatan/static/media/bg-jumbotron.784a318b0871588db594.png",
+    "static/media/pete.jpg": "/webprofile-senga-selatan/static/media/pete.6072b624b8b513529057.jpg",
     "static/media/foto-pakde.png": "/webprofile-senga-selatan/static/media/foto-pakde.b58e4af94f81e930ba3c.png",
     "static/media/berita1.jpg": "/webprofile-senga-selatan/static/media/berita1.136ff54be8a968155cba.jpg",
     "static/media/berita4.jpg": "/webprofile-senga-selatan/static/media/berita4.6e57abec1f725cb47530.jpg",
@@ -20,7 +21,6 @@
     "static/media/icon-cerai.svg": "/webprofile-senga-selatan/static/media/icon-cerai.5feafb4bf34b2314f97ee81a2eeed23b.svg",
     "static/media/minuman-cendol.jpg": "/webprofile-senga-selatan/static/media/minuman-cendol.48a772f22aa59ec8f888.jpg",
     "static/media/icon-belum-kawin.svg": "/webprofile-senga-selatan/static/media/icon-belum-kawin.a84a258bba2efa6403be3792499a0570.svg",
-    "static/media/bg-konten-jualan.webp": "/webprofile-senga-selatan/static/media/bg-konten-jualan.132b1c0b1febd4800879.webp",
     "static/media/icon-total-penduduk.svg": "/webprofile-senga-selatan/static/media/icon-total-penduduk.16be7de7b4b4824ab61f36169c81e034.svg",
     "static/media/minuman-juice.jpg": "/webprofile-senga-selatan/static/media/minuman-juice.d6c136b7fd0098cbf42e.jpg",
     "static/media/icon-cerai-mati.svg": "/webprofile-senga-selatan/static/media/icon-cerai-mati.8d1e05a8f492229a69ccd657e578e1ca.svg",
@@ -43,11 +43,11 @@
     "static/media/youtube.svg": "/webprofile-senga-selatan/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/webprofile-senga-selatan/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/webprofile-senga-selatan/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
-    "main.a3cd2f17.css.map": "/webprofile-senga-selatan/static/css/main.a3cd2f17.css.map",
-    "main.205dd695.js.map": "/webprofile-senga-selatan/static/js/main.205dd695.js.map"
+    "main.3d1bb69c.css.map": "/webprofile-senga-selatan/static/css/main.3d1bb69c.css.map",
+    "main.f7c6b258.js.map": "/webprofile-senga-selatan/static/js/main.f7c6b258.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cd2f17.css",
-    "static/js/main.205dd695.js"
+    "static/css/main.3d1bb69c.css",
+    "static/js/main.f7c6b258.js"
   ]
 }
