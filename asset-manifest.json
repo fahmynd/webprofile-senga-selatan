@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.7c5fca8a.css",
-    "main.js": "/home/static/js/main.36ed35de.js",
-    "index.html": "/home/index.html",
-    "main.7c5fca8a.css.map": "/home/static/css/main.7c5fca8a.css.map",
-    "main.36ed35de.js.map": "/home/static/js/main.36ed35de.js.map"
+    "main.css": "/webprofile-senga-selatan/static/css/main.7c5fca8a.css",
+    "main.js": "/webprofile-senga-selatan/static/js/main.9eba7575.js",
+    "index.html": "/webprofile-senga-selatan/index.html",
+    "main.7c5fca8a.css.map": "/webprofile-senga-selatan/static/css/main.7c5fca8a.css.map",
+    "main.9eba7575.js.map": "/webprofile-senga-selatan/static/js/main.9eba7575.js.map"
   },
   "entrypoints": [
     "static/css/main.7c5fca8a.css",
-    "static/js/main.36ed35de.js"
+    "static/js/main.9eba7575.js"
   ]
 }
