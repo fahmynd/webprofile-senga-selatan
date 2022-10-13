@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/webprofile-senga-selatan/static/css/main.3d1bb69c.css",
-    "main.js": "/webprofile-senga-selatan/static/js/main.cdfff7d0.js",
+    "main.css": "/webprofile-senga-selatan/static/css/main.f1131269.css",
+    "main.js": "/webprofile-senga-selatan/static/js/main.6e2218f4.js",
     "static/media/wisata1.jpg": "/webprofile-senga-selatan/static/media/wisata1.4fc4a4acaac36888d135.jpg",
-    "static/media/potensi.jpg": "/webprofile-senga-selatan/static/media/potensi.e72a539e1a9c9a03416a.jpg",
     "static/media/wisata2.jpg": "/webprofile-senga-selatan/static/media/wisata2.fbcfeac7f63fb8aaab59.jpg",
     "static/media/bg-jumbotron.png": "/webprofile-senga-selatan/static/media/bg-jumbotron.784a318b0871588db594.png",
     "static/media/pete.jpg": "/webprofile-senga-selatan/static/media/pete.6072b624b8b513529057.jpg",
@@ -43,11 +42,11 @@
     "static/media/youtube.svg": "/webprofile-senga-selatan/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/webprofile-senga-selatan/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/webprofile-senga-selatan/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
-    "main.3d1bb69c.css.map": "/webprofile-senga-selatan/static/css/main.3d1bb69c.css.map",
-    "main.cdfff7d0.js.map": "/webprofile-senga-selatan/static/js/main.cdfff7d0.js.map"
+    "main.f1131269.css.map": "/webprofile-senga-selatan/static/css/main.f1131269.css.map",
+    "main.6e2218f4.js.map": "/webprofile-senga-selatan/static/js/main.6e2218f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1bb69c.css",
-    "static/js/main.cdfff7d0.js"
+    "static/css/main.f1131269.css",
+    "static/js/main.6e2218f4.js"
   ]
 }
