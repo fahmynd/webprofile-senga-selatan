@@ -1,24 +1,34 @@
 {
   "files": {
-    "main.css": "/webprofile-senga-selatan/static/css/main.f1131269.css",
-    "main.js": "/webprofile-senga-selatan/static/js/main.6e2218f4.js",
+    "main.css": "/webprofile-senga-selatan/static/css/main.755a577a.css",
+    "main.js": "/webprofile-senga-selatan/static/js/main.2f11d73e.js",
     "static/media/wisata1.jpg": "/webprofile-senga-selatan/static/media/wisata1.4fc4a4acaac36888d135.jpg",
     "static/media/wisata2.jpg": "/webprofile-senga-selatan/static/media/wisata2.fbcfeac7f63fb8aaab59.jpg",
     "static/media/bg-jumbotron.png": "/webprofile-senga-selatan/static/media/bg-jumbotron.784a318b0871588db594.png",
+    "static/media/padi.jpg": "/webprofile-senga-selatan/static/media/padi.4b1499b8f144c91b9d55.jpg",
+    "static/media/jeruk.jpg": "/webprofile-senga-selatan/static/media/jeruk.d63e084c3073c6cfc9b5.jpg",
     "static/media/pete.jpg": "/webprofile-senga-selatan/static/media/pete.6072b624b8b513529057.jpg",
     "static/media/foto-pakde.png": "/webprofile-senga-selatan/static/media/foto-pakde.b58e4af94f81e930ba3c.png",
+    "static/media/kangkung.jpg": "/webprofile-senga-selatan/static/media/kangkung.2c2213004c52a0227cd5.jpg",
+    "static/media/jagung.jpg": "/webprofile-senga-selatan/static/media/jagung.4f3326ae3f3c425b50a7.jpg",
+    "static/media/bayam.jpg": "/webprofile-senga-selatan/static/media/bayam.212415192992c27b92f9.jpg",
     "static/media/berita1.jpg": "/webprofile-senga-selatan/static/media/berita1.136ff54be8a968155cba.jpg",
     "static/media/berita4.jpg": "/webprofile-senga-selatan/static/media/berita4.6e57abec1f725cb47530.jpg",
     "static/media/berita2.jpg": "/webprofile-senga-selatan/static/media/berita2.81eb6a45cf4e7af5632b.jpg",
+    "static/media/tomat.jpg": "/webprofile-senga-selatan/static/media/tomat.4f6b0154d38057590d7b.jpg",
     "static/media/bg-tentang-desa.png": "/webprofile-senga-selatan/static/media/bg-tentang-desa.f37d82e55c606ff73c68.png",
     "static/media/berita3.jpeg": "/webprofile-senga-selatan/static/media/berita3.2129bf4e736bf1631ba6.jpeg",
     "static/media/makanan-sate.jpg": "/webprofile-senga-selatan/static/media/makanan-sate.ec62c2853060619c8307.jpg",
     "static/media/makanan-donat.jpg": "/webprofile-senga-selatan/static/media/makanan-donat.1b919d9feca3f84ad22f.jpg",
     "static/media/makanan-lasaro.jpg": "/webprofile-senga-selatan/static/media/makanan-lasaro.eb1f9353484c71aa0eca.jpg",
     "static/media/logo-digides.png": "/webprofile-senga-selatan/static/media/logo-digides.d99b434144dcad2dd503.png",
+    "static/media/cabai.jpg": "/webprofile-senga-selatan/static/media/cabai.c1e8eadd1657a863c3fa.jpg",
+    "static/media/minapadi.jpg": "/webprofile-senga-selatan/static/media/minapadi.d0633638d39aa649bf61.jpg",
+    "static/media/tebu.jpg": "/webprofile-senga-selatan/static/media/tebu.3ee16adfe7f544523ae5.jpg",
     "static/media/wisata3.jpg": "/webprofile-senga-selatan/static/media/wisata3.3e8596fa79b25c35e52f.jpg",
     "static/media/icon-cerai.svg": "/webprofile-senga-selatan/static/media/icon-cerai.5feafb4bf34b2314f97ee81a2eeed23b.svg",
     "static/media/minuman-cendol.jpg": "/webprofile-senga-selatan/static/media/minuman-cendol.48a772f22aa59ec8f888.jpg",
+    "static/media/sawi.jpg": "/webprofile-senga-selatan/static/media/sawi.71f665b1dd0c547945a0.jpg",
     "static/media/icon-belum-kawin.svg": "/webprofile-senga-selatan/static/media/icon-belum-kawin.a84a258bba2efa6403be3792499a0570.svg",
     "static/media/icon-total-penduduk.svg": "/webprofile-senga-selatan/static/media/icon-total-penduduk.16be7de7b4b4824ab61f36169c81e034.svg",
     "static/media/minuman-juice.jpg": "/webprofile-senga-selatan/static/media/minuman-juice.d6c136b7fd0098cbf42e.jpg",
@@ -42,11 +52,11 @@
     "static/media/youtube.svg": "/webprofile-senga-selatan/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/webprofile-senga-selatan/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/webprofile-senga-selatan/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
-    "main.f1131269.css.map": "/webprofile-senga-selatan/static/css/main.f1131269.css.map",
-    "main.6e2218f4.js.map": "/webprofile-senga-selatan/static/js/main.6e2218f4.js.map"
+    "main.755a577a.css.map": "/webprofile-senga-selatan/static/css/main.755a577a.css.map",
+    "main.2f11d73e.js.map": "/webprofile-senga-selatan/static/js/main.2f11d73e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1131269.css",
-    "static/js/main.6e2218f4.js"
+    "static/css/main.755a577a.css",
+    "static/js/main.2f11d73e.js"
   ]
 }
