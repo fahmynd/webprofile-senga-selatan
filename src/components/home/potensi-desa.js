@@ -3,7 +3,16 @@ import { Link } from 'react-router-dom'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import potensi from '../../assets/img/potensi/potensi.jpg'
+import bayam from '../../assets/img/potensi/bayam.jpg'
+import cabai from '../../assets/img/potensi/cabai.jpg'
+import jagung from '../../assets/img/potensi/jagung.jpg'
+import jeruk from '../../assets/img/potensi/jeruk.jpg'
+import kangkung from '../../assets/img/potensi/kangkung.jpg'
+import minapadi from '../../assets/img/potensi/minapadi.jpg'
+import padi from '../../assets/img/potensi/padi.jpg'
+import sawi from '../../assets/img/potensi/sawi.jpg'
+import tebu from '../../assets/img/potensi/tebu.jpg'
+import tomat from '../../assets/img/potensi/tomat.jpg'
 
 const options = {
     loop: true,
@@ -48,27 +57,63 @@ class PotensiDesa extends React.Component {
                             <div className="main-content">
                                 <OwlCarousel id="caroPotensiDesa" className="owl-carousel owl-theme" {...options}>
                                     <div className="item">
-                                        <img src={potensi} alt="" />
+                                        <img src={bayam} alt="" />
                                         <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="potensi-desa__judul clr-white">Bayam</p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src={potensi} alt="" />
+                                        <img src={cabai} alt="" />
                                         <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="potensi-desa__judul clr-white">Cabai</p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src={potensi} alt="" />
+                                        <img src={jagung} alt="" />
                                         <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="potensi-desa__judul clr-white">Jagung</p>
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <img src={potensi} alt="" />
+                                        <img src={jeruk} alt="" />
                                         <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Nama Wisata</p>
+                                            <p className="potensi-desa__judul clr-white">Jeruk</p>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <img src={kangkung} alt="" />
+                                        <div className="item-info">
+                                            <p className="potensi-desa__judul clr-white">Kangkung</p>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <img src={minapadi} alt="" />
+                                        <div className="item-info">
+                                            <p className="potensi-desa__judul clr-white">Minapadi</p>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <img src={padi} alt="" />
+                                        <div className="item-info">
+                                            <p className="potensi-desa__judul clr-white">Padi</p>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <img src={sawi} alt="" />
+                                        <div className="item-info">
+                                            <p className="potensi-desa__judul clr-white">Sawi</p>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <img src={tebu} alt="" />
+                                        <div className="item-info">
+                                            <p className="potensi-desa__judul clr-white">Tebu</p>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <img src={tomat} alt="" />
+                                        <div className="item-info">
+                                            <p className="potensi-desa__judul clr-white">Tomat</p>
                                         </div>
                                     </div>
                                 </OwlCarousel>

@@ -10,16 +10,17 @@ function Jumbotron() {
                         <div className="vertical-center">
                             <h2>Desa Senga Selatan</h2>
                             <p className="fs-6">
-                                Assalamu'alaikum warahmatullahi wabarakatuh.
+                                Assalamu'alaikum warahmatullahi wabarakatuh.<br />
                                 Selamat Datang di “Website Desa Senga Selatan“, melalui website ini kami berupaya menghadirkan informasi seputar kegiatan dan program Desa Senga Selatan“, Kecamatan Belopa, Kabupaten Luwu, Prov. Sulawesi Selatan.
-                                Website ini kami hadirkan untuk mengikuti perkembangan dunia Teknologi Informasi (IT) yang kian pesat. Lahir dari sebuah ide kreatif dan inovatif, serta merupakan sebuah terobosan kami untuk lebih mendekatkan diri kepada masyarakat luas. Kami berupaya agar informasi tentang Desa Senga Selatan menjadi lebih terbuka dan interaktif.
-                                Kami sampaikan terima kasih kepada semua pihak yang telah banyak memberikan bantuan, dukungan dan kontribusi, baik berupa tenaga, pemikiran dan dorongan semangat, hingga Website ini dapat terealisasi. Semoga dengan adanya Website ini dapat bermanfaat dan menjadi salah satu upaya peningkatan pelayanan Desa Senga Selatan.
                             </p>
+                            <p>Website ini kami hadirkan untuk mengikuti perkembangan dunia Teknologi Informasi (IT) yang kian pesat. Lahir dari sebuah ide kreatif dan inovatif, serta merupakan sebuah terobosan kami untuk lebih mendekatkan diri kepada masyarakat luas. Kami berupaya agar informasi tentang Desa Senga Selatan menjadi lebih terbuka dan interaktif.</p>
+                            <p>Kami sampaikan terima kasih kepada semua pihak yang telah banyak memberikan bantuan, dukungan dan kontribusi, baik berupa tenaga, pemikiran dan dorongan semangat, hingga Website ini dapat terealisasi. Semoga dengan adanya Website ini dapat bermanfaat dan menjadi salah satu upaya peningkatan pelayanan Desa Senga Selatan.</p>
+
                         </div>
                     </div>
                     <div className="col-md-7 text-center d-none d-lg-block">
                         <div className="wrapper-foto-pakde">
-                            <img src={pakde} alt="" width="55%" />
+                            <img src={pakde} alt="" />
                         </div>
                         <div className="masking"></div>
                         <div className="wrapper-info-pakde">

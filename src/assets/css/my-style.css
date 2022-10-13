@@ -2,6 +2,8 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  /* outline: 2px dotted red; */
 }
 
 html {
@@ -281,6 +283,12 @@ footer .info-nav {
   margin-bottom: 5px;
 }
 
+#footer-text__email {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
 .footer-bottom {
   padding: 5px;
   background-color: #e58b21;
@@ -318,14 +326,16 @@ footer .info-nav {
   position: absolute;
   bottom: 0rem;
   text-align: center;
-  width: 65%;
+  right: 60px;
+  /* width: 65%; */
 }
 
 .wrapper-info-pakde {
   position: absolute;
   bottom: 3rem;
   text-align: center;
-  width: 65%;
+  right: 190px;
+  /* width: 65%; */
   color: #fff;
 }
 
@@ -347,7 +357,7 @@ footer .info-nav {
 }
 
 .vertical-center {
-  margin: 0;
+  margin-top: 20px;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -1186,5 +1196,20 @@ img.hover-shadow {
   background: none !important;
   height: 450px;
   width: 100%;
+}
+
+.counter {
+  /* position: absolute;
+  right: 90px;
+  bottom: 10px;
+  top: 12538px;
+  left: 10px; */
+  width: 110px;
+    margin-left: 122px;
+    margin-top: 80px;
+}
+
+.mSocial {
+  margin-top: -53px;
 }
 

@@ -84,7 +84,7 @@ function AdministrasiUmum() {
                     <div className="col-6 col-lg-3 mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">7766437m<sup>2</sup></p>
+                                <p className="adm-umum-jumlah fw-bold">7.766.437m<sup>2</sup></p>
                                 <p className="adm-umum-judul">Luas Tanah Desa</p>
                             </div>
                         </div>

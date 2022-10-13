@@ -18,7 +18,7 @@ $(window).scroll(function () {
       $("#brandWrap").removeClass("col-3");
       $("#brandWrap").addClass("col-2");
       $("#infoNavWrap").removeClass("col-9");
-      $("#infoNavWrap").addClass("col-10");
+      $("#infoNavWrap").addClass("col-9");
     } else {
       $(".navbar").addClass("bg-semi-transparent");
       $(".navbar").removeClass("bg-nav");
@@ -29,7 +29,7 @@ $(window).scroll(function () {
       $("#logoNavbar").attr("height", "50");
       $("#brandWrap").removeClass("col-2");
       $("#brandWrap").addClass("col-3");
-      $("#infoNavWrap").removeClass("col-10");
+      $("#infoNavWrap").removeClass("col-9");
       $("#infoNavWrap").addClass("col-9");
     }
   } else {
@@ -43,6 +43,6 @@ $(window).scroll(function () {
     $("#brandWrap").removeClass("col-3");
     $("#brandWrap").addClass("col-2");
     $("#infoNavWrap").removeClass("col-9");
-    $("#infoNavWrap").addClass("col-10");
+    $("#infoNavWrap").addClass("col-9");
   }
 });

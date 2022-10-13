@@ -15,7 +15,7 @@ function VisiMisi() {
             <div className="container">
                 <div className="row mt-10">
                     <div className="col-md-6 text-center center-v">
-                        <img className="center-v" src={logo} alt="" width="50%" />
+                        <img className="center-v" src={logo} alt="" width="80%" />
                     </div>
                     <div className="col-md-6 text-center">
                         <div className="wrap-visi">

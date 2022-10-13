@@ -4,6 +4,7 @@ import facebook from '../assets/img/sosmed/facebook.svg'
 import instagram from '../assets/img/sosmed/instagram.svg'
 import twitter from '../assets/img/sosmed/twitter.svg'
 import youtube from '../assets/img/sosmed/youtube.svg'
+import counter from '../assets/img/counter.png'
 
 function Footer() {
     return (
@@ -53,9 +54,10 @@ function Footer() {
                         <p className="footer-text__kontak">
                             <i className="fas fa-envelope mr-3"></i> pemdessengaselatan@gmail.com
                         </p>
+                        <img className='counter' src={counter} alt='counter' />
                     </div>
                 </div>
-                <div className="row mt-3">
+                <div className="row mSocial">
                     <div className="col-md-3">
                         <p className="footer-text_judul clr-white">Sosial Media</p>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pemdes.selatan.3/">
@@ -74,7 +76,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                <div className="row text-center">
+                <div className="text-center">
                     <div className="col-md-12">
                         <p className="footer-bottom__text">Desa Senga Selatan 2022</p>
                     </div>

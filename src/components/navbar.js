@@ -43,9 +43,6 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/belanja">Belanja</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="./galeri-desa">Galeri Desa</NavLink>
-                        </li>
                     </ul>
                 </div>
             </div>
