@@ -9,9 +9,7 @@ function AdministrasiKeuangan() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Administrasi Keuangan</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Sistem digital yang berfungsi mempermudah aktivitas pengelolaan data dan informasi terkait dengan keuangan pemerintahan desa yang dituangkan dalam Buku Administrasi Keuangan
                         </p>
                     </div>
                 </div>

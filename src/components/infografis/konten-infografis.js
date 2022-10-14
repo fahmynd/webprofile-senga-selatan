@@ -1099,7 +1099,7 @@ function KontenInfografis() {
                             <div className="tab-pane fade" id="petaPotensi" role="tabpanel" aria-labelledby="petaPotensi-tab">
                                 <div className="row mt-3">
                                     <div className="col-lg-12">
-                                        <img src="http://assets.kompasiana.com/items/album/2020/07/12/whatsapp-image-2020-07-12-at-20-11-11-5f0b0df4d541df743f7e83a2.jpeg" alt="potensi Desa" width="100%" />
+                                        {/* <img src="http://assets.kompasiana.com/items/album/2020/07/12/whatsapp-image-2020-07-12-at-20-11-11-5f0b0df4d541df743f7e83a2.jpeg" alt="potensi Desa" width="100%" /> */}
                                     </div>
                                 </div>
                             </div>

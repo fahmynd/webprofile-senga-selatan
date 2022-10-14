@@ -98,7 +98,7 @@ class NavbarTes extends Component {
                                 <NavLink className="nav-link" to="/belanja">Belanja</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="./galeri-desa">Galeri Desa</NavLink>
+                                <NavLink className="nav-link" to="/galeri-desa">Galeri Desa</NavLink>
                             </li>
                         </ul>
                     </div>

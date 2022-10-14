@@ -9,9 +9,7 @@ function YoutubeSection() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Youtube</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Layanan berbasis video yang disediakan untuk promosi potensi, pembangunan, dan segala aktivitas lain di desa
                         </p>
                     </div>
                 </div>

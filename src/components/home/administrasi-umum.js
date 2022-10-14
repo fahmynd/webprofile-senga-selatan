@@ -8,9 +8,7 @@ function AdministrasiUmum() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Administrasi Umum</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Sistem digital yang berisi segala bentuk pengeloaan data dan informasi Pemerintahan yang dituangkan pada Buku Administrasi Umum
                         </p>
                     </div>
                 </div>

@@ -9,9 +9,7 @@ function PetaDesa() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Peta Desa</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Layanan yang berisi gambaran wilayah desa yang mencakup lokasi fasilitas desa, batas wilayah, wisata, dan sebagainya
                         </p>
                     </div>
                 </div>

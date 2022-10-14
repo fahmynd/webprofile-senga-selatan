@@ -19,7 +19,7 @@ import YoutubeSection from "../components/home/youtube-section";
 
 function Home() {
     useEffect(function () {
-        document.title = "Desa Senga Selatan";
+        document.title = "Website Profil Desa Senga Selatan";
     }, []);
     return (
         <>

@@ -6,7 +6,7 @@ import VisiMisi from '../components/pemerintahan/visi-misi'
 
 function Pemerintahan() {
     useEffect(function () {
-        document.title = "Pemerintahan";
+        document.title = "Aparat Pemerintah | Website Profil Desa Senga Selatan";
     }, []);
     return (
         <>

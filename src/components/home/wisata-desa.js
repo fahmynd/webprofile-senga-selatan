@@ -40,7 +40,7 @@ class WisataDesa extends React.Component {
                         <div className="col-md-8 text-center">
                             <h2 className="fw-bold sub-judul">Wisata Desa</h2>
                             <p>
-                                Kabupaten Luwu menyimpan sejuta pesona wisata alam. Yang terbaru adalah kawasan wisata Mangrove atau hutan bakau yang terletak di Desa Senga Selatan, Kecamatan Belopa.
+                            Layanan yang mempermudah promosi wisata desa sehingga dapat menarik pengunjung desa
                             </p>
                         </div>
                     </div>

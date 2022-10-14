@@ -9,9 +9,7 @@ function InstagramSection() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Instagram</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Layanan media sosial yang berisi konten menarik tentang desa baik dari segi potensi desa maupun hal-hal unik lainnya tentang desa
                         </p>
                     </div>
                 </div>

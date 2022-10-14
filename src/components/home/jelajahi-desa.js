@@ -16,9 +16,7 @@ function JelajahiDesa() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Jelajahi Desa</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Melalui website ini Anda dapat menjelajahi segala hal yang terkait dengan desa. Aspek pemerintahan, penduduk, demografi, potensi desa, dan juga berita tentang desa.
                         </p>
                     </div>
                 </div>

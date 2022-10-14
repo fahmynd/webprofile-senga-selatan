@@ -9,9 +9,7 @@ function Apbd() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">APBD</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Sistem digital yang mempermudah pencatatan pengelolaan APBDes dan juga meningkatkan transparansi kinerja pemerintahan
                         </p>
                     </div>
                 </div>

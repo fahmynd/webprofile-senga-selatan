@@ -9,9 +9,7 @@ function TwitterSection() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Twitter</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Layanan yang berguna untuk memperluas promosi dan jejaring desa di dunia digital
                         </p>
                     </div>
                 </div>

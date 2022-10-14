@@ -18,11 +18,11 @@ html {
 .navbar {
   padding-top: 0.75;
   padding-bottom: 0.75;
-  z-index: 2;
+  z-index: 99;
   transition: all 0.75s ease;
 }
 
-.navbar-light{
+.navbar-light {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
@@ -78,7 +78,8 @@ html {
   width: 100vw;
   z-index: 1;
   margin-top: -67px;
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg/bg-jumbotron.png") no-repeat fixed center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg/bg-jumbotron.png") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -226,7 +227,6 @@ html {
   left: 0;
 }
 
-
 #wrapSearch .input-group-text {
   border-radius: 50px 0px 0px 50px;
   background-color: #fff;
@@ -234,7 +234,7 @@ html {
 }
 
 #wrapSearch .fa-search {
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 
 #wrapSearch .form-control {
@@ -306,14 +306,18 @@ footer .info-nav {
   content: "";
   width: 100%;
   height: 30%;
-  background: -webkit-linear-gradient(top,
+  background: -webkit-linear-gradient(
+    top,
     rgba(50, 176, 88, 0) 0,
     rgba(50, 176, 88, 0.8) 95%,
-    rgba(50, 176, 88, 0.6) 100%);
-  background: linear-gradient(to bottom,
+    rgba(50, 176, 88, 0.6) 100%
+  );
+  background: linear-gradient(
+    to bottom,
     rgba(50, 176, 88, 0) 0,
     rgba(50, 176, 88, 0.8) 95%,
-    rgba(50, 176, 88, 0.6) 100%);
+    rgba(50, 176, 88, 0.6) 100%
+  );
 }
 
 #fotoPakde {
@@ -352,8 +356,8 @@ footer .info-nav {
   color: #fff;
 }
 
-.clr-green{
-  color: #4A8251;
+.clr-green {
+  color: #4a8251;
 }
 
 .vertical-center {
@@ -437,7 +441,6 @@ footer .info-nav {
 .mb-10 {
   margin-bottom: 7rem;
 }
-
 
 .jelajahi-desa-card {
   border: none;
@@ -560,7 +563,8 @@ footer .info-nav {
   font-size: 1.2rem;
 }
 
-.card-img-top {}
+.card-img-top {
+}
 
 .img-berita {
   height: 290px;
@@ -753,9 +757,9 @@ img.hover-shadow {
   right: 0;
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover {
+.owl-theme .owl-nav [class*="owl-"]:hover {
   /* background: #869791; */
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -849,13 +853,13 @@ img.hover-shadow {
 }
 
 .card-idm__skor {
-  background-color: #EAF8EF;
+  background-color: #eaf8ef;
   border-radius: 10px;
   border: none;
 }
 
 .card-idm__status {
-  background-color: #FFF6E8;
+  background-color: #fff6e8;
   border-radius: 10px;
   border: none;
 }
@@ -890,7 +894,6 @@ img.hover-shadow {
 .peta-lokasi-desa__card {
   border: none;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
 }
 
 .peta-lokasi-desa__lokasi {
@@ -941,13 +944,13 @@ img.hover-shadow {
 
 .accordion-button {
   /* background-color: #EAEAEA; */
-  background-color: #EAF8EF;
+  background-color: #eaf8ef;
   font-weight: 500;
 }
 
 .accordion-button-belanja {
   /* background-color: #EAEAEA; */
-  background-color: #FEF6E8;
+  background-color: #fef6e8;
   font-weight: 500;
 }
 
@@ -955,14 +958,14 @@ img.hover-shadow {
   color: #fff;
   font-weight: 500;
   /* background-color: #EAF8EF; */
-  background-color: #44A694;
+  background-color: #44a694;
 }
 
 .accordion-button-belanja:not(.collapsed) {
   color: #fff;
   font-weight: 500;
   /* background-color: #EAF8EF; */
-  background-color: #E58B20 !important;
+  background-color: #e58b20 !important;
 }
 
 .progress {
@@ -971,7 +974,7 @@ img.hover-shadow {
 
 .card-demografi-penduduk {
   border: none;
-  background-color: #EAF7EE;
+  background-color: #eaf7ee;
   border-radius: 10px;
 }
 
@@ -989,9 +992,8 @@ img.hover-shadow {
 .penduduk-card {
   border-radius: 10px;
   border: none;
-  background-color: #EAF7EE;
+  background-color: #eaf7ee;
   height: 200px;
-
 }
 
 .penduduk-card__jumlah {
@@ -1013,7 +1015,7 @@ img.hover-shadow {
 }
 
 .tg-wrap th {
-  background-color: #44A694;
+  background-color: #44a694;
   padding: 15px;
   color: #fff;
   position: sticky;
@@ -1037,7 +1039,7 @@ img.hover-shadow {
 }
 
 .tg-wrap tr {
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .tg-wrap td {
@@ -1048,49 +1050,51 @@ img.hover-shadow {
   text-align: center;
 }
 
-.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
   border-radius: 20px 0px 0px 20px;
-  background-color:  #fff;
+  background-color: #fff;
 }
 
-.input-group-lg>.btn,
-.input-group-lg>.form-control,
-.input-group-lg>.form-select,
-.input-group-lg>.input-group-text {
-  font-size: .95rem;
+.input-group-lg > .btn,
+.input-group-lg > .form-control,
+.input-group-lg > .form-select,
+.input-group-lg > .input-group-text {
+  font-size: 0.95rem;
   border-radius: 0px 20px 20px 0px;
 }
 
-.jumbo-kontenBelanja{
+.jumbo-kontenBelanja {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-.img-kontenBelanja{
+.img-kontenBelanja {
   z-index: 2;
 }
 
-.belanja-dots{
+.belanja-dots {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 0;
 }
 
-.page-link{
+.page-link {
   border: none;
   color: #202020;
 }
 
-.page-item.active .page-link{
-  background-color: #E58B20;
-  border-color: #E58B20;
+.page-item.active .page-link {
+  background-color: #e58b20;
+  border-color: #e58b20;
   border-radius: 3px;
 }
 
-.wrap-jumlah-accordion{
-  padding-right:  0px !important;
+.wrap-jumlah-accordion {
+  padding-right: 0px !important;
 }
 
 /* Responsive Tablet */
@@ -1131,31 +1135,31 @@ img.hover-shadow {
     height: 75px;
   }
 
-  .input-group-lg>.btn,
-  .input-group-lg>.form-control,
-  .input-group-lg>.form-select,
-  .input-group-lg>.input-group-text {
+  .input-group-lg > .btn,
+  .input-group-lg > .form-control,
+  .input-group-lg > .form-select,
+  .input-group-lg > .input-group-text {
     font-size: 1.1rem !important;
   }
 
-  .img-kontenBelanja{
+  .img-kontenBelanja {
     display: none;
   }
 
-  .jumbo-kontenBelanja{
+  .jumbo-kontenBelanja {
     padding: 15px;
     font-size: 1.75rem;
   }
 
-  .info-accordion{
+  .info-accordion {
     font-weight: bold;
   }
 
-  .card-demografi-penduduk img{
+  .card-demografi-penduduk img {
     height: 85px !important;
   }
 
-  .penduduk-card__info{
+  .penduduk-card__info {
     font-size: 1rem;
   }
 }
@@ -1171,17 +1175,16 @@ img.hover-shadow {
   }
 
   .nama-desa-lite {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   #visiMisi .center-v {
     margin-bottom: 2rem;
   }
 
-  .accordion .col-md-6{
-  margin-bottom: 5px;
-}
-
+  .accordion .col-md-6 {
+    margin-bottom: 5px;
+  }
 }
 
 .mapouter {
@@ -1205,11 +1208,10 @@ img.hover-shadow {
   top: 12538px;
   left: 10px; */
   width: 110px;
-    margin-left: 122px;
-    margin-top: 80px;
+  margin-left: 122px;
+  margin-top: 80px;
 }
 
 .mSocial {
   margin-top: -53px;
 }
-

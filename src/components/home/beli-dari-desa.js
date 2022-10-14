@@ -13,9 +13,7 @@ function BeliDariDesa() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Beli dari Desa</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Layanan yang disediakan promosi produk UMKM Desa sehingga mampu meningkatkan perekonomian masyarakat desa
                         </p>
                     </div>
                 </div>

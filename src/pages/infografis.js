@@ -4,7 +4,7 @@ import KontenInfografis from "../components/infografis/konten-infografis";
 
 function Infografis() {
     useEffect(function () {
-        document.title = "Infografis";
+        document.title = "Infografis Penduduk | Website Profil Desa Senga Selatan";
     }, []);
     return (
         <KontenInfografis />

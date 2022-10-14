@@ -8,9 +8,7 @@ function AdministrasiPenduduk() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Administrasi Penduduk</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Similique saepe hic aut provident aperiam, nostrum repellat ex
-                            iste adipisci ut blanditiis dolor
+                        Sistem digital yang berfungsi mempermudah pengelolaan data dan informasi terkait dengan kependudukan dan pendayagunaannya untuk pelayanan publik yang efektif dan efisien
                         </p>
                     </div>
                 </div>
