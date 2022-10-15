@@ -1,17 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../assets/img/logo/logo-digides.png'
 import facebook from '../assets/img/sosmed/facebook.svg'
 import instagram from '../assets/img/sosmed/instagram.svg'
 import twitter from '../assets/img/sosmed/twitter.svg'
 import youtube from '../assets/img/sosmed/youtube.svg'
-import counter from '../assets/img/counter.png'
 
 function Footer() {
     return (
         <footer className="mt-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 col-lg-3">
+                    <Link to="/" className="col-md-6 col-lg-3 text-decoration-none">
                         <div className="row">
                             <div className="col-md-3 col-lg-3">
                                 <img id="" src={logo} alt="" height="50" className="d-inline-block align-text-top" />
@@ -25,7 +25,7 @@ function Footer() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
                 <div className="row mt-4">
                     <div className="col-md-4">
@@ -46,15 +46,27 @@ function Footer() {
                     <div className="offset-md-1 col-md-3">
                         <p className="footer-text_judul clr-white">Kontak Desa</p>
                         <p className="footer-text__kontak">
-                            <i className="fas fa-phone-alt mr-3"></i> 08124429200
+                            <i className="fas fa-phone-alt mr-3"></i> <a className='text-decoration-none' style={{ color: "#fff" }} href="tel:08124429200">08124429200</a>
                         </p>
                         <p className="footer-text__kontak">
                             <i className="fas fa-business-time mr-3"></i> Senin-Jumat 08.00-16.00 WITA
                         </p>
-                        <p className="footer-text__kontak">
-                            <i className="fas fa-envelope mr-3"></i> pemdessengaselatan@gmail.com
+                        <p id="footer-text__email">
+                            <i className="fas fa-envelope mr-3 fs-6"></i> <a className='text-decoration-none' style={{ color: "#fff" }} href="mailto:pemdessengaselatan@gmail.com">pemdessengaselatan@gmail.com</a>
                         </p>
-                        <img className='counter' src={counter} alt='counter' />
+                        <div className="boxCounter">
+        <div className="row border rounded bg-light">
+          <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white-50">Visitor Counter</div>
+          <div className="col-7 border-start border-top border-bottom">Today</div>
+          <div className="col-5 border-end border-top border-bottom">112</div>
+          <div className="col-7 border-start border-top border-bottom">Yesterday</div>
+          <div className="col-5 border-end border-top border-bottom">213</div>
+          <div className="col-7 border-start border-top border-bottom">All</div>
+          <div className="col-5 border-end border-top border-bottom">325</div>
+          <div className="col-7 border-start border-top border-bottom">Online</div>
+          <div className="col-5 border-end border-top border-bottom">29</div>
+        </div>
+      </div>
                     </div>
                 </div>
                 <div className="row mSocial">

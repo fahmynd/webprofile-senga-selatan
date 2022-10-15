@@ -12,13 +12,13 @@ function Navbar() {
                             <img id="logoNavbar" src={logo} alt="" className="d-inline-block align-text-top" />
                         </Link>
                     </div>
-                    <div id="infoNavWrap" className="col-9 center-v">
+                    <Link to="/" id="infoNavWrap" className="col-9 center-v text-decoration-none">
                         <p className="info-nav">
                             <span id="namaProvinsi">Provinsi Sulawesi Selatan</span> <br />
                             <span id="namaKabupaten">Kabupaten Luwu</span> <br />
                             <span id="namaDesa">Desa Senga Selatan</span>
                         </p>
-                    </div>
+                    </Link>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

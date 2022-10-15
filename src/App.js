@@ -23,7 +23,7 @@ function App() {
                     <Route path="/idm" element={<Idm />} />
                     <Route path="/berita" element={<Berita />} />
                     <Route path="/belanja" element={<Belanja />} />
-                    <Route path="/galeri-desa" element={<Galeri />} />
+                    <Route path="/galeri" element={<Galeri />} />
                 </Routes>
             </ScrollToTop>
             <Footer />
