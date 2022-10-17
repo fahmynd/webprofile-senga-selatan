@@ -7,7 +7,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.Fragment>
-    <BrowserRouter basename='/webprofile-senga-selatan'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.Fragment>

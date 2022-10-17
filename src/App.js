@@ -15,7 +15,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <ScrollToTop>
+            <ScrollToTop />
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route path="/pemerintahan" element={<Pemerintahan />} />
@@ -25,7 +25,6 @@ function App() {
                     <Route path="/belanja" element={<Belanja />} />
                     <Route path="/galeri" element={<Galeri />} />
                 </Routes>
-            </ScrollToTop>
             <Footer />
         </>
     );

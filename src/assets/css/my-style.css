@@ -1221,3 +1221,12 @@ img.hover-shadow {
   margin-left: 122px;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .boxCounter {
+    width: 120px;
+    height: 100px;
+    font-size: smaller;
+    margin: auto;
+  }
+}
