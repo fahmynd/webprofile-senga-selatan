@@ -14,11 +14,9 @@ function ChartDataStunting(props) {
 
         let chart = root.container.children.push(
             am5xy.XYChart.new(root, {
-                panX: true,
-                panY: true,
-                wheelX: "panX",
-                wheelY: "zoomX",
-                pinchZoomX: true,
+                panX: false,
+                panY: false,
+                pinchZoomX: false,
             })
         );
 

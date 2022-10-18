@@ -18,7 +18,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">3.521</p>
+                                        <p className="adm-umum-jumlah fw-bold">3.524</p>
                                         <p className="adm-umum-judul">Jumlah Total Penduduk</p>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1.781</p>
+                                        <p className="adm-umum-jumlah fw-bold">1.784</p>
                                         <p className="adm-umum-judul">Laki-Laki</p>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">970</p>
+                                        <p className="adm-umum-jumlah fw-bold">972</p>
                                         <p className="adm-umum-judul">Kepala Keluarga</p>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">116</p>
+                                        <p className="adm-umum-jumlah fw-bold">117</p>
                                         <p className="adm-umum-judul">Mutasi Penduduk</p>
                                     </div>
                                 </div>

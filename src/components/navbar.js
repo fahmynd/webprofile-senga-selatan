@@ -4,7 +4,7 @@ import logo from '../assets/img/logo/logo-digides.png'
 
 function Navbar() {
     return (
-        <nav className="navbar sticky-top navbar-expand-lg navbar-light">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-semi-transparent">
             <div className="container-fluid">
                 <div className="row" width="40%">
                     <div id="brandWrap" className="col-3">
@@ -13,7 +13,7 @@ function Navbar() {
                         </Link>
                     </div>
                     <Link to="/" id="infoNavWrap" className="col-9 center-v text-decoration-none">
-                        <p className="info-nav info-nav-light">
+                        <p className="info-nav">
                             <span id="namaProvinsi">Provinsi Sulawesi Selatan</span> <br />
                             <span id="namaKabupaten">Kabupaten Luwu</span> <br />
                             <span id="namaDesa">Desa Senga Selatan</span>
@@ -35,6 +35,11 @@ function Navbar() {
                             <NavLink className="nav-link" to="/infografis">Infografis</NavLink>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="https://sengaselatan.digitaldesa.id/webgis" target={'_blank'} rel="noreferrer">
+                                Geospasial
+                            </a>
+                        </li>
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/idm">IDM</NavLink>
                         </li>
                         <li className="nav-item">
@@ -49,13 +54,6 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/pengaduan">Pengaduan</NavLink>
                         </li>
-                        <li className="nav-item">
-                        <a href="https://sengaselatan.digitaldesa.id/webgis" target={'_blank'} rel="noreferrer">
-                            <button className="btn btn-warning btn-layanan">
-                                Geospasial
-                            </button>
-                        </a>
-                    </li>
                     </ul>
                 </div>
             </div>

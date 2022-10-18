@@ -59,3 +59,7 @@ $(document).ready(function() {
       }
   });
 });
+
+$('#apbdTahun').on('change', function() {
+  datatable.search($(this).val(), 'id_page');
+});

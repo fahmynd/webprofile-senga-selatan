@@ -69,11 +69,12 @@ function KontenInfografis() {
                                                 <div className="row">
                                                     <label htmlFor="pilihTahun" className="col-sm-3 col-form-label">Tahun</label>
                                                     <div className="col-sm-9">
-                                                        <select className="form-select" aria-label="Default select example">
-                                                            <option defaultValue="">Pilih Tahun</option>
-                                                            <option value="tahun1">2019</option>
-                                                            <option value="tahun2">2020</option>
-                                                            <option value="tahun3">2021</option>
+                                                        <select id='apbdTahun' className="form-select" aria-label="Default select example">
+                                                            <option defaultValue="tahun2022">Pilih Tahun</option>
+                                                            <option value="tahun2019">2019</option>
+                                                            <option value="tahun2020">2020</option>
+                                                            <option value="tahun2021">2021</option>
+                                                            <option value="tahun2022">2022</option>
                                                         </select>
                                                     </div>
                                                 </div>

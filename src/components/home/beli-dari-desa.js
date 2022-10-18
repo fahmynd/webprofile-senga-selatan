@@ -74,7 +74,7 @@ function BeliDariDesa() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <p className="beli-card__judul">Susu Cendol Cheese by Happy99</p>
+                                        <p className="beli-card__judul">Susu Cendol Cheese</p>
                                     </div>
                                     <div className="col-md-12">
                                         <p className="beli-card__harga">Rp10.000,-</p>

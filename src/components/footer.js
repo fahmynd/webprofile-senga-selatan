@@ -56,14 +56,14 @@ function Footer() {
                         </p>
                         <div className="boxCounter">
         <div className="row border rounded bg-light">
-          <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white-50">Visitor Counter</div>
-          <div className="col-7 border-start border-top border-bottom">Today</div>
+          <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
+          <div className="col-7 border-start border-top border-bottom">Hari ini</div>
           <div className="col-5 border-end border-top border-bottom">112</div>
-          <div className="col-7 border-start border-top border-bottom">Yesterday</div>
+          <div className="col-7 border-start border-top border-bottom">Kemarin</div>
           <div className="col-5 border-end border-top border-bottom">213</div>
-          <div className="col-7 border-start border-top border-bottom">All</div>
+          <div className="col-7 border-start border-top border-bottom">Semua</div>
           <div className="col-5 border-end border-top border-bottom">325</div>
-          <div className="col-7 border-start border-top border-bottom">Online</div>
+          <div className="col-7 border-start border-top border-bottom">Aktif</div>
           <div className="col-5 border-end border-top border-bottom">29</div>
         </div>
       </div>

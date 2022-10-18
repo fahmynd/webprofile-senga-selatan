@@ -60,7 +60,7 @@ function JumlahSurat() {
                                     <div className="card-body text-center">
                                         <div className="row">
                                             <div className="col-md-5">
-                                                <p className="adm-umum-jumlah fw-bold">311</p>
+                                                <p className="adm-umum-jumlah fw-bold">3</p>
                                             </div>
                                             <div className="col-md-7 center-v">
                                                 <p className="adm-umum-judul">Surat Keterangan Usaha</p>
@@ -74,10 +74,10 @@ function JumlahSurat() {
                                     <div className="card-body text-center">
                                         <div className="row">
                                             <div className="col-md-5">
-                                                <p className="adm-umum-jumlah fw-bold">297</p>
+                                                <p className="adm-umum-jumlah fw-bold">2</p>
                                             </div>
                                             <div className="col-md-7 center-v">
-                                                <p className="adm-umum-judul">SKCK</p>
+                                                <p className="adm-umum-judul">Surat Keterangan Domisili</p>
                                             </div>
                                         </div>
                                     </div>
@@ -88,10 +88,10 @@ function JumlahSurat() {
                                     <div className="card-body text-center">
                                         <div className="row">
                                             <div className="col-md-5">
-                                                <p className="adm-umum-jumlah fw-bold">209</p>
+                                                <p className="adm-umum-jumlah fw-bold">2</p>
                                             </div>
                                             <div className="col-md-7 center-v">
-                                                <p className="adm-umum-judul">Pengantar Nikah</p>
+                                                <p className="adm-umum-judul">Formulir Permohonan KTP</p>
                                             </div>
                                         </div>
                                     </div>

@@ -48,7 +48,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">79</p>
+                                <p className="adm-umum-jumlah fw-bold">105</p>
                                 <p className="adm-umum-judul">Buku Agenda</p>
                             </div>
                         </div>
