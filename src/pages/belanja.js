@@ -7,7 +7,10 @@ function Belanja() {
         document.title = "Beli dari Desa | Website Profil Desa Senga Selatan";
     }, []);
     return (
-        <KontenBelanja />
+        <main className="mb-5">
+            <KontenBelanja />
+        </main>
+        
     )
 }
 

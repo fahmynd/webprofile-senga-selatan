@@ -8,7 +8,7 @@ import youtube from '../assets/img/sosmed/youtube.svg'
 
 function Footer() {
     return (
-        <footer className="mt-5">
+        <footer>
             <div className="container">
                 <div className="row">
                     <Link to="/" className="col-md-6 col-lg-3 text-decoration-none">

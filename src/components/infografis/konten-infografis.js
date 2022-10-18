@@ -16,6 +16,7 @@ import katolikIcon from '../../assets/img/icon/icon-katolik.svg'
 import hinduIcon from '../../assets/img/icon/icon-hindu.svg'
 import budhaIcon from '../../assets/img/icon/icon-budha.svg'
 import konghucuIcon from '../../assets/img/icon/icon-konghucu.svg'
+import ChartDataStunting from './chart-data-stunting'
 
 function KontenInfografis() {
     return (
@@ -42,6 +43,16 @@ function KontenInfografis() {
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="petaPotensi-tab" data-bs-toggle="tab" data-bs-target="#petaPotensi" type="button" role="tab" aria-controls="petaPotensi" aria-selected="false">
                                     Peta Potensi Desa
+                                </button>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="dataStunting-tab" data-bs-toggle="tab" data-bs-target="#dataStunting" type="button" role="tab" aria-controls="dataStunting" aria-selected="false">
+                                    Data Stunting
+                                </button>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="geospasial-tab" data-bs-toggle="tab" data-bs-target="#geospasial" type="button" role="tab" aria-controls="geospasial" aria-selected="false">
+                                    Geospasial
                                 </button>
                             </li>
                         </ul>
@@ -1097,6 +1108,21 @@ function KontenInfografis() {
                                 </section>
                             </div>
                             <div className="tab-pane fade" id="petaPotensi" role="tabpanel" aria-labelledby="petaPotensi-tab">
+                                <div className="row mt-3">
+                                    <div className="col-lg-12">
+                                        {/* <img src="http://assets.kompasiana.com/items/album/2020/07/12/whatsapp-image-2020-07-12-at-20-11-11-5f0b0df4d541df743f7e83a2.jpeg" alt="potensi Desa" width="100%" /> */}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tab-pane fade" id="dataStunting" role="tabpanel" aria-labelledby="dataStunting-tab">
+                                <div className="row mt-3">
+                                <h3 className="fw-bold my-4">Data Stunting</h3>
+                                    <div className="col-md-12">
+                                        <ChartDataStunting />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tab-pane fade" id="geospasial" role="tabpanel" aria-labelledby="geospasial-tab">
                                 <div className="row mt-3">
                                     <div className="col-lg-12">
                                         {/* <img src="http://assets.kompasiana.com/items/album/2020/07/12/whatsapp-image-2020-07-12-at-20-11-11-5f0b0df4d541df743f7e83a2.jpeg" alt="potensi Desa" width="100%" /> */}

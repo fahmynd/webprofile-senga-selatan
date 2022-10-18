@@ -80,8 +80,13 @@ function KontenBerita() {
                                                     <p className="berita-card__shortdesc show-read-more">
                                                         Belopainfo — Pemerintah Desa Senga Selatan melakukan penyaluran Bantuan Langsung Tunai Dana Desa (BLT-DD) Triwulan III bulan Juli—Agustus Tahun Anggaran 2022. Penyaluran tersebut diberikan kepada 121 ...
                                                     </p>
+                                                    <div className="row">
+                                                                    <div className="col-12 text-right">
+                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                    </div>
+                                                                </div>
                                                 </div>
-                                                <Link to="https://google.com" className="stretched-link" />
+                                                <Link to="" className="stretched-link" />
                                             </div>
                                         </div>
                                     </div>
@@ -110,11 +115,16 @@ function KontenBerita() {
                                                                     <p className="berita-card__shortdesc show-read-more">
                                                                         Belopainfo — Pemerintah Desa Senga Selatan menggelar Musyawarah Desa (Musdes II) Pembahasan Rancangan Rencana Kerja Pemerintah Desa (RKPDesa) Berbasis SDGs Desa Senga Selatan Tahun 2023. Jumat (12/08/ ...
                                                                     </p>
+                                                                    <div className="row">
+                                                                    <div className="col-12 text-right">
+                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                    </div>
+                                                                </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="https://google.com" className="stretched-link" />
+                                                    <Link to="" className="stretched-link" />
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -140,11 +150,16 @@ function KontenBerita() {
                                                                     <p className="berita-card__shortdesc show-read-more">
                                                                         Belopainfo — Dalam upaya pemanfaatan pekarangan rumah, Dinas Ketahanan Pangan Kabupaten Luwu bekerjasama dengan Pemerintah Desa Senga Selatan memberikan Pelatihan Tematik Tahap I kepada kelompok tani ...
                                                                     </p>
+                                                                    <div className="row">
+                                                                    <div className="col-12 text-right">
+                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                    </div>
+                                                                </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="https://google.com" className="stretched-link" />
+                                                    <Link to="" className="stretched-link" />
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -170,11 +185,16 @@ function KontenBerita() {
                                                                     <p className="berita-card__shortdesc show-read-more">
                                                                         Belopainfo — Pemerintah Desa Senga Selatan melaksanakan Musyawarah Desa (Musdes) Penyusunan Rencana Kerja Pemerintah Desa (RKPDesa) Berbasis SDGs Desa Perencanaan Pembangunan Desa Tahun 2023 pada, Kam ...
                                                                     </p>
+                                                                <div className="row">
+                                                                    <div className="col-12 text-right">
+                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                    </div>
+                                                                </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="https://google.com" className="stretched-link" />
+                                                    <Link to="" className="stretched-link" />
                                                 </div>
                                             </div>
                                         </div>

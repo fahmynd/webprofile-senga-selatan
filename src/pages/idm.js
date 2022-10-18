@@ -7,7 +7,9 @@ function Idm() {
         document.title = "Nilai IDM 2022 | Website Profil Desa Senga Selatan";
     }, []);
     return (
+        <main className="mb-5">
         <KontenIdm />
+        </main>
     )
 }
 

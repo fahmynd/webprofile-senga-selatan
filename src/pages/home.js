@@ -22,7 +22,7 @@ function Home() {
         document.title = "Website Profil Desa Senga Selatan";
     }, []);
     return (
-        <>
+        <main className="mb-5">
             <Jumbotron />
             <InfoSingkatDesa />
             <VisiMisi />
@@ -40,7 +40,7 @@ function Home() {
             <YoutubeSection />
             <InstagramSection />
             <TwitterSection />
-        </>
+        </main>
     );
 }
 

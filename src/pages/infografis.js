@@ -7,7 +7,9 @@ function Infografis() {
         document.title = "Infografis Penduduk | Website Profil Desa Senga Selatan";
     }, []);
     return (
+        <main className="mb-5">
         <KontenInfografis />
+        </main>
     )
 }
 

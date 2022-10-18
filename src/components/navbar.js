@@ -4,7 +4,7 @@ import logo from '../assets/img/logo/logo-digides.png'
 
 function Navbar() {
     return (
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-semi-transparent">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light">
             <div className="container-fluid">
                 <div className="row" width="40%">
                     <div id="brandWrap" className="col-3">
@@ -13,7 +13,7 @@ function Navbar() {
                         </Link>
                     </div>
                     <Link to="/" id="infoNavWrap" className="col-9 center-v text-decoration-none">
-                        <p className="info-nav">
+                        <p className="info-nav info-nav-light">
                             <span id="namaProvinsi">Provinsi Sulawesi Selatan</span> <br />
                             <span id="namaKabupaten">Kabupaten Luwu</span> <br />
                             <span id="namaDesa">Desa Senga Selatan</span>
@@ -25,9 +25,9 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <NavLink className="nav-link" aria-current="page" to="/" end>Home</NavLink>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/pemerintahan">Pemerintahan</NavLink>
                         </li>
@@ -42,6 +42,15 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/belanja">Belanja</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/ppid">PPID</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/geospasial">Geospasial</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/pengaduan">Pengaduan</NavLink>
                         </li>
                     </ul>
                 </div>

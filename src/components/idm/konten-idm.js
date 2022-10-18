@@ -22,7 +22,7 @@ function KontenIdm() {
                                         </p>
                                     </div>
                                     <div className="col-md-6 text-center center-v">
-                                        <p className="card-idm__jumlah">0.8268</p>
+                                        <p className="card-idm__jumlah">0.8308</p>
                                     </div>
                                 </div>
                             </div>
@@ -53,23 +53,23 @@ function KontenIdm() {
                     </div>
                     <div className="col-6 col-md-2 mb-3">
                         <p className="fw-bold">Skor Minimal</p>
-                        <p className="fs-5">0.00</p>
+                        <p className="fs-5">0.8156</p>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
                         <p className="fw-bold">Penambahan</p>
-                        <p className="fs-5">0.00</p>
+                        <p className="fs-5">-0.0152</p>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
                         <p className="fw-bold">Skor IKS</p>
-                        <p className="fs-5">0.00</p>
+                        <p className="fs-5">0.9257</p>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
                         <p className="fw-bold">Skor IKE</p>
-                        <p className="fs-5">0.00</p>
+                        <p className="fs-5">0.7</p>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
                         <p className="fw-bold">Skor IKL</p>
-                        <p className="fs-5">0.00</p>
+                        <p className="fs-5">0.8667</p>
                     </div>
                 </div>
                 <div id="tabMenu">

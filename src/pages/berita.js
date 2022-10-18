@@ -7,7 +7,9 @@ function Berita() {
         document.title = "Berita Desa | Website Profil Desa Senga Selatan";
     }, []);
     return (
+        <main className="mb-5">
         <KontenBerita />
+        </main>
     )
 }
 

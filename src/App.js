@@ -10,6 +10,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/scroll-to-top";
 import './assets/css/my-style.css'
+import Pengaduan from "./pages/pengaduan";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/berita" element={<Berita />} />
                     <Route path="/belanja" element={<Belanja />} />
                     <Route path="/galeri" element={<Galeri />} />
+                    <Route path="/pengaduan" element={<Pengaduan />} />
                 </Routes>
             <Footer />
         </>
