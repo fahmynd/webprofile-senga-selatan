@@ -47,11 +47,15 @@ function Navbar() {
                             <NavLink className="nav-link" to="/ppid">PPID</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/geospasial">Geospasial</NavLink>
-                        </li>
-                        <li className="nav-item">
                             <NavLink className="nav-link" to="/pengaduan">Pengaduan</NavLink>
                         </li>
+                        <li className="nav-item">
+                        <a href="https://sengaselatan.digitaldesa.id/webgis" target={'_blank'} rel="noreferrer">
+                            <button className="btn btn-warning btn-layanan">
+                                Geospasial
+                            </button>
+                        </a>
+                    </li>
                     </ul>
                 </div>
             </div>

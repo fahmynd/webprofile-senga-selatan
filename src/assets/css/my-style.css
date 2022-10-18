@@ -1230,3 +1230,12 @@ img.hover-shadow {
     margin: auto;
   }
 }
+
+.btn-layanan {
+  background-color: #44a694;
+  border: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+  color: white;
+}
