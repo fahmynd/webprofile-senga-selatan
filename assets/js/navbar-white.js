@@ -6,11 +6,7 @@ $(document).ready(function () {
 $(window).scroll(function () {
   if ($(window).width() >= 1000) {
     var scroll = $(window).scrollTop();
-    console.log(scroll);
-    //>=, not <=
-    if (scroll >= 100) {
-      //clearHeader, not clearheader - caps H
-      
+    if (scroll >= 100) {     
       $("#namaProvinsi").addClass("d-none");
       $("#namaKabupaten").addClass("d-none");
       $("#namaDesa").addClass("nama-desa-lite");
@@ -19,7 +15,7 @@ $(window).scroll(function () {
       $("#brandWrap").removeClass("col-3");
       $("#brandWrap").addClass("col-2");
       $("#infoNavWrap").removeClass("col-9");
-      $("#infoNavWrap").addClass("col-10");
+      $("#infoNavWrap").addClass("col-9");
     } else {
       
       $("#namaProvinsi").removeClass("d-none");
@@ -29,7 +25,7 @@ $(window).scroll(function () {
       $("#logoNavbar").attr("height", "50");
       $("#brandWrap").removeClass("col-2");
       $("#brandWrap").addClass("col-3");
-      $("#infoNavWrap").removeClass("col-10");
+      $("#infoNavWrap").removeClass("col-9");
       $("#infoNavWrap").addClass("col-9");
     }
   } else {
@@ -42,6 +38,6 @@ $(window).scroll(function () {
     $("#brandWrap").removeClass("col-3");
     $("#brandWrap").addClass("col-2");
     $("#infoNavWrap").removeClass("col-9");
-    $("#infoNavWrap").addClass("col-10");
+    $("#infoNavWrap").addClass("col-9");
   }
 });
