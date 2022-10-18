@@ -46,3 +46,16 @@ $(window).scroll(function () {
     $("#infoNavWrap").addClass("col-9");
   }
 });
+
+$(document).ready(function() {
+  let maxLength = 200;
+
+  $(".show-read-more").each(function() {
+      let myStr = $(this).text();
+
+      if ($.trim(myStr).length > maxLength) {
+          $(this).html(myStr.substring(0, maxLength));
+          $(this).append(` ...<span class="more-text">${myStr.substring(maxLength, $.trim(myStr).length)}</span>`);
+      }
+  });
+});
