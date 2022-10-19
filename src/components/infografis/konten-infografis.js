@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import ChartBelanjaDesa from './chart-belanja-desa'
 import ChartPendapatanDesa from './chart-pendapatan-desa'
 import ChartPendudukDusun from './chart-penduduk-dusun'
@@ -16,7 +15,6 @@ import katolikIcon from '../../assets/img/icon/icon-katolik.svg'
 import hinduIcon from '../../assets/img/icon/icon-hindu.svg'
 import budhaIcon from '../../assets/img/icon/icon-budha.svg'
 import konghucuIcon from '../../assets/img/icon/icon-konghucu.svg'
-import ChartDataStunting from './chart-data-stunting'
 
 function KontenInfografis() {
     return (
@@ -66,7 +64,7 @@ function KontenInfografis() {
                                     <div className="col-md-6 center-v">
                                         <div className="row">
                                             <div className="offset-md-3 col-md-6 mb-3">
-                                                <div className="row">
+                                                {/* <div className="row">
                                                     <label htmlFor="pilihTahun" className="col-sm-3 col-form-label">Tahun</label>
                                                     <div className="col-sm-9">
                                                         <select id='apbd-tahun' className="form-select" aria-label="Default select example">
@@ -76,9 +74,9 @@ function KontenInfografis() {
                                                             <option value="2022">2022</option>
                                                         </select>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
-                                            <div className="col-md-3 center-v mb-5">
+                                            {/* <div className="col-md-3 center-v mb-5">
                                                 <div className="dropdown">
                                                     <div className="d-grid gap-2">
                                                         <Link className="btn btn-success dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,7 +95,7 @@ function KontenInfografis() {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -634,7 +632,7 @@ function KontenInfografis() {
                                         <h3 className="fw-bold mt-4">Data Penduduk Desa</h3>
                                     </div>
                                     <div className="offset-lg-3 col-lg-3">
-                                        <div className="row">
+                                        {/* <div className="row">
                                             <label htmlFor="pilihTahun" className="col-lg-3 col-form-label">Tahun</label>
                                             <div className="col-lg-9">
                                                 <select className="form-select" aria-label="Default select example">
@@ -644,7 +642,7 @@ function KontenInfografis() {
                                                     <option value="tahun3">2021</option>
                                                 </select>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <section className="mt-5">
@@ -1110,26 +1108,96 @@ function KontenInfografis() {
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="dataStunting" role="tabpanel" aria-labelledby="dataStunting-tab">
-                                <div className="row mt-3">
-                                    <div className="col-lg-6">
-                                        <h3 className="fw-bold mt-4">Data Stunting 2022</h3>
+                                <section className=" mt-5">
+                                    <div className="row">
+                                        <div className="col-md-12 text-center">
+                                            <h4 className="fw-bold">Data Stunting 2022</h4>
+                                        </div>
                                     </div>
-                                    <div className="offset-lg-3 col-lg-3">
-                                        <div className="row">
-                                            <label htmlFor="pilihTahun" className="col-lg-3 col-form-label">Tahun</label>
-                                            <div className="col-lg-9">
-                                                <select className="form-select" aria-label="Default select example">
-                                                    <option defaultValue="">Pilih Tahun</option>
-                                                    <option value="tahun1">2021</option>
-                                                    <option value="tahun3">2022</option>
-                                                </select>
+                                    <div className="row mt-3">
+                                        <div className="col-md-12">
+                                            <div className="row text-center">
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">480</p>
+                                                            <p className="penduduk-card__info">Pasangan Usia Subur</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">304</p>
+                                                            <p className="penduduk-card__info">Wanita Usia Subur</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">71</p>
+                                                            <p className="penduduk-card__info">Ibu Hamil</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">254</p>
+                                                            <p className="penduduk-card__info">Balita</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-md-12">
-                                    <ChartDataStunting />
-                                </div>
+                                </section>
+                                <section className=" mt-10">
+                                    <div className="row">
+                                        <div className="col-md-12 text-center">
+                                            <h4 className="fw-bold">Data Stunting 2021</h4>
+                                        </div>
+                                    </div>
+                                    <div className="row mt-3">
+                                        <div className="col-md-12">
+                                            <div className="row text-center">
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">498</p>
+                                                            <p className="penduduk-card__info">Pasangan Usia Subur</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">326</p>
+                                                            <p className="penduduk-card__info">Wanita Usia Subur</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">57</p>
+                                                            <p className="penduduk-card__info">Ibu Hamil</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card penduduk-card">
+                                                        <div className="card-body">
+                                                            <p className="penduduk-card__jumlah">294</p>
+                                                            <p className="penduduk-card__info">Balita</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
                             </div>
                         </div>
                     </div>
