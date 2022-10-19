@@ -47,15 +47,15 @@ $(window).scroll(function () {
   }
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   let maxLength = 200;
 
-  $(".show-read-more").each(function() {
-      let myStr = $(this).text();
+  $(".show-read-more").each(function () {
+    let myStr = $(this).text();
 
-      if ($.trim(myStr).length > maxLength) {
-          $(this).html(myStr.substring(0, maxLength));
-          $(this).append(` ...<span class="more-text">${myStr.substring(maxLength, $.trim(myStr).length)}</span>`);
-      }
+    if ($.trim(myStr).length > maxLength) {
+      $(this).html(myStr.substring(0, maxLength));
+      $(this).append(` ...<span class="more-text">${myStr.substring(maxLength, $.trim(myStr).length)}</span>`);
+    }
   });
 });
