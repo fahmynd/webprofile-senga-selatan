@@ -4,7 +4,6 @@ import Infografis from "./pages/infografis";
 import Idm from "./pages/idm";
 import Berita from "./pages/berita";
 import Belanja from "./pages/belanja";
-import Galeri from "./pages/galeri";
 import { Routes, Route } from 'react-router-dom';
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -27,7 +26,6 @@ function App() {
                 <Route path="/idm" element={<Idm />} />
                 <Route path="/berita" element={<Berita />} />
                 <Route path="/belanja" element={<Belanja />} />
-                <Route path="/galeri" element={<Galeri />} />
                 <Route path="/ppid" element={<Ppid />} />
                 <Route path="/pengaduan" element={<Pengaduan />} />
             </Routes>

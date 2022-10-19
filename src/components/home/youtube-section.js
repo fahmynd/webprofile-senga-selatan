@@ -9,7 +9,7 @@ function YoutubeSection() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Youtube</h2>
                         <p>
-                        Layanan berbasis video yang disediakan untuk promosi potensi, pembangunan, dan segala aktivitas lain di desa
+                            Layanan berbasis video yang disediakan untuk promosi potensi, pembangunan, dan segala aktivitas lain di desa
                         </p>
                     </div>
                 </div>
