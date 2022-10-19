@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../assets/img/logo/logo-digides.png'
-import bgDesa from '../../assets/img/bg/bg-tentang-desa.png'
+import logo from '../../assets/img/logo/sengaselatan.webp'
+import bgDesa from '../../assets/img/bg/bg-tentang-desa.webp'
 
 function InfoSingkatDesa() {
     return (

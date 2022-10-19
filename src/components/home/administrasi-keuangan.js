@@ -1,5 +1,5 @@
 import React from 'react'
-import blobs from '../../assets/img/bg/blobs3.png'
+import blobs from '../../assets/img/bg/blobs3.webp'
 
 function AdministrasiKeuangan() {
     return (
@@ -9,7 +9,7 @@ function AdministrasiKeuangan() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Administrasi Keuangan</h2>
                         <p>
-                        Sistem digital yang berfungsi mempermudah aktivitas pengelolaan data dan informasi terkait dengan keuangan pemerintahan desa yang dituangkan dalam Buku Administrasi Keuangan
+                            Sistem digital yang berfungsi mempermudah aktivitas pengelolaan data dan informasi terkait dengan keuangan pemerintahan desa yang dituangkan dalam Buku Administrasi Keuangan
                         </p>
                     </div>
                 </div>

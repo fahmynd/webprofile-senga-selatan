@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/logo/logo-digides.png'
+import logo from '../assets/img/logo/sengaselatan.webp'
 import facebook from '../assets/img/sosmed/facebook.svg'
 import instagram from '../assets/img/sosmed/instagram.svg'
 import twitter from '../assets/img/sosmed/twitter.svg'
@@ -55,18 +55,18 @@ function Footer() {
                             <i className="fas fa-envelope mr-3 fs-6"></i> <a className='text-decoration-none' style={{ color: "#fff" }} href="mailto:pemdessengaselatan@gmail.com">pemdessengaselatan@gmail.com</a>
                         </p>
                         <div className="boxCounter">
-        <div className="row border rounded bg-light">
-          <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
-          <div className="col-7 border-start border-top border-bottom">Hari ini</div>
-          <div className="col-5 border-end border-top border-bottom">112</div>
-          <div className="col-7 border-start border-top border-bottom">Kemarin</div>
-          <div className="col-5 border-end border-top border-bottom">213</div>
-          <div className="col-7 border-start border-top border-bottom">Semua</div>
-          <div className="col-5 border-end border-top border-bottom">325</div>
-          <div className="col-7 border-start border-top border-bottom">Aktif</div>
-          <div className="col-5 border-end border-top border-bottom">29</div>
-        </div>
-      </div>
+                            <div className="row border rounded bg-light">
+                                <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
+                                <div className="col-7 border-start border-top border-bottom">Hari ini</div>
+                                <div className="col-5 border-end border-top border-bottom">112</div>
+                                <div className="col-7 border-start border-top border-bottom">Kemarin</div>
+                                <div className="col-5 border-end border-top border-bottom">213</div>
+                                <div className="col-7 border-start border-top border-bottom">Semua</div>
+                                <div className="col-5 border-end border-top border-bottom">325</div>
+                                <div className="col-7 border-start border-top border-bottom">Aktif</div>
+                                <div className="col-5 border-end border-top border-bottom">29</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="row mSocial">

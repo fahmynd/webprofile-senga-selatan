@@ -5,8 +5,8 @@ import layananIcon from '../../assets/img/icon/layanan-ppid.svg'
 import pasarIcon from '../../assets/img/icon/pasar-desa.svg'
 import beritaIcon from '../../assets/img/icon/berita-desa.svg'
 import potensiIcon from '../../assets/img/icon/potensi-desa.svg'
-import blobs1 from '../../assets/img/bg/blobs1.png'
-import blobs2 from '../../assets/img/bg/blobs2.png'
+import blobs1 from '../../assets/img/bg/blobs1.webp'
+import blobs2 from '../../assets/img/bg/blobs2.webp'
 
 function JelajahiDesa() {
     return (
@@ -16,7 +16,7 @@ function JelajahiDesa() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Jelajahi Desa</h2>
                         <p>
-                        Melalui website ini Anda dapat menjelajahi segala hal yang terkait dengan desa. Aspek pemerintahan, penduduk, demografi, potensi desa, dan juga berita tentang desa.
+                            Melalui website ini Anda dapat menjelajahi segala hal yang terkait dengan desa. Aspek pemerintahan, penduduk, demografi, potensi desa, dan juga berita tentang desa.
                         </p>
                     </div>
                 </div>

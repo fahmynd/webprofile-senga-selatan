@@ -79,7 +79,7 @@ html {
   z-index: 1;
   margin-top: -67px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/bg/bg-jumbotron.png") no-repeat fixed center;
+    url("../img/bg/bg-jumbotron.webp") no-repeat fixed center;
   background-size: cover;
 }
 

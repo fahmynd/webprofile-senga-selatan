@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import bayam from '../../assets/img/potensi/bayam.jpg'
-import cabai from '../../assets/img/potensi/cabai.jpg'
-import jagung from '../../assets/img/potensi/jagung.jpg'
-import jeruk from '../../assets/img/potensi/jeruk.jpg'
-import kangkung from '../../assets/img/potensi/kangkung.jpg'
-import minapadi from '../../assets/img/potensi/minapadi.jpg'
-import padi from '../../assets/img/potensi/padi.jpg'
-import sawi from '../../assets/img/potensi/sawi.jpg'
-import tebu from '../../assets/img/potensi/tebu.jpg'
-import tomat from '../../assets/img/potensi/tomat.jpg'
+import bayam from '../../assets/img/potensi/bayam.webp'
+import cabai from '../../assets/img/potensi/cabai.webp'
+import jagung from '../../assets/img/potensi/jagung.webp'
+import jeruk from '../../assets/img/potensi/jeruk.webp'
+import kangkung from '../../assets/img/potensi/kangkung.webp'
+import minapadi from '../../assets/img/potensi/minapadi.webp'
+import padi from '../../assets/img/potensi/padi.webp'
+import sawi from '../../assets/img/potensi/sawi.webp'
+import tebu from '../../assets/img/potensi/tebu.webp'
+import tomat from '../../assets/img/potensi/tomat.webp'
 
 const options = {
     loop: true,
@@ -46,7 +46,7 @@ class PotensiDesa extends React.Component {
                         <div className="col-md-8 text-center">
                             <h2 className="fw-bold sub-judul">Potensi Desa</h2>
                             <p>
-                            Layanan yang mempermudah promosi potensi desa sehingga dapat menunjang pembangunan desa
+                                Layanan yang mempermudah promosi potensi desa sehingga dapat menunjang pembangunan desa
                             </p>
                         </div>
                     </div>

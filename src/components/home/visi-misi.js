@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../assets/img/logo/logo-digides.png'
-import dots from '../../assets/img/bg/dots.png'
+import logo from '../../assets/img/logo/sengaselatan.webp'
+import dots from '../../assets/img/bg/dots.webp'
 
 function VisiMisi() {
     return (

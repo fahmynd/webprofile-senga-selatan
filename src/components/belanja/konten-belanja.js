@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import pakde from '../../assets/img/foto-pakde.png'
-import makananDonat from '../../assets/img/jualan/makanan-donat.jpg'
-import makananLasaro from '../../assets/img/jualan/makanan-lasaro.jpg'
-import makananSate from '../../assets/img/jualan/makanan-sate.jpg'
-import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
-import minumanJuice from '../../assets/img/jualan/minuman-juice.jpg'
-import pete from '../../assets/img/jualan/pete.jpg'
+import pakde from '../../assets/img/foto-pakde.webp'
+import makananDonat from '../../assets/img/jualan/makanan-donat.webp'
+import makananLasaro from '../../assets/img/jualan/makanan-lasaro.webp'
+import makananSate from '../../assets/img/jualan/makanan-sate.webp'
+import minumanCendol from '../../assets/img/jualan/minuman-cendol.webp'
+import minumanJuice from '../../assets/img/jualan/minuman-juice.webp'
+import pete from '../../assets/img/jualan/pete.webp'
 
 function KontenBelanja() {
     return (

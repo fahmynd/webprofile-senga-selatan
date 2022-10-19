@@ -3,10 +3,10 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from 'react-router-dom';
-import wisata1 from '../../assets/img/wisata/wisata1.jpg'
-import wisata2 from '../../assets/img/wisata/wisata2.jpg'
-import wisata3 from '../../assets/img/wisata/wisata3.jpg'
-import dots from '../../assets/img/bg/dots.png'
+import wisata1 from '../../assets/img/wisata/wisata1.webp'
+import wisata2 from '../../assets/img/wisata/wisata2.webp'
+import wisata3 from '../../assets/img/wisata/wisata3.webp'
+import dots from '../../assets/img/bg/dots.webp'
 
 const options = {
     stagePadding: 50,
@@ -40,7 +40,7 @@ class WisataDesa extends React.Component {
                         <div className="col-md-8 text-center">
                             <h2 className="fw-bold sub-judul">Wisata Desa</h2>
                             <p>
-                            Layanan yang mempermudah promosi wisata desa sehingga dapat menarik pengunjung desa
+                                Layanan yang mempermudah promosi wisata desa sehingga dapat menarik pengunjung desa
                             </p>
                         </div>
                     </div>

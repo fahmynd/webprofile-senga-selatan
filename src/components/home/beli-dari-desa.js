@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import makananDonat from '../../assets/img/jualan/makanan-donat.jpg'
-import makananSate from '../../assets/img/jualan/makanan-sate.jpg'
-import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
-import minumanJuice from '../../assets/img/jualan/minuman-juice.jpg'
+import makananDonat from '../../assets/img/jualan/makanan-donat.webp'
+import makananSate from '../../assets/img/jualan/makanan-sate.webp'
+import minumanCendol from '../../assets/img/jualan/minuman-cendol.webp'
+import minumanJuice from '../../assets/img/jualan/minuman-juice.webp'
 
 function BeliDariDesa() {
     return (
@@ -13,7 +13,7 @@ function BeliDariDesa() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Beli dari Desa</h2>
                         <p>
-                        Layanan yang disediakan promosi produk UMKM Desa sehingga mampu meningkatkan perekonomian masyarakat desa
+                            Layanan yang disediakan promosi produk UMKM Desa sehingga mampu meningkatkan perekonomian masyarakat desa
                         </p>
                     </div>
                 </div>

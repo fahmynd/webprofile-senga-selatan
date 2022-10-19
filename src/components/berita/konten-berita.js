@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import berita1 from '../../assets/img/berita/berita1.jpg'
-import berita2 from '../../assets/img/berita/berita2.jpg'
-import berita3 from '../../assets/img/berita/berita3.jpeg'
-import berita4 from '../../assets/img/berita/berita4.jpg'
+import berita1 from '../../assets/img/berita/berita1.webp'
+import berita2 from '../../assets/img/berita/berita2.webp'
+import berita3 from '../../assets/img/berita/berita3.webp'
+import berita4 from '../../assets/img/berita/berita4.webp'
 
 function KontenBerita() {
     return (
@@ -81,10 +81,10 @@ function KontenBerita() {
                                                         Belopainfo — Pemerintah Desa Senga Selatan melakukan penyaluran Bantuan Langsung Tunai Dana Desa (BLT-DD) Triwulan III bulan Juli—Agustus Tahun Anggaran 2022. Penyaluran tersebut diberikan kepada 121 ...
                                                     </p>
                                                     <div className="row">
-                                                                    <div className="col-12 text-right">
-                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
-                                                                    </div>
-                                                                </div>
+                                                        <div className="col-12 text-right">
+                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <Link to="" className="stretched-link" />
                                             </div>
@@ -116,10 +116,10 @@ function KontenBerita() {
                                                                         Belopainfo — Pemerintah Desa Senga Selatan menggelar Musyawarah Desa (Musdes II) Pembahasan Rancangan Rencana Kerja Pemerintah Desa (RKPDesa) Berbasis SDGs Desa Senga Selatan Tahun 2023. Jumat (12/08/ ...
                                                                     </p>
                                                                     <div className="row">
-                                                                    <div className="col-12 text-right">
-                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                        <div className="col-12 text-right">
+                                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -151,10 +151,10 @@ function KontenBerita() {
                                                                         Belopainfo — Dalam upaya pemanfaatan pekarangan rumah, Dinas Ketahanan Pangan Kabupaten Luwu bekerjasama dengan Pemerintah Desa Senga Selatan memberikan Pelatihan Tematik Tahap I kepada kelompok tani ...
                                                                     </p>
                                                                     <div className="row">
-                                                                    <div className="col-12 text-right">
-                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                        <div className="col-12 text-right">
+                                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -185,11 +185,11 @@ function KontenBerita() {
                                                                     <p className="berita-card__shortdesc show-read-more">
                                                                         Belopainfo — Pemerintah Desa Senga Selatan melaksanakan Musyawarah Desa (Musdes) Penyusunan Rencana Kerja Pemerintah Desa (RKPDesa) Berbasis SDGs Desa Perencanaan Pembangunan Desa Tahun 2023 pada, Kam ...
                                                                     </p>
-                                                                <div className="row">
-                                                                    <div className="col-12 text-right">
-                                                                        <Link style={{color: '#099B32', textDecoration: 'none'}} to="">Selengkapnya</Link>
+                                                                    <div className="row">
+                                                                        <div className="col-12 text-right">
+                                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/img/logo/logo-digides.png'
+import logo from '../../assets/img/logo/sengaselatan.webp'
 
 function ProfilPemerintahan() {
     return (

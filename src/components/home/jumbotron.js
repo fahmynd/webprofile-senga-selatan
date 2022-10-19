@@ -1,5 +1,5 @@
 import React from 'react'
-import pakde from '../../assets/img/foto-pakde.png'
+import pakde from '../../assets/img/foto-pakde.webp'
 
 function Jumbotron() {
     return (
