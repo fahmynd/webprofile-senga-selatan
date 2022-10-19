@@ -69,11 +69,11 @@ function KontenInfografis() {
                                                 <div className="row">
                                                     <label htmlFor="pilihTahun" className="col-sm-3 col-form-label">Tahun</label>
                                                     <div className="col-sm-9">
-                                                        <select id='apbd-tahun' className="form-select" aria-label="Default select example">
-                                                            <option defaultValue="" disabled>Pilih Tahun</option>
-                                                            <option value="2020">2020</option>
-                                                            <option value="2021">2021</option>
-                                                            <option value="2022">2022</option>
+                                                        <select id='apbdTahun' className="form-select" aria-label="Default select example">
+                                                            <option defaultValue="tahun2022">2022</option>
+                                                            <option value="tahun2021">2021</option>
+                                                            <option value="tahun2020">2020</option>
+                                                            <option value="tahun2019">2019</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -1111,24 +1111,10 @@ function KontenInfografis() {
                             </div>
                             <div className="tab-pane fade" id="dataStunting" role="tabpanel" aria-labelledby="dataStunting-tab">
                                 <div className="row mt-3">
-                                    <div className="col-lg-6">
-                                        <h3 className="fw-bold mt-4">Data Stunting 2022</h3>
+                                <h3 className="fw-bold my-4">Data Stunting</h3>
+                                    <div className="col-md-12">
+                                        <ChartDataStunting />
                                     </div>
-                                    <div className="offset-lg-3 col-lg-3">
-                                        <div className="row">
-                                            <label htmlFor="pilihTahun" className="col-lg-3 col-form-label">Tahun</label>
-                                            <div className="col-lg-9">
-                                                <select className="form-select" aria-label="Default select example">
-                                                    <option defaultValue="">Pilih Tahun</option>
-                                                    <option value="tahun1">2021</option>
-                                                    <option value="tahun3">2022</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-12">
-                                    <ChartDataStunting />
                                 </div>
                             </div>
                         </div>

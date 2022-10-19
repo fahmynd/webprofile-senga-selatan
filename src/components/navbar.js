@@ -35,10 +35,13 @@ function Navbar() {
                             <NavLink className="nav-link" to="/infografis">Infografis</NavLink>
                         </li>
                         <li className="nav-item">
+                            <NavLink className="nav-link" to="/geospasial">Geospasial</NavLink>
+                        </li>
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="https://sengaselatan.digitaldesa.id/webgis" target={'_blank'} rel="noreferrer">
                                 Geospasial
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/idm">IDM</NavLink>
                         </li>

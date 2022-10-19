@@ -11,22 +11,26 @@ import Footer from "./components/footer";
 import ScrollToTop from "./components/scroll-to-top";
 import './assets/css/my-style.css'
 import Pengaduan from "./pages/pengaduan";
+import Ppid from "./pages/ppid";
+import Geospasial from "./pages/geospasial";
 
 function App() {
     return (
         <>
             <Navbar />
             <ScrollToTop />
-                <Routes>
-                    <Route exact path="/" element={<Home />} />
-                    <Route path="/pemerintahan" element={<Pemerintahan />} />
-                    <Route path="/infografis" element={<Infografis />} />
-                    <Route path="/idm" element={<Idm />} />
-                    <Route path="/berita" element={<Berita />} />
-                    <Route path="/belanja" element={<Belanja />} />
-                    <Route path="/galeri" element={<Galeri />} />
-                    <Route path="/pengaduan" element={<Pengaduan />} />
-                </Routes>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/pemerintahan" element={<Pemerintahan />} />
+                <Route path="/infografis" element={<Infografis />} />
+                <Route path="/geospasial" element={<Geospasial />} />
+                <Route path="/idm" element={<Idm />} />
+                <Route path="/berita" element={<Berita />} />
+                <Route path="/belanja" element={<Belanja />} />
+                <Route path="/galeri" element={<Galeri />} />
+                <Route path="/ppid" element={<Ppid />} />
+                <Route path="/pengaduan" element={<Pengaduan />} />
+            </Routes>
             <Footer />
         </>
     );

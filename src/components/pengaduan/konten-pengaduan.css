@@ -91,18 +91,18 @@ label {
   box-shadow: transparent;
 }
 #contact .btn-default {
-  background: #cf5022;
+  background: #e58b20;
   border: 0;
   border-radius: 4px;
   padding: 10px 20px;
-  color: #f6f6f6;
+  color: #000;
   margin-top: 15px;
   font-size: 15px;
 }
 #contact .btn-default:hover,
 #contact .btn-default:focus {
   color: #f6f6f6;
-  background: #a13e1a;
+  background: #44a694;
 }
 .btn:active,
 .btn.active {

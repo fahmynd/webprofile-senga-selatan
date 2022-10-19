@@ -28,13 +28,13 @@ function KontenPengaduan() {
           <div className="col-md-6">
             <div className="form-group">
               <label htmlFor="name">Nama lengkap <span>*</span></label>
-              <input type="text" className="form-control danger voice-onfocus" id="name" name="name" placeholder="Nama lengkap" />
+              <input type="text" className="form-control" id="name" name="name" placeholder="Nama lengkap" />
                           </div>
           </div>
           <div className="col-md-6">
             <div className="form-group">
               <label htmlFor="nik">NIK <span>*</span></label>
-              <input type="number" className="form-control voice-onfocus" id="nik" name="nik" placeholder="Nomor Induk Kependudukan"/>
+              <input type="number" className="form-control" id="nik" name="nik" placeholder="Nomor Induk Kependudukan"/>
                           </div>
           </div>
         </div>
@@ -43,13 +43,13 @@ function KontenPengaduan() {
           <div className="col-md-6">
             <div className="form-group">
               <label htmlFor="phone">Nomor handphone <span>*</span></label>
-              <input type="number" className="form-control voice-onfocus" id="phone" name="phone" placeholder="Nomor handphone" minLength="8" maxLength="13"/>
+              <input type="number" className="form-control" id="phone" name="phone" placeholder="Nomor handphone" minLength="8" maxLength="13"/>
                           </div>
           </div>
           <div className="col-md-6">
             <div className="form-group">
               <label htmlFor="email">Alamat email</label>
-              <input type="email" className="form-control voice-onfocus" id="email" name="email" placeholder="example@mail.com"/>
+              <input type="email" className="form-control" id="email" name="email" placeholder="example@mail.com"/>
                           </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ function KontenPengaduan() {
             <div className="form-group">
               <label htmlFor="occupation">Pendidikan</label>
               <div className="form-line">
-                <select defaultValue={'DEFAULT'} className="form-control voice-onfocus" id="education_id" name="education_id">
+                <select defaultValue={'DEFAULT'} className="form-select" id="education_id" name="education_id">
                     <option value="DEFAULT" disabled></option>
                                                                     <option value={"1"}>SD atau SMP</option>
                                                                                           <option value={"2"}>SMA/SMK</option>
@@ -73,7 +73,7 @@ function KontenPengaduan() {
             <div className="form-group">
               <label htmlFor="occupation">Pekerjaan</label>
               <div className="form-line">
-                <select defaultValue={'DEFAULT'} className="form-control voice-onfocus" id="occupation_id" name="occupation_id" data-placeholder="Pilih pekerjaan pelapor">
+                <select defaultValue={'DEFAULT'} className="form-select" id="occupation_id" name="occupation_id" data-placeholder="Pilih pekerjaan pelapor">
                     <option value="DEFAULT"></option>
                                                                     <option value="1">Guru</option>
                                                                                           <option value="2">Pemerintahan</option>
@@ -90,7 +90,7 @@ function KontenPengaduan() {
             <div className="form-group">
               <label htmlFor="gender">Jenis Kelamin</label>
               <div className="form-line">
-                <select className="form-control voice-onfocus" id="gender" name="gender" data-placeholder="Pilih jenis kelamin pelapor.">
+                <select className="form-select" id="gender" name="gender" data-placeholder="Pilih jenis kelamin pelapor.">
                     <option></option>
                   <option value="1">Laki-Laki</option>
                   <option value="0">Perempuan</option>
@@ -103,7 +103,7 @@ function KontenPengaduan() {
         <div className="form-group">
           <h3>Alamat Pelapor</h3>
           <label htmlFor="selProvinsi">Provinsi <span>*</span></label>
-          <select defaultValue={'DEFAULT'} className="form-control voice-onfocus show-tick" id="_province" name="province_id" data-placeholder="Pilih provinsi asal">
+          <select defaultValue={'DEFAULT'} className="form-select show-tick" id="_province" name="province_id" data-placeholder="Pilih provinsi asal">
               <option value="DEFAULT"></option>
                                                         <option value="11">ACEH</option>
                                                                           <option value="12">SUMATERA UTARA</option>
@@ -144,34 +144,34 @@ function KontenPengaduan() {
         
         <div className="form-group">
           <label htmlFor="selKabKot">Kabupaten/Kota <span>*</span></label>
-          <select className="form-control voice-onfocus show-tick" id="_regency" name="regency_id" data-placeholder="Pilih kabupaten atau kota asal pelapor"></select>
+          <select className="form-select show-tick" id="_regency" name="regency_id" data-placeholder="Pilih kabupaten atau kota asal pelapor"></select>
                   </div>
         
         <div className="form-group">
           <label htmlFor="selKecamatan">Kecamatan <span>*</span></label>
-          <select className="form-control voice-onfocus show-tick" id="_district" name="district_id" data-placeholder="Pilih kecamatan asal pelapor"></select>
+          <select className="form-select show-tick" id="_district" name="district_id" data-placeholder="Pilih kecamatan asal pelapor"></select>
                   </div>
         
         <div className="form-group">
           <label htmlFor="selKelurahan">Desa/Kelurahan <span>*</span></label>
-          <select className="form-control voice-onfocus show-tick" id="_village" name="village_id" data-placeholder="Pilih kelurahan atau desa asal pelapor"></select>
+          <select className="form-select show-tick" id="_village" name="village_id" data-placeholder="Pilih kelurahan atau desa asal pelapor"></select>
                   </div>
 
         <div className="form-group">
           <label htmlFor="address">Alamat <span>*</span></label>
-          <input type="text" className="form-control voice-onfocus" id="address" name="address" placeholder="Alamat KTP" />
+          <input type="text" className="form-control" id="address" name="address" placeholder="Alamat KTP" />
                   </div>
 
         <div className="form-group">
           <h3>Obyek Terlapor</h3>
           <label htmlFor="reported_location">Alamat <span>*</span></label>
-          <input type="text" className="form-control voice-onfocus" id="reported_location" name="reported_location" placeholder="Alamat Lengkap Obyek Terlapor" />
+          <input type="text" className="form-control" id="reported_location" name="reported_location" placeholder="Alamat Lengkap Obyek Terlapor" />
                   </div>
 
         <div className="form-group">
           <label htmlFor="issue_id">Permasalahan<span>*</span></label>
           <div className="form-line">
-            <select className="form-control voice-onfocus" id="issue_id" name="issue_id" data-placeholder="Pilih jenis permasalahan">
+            <select className="form-select" id="issue_id" name="issue_id" data-placeholder="Pilih jenis permasalahan">
                 <option></option>
                                                         <option value="21">DESA</option>
                                                                           <option value="22">PDT</option>
@@ -184,23 +184,23 @@ function KontenPengaduan() {
         <div className="form-group">
           <label htmlFor="issue_id">Sub Permasalahan <span>*</span></label>
           <div className="form-line">
-            <select className="form-control voice-onfocus" id="_subissue" name="subissue_id" data-placeholder="Pilih jenis subpermasalahan"></select>
+            <select className="form-select" id="_subissue" name="subissue_id" data-placeholder="Pilih jenis subpermasalahan"></select>
                       </div>
         </div>
 
         <div className="form-group">
           <label htmlFor="judul">Judul <span>*</span></label>
-          <input type="text" className="form-control voice-onfocus" id="judul" name="judul" />
+          <input type="text" className="form-control" id="judul" name="judul" />
                   </div>
 
         <div className="form-group">
           <label htmlFor="description">Deskripsi <span>*</span></label>
-          <textarea className="form-control voice-onfocus" rows="5" id="description" name="description"></textarea>
+          <textarea className="form-control" rows="5" id="description" name="description"></textarea>
                   </div>
         
         <div className="form-group">
           <label htmlFor="filependukung">File Pendukung (jpeg,jpg,png,pdf,docx,doc,xlsx,xls,pptx,ppt,mp3,mp4)</label>
-          <input className="form-control voice-onfocus" type="file" id="filependukung" name="filependukung[]" multiple accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,
+          <input className="form-select" type="file" id="filependukung" name="filependukung[]" multiple accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,
 text/plain, application/pdf, audio/*, video/*, image/*,text/plain"/>
                   </div>
 
