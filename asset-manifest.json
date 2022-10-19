@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webprofile-senga-selatan/static/css/main.5170d5ae.css",
-    "main.js": "/webprofile-senga-selatan/static/js/main.54f20f8b.js",
+    "main.js": "/webprofile-senga-selatan/static/js/main.acf6a9a5.js",
     "static/media/wisata1.jpg": "/webprofile-senga-selatan/static/media/wisata1.4fc4a4acaac36888d135.jpg",
     "static/media/wisata2.jpg": "/webprofile-senga-selatan/static/media/wisata2.fbcfeac7f63fb8aaab59.jpg",
     "static/media/bg-jumbotron.png": "/webprofile-senga-selatan/static/media/bg-jumbotron.784a318b0871588db594.png",
@@ -46,18 +46,18 @@
     "static/media/icon-katolik.svg": "/webprofile-senga-selatan/static/media/icon-katolik.72f1030fbf7fb04c92b3cc290199ed8e.svg",
     "static/media/icon-budha.svg": "/webprofile-senga-selatan/static/media/icon-budha.4f586366bbd6b2a47019a0fa429e3891.svg",
     "static/media/icon-kristen.svg": "/webprofile-senga-selatan/static/media/icon-kristen.098bc2983a0910d012d716dec51e5b4a.svg",
+    "index.html": "/webprofile-senga-selatan/index.html",
     "static/media/twitter.svg": "/webprofile-senga-selatan/static/media/twitter.c1f9a43980d2770c9961b2c66a10194b.svg",
     "static/media/sarana-desa.svg": "/webprofile-senga-selatan/static/media/sarana-desa.d1b3455265a8dfae6ff85977a1826b18.svg",
-    "index.html": "/webprofile-senga-selatan/index.html",
     "static/media/berita-desa.svg": "/webprofile-senga-selatan/static/media/berita-desa.6bb95f10b393b6484b0d86893542b857.svg",
     "static/media/youtube.svg": "/webprofile-senga-selatan/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/webprofile-senga-selatan/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/webprofile-senga-selatan/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
     "main.5170d5ae.css.map": "/webprofile-senga-selatan/static/css/main.5170d5ae.css.map",
-    "main.54f20f8b.js.map": "/webprofile-senga-selatan/static/js/main.54f20f8b.js.map"
+    "main.acf6a9a5.js.map": "/webprofile-senga-selatan/static/js/main.acf6a9a5.js.map"
   },
   "entrypoints": [
     "static/css/main.5170d5ae.css",
-    "static/js/main.54f20f8b.js"
+    "static/js/main.acf6a9a5.js"
   ]
 }
