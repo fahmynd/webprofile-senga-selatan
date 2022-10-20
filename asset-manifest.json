@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webprofile-senga-selatan/static/css/main.68738815.css",
-    "main.js": "/webprofile-senga-selatan/static/js/main.8740032d.js",
+    "main.js": "/webprofile-senga-selatan/static/js/main.12ce783e.js",
     "static/media/bg-jumbotron.webp": "/webprofile-senga-selatan/static/media/bg-jumbotron.9c9420b402b2b4c11972.webp",
     "static/media/padi.webp": "/webprofile-senga-selatan/static/media/padi.8fc4d96059259558b327.webp",
     "static/media/kangkung.webp": "/webprofile-senga-selatan/static/media/kangkung.e601a0a1ddbfddae14f0.webp",
@@ -61,10 +61,10 @@
     "static/media/facebook.svg": "/webprofile-senga-selatan/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/webprofile-senga-selatan/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
     "main.68738815.css.map": "/webprofile-senga-selatan/static/css/main.68738815.css.map",
-    "main.8740032d.js.map": "/webprofile-senga-selatan/static/js/main.8740032d.js.map"
+    "main.12ce783e.js.map": "/webprofile-senga-selatan/static/js/main.12ce783e.js.map"
   },
   "entrypoints": [
     "static/css/main.68738815.css",
-    "static/js/main.8740032d.js"
+    "static/js/main.12ce783e.js"
   ]
 }
