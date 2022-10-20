@@ -4,7 +4,7 @@ import Infografis from "./pages/infografis";
 import Idm from "./pages/idm";
 import Berita from "./pages/berita";
 import Belanja from "./pages/belanja";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/scroll-to-top";
@@ -28,6 +28,7 @@ function App() {
                 <Route path="/belanja" element={<Belanja />} />
                 <Route path="/ppid" element={<Ppid />} />
                 <Route path="/pengaduan" element={<Pengaduan />} />
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
             <Footer />
         </>

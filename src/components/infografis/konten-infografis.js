@@ -15,6 +15,10 @@ import katolikIcon from '../../assets/img/icon/icon-katolik.svg'
 import hinduIcon from '../../assets/img/icon/icon-hindu.svg'
 import budhaIcon from '../../assets/img/icon/icon-budha.svg'
 import konghucuIcon from '../../assets/img/icon/icon-konghucu.svg'
+import balitaIcon from '../../assets/img/icon/icon-baby.svg'
+import pasanganIcon from '../../assets/img/icon/icon-couple.svg'
+import wanitaSuburIcon from '../../assets/img/icon/icon-women.svg'
+import hamilIcon from '../../assets/img/icon/icon-pregnancy.svg'
 
 function KontenInfografis() {
     return (
@@ -1118,34 +1122,38 @@ function KontenInfografis() {
                                         <div className="col-md-12">
                                             <div className="row text-center">
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">480</p>
-                                                            <p className="penduduk-card__info">Pasangan Usia Subur</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Pasangan Usia Subur</p>
+                                                            <img src={pasanganIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">480</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">304</p>
-                                                            <p className="penduduk-card__info">Wanita Usia Subur</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Wanita Usia Subur</p>
+                                                            <img src={wanitaSuburIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">304</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">71</p>
-                                                            <p className="penduduk-card__info">Ibu Hamil</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Ibu Hamil</p>
+                                                            <img src={hamilIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">71</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">254</p>
-                                                            <p className="penduduk-card__info">Balita</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Balita</p>
+                                                            <img src={balitaIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">254</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1163,34 +1171,38 @@ function KontenInfografis() {
                                         <div className="col-md-12">
                                             <div className="row text-center">
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">498</p>
-                                                            <p className="penduduk-card__info">Pasangan Usia Subur</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Pasangan Usia Subur</p>
+                                                            <img src={pasanganIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">498</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">326</p>
-                                                            <p className="penduduk-card__info">Wanita Usia Subur</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Wanita Usia Subur</p>
+                                                            <img src={wanitaSuburIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">326</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">57</p>
-                                                            <p className="penduduk-card__info">Ibu Hamil</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Ibu Hamil</p>
+                                                            <img src={hamilIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">57</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-6 col-lg-3 mb-3">
-                                                    <div className="card penduduk-card">
+                                                    <div className="card card-demografi-penduduk">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">294</p>
-                                                            <p className="penduduk-card__info">Balita</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Balita</p>
+                                                            <img src={balitaIcon} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">294</p>
                                                         </div>
                                                     </div>
                                                 </div>
