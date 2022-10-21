@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b0541057.css",
-    "main.js": "/static/js/main.1e93396d.js",
+    "main.js": "/static/js/main.adef3a4c.js",
     "static/media/bg-jumbotron.webp": "/static/media/bg-jumbotron.9c9420b402b2b4c11972.webp",
     "static/media/padi.webp": "/static/media/padi.8fc4d96059259558b327.webp",
     "static/media/kangkung.webp": "/static/media/kangkung.e601a0a1ddbfddae14f0.webp",
@@ -39,19 +39,15 @@
     "static/media/minuman-juice.webp": "/static/media/minuman-juice.592f6c7363fa56c51d75.webp",
     "static/media/blobs3.webp": "/static/media/blobs3.904291daaa31a439c0a2.webp",
     "static/media/dots.webp": "/static/media/dots.98b979f35f156cdbe086.webp",
-    "static/media/icon-couple.svg": "/static/media/icon-couple.1667bf77b03cff5d8be87f13b065607f.svg",
     "static/media/icon-konghucu.svg": "/static/media/icon-konghucu.6ad59426ac8a974249456fa7888194a1.svg",
     "static/media/icon-hindu.svg": "/static/media/icon-hindu.c2da2978ce5650af3475ebfc0bf6d9f6.svg",
     "static/media/pasar-desa.svg": "/static/media/pasar-desa.b2411d7d03ba67e72f88ce81e26ab342.svg",
-    "static/media/icon-pregnancy.svg": "/static/media/icon-pregnancy.9450cca99091fba27411f41ed131e4c8.svg",
     "static/media/icon-islam.svg": "/static/media/icon-islam.601b72ca00b8944cf5c23c72c334f469.svg",
     "static/media/layanan-ppid.svg": "/static/media/layanan-ppid.8018a20b2f5490c28be3e0e2d16b2051.svg",
-    "static/media/icon-baby.svg": "/static/media/icon-baby.e8702274c1270b6e18ff0eda26932370.svg",
     "static/media/instagram.svg": "/static/media/instagram.24f72356299746801973954eccfbd5e7.svg",
     "static/media/icon-katolik.svg": "/static/media/icon-katolik.72f1030fbf7fb04c92b3cc290199ed8e.svg",
     "static/media/icon-budha.svg": "/static/media/icon-budha.4f586366bbd6b2a47019a0fa429e3891.svg",
     "static/media/icon-kristen.svg": "/static/media/icon-kristen.098bc2983a0910d012d716dec51e5b4a.svg",
-    "static/media/icon-women.svg": "/static/media/icon-women.a9ebef4afcc659a3bbb25b7b15eba422.svg",
     "index.html": "/index.html",
     "static/media/blobs1.webp": "/static/media/blobs1.d90d0b0eb3e8d499a983.webp",
     "static/media/twitter.svg": "/static/media/twitter.c1f9a43980d2770c9961b2c66a10194b.svg",
@@ -62,10 +58,10 @@
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
     "main.b0541057.css.map": "/static/css/main.b0541057.css.map",
-    "main.1e93396d.js.map": "/static/js/main.1e93396d.js.map"
+    "main.adef3a4c.js.map": "/static/js/main.adef3a4c.js.map"
   },
   "entrypoints": [
     "static/css/main.b0541057.css",
-    "static/js/main.1e93396d.js"
+    "static/js/main.adef3a4c.js"
   ]
 }
