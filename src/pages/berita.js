@@ -8,7 +8,7 @@ function Berita() {
     }, []);
     return (
         <main className="mb-5">
-        <KontenBerita />
+            <KontenBerita />
         </main>
     )
 }

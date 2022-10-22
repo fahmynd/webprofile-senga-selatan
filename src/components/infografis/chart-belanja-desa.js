@@ -23,19 +23,19 @@ function ChartBelanjaDesa(props) {
         // Define data
         let data = [{
             belanja: "Belanja Pegawai",
-            value: 2025,
+            value: 253376500,
         },
         {
             belanja: "Belanja Barang dan Jasa",
-            value: 1882,
+            value: 468346093,
         },
         {
             belanja: "Belanja Modal",
-            value: 1809,
+            value: 280586880,
         },
         {
             belanja: "Belanja Tak Terduga",
-            value: 1322,
+            value: 435600000,
         },
         ];
 
@@ -81,7 +81,7 @@ function ChartBelanjaDesa(props) {
                 sequencedInterpolation: true,
                 categoryXField: "belanja",
                 tooltip: am5.Tooltip.new(root, {
-                    labelText: "{valueY}",
+                    labelText: "Rp{valueY}",
                 }),
             })
         );

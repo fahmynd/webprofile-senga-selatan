@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import makananDonat from '../../assets/img/jualan/makanan-donat.webp'
 import makananSate from '../../assets/img/jualan/makanan-sate.webp'
-import minumanCendol from '../../assets/img/jualan/minuman-cendol.webp'
+import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
 import minumanJuice from '../../assets/img/jualan/minuman-juice.webp'
 
 function BeliDariDesa() {
@@ -30,15 +30,14 @@ function BeliDariDesa() {
                                         <p className="beli-card__harga">Rp12.000,-</p>
                                     </div>
                                     <div className="col-md-12 mb-4">
-                                        <p className="beli-card__detail">
+                                        {/* <p className="beli-card__detail">
                                             Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman,
                                             Etalase: Semua Etalase.
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                                 <div className="text-center wrap-button-penjual">
-                                    <p className="btn-penjual__text">Hubungi Penjual</p>
-                                    <Link to="#" className="stretched-link"></Link>
+                                    <a href="https://api.whatsapp.com/send?phone=6281245867732&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                 </div>
                             </div>
                         </div>
@@ -55,15 +54,14 @@ function BeliDariDesa() {
                                         <p className="beli-card__harga">Rp4.000,-</p>
                                     </div>
                                     <div className="col-md-12 mb-4">
-                                        <p className="beli-card__detail">
+                                        {/* <p className="beli-card__detail">
                                             Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan,
                                             Etalase: Semua Etalase.
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                                 <div className="text-center wrap-button-penjual">
-                                    <p className="btn-penjual__text">Hubungi Penjual</p>
-                                    <Link to="#" className="stretched-link"></Link>
+                                    <a href="https://api.whatsapp.com/send?phone=6281248622527&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                 </div>
                             </div>
                         </div>
@@ -80,15 +78,14 @@ function BeliDariDesa() {
                                         <p className="beli-card__harga">Rp10.000,-</p>
                                     </div>
                                     <div className="col-md-12 mb-4">
-                                        <p className="beli-card__detail">
+                                        {/* <p className="beli-card__detail">
                                             Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman,
                                             Etalase: Semua Etalase.
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                                 <div className="text-center wrap-button-penjual">
-                                    <p className="btn-penjual__text">Hubungi Penjual</p>
-                                    <Link to="#" className="stretched-link"></Link>
+                                    <a href="https://api.whatsapp.com/send?phone=6285298313171&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                 </div>
                             </div>
                         </div>
@@ -105,15 +102,14 @@ function BeliDariDesa() {
                                         <p className="beli-card__harga">Rp15.000,-</p>
                                     </div>
                                     <div className="col-md-12 mb-4">
-                                        <p className="beli-card__detail">
+                                        {/* <p className="beli-card__detail">
                                             Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan,
                                             Etalase: Semua Etalase.
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                                 <div className="text-center wrap-button-penjual">
-                                    <p className="btn-penjual__text">Hubungi Penjual</p>
-                                    <Link to="#" className="stretched-link"></Link>
+                                    <a href="https://api.whatsapp.com/send?phone=6285395002789&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                 </div>
                             </div>
                         </div>

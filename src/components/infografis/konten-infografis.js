@@ -15,10 +15,11 @@ import katolikIcon from '../../assets/img/icon/icon-katolik.svg'
 import hinduIcon from '../../assets/img/icon/icon-hindu.svg'
 import budhaIcon from '../../assets/img/icon/icon-budha.svg'
 import konghucuIcon from '../../assets/img/icon/icon-konghucu.svg'
-import balitaIcon from '../../assets/img/icon/icon-baby.svg'
-import pasanganIcon from '../../assets/img/icon/icon-couple.svg'
-import wanitaSuburIcon from '../../assets/img/icon/icon-women.svg'
-import hamilIcon from '../../assets/img/icon/icon-pregnancy.svg'
+// import balitaIcon from '../../assets/img/icon/icon-baby.svg'
+// import pasanganIcon from '../../assets/img/icon/icon-couple.svg'
+// import wanitaSuburIcon from '../../assets/img/icon/icon-women.svg'
+// import hamilIcon from '../../assets/img/icon/icon-pregnancy.svg'
+import DataStunting from './chart-data-stunting-tes'
 
 function KontenInfografis() {
     return (
@@ -172,20 +173,20 @@ function KontenInfografis() {
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: '0%' }}>
+                                                                                0%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp0,-
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </button>
                                                 </h2>
-                                                <div id="pendapatan1" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                {/* <div id="pendapatan1" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div className="accordion-body">
                                                         <div className="row">
                                                             <div className="col-md-6 d-none d-lg-block">
@@ -286,7 +287,7 @@ function KontenInfografis() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="accordion-item">
                                                 <h2 className="accordion-header" id="headingTwo">
@@ -297,13 +298,13 @@ function KontenInfografis() {
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+                                                                                100%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp1.437.909.473,-
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -313,55 +314,61 @@ function KontenInfografis() {
                                                 <div id="pendapatan2" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div className="accordion-body">
                                                         <div className="row">
-                                                            <div className="col-md-6 d-none d-lg-block">
-                                                                <p >Uraian</p>
+                                                            <div className="col-md-6 d-none d-lg-block fw-bold">
+                                                                <p>URAIAN</p>
                                                             </div>
-                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block">
-                                                                <p>Anggaran</p>
+                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>ANGGARAN</p>
                                                             </div>
-                                                            <div className="col-md-2 d-none d-lg-block">
-                                                                <p>Realisasi</p>
+                                                            <div className="col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>SUMBER DANA</p>
+                                                            </div>
+                                                            <div className="col-md-12">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Dana Desa</h6>
+                                                            </div>
+                                                            <div className="col-md-12">
+                                                                <h6 className="info-accordion ms-3">Dana Desa</h6>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <h6 className="info-accordion">Dana Desa</h6>
+                                                                <h6 className="info-accordion ms-4">01. &nbsp;Dana Desa</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp1.081.971.000,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
                                                             </div>
                                                         </div>
                                                         <div className="row">
                                                             <div className="col-md-12">
-                                                                <h6 className="info-accordion">Hasil Pajak Daerah</h6>
+                                                                <h6 className="info-accordion fst-italic fw-bold">Bagi Hasil Pajak dan Restribusi</h6>
+                                                            </div>
+                                                            <div className="col-md-12">
+                                                                <h6 className="info-accordion ms-3">Bagi Hasil Pajak dan Restribusi Daerah Kabupaten/Kota</h6>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <p className="info-accordion">Alokasi Dana Desa</p>
+                                                                <h6 className="info-accordion ms-4">01. &nbsp;Bagi Hasil Pajak dan Restribusi Daerah</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp16.410.473,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> PBH</p>
+                                                            </div>
+                                                            <div className="col-md-12">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Alokasi Dana Desa</h6>
+                                                            </div>
+                                                            <div className="col-md-12">
+                                                                <h6 className="info-accordion ms-3">Alokasi Dana Desa</h6>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <p className="info-accordion">Bantuan Keuangan dari APBD Provinsi</p>
+                                                                <h6 className="info-accordion ms-4">01. &nbsp;Alokasi Dana Desa</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp339.528.000,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
-                                                            </div>
-                                                            <div className="col-md-6">
-                                                                <p className="info-accordion">Bantuan Keuangan dari APBD Kab/Kota</p>
-                                                            </div>
-                                                            <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
-                                                            </div>
-                                                            <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -378,20 +385,20 @@ function KontenInfografis() {
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: '0%' }}>
+                                                                                0%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp0.,-
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </button>
                                                 </h2>
-                                                <div id="pendapatan3" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                {/* <div id="pendapatan3" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div className="accordion-body">
                                                         <div className="row">
                                                             <div className="col-md-6 d-none d-lg-block">
@@ -425,7 +432,7 @@ function KontenInfografis() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -440,18 +447,18 @@ function KontenInfografis() {
                                                 <h2 className="accordion-header" id="belanjaOne">
                                                     <button className="accordion-button accordion-button-belanja collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#belanja1" aria-expanded="false" aria-controls="belanja1">
                                                         <div className="row" style={{ width: '100%' }}>
-                                                            <div className="col-md-6">Belanja Pegawai</div>
+                                                            <div className="col-md-6">Penyelenggaraan Pemerintahan Desa</div>
                                                             <div className="col-md-6">
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+                                                                                100%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp417.099.120,-
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -461,23 +468,197 @@ function KontenInfografis() {
                                                 <div id="belanja1" className="accordion-collapse collapse" aria-labelledby="belanjaOne" data-bs-parent="#rincianBelanja">
                                                     <div className="accordion-body">
                                                         <div className="row">
-                                                            <div className="col-md-6 d-none d-lg-block">
-                                                                <p >Uraian</p>
+                                                            <div className="col-md-6 d-none d-lg-block fw-bold">
+                                                                <p>URAIAN</p>
                                                             </div>
-                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block">
-                                                                <p>Anggaran</p>
+                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>ANGGARAN</p>
                                                             </div>
-                                                            <div className="col-md-2 d-none d-lg-block">
-                                                                <p>Realisasi</p>
+                                                            <div className="col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>SUMBER DANA</p>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <h6 className="info-accordion">Belanja Pegawai</h6>
+                                                                <h6 className="info-accordion fst-italic fw-bold">Penyelenggaraan Belanja Siltap, Tunjangan dan Operasional Pemerintahan Desa (Maksimal 30% untuk Kegiatan)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp301.728.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyediaan Penghasilan Tetap dan Tunjangan Perangkat Desa</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp205.000.000,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Pegawai</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp205.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyediaan Jaminan Sosial bagi Kepala Desa dan Perangkat Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp1.876.500,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Pegawai</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp1.876.500,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pegawai Penyediaan Operasional Pemerintah Desa (ATK, Honor PKPKD dan PPKD, Perlengkapan Perkantoran, pakaian)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp21.204.140,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp21.204.140,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyediaan Tunjangan BPD</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp46.500.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Pegawai</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp46.500.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyediaan Operasional BPD (rapat, ATK Makan Minum, Perlengkapan Perkantoran, Pakaian Seragam, perj)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp3.147.360,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp3.147.360,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyediaan Pembayaran Upah Bulanan Staf Pemerintah Desa dan BPD</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp24.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp24.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Tata Praja Pemerintahan, Perencanaan, Keuangan dan Pelaporan</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp115.371.120,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyusunan Dokumen Keuangan Desa (APBDes, APBDes Perubaban, LPJ dll)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp19.771.120,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS, PBH</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp19.771.120,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pengembangan Sistem Informasi Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp65.800.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp24.800.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Modal</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp41.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pengisian, Penetapan, Mutasi dan Pemberhentian Perangkat Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp1.800.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp1.800.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan Pemilihan Kepala Desa Antar Waktu</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp23.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp23.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan Pemilihan Anggota BPD Antar Waktu</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp5.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp5.000.000,-</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -488,19 +669,19 @@ function KontenInfografis() {
                                                     <button className="accordion-button accordion-button-belanja collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#belanja2" aria-expanded="false" aria-controls="belanja2">
                                                         <div className="row" style={{ width: '100%' }}>
                                                             <div className="col-md-6">
-                                                                Belanja Barang dan Jasa
+                                                                Pelaksanaan Pembangunan Desa
                                                             </div>
                                                             <div className="col-md-6">
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+                                                                                100%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp342.206.200,-
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -510,23 +691,164 @@ function KontenInfografis() {
                                                 <div id="belanja2" className="accordion-collapse collapse" aria-labelledby="belanjaTwo" data-bs-parent="#rincianBelanja">
                                                     <div className="accordion-body">
                                                         <div className="row">
-                                                            <div className="col-md-6 d-none d-lg-block">
-                                                                <p >Uraian</p>
+                                                            <div className="col-md-6 d-none d-lg-block fw-bold">
+                                                                <p >URAIAN</p>
                                                             </div>
-                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block">
-                                                                <p>Anggaran</p>
+                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>ANGGARAN</p>
                                                             </div>
-                                                            <div className="col-md-2 d-none d-lg-block">
-                                                                <p>Realisasi</p>
+                                                            <div className="col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>SUMBER DANA</p>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <h6 className="info-accordion">Barang dan Jasah</h6>
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Pendidikan</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp10.800.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pengorganisasian Pembangunan Desa (insentif KPMD)</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp10.800.000,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp10.800.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Kesehatan</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp134.829.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan Pos Kesehatan Desa/Polindes Milik Desa (obat, insentif, KB, dsb)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp23.965.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp23.965.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan Posyandu (Mkn Tambahan, Kls Bumil, Lamsia, Insentif)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp55.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp55.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan Desa Siaga Kesehatan</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp48.364.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp48.364.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan PPKBD dan SUB PPKBD</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp7.500.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp7.500.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Pekerjaan Umum dan Penataan Ruang</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp146.393.200,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pambangunan/Rehabilitas/Peningkatan Embung Desa (Dipilih)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp146.393.200,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Modal</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp146.393.200,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Perhubungan, Komunikasi dan Informatika</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp50.184.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penyelenggaraan Informasi Publik Desa (Poster, Baliho, dll)</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp12.840.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp12.840.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pembuatan dan Pengelolaan Jaringan/Instalasi Komunikasi dan Informasi Lokal Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp37.344.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp7.344.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Modal</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp30.000.000,-</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -536,18 +858,18 @@ function KontenInfografis() {
                                                 <h2 className="accordion-header" id="belanjaThree">
                                                     <button className="accordion-button accordion-button-belanja collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#belanja3" aria-expanded="false" aria-controls="belanja3">
                                                         <div className="row" style={{ width: '100%' }}>
-                                                            <div className="col-md-6">Belanja Modal</div>
+                                                            <div className="col-md-6">Pembinaan Kemasyarakatan Desa</div>
                                                             <div className="col-md-6">
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+                                                                                100%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp158.004.153,-
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -557,23 +879,98 @@ function KontenInfografis() {
                                                 <div id="belanja3" className="accordion-collapse collapse" aria-labelledby="belanjaThree" data-bs-parent="#rincianBelanja">
                                                     <div className="accordion-body">
                                                         <div className="row">
-                                                            <div className="col-md-6 d-none d-lg-block">
-                                                                <p >Uraian</p>
+                                                            <div className="col-md-6 d-none d-lg-block fw-bold">
+                                                                <p>URAIAN</p>
                                                             </div>
-                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block">
-                                                                <p>Anggaran</p>
+                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>ANGGARAN</p>
                                                             </div>
-                                                            <div className="col-md-2 d-none d-lg-block">
-                                                                <p>Realisasi</p>
+                                                            <div className="col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>SUMBER DANA</p>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <h6 className="info-accordion">Belanja Modal</h6>
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Ketenteraman, Ketertiban Umum dan Perlindungan Masyarakat</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp63.193.680,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pengadaan Pos Keamanan Desa (Pembangunan Pos)</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp63.193.680,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Modal</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp63.193.680,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Kebudayaan dan Keagamaan</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp80.400.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pembinaan Kerukunan Umat Beragama</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp80.400.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp80.400.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Kepemudaan dan Olahraga</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp8.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pembinaan Karangtaruna/Klub Kepemudaan/Olahraga Tingkat Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp8.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> ADD</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp8.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Kelembagaan Masyarakat</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp6.410.473,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Pembinaan PKK</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp6.410.473,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> PBH</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp6.410.473,-</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -583,18 +980,18 @@ function KontenInfografis() {
                                                 <h2 className="accordion-header" id="belanjaFour">
                                                     <button className="accordion-button accordion-button-belanja collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#belanja4" aria-expanded="false" aria-controls="belanja4">
                                                         <div className="row" style={{ width: '100%' }}>
-                                                            <div className="col-md-6">Belanja Tak Terduga</div>
+                                                            <div className="col-md-6">Pemberdayaan Masyarakat Desa</div>
                                                             <div className="col-md-6">
                                                                 <div className="row">
                                                                     <div className="col-md-6">
                                                                         <div className="progress">
-                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-                                                                                50%
+                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+                                                                                100%
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
-                                                                        Rp1.419.519.720.,-
+                                                                        Rp85.000.000,-
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -604,23 +1001,115 @@ function KontenInfografis() {
                                                 <div id="belanja4" className="accordion-collapse collapse" aria-labelledby="belanjaFour" data-bs-parent="#rincianBelanja">
                                                     <div className="accordion-body">
                                                         <div className="row">
-                                                            <div className="col-md-6 d-none d-lg-block">
-                                                                <p >Uraian</p>
+                                                            <div className="col-md-6 d-none d-lg-block fw-bold">
+                                                                <p>URAIAN</p>
                                                             </div>
-                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block">
-                                                                <p>Anggaran</p>
+                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>ANGGARAN</p>
                                                             </div>
-                                                            <div className="col-md-2 d-none d-lg-block">
-                                                                <p>Realisasi</p>
+                                                            <div className="col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>SUMBER DANA</p>
                                                             </div>
                                                             <div className="col-md-6">
-                                                                <h6 className="info-accordion">Belanja Tak Terduga</h6>
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Pertanian dan Peternakan</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp65.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Bantuan Pertanian dan Peternakan (Bibit, Pakan, dst)</h6>
                                                             </div>
                                                             <div className="offset-md-2 col-md-2">
-                                                                <p>  <span className="d-block d-lg-none">Anggaran :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp65.000.000,-</p>
                                                             </div>
                                                             <div className="col-md-2">
-                                                                <p> <span className="d-block d-lg-none">Realisasi :</span> Rp2.000.000,-</p>
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp65.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Peningkatan Kapasitas Aparatur Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp20.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Peningkatan Kapasitas Kepala Desa</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp20.000.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Barang dan Jasa</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp20.000.000,-</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="accordion-item">
+                                                <h2 className="accordion-header" id="belanjaFive">
+                                                    <button className="accordion-button accordion-button-belanja collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#belanja5" aria-expanded="false" aria-controls="belanja5">
+                                                        <div className="row" style={{ width: '100%' }}>
+                                                            <div className="col-md-6">Penanggulangan Bencana, Keadaan Darurat, dan Keadaan Mendesak Desa</div>
+                                                            <div className="col-md-6">
+                                                                <div className="row">
+                                                                    <div className="col-md-6">
+                                                                        <div className="progress">
+                                                                            <div className="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+                                                                                100%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="col-md-6 wrap-jumlah-accordion text-end px-5">
+                                                                        Rp435.600.000,-
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </h2>
+                                                <div id="belanja5" className="accordion-collapse collapse" aria-labelledby="belanjaFive" data-bs-parent="#rincianBelanja">
+                                                    <div className="accordion-body">
+                                                        <div className="row">
+                                                            <div className="col-md-6 d-none d-lg-block fw-bold">
+                                                                <p>URAIAN</p>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>ANGGARAN</p>
+                                                            </div>
+                                                            <div className="col-md-2 d-none d-lg-block fw-bold">
+                                                                <p>SUMBER DANA</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic fw-bold">Sub Bidang Keadaan Mendesak</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2 fw-bold">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp435.600.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion ms-3">Penanganan Keadaan Mendesak</h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp435.600.000,-</p>
+                                                            </div>
+                                                            <div className="col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Sumber Dana :</span> DDS</p>
+                                                            </div>
+                                                            <div className="col-md-6">
+                                                                <h6 className="info-accordion fst-italic ms-4"><span className='text-decoration-underline'>Belanja Tidak Terduga</span></h6>
+                                                            </div>
+                                                            <div className="offset-md-2 col-md-2">
+                                                                <p> <span className="d-block d-lg-none">Anggaran :</span> Rp435.600.000,-</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1112,7 +1601,13 @@ function KontenInfografis() {
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="dataStunting" role="tabpanel" aria-labelledby="dataStunting-tab">
-                                <section className=" mt-5">
+                                <div className="row mt-3">
+                                    <h4 className="fw-bold my-4 text-center">Data Stunting</h4>
+                                    <div className="col-md-12">
+                                        <DataStunting />
+                                    </div>
+                                </div>
+                                {/* <section className=" mt-5">
                                     <div className="row">
                                         <div className="col-md-12 text-center">
                                             <h4 className="fw-bold">Data Stunting 2022</h4>
@@ -1209,7 +1704,7 @@ function KontenInfografis() {
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> */}
                             </div>
                         </div>
                     </div>

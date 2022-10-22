@@ -22,22 +22,22 @@ function ChartDataStunting(props) {
 
         // Define data
         let data = [
-        {
-            Stunting: "Ibu Hamil",
-            value: 71,
-        },
-        {
-            Stunting: "Balita",
-            value: 197,
-        },
-        {
-            Stunting: "Pasangan Usia Subur",
-            value: 480,
-        },
-        {
-            Stunting: "Wanita Usia Subur",
-            value: 304,
-        },
+            {
+                Stunting: "Ibu Hamil",
+                value: 71,
+            },
+            {
+                Stunting: "Balita",
+                value: 197,
+            },
+            {
+                Stunting: "Pasangan Usia Subur",
+                value: 480,
+            },
+            {
+                Stunting: "Wanita Usia Subur",
+                value: 304,
+            },
         ];
 
         let xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });

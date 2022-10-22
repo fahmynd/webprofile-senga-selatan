@@ -27,11 +27,11 @@ function JelajahiDesa() {
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={saranaIcon} alt="" width="40%" />
-                                <p className="card-body__judul fw-bold">Sarana Desa</p>
+                                <p className="card-body__judul fw-bold">Geospasial</p>
                                 <p className="card-body__des">
-                                    Desa menyediakan sarana prasarana kepada seluruh warga
+                                    Aspek keruangan yang menunjukkan lokasi, letak, dan posisi objek di desa
                                 </p>
-                                <Link to="#" className="stretched-link"></Link>
+                                <Link to="/geospasial" className="stretched-link"></Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ function JelajahiDesa() {
                                 <p className="card-body__des">
                                     Memudahkan kinerja aparat maupun warga desa
                                 </p>
-                                <Link to="#" className="stretched-link"></Link>
+                                <Link to="/ppid" className="stretched-link"></Link>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ function JelajahiDesa() {
                                 <p className="card-body__des">
                                     Jual beli online berbasis website dan mobile App
                                 </p>
-                                <Link to="#" className="stretched-link"></Link>
+                                <Link to="/belanja" className="stretched-link"></Link>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ function JelajahiDesa() {
                                 <p className="card-body__des">
                                     Informasi terbaru yang up to date tentang desa
                                 </p>
-                                <Link to="#" className="stretched-link"></Link>
+                                <Link to="/berita" className="stretched-link"></Link>
                             </div>
                         </div>
                     </div>
@@ -75,11 +75,11 @@ function JelajahiDesa() {
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={potensiIcon} alt="" width="40%" />
-                                <p className="card-body__judul fw-bold">Potensi Desa</p>
+                                <p className="card-body__judul fw-bold">Pengaduan</p>
                                 <p className="card-body__des">
-                                    Banyak hal menarik yang perlu dikembangkan dari desa
+                                    Layanan untuk membuat laporan pengaduan
                                 </p>
-                                <Link to="#" className="stretched-link"></Link>
+                                <Link to="/pengaduan" className="stretched-link"></Link>
                             </div>
                         </div>
                     </div>

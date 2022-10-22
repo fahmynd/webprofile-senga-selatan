@@ -23,15 +23,15 @@ function ChartPendapatanDesa(props) {
         // Define data
         let data = [{
             pendapatan: "Pendapatan Asli Desa",
-            value: 2025,
+            value: 0,
         },
         {
             pendapatan: "Transfer",
-            value: 1882,
+            value: 1437909473,
         },
         {
             pendapatan: "Pendapatan Lain-Lain",
-            value: 1809,
+            value: 0,
         },
         ];
 
@@ -77,7 +77,7 @@ function ChartPendapatanDesa(props) {
                 sequencedInterpolation: true,
                 categoryXField: "pendapatan",
                 tooltip: am5.Tooltip.new(root, {
-                    labelText: "{valueY}",
+                    labelText: "Rp{valueY}",
                 }),
             })
         );

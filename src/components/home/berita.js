@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import berita1 from '../../assets/img/berita/berita1.webp'
-import berita2 from '../../assets/img/berita/berita2.webp'
-import berita3 from '../../assets/img/berita/berita3.webp'
-import berita4 from '../../assets/img/berita/berita4.webp'
+import terbaruBerita1 from '../../assets/img/berita/terbaru-berita1.jpeg'
+import terbaruBerita2 from '../../assets/img/berita/terbaru-berita2.jpeg'
+import terbaruBerita3 from '../../assets/img/berita/terbaru-berita3.jpeg'
+import terbaruBerita4 from '../../assets/img/berita/terbaru-berita4.jpg'
 
 function Berita() {
     return (
@@ -17,31 +17,26 @@ function Berita() {
                 <div className="row mt-4">
                     <div className="col-md-12 col-lg-5 mb-5">
                         <div className="card berita-card">
-                            <img src={berita1} className="card-img-top img-berita" alt="" />
+                            <img src={terbaruBerita1} className="card-img-top img-berita" alt="" />
                             <div className="card-body">
                                 <p className="berita-card__judul">
-                                    Pemdes Senga Selatan Salurkan BLT DD Triwulan ke III Kepada 121 Penerima
+                                    Kepala Desa Senga Selatan mengadakan Rakor terkait Peta Lokasi Kawasan Hutan Lindung
                                 </p>
                                 <div className="berita-card__info">
                                     <p className="berita-card__penulis me-4">
                                         <i className="fas fa-user-edit"></i> Admin
                                     </p>
                                     <p className="berita-card__tanggal">
-                                        <i className="fas fa-calendar-day"></i> 15 Agustus 2022
+                                        <i className="fas fa-calendar-day"></i> 20 Oktober 2022
                                     </p>
                                 </div>
                                 <div className="berita-card__isi">
                                     <p className="berita-card__shortdesc show-read-more">
-                                        Belopainfo — Pemerintah Desa Senga Selatan melakukan penyaluran Bantuan Langsung Tunai Dana Desa (BLT-DD) Triwulan III bulan Juli—Agustus Tahun Anggaran 2022. Penyaluran tersebut diberikan kepada 121 ...
+                                        Koordinasi dengan UPT-KPH Latimojong Dinas Kehutanan Pemprov Sulsel terkait Peta Lokasi Kawasan Hutan Lindung Mangrove di wilayah Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu, Kamis, 20 Oktobe ...
                                     </p>
-                                    <div className="row">
-                                        <div className="col-12 text-right">
-                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
-                                        </div>
-                                    </div>
                                 </div>
-                                <Link to="" className="stretched-link"></Link>
                             </div>
+                            <Link to="/berita/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
                         </div>
                     </div>
                     <div className="col-md-12 col-lg-7">
@@ -59,34 +54,29 @@ function Berita() {
                                     <div className="card-body">
                                         <div className="row">
                                             <div className="col-md-3 full-col">
-                                                <img src={berita2} className="card-img-top img-berita-panjang" alt="..." />
+                                                <img src={terbaruBerita2} className="card-img-top img-berita-panjang" alt="..." />
                                             </div>
                                             <div className="col-md-9 pt-2 pb-2 pe-4 ps-4">
                                                 <p className="berita-card__judul berita-card__judul_panjang">
-                                                    Pemdes Senga Selatan Gelar Musdes II, Pembahasan RKPDesa Berbasis SGDs Desa Tahun 2023
+                                                    Pemdes Senga Selatan melaksanakan Musyawarah Desa dengan beberapa agenda
                                                 </p>
                                                 <div className="berita-card__info">
                                                     <p className="berita-card__penulis me-4">
                                                         <i className="fas fa-user-edit"></i> Admin
                                                     </p>
                                                     <p className="berita-card__tanggal">
-                                                        <i className="fas fa-calendar-day"></i> 15 Agustus 2022
+                                                        <i className="fas fa-calendar-day"></i> 20 Oktober 2022
                                                     </p>
                                                 </div>
                                                 <div className="berita-card__isi">
                                                     <p className="berita-card__shortdesc show-read-more">
-                                                        Belopainfo — Pemerintah Desa Senga Selatan menggelar Musyawarah Desa (Musdes II) Pembahasan Rancangan Rencana Kerja Pemerintah Desa (RKPDesa) Berbasis SDGs Desa Senga Selatan Tahun 2023. Jumat (12/08/ ...
+                                                        Pemerintah Desa Senga Selatan melaksanakan beberapa agenda dalam Musyawarah Desa (Musdes), pada Jumat (30/9/2022).Adapun agenda yang dilaksanakan adalah :1. Musdes III Pembahasan dan Penetapan RKP Des ...
                                                     </p>
-                                                    <div className="row">
-                                                        <div className="col-12 text-right">
-                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to="" className="stretched-link"></Link>
+                                    <Link to="/berita/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
                                 </div>
                             </div>
                             <div className="col-md-12 mb-2">
@@ -94,34 +84,29 @@ function Berita() {
                                     <div className="card-body">
                                         <div className="row">
                                             <div className="col-md-3 full-col">
-                                                <img src={berita3} className="card-img-top img-berita-panjang" alt="..." />
+                                                <img src={terbaruBerita3} className="card-img-top img-berita-panjang" alt="..." />
                                             </div>
                                             <div className="col-md-9 pt-2 pb-2 pe-4 ps-4">
                                                 <p className="berita-card__judul berita-card__judul_panjang">
-                                                    Dinas Ketahanan Pangan dan Pemdes Senga Selatan Lakukan Pelatihan Tematik P2L
+                                                    Pemerintah Desa Senga Selatan salurkan Insentif Pegawai Syara, Kader Posyandu, Kader PKB dll
                                                 </p>
                                                 <div className="berita-card__info">
                                                     <p className="berita-card__penulis me-4">
                                                         <i className="fas fa-user-edit"></i> Admin
                                                     </p>
                                                     <p className="berita-card__tanggal">
-                                                        <i className="fas fa-calendar-day"></i> 21 Juli 2022
+                                                        <i className="fas fa-calendar-day"></i> 20 Oktober 2022
                                                     </p>
                                                 </div>
                                                 <div className="berita-card__isi">
                                                     <p className="berita-card__shortdesc show-read-more">
-                                                        Belopainfo — Dalam upaya pemanfaatan pekarangan rumah, Dinas Ketahanan Pangan Kabupaten Luwu bekerjasama dengan Pemerintah Desa Senga Selatan memberikan Pelatihan Tematik Tahap I kepada kelompok tani ...
+                                                        Pemerintah Desa Senga Selatan kembali menyalurkan Insentif bulan Juli s.d Oktober kepada Imam Desa, Khatib, Bilal, Imam Mesjid, Kader Posyandu, Kader PKB, Kader Sub PKB, Guru Ngaji, Perawat Desa, Bida ...
                                                     </p>
-                                                    <div className="row">
-                                                        <div className="col-12 text-right">
-                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to="" className="stretched-link"></Link>
+                                    <Link to="/berita/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
                                 </div>
                             </div>
                             <div className="col-md-12 mb-2">
@@ -129,34 +114,29 @@ function Berita() {
                                     <div className="card-body">
                                         <div className="row">
                                             <div className="col-md-3 full-col">
-                                                <img src={berita4} className="card-img-top img-berita-panjang" alt="..." />
+                                                <img src={terbaruBerita4} className="card-img-top img-berita-panjang" alt="..." />
                                             </div>
                                             <div className="col-md-9 pt-2 pb-2 pe-4 ps-4">
                                                 <p className="berita-card__judul berita-card__judul_panjang">
-                                                    Penyusunan RKPDesa, Desa Senga Selatan Usulkan 4 Program Prioritas 2023
+                                                    PENDAFTARAN TANAH SISTEMATIS LENGKAP (PTSL) TAHUN 2022 DESA SENGA SELATAN
                                                 </p>
                                                 <div className="berita-card__info">
                                                     <p className="berita-card__penulis me-4">
                                                         <i className="fas fa-user-edit"></i> Admin
                                                     </p>
                                                     <p className="berita-card__tanggal">
-                                                        <i className="fas fa-calendar-day"></i> 21 Juli 2022
+                                                        <i className="fas fa-calendar-day"></i> 17 Oktober 2022
                                                     </p>
                                                 </div>
                                                 <div className="berita-card__isi">
                                                     <p className="berita-card__shortdesc show-read-more">
-                                                        Belopainfo — Pemerintah Desa Senga Selatan melaksanakan Musyawarah Desa (Musdes) Penyusunan Rencana Kerja Pemerintah Desa (RKPDesa) Berbasis SDGs Desa Perencanaan Pembangunan Desa Tahun 2023 pada, Kam ...
+                                                        Anda warga Desa Senga Selatan atau mempunyai sebidang tanah di Desa Senga Selatan?? Belum bersertifikat? Ayo segera daftar. Batas waktu untuk memasukkan kelengkapan berkas hanya sampai tanggal 5 Novem ...
                                                     </p>
-                                                    <div className="row">
-                                                        <div className="col-12 text-right">
-                                                            <Link style={{ color: '#099B32', textDecoration: 'none' }} to="">Selengkapnya</Link>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to="" className="stretched-link"></Link>
+                                    <Link to="/berita/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
                                 </div>
                             </div>
                         </div>

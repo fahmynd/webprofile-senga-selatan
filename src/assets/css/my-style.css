@@ -824,6 +824,11 @@ img.hover-shadow {
 }
 
 .btn-penjual__text {
+  color: #C1C1C1;
+  text-decoration: none;
+}
+
+.btn-penjual__text:hover {
   color: #fff;
 }
 

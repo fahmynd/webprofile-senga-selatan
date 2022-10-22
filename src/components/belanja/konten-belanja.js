@@ -1,12 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import pakde from '../../assets/img/foto-pakde.webp'
+import pakde from '../../assets/img/bg/bg-konten-jualan.webp'
 import makananDonat from '../../assets/img/jualan/makanan-donat.webp'
 import makananLasaro from '../../assets/img/jualan/makanan-lasaro.webp'
 import makananSate from '../../assets/img/jualan/makanan-sate.webp'
-import minumanCendol from '../../assets/img/jualan/minuman-cendol.webp'
+import makananBolu from '../../assets/img/jualan/makanan-bolu.jpeg'
+import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
+import minumanAren from '../../assets/img/jualan/minuman-aren.jpg'
 import minumanJuice from '../../assets/img/jualan/minuman-juice.webp'
-import pete from '../../assets/img/jualan/pete.webp'
+import padakita from '../../assets/img/jualan/padakita.webp'
+import bengkel from '../../assets/img/jualan/bengkel.webp'
+import parfum from '../../assets/img/jualan/parfum.webp'
 
 function KontenBelanja() {
     return (
@@ -49,11 +52,11 @@ function KontenBelanja() {
                                     </button>
                                 </li>
                                 <li className="nav-item" role="presentation">
-                                    <button className="nav-link" id="pakaian-tab" data-bs-toggle="tab" data-bs-target="#pakaian" type="button" role="tab" aria-controls="pakaian" aria-selected="false">
-                                        Pakaian
+                                    <button className="nav-link" id="dll-tab" data-bs-toggle="tab" data-bs-target="#dll" type="button" role="tab" aria-controls="dll" aria-selected="false">
+                                        dll
                                     </button>
                                 </li>
-                                <li className="nav-item" role="presentation">
+                                {/* <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="sayuran-tab" data-bs-toggle="tab" data-bs-target="#sayuran" type="button" role="tab" aria-controls="sayuran" aria-selected="false">
                                         Sayuran
                                     </button>
@@ -62,7 +65,7 @@ function KontenBelanja() {
                                     <button className="nav-link" id="buah-tab" data-bs-toggle="tab" data-bs-target="#buah" type="button" role="tab" aria-controls="buah" aria-selected="false">
                                         Buah
                                     </button>
-                                </li>
+                                </li> */}
                             </ul>
                             <div className="tab-content" id="myTabContent">
                                 <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -79,14 +82,13 @@ function KontenBelanja() {
                                                             <p className="beli-card__harga">Rp4.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
+                                                            {/* <p className="beli-card__detail">
                                                                 Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
-                                                            </p>
+                                                            </p> */}
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6281248622527&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,14 +105,13 @@ function KontenBelanja() {
                                                             <p className="beli-card__harga">Rp13.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
+                                                            {/* <p className="beli-card__detail">
                                                                 Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
-                                                            </p>
+                                                            </p> */}
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6285255734028&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -127,14 +128,36 @@ function KontenBelanja() {
                                                             <p className="beli-card__harga">Rp15.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
+                                                            {/* <p className="beli-card__detail">
                                                                 Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
-                                                            </p>
+                                                            </p> */}
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6285395002789&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={makananBolu} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Boluta'</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp60.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=628124429200&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -143,7 +166,7 @@ function KontenBelanja() {
                                 </div>
                                 <div className="tab-pane fade" id="minuman" role="tabpanel" aria-labelledby="minuman-tab">
                                     <div className="row mt-3">
-                                        <div className="col-md-3 mb-4">
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                             <div className="card beli-card">
                                                 <img src={minumanCendol} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
@@ -155,19 +178,41 @@ function KontenBelanja() {
                                                             <p className="beli-card__harga">Rp10.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
+                                                            {/* <p className="beli-card__detail">
                                                                 Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
-                                                            </p>
+                                                            </p> */}
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6285298313171&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 mb-4">
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={minumanAren} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Susu Cendol Aren by Happy99</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp10.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6285298313171&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                             <div className="card beli-card">
                                                 <img src={minumanJuice} className="card-img-top beli-card__img" alt="" />
                                                 <div className="card-body">
@@ -179,26 +224,93 @@ function KontenBelanja() {
                                                             <p className="beli-card__harga">Rp12.000,-</p>
                                                         </div>
                                                         <div className="col-md-12 mb-4">
-                                                            <p className="beli-card__detail">
+                                                            {/* <p className="beli-card__detail">
                                                                 Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
-                                                            </p>
+                                                            </p> */}
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6281245867732&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="tab-pane fade" id="pakaian" role="tabpanel" aria-labelledby="pakaian-tab">
+                                <div className="tab-pane fade" id="dll" role="tabpanel" aria-labelledby="dll-tab">
                                     <div className="row mt-3">
-
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={padakita} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Padakita Almunium</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp300.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6281242148643&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={bengkel} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Bengkel Kayu</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp200.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6281379005612&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={parfum} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">DeLaFemme Inspired Parfume</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp65.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=628124429200&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="tab-pane fade" id="sayuran" role="tabpanel" aria-labelledby="sayuran-tab">
+                                {/* <div className="tab-pane fade" id="sayuran" role="tabpanel" aria-labelledby="sayuran-tab">
                                     <div className="row mt-3">
                                         <div className="col-md-3 mb-4">
                                             <div className="card beli-card">
@@ -219,8 +331,7 @@ function KontenBelanja() {
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6281248622527&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -248,18 +359,17 @@ function KontenBelanja() {
                                                         </div>
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
-                                                        <p className="btn-penjual__text">Hubungi Penjual</p>
-                                                        <Link to="#" className="stretched-link"></Link>
+                                                        <a href="https://api.whatsapp.com/send?phone=6281248622527&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
-                    <nav aria-label="Page navigation example">
+                    {/* <nav aria-label="Page navigation example">
                         <ul className="pagination justify-content-center">
                             <li className="page-item disabled">
                                 <Link className="page-link" to="#" tabIndex="-1" aria-disabled="true">Previous</Link>
@@ -271,7 +381,7 @@ function KontenBelanja() {
                                 <Link className="page-link" to="#">Next</Link>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> */}
                 </section>
             </div>
         </main>
