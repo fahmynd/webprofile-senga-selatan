@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.81e4faac.css",
-    "main.js": "/static/js/main.d950cfac.js",
+    "main.js": "/static/js/main.3f82395e.js",
     "static/media/seni-berita2.jpg": "/static/media/seni-berita2.8a4a834bd0daff0a1a37.jpg",
     "static/media/politik-berita2.jpg": "/static/media/politik-berita2.d188e729cea6b03acd8d.jpg",
     "static/media/teknologi-berita1.png": "/static/media/teknologi-berita1.405c2a5ebebeb8c2c30d.png",
@@ -85,10 +85,10 @@
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
     "main.81e4faac.css.map": "/static/css/main.81e4faac.css.map",
-    "main.d950cfac.js.map": "/static/js/main.d950cfac.js.map"
+    "main.3f82395e.js.map": "/static/js/main.3f82395e.js.map"
   },
   "entrypoints": [
     "static/css/main.81e4faac.css",
-    "static/js/main.d950cfac.js"
+    "static/js/main.3f82395e.js"
   ]
 }
