@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0d7b8b9.css",
-    "main.js": "/static/js/main.c00f9a7c.js",
+    "main.css": "/static/css/main.d4a67040.css",
+    "main.js": "/static/js/main.4a6b96a9.js",
     "static/media/seni-berita2.jpg": "/static/media/seni-berita2.8a4a834bd0daff0a1a37.jpg",
     "static/media/politik-berita2.jpg": "/static/media/politik-berita2.d188e729cea6b03acd8d.jpg",
     "static/media/teknologi-berita1.png": "/static/media/teknologi-berita1.405c2a5ebebeb8c2c30d.png",
@@ -25,12 +25,13 @@
     "static/media/terbaru-berita4.jpg": "/static/media/terbaru-berita4.e538500f2d81d48c276a.jpg",
     "static/media/padi.webp": "/static/media/padi.8fc4d96059259558b327.webp",
     "static/media/terbaru-berita3-foto3.jpeg": "/static/media/terbaru-berita3-foto3.8ca8e01b32f7a8dee314.jpeg",
+    "static/media/gracilaria.jpeg": "/static/media/gracilaria.ebba9e921db59375837c.jpeg",
+    "static/media/bg-tentang-desa.jpg": "/static/media/bg-tentang-desa.f3a18a81f7b9c19c5c42.jpg",
     "static/media/terbaru-berita3-foto1.jpeg": "/static/media/terbaru-berita3-foto1.362ecedd161460a3895a.jpeg",
     "static/media/pemerintahan.jpeg": "/static/media/pemerintahan.c64b1fac6fb5da947f6b.jpeg",
     "static/media/wisata1.webp": "/static/media/wisata1.205143e9cf0b782ddcb0.webp",
     "static/media/terbaru-berita3-foto2.jpeg": "/static/media/terbaru-berita3-foto2.d96a572483434e97cc3d.jpeg",
     "static/media/foto-pakde.webp": "/static/media/foto-pakde.7ac6ac71c5e566ed887c.webp",
-    "static/media/gracilaria.jpg": "/static/media/gracilaria.97dd4fe88c78042cd9ff.jpg",
     "static/media/terbaru-berita1-foto1.jpeg": "/static/media/terbaru-berita1-foto1.9be45ad9334878450f63.jpeg",
     "static/media/kesehatan-berita4-foto1.jpg": "/static/media/kesehatan-berita4-foto1.9214c1be31f1e41bf76e.jpg",
     "static/media/terbaru-berita4-foto1.jpg": "/static/media/terbaru-berita4-foto1.e6e78f7260deda094bb6.jpg",
@@ -41,7 +42,6 @@
     "static/media/makanan-bolu.jpeg": "/static/media/makanan-bolu.026a83b2ed8a3ed3f7db.jpeg",
     "static/media/minuman-aren.jpg": "/static/media/minuman-aren.4aad3ffcc2b8e8cf3d67.jpg",
     "static/media/pertambakan.jpg": "/static/media/pertambakan.4cdf027aace0996d9450.jpg",
-    "static/media/bg-tentang-desa.webp": "/static/media/bg-tentang-desa.ed78c6c7719817cc8ce8.webp",
     "static/media/minuman-cendol.jpg": "/static/media/minuman-cendol.aa06c473331e3df6e89d.jpg",
     "static/media/wisata2.webp": "/static/media/wisata2.7a5a0fa8cdc92ec8ed92.webp",
     "static/media/icon-cerai.svg": "/static/media/icon-cerai.5feafb4bf34b2314f97ee81a2eeed23b.svg",
@@ -84,11 +84,11 @@
     "static/media/youtube.svg": "/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
-    "main.d0d7b8b9.css.map": "/static/css/main.d0d7b8b9.css.map",
-    "main.c00f9a7c.js.map": "/static/js/main.c00f9a7c.js.map"
+    "main.d4a67040.css.map": "/static/css/main.d4a67040.css.map",
+    "main.4a6b96a9.js.map": "/static/js/main.4a6b96a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0d7b8b9.css",
-    "static/js/main.c00f9a7c.js"
+    "static/css/main.d4a67040.css",
+    "static/js/main.4a6b96a9.js"
   ]
 }
