@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.81e4faac.css",
-    "main.js": "/static/js/main.588dff79.js",
+    "main.js": "/static/js/main.d950cfac.js",
     "static/media/seni-berita2.jpg": "/static/media/seni-berita2.8a4a834bd0daff0a1a37.jpg",
     "static/media/politik-berita2.jpg": "/static/media/politik-berita2.d188e729cea6b03acd8d.jpg",
     "static/media/teknologi-berita1.png": "/static/media/teknologi-berita1.405c2a5ebebeb8c2c30d.png",
@@ -75,9 +75,9 @@
     "static/media/icon-katolik.svg": "/static/media/icon-katolik.72f1030fbf7fb04c92b3cc290199ed8e.svg",
     "static/media/icon-budha.svg": "/static/media/icon-budha.4f586366bbd6b2a47019a0fa429e3891.svg",
     "static/media/icon-kristen.svg": "/static/media/icon-kristen.098bc2983a0910d012d716dec51e5b4a.svg",
+    "index.html": "/index.html",
     "static/media/blobs1.webp": "/static/media/blobs1.d90d0b0eb3e8d499a983.webp",
     "static/media/twitter.svg": "/static/media/twitter.c1f9a43980d2770c9961b2c66a10194b.svg",
-    "index.html": "/index.html",
     "static/media/sarana-desa.svg": "/static/media/sarana-desa.d1b3455265a8dfae6ff85977a1826b18.svg",
     "static/media/blobs2.webp": "/static/media/blobs2.856fdfe9a27509fae024.webp",
     "static/media/berita-desa.svg": "/static/media/berita-desa.6bb95f10b393b6484b0d86893542b857.svg",
@@ -85,10 +85,10 @@
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
     "main.81e4faac.css.map": "/static/css/main.81e4faac.css.map",
-    "main.588dff79.js.map": "/static/js/main.588dff79.js.map"
+    "main.d950cfac.js.map": "/static/js/main.d950cfac.js.map"
   },
   "entrypoints": [
     "static/css/main.81e4faac.css",
-    "static/js/main.588dff79.js"
+    "static/js/main.d950cfac.js"
   ]
 }
