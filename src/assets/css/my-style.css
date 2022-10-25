@@ -13,6 +13,8 @@ html {
 #logoNavbar {
   padding-left: 1rem;
   height: 50px;
+  width: auto !important;
+  max-width: unset !important;
 }
 
 .navbar {
