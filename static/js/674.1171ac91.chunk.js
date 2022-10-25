@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebprofile_react=self.webpackChunkwebprofile_react||[]).push([[674],{5674:function(e,n,r){r.r(n),r.d(n,{default:function(){return c}});var t=r(2791),u=r(7689);function c(){var e=(0,u.TH)().pathname;return(0,t.useEffect)((function(){window.scrollTo(0,0)}),[e]),null}}}]);
+//# sourceMappingURL=674.1171ac91.chunk.js.map
