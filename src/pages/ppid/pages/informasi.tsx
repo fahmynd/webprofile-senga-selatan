@@ -4,10 +4,11 @@ import DefaultLayout from '../layouts/Default.tsx'
 import React, { Fragment, useEffect } from 'react'
 import { DateTime } from 'luxon'
 import { Box, Flex, Grid, Heading, HStack, Text, Container } from '@chakra-ui/layout'
-import { RiFileDownloadLine, RiFileForbidLine, RiFileForbidFill, RiFolderForbidFill } from 'react-icons/ri'
+import { RiFileDownloadLine, RiFileForbidLine, RiFileForbidFill, RiFolderForbidFill, RiEyeLine } from 'react-icons/ri'
 import { useCategories, useFiles } from '../hooks/useAPI.tsx'
 import type { Category, FetchController, File } from '../types.ts'
 import { Helmet } from 'react-helmet'
+import { Link as RouterLink } from 'react-router-dom'
 
 function FilesTable({ fetch }: { fetch: FetchController<File> }) {
   const { start, data, isLoading } = fetch
@@ -69,22 +70,41 @@ function FilesTable({ fetch }: { fetch: FetchController<File> }) {
               </Td>
               <Td display={['none', 'none', 'flex']}>{formattedDate}</Td>
               <Td display={['none', 'flex']}>
-                <Button 
-                  as="a" variant="filled"
-                  p={[0, 0, 2]} rounded={['full', 'full', 'lg']}
-                  boxSize={[12, 12, 'initial']}
-                  href={file.url}
-                  leftIcon={
-                    <Icon as={RiFileDownloadLine} boxSize={[6, 6, 5]}/>
-                  }
-                  sx={{
-                    '& .chakra-button__icon': {
-                      mr: [0, 0, 1.5]
+                <VStack>
+                  <Button 
+                    as={RouterLink}
+                    to={`/ppid/viewer/${file.id}`}
+                    variant="filled"
+                    p={[0, 0, 2]} rounded={['full', 'full', 'lg']}
+                    boxSize={[12, 12, 'initial']}
+                    leftIcon={
+                      <Icon as={RiEyeLine} boxSize={[6, 6, 5]}/>
                     }
-                  }}
-                >
-                  <Text display={['none', 'none', 'inline']}>Download</Text>
-                </Button>
+                    sx={{
+                      '& .chakra-button__icon': {
+                        mr: [0, 0, 1.5]
+                      }
+                    }}
+                  >
+                    <Text display={['none', 'none', 'inline']}>View</Text>
+                  </Button>
+                  <Button 
+                    as="a" variant="filled"
+                    p={[0, 0, 2]} rounded={['full', 'full', 'lg']}
+                    boxSize={[12, 12, 'initial']}
+                    href={file.url}
+                    leftIcon={
+                      <Icon as={RiFileDownloadLine} boxSize={[6, 6, 5]}/>
+                    }
+                    sx={{
+                      '& .chakra-button__icon': {
+                        mr: [0, 0, 1.5]
+                      }
+                    }}
+                  >
+                    <Text display={['none', 'none', 'inline']}>Download</Text>
+                  </Button>
+                </VStack>
               </Td>
             </Tr>
           )

@@ -2,6 +2,7 @@ import React from 'react';
 import DasarHukumPage from "./pages/dasar-hukum.tsx";
 import IndexPage from "./pages/index.tsx"
 import InformationPage from "./pages/informasi.tsx";
+import PdfViewerPage from "./pages/pdf-viewer.tsx";
 import { Routes, Route } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react'
 import theme from "./themes/index.ts";
@@ -20,6 +21,7 @@ const BuildPpidRoutes = () => {
       <Routes >
         <Route path="/" element={<IndexPage />} />
         <Route path='/dasar-hukum' element={<DasarHukumPage />} />
+        <Route path='/viewer/:fileId' element={<PdfViewerPage />} />
         <Route path='/informasi/*'>
             <Route 
               path='berkala'

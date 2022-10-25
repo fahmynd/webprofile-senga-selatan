@@ -4,7 +4,7 @@ import { Flex, Grid, Heading, HStack, Text, VStack, Box, Badge, Container, Image
 import { Button } from '@chakra-ui/button'
 import { Link as RouterLink } from 'react-router-dom'
 import publicPath from '../public.ts'
-import { RiTimeFill, RiNewspaperFill, RiFileDownloadLine, RiFileForbidFill } from 'react-icons/ri'
+import { RiTimeFill, RiNewspaperFill, RiFileDownloadLine, RiFileForbidFill, RiEyeLine } from 'react-icons/ri'
 import { useFiles, useCategories } from '../hooks/useAPI.tsx'
 import { Helmet } from 'react-helmet'
 import { DateTime } from 'luxon'
@@ -66,9 +66,10 @@ function FeedItem(props: Parameters<typeof HStack>[0] & {
   type?: string,
   category: string,
   downloadLink?: string,
+  fileId: string,
   href: string
 }) {
-  const { title, date, type, category, href, ...rest } = props
+  const { title, date, type, category, href, fileId, ...rest } = props
   return (
     <Grid 
       px={3.5} py={3} 
@@ -101,25 +102,47 @@ function FeedItem(props: Parameters<typeof HStack>[0] & {
           <Icon as={RiTimeFill} mr={1}/> {DateTime.fromSQL(date).toLocaleString(DateTime.DATETIME_MED)}
         </Text>
       </VStack>
-      <Button 
-        as="a" 
-        href={href} variant="filled"
-        p={[0, 0, 3]} rounded={['full', 'full', 'lg']}
-        boxSize={[12, 12, 'initial']}
-        leftIcon={
-          <Icon as={RiFileDownloadLine} boxSize={[6, 6, 5]}/>
-        }
-        _hover={{
-          color: 'white'
-        }}
-        sx={{
-          '& .chakra-button__icon': {
-            mr: [0, 0, 1.5]
+      <VStack spacing={2} alignItems="flex-start" flexGrow={1}>
+        <Button 
+          as={RouterLink} 
+          to={`viewer/${fileId}`}
+          variant="filled"
+          p={[0, 0, 3]} rounded={['full', 'full', 'lg']}
+          boxSize={[12, 12, 'initial']}
+          leftIcon={
+            <Icon as={RiEyeLine} boxSize={[6, 6, 5]}/>
           }
-        }}
-      >
-        <Text display={['none', 'none', 'inline']}>Download</Text>
-      </Button>
+          _hover={{
+            color: 'white'
+          }}
+          sx={{
+            '& .chakra-button__icon': {
+              mr: [0, 0, 1.5]
+            }
+          }}
+        >
+          <Text display={['none', 'none', 'inline']}>View</Text>
+        </Button>
+        <Button 
+          as="a" 
+          href={href} variant="filled"
+          p={[0, 0, 3]} rounded={['full', 'full', 'lg']}
+          boxSize={[12, 12, 'initial']}
+          leftIcon={
+            <Icon as={RiFileDownloadLine} boxSize={[6, 6, 5]}/>
+          }
+          _hover={{
+            color: 'white'
+          }}
+          sx={{
+            '& .chakra-button__icon': {
+              mr: [0, 0, 1.5]
+            }
+          }}
+        >
+          <Text display={['none', 'none', 'inline']}>Download</Text>
+        </Button>
+      </VStack>
     </Grid>
   )
 }
@@ -249,7 +272,7 @@ export default function IndexPage() {
           <VStack alignSelf="stretch" spacing={3}>
             {/* example: <FeedItem title="Mekanisme Pengajuan Keberatan Informasi" date="Sabtu, 27 September 2021" type="Berkala"/> */}
             { files.map((file, index) => (
-              <FeedItem key={index} title={file.name} date={file.uat} category={file.category} href={file.url}/>
+              <FeedItem key={index} fileId={file.id} title={file.name} date={file.uat} category={file.category} href={file.url}/>
             ))}
             <Spinner
               display={isLoadingFiles ? 'inline-block' : 'none'}

@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="row" width="40%">
                     <div id="brandWrap" className="col-3">
                         <Link className="navbar-brand" to="/">
-                            <img id="logoNavbar" src={logo} alt="" className="d-inline-block align-text-top" />
+                            <img id="logoNavbar" style={{width: "auto"}} src={logo} alt="" className="d-inline-block align-text-top" />
                         </Link>
                     </div>
                     <Link to="/" id="infoNavWrap" className="col-9 center-v text-decoration-none">
