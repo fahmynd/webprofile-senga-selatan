@@ -4,11 +4,11 @@ import KontenIdm from '../components/idm/konten-idm'
 
 function Idm() {
     useEffect(function () {
-        document.title = "Nilai IDM 2022 | Website Profil Desa Senga Selatan";
+        document.title = "Nilai IDM 2022 | Website Resmi Desa Senga Selatan";
     }, []);
     return (
         <main className="mb-5">
-        <KontenIdm />
+            <KontenIdm />
         </main>
     )
 }

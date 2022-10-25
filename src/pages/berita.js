@@ -4,7 +4,7 @@ import KontenBerita from '../components/berita/konten-berita'
 
 function Berita() {
     useEffect(function () {
-        document.title = "Berita Desa | Website Profil Desa Senga Selatan";
+        document.title = "Berita Desa | Website Resmi Desa Senga Selatan";
     }, []);
     return (
         <main className="mb-5">

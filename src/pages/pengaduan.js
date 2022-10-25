@@ -4,7 +4,7 @@ import KontenPengaduan from '../components/pengaduan/konten-pengaduan'
 
 function Pengaduan() {
     useEffect(function () {
-        document.title = "Pengaduan | Website Profil Desa Senga Selatan";
+        document.title = "Pengaduan Masyarakat | Website Resmi Desa Senga Selatan";
     }, []);
     return (
         <KontenPengaduan />

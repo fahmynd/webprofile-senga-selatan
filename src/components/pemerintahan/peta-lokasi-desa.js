@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function PetaLokasiDesa() {
     return (
-        <section id="petaLokasiDesa">
+        <section id="petaLokasiDesa" className='mt-5'>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8 text-center">
@@ -77,7 +77,7 @@ function PetaLokasiDesa() {
                                         <p className="peta-lokasi-desa__lokasi fw-bold">
                                             Jumlah Penduduk:
                                         </p>
-                                        <span>3521 Jiwa</span>
+                                        <span>3513 Jiwa</span>
                                     </div>
                                 </div>
                             </div>

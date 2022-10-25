@@ -1159,7 +1159,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Laki-Laki</p>
                                                     <img src={lkIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.781</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.782</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1168,7 +1168,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Total Penduduk</p>
                                                     <img src={tpIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.512</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.513</p>
                                                 </div>
                                             </div>
                                         </div>

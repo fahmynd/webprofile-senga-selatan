@@ -5,7 +5,7 @@ import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
 class DataStunting extends Component {
   componentDidMount() {
-    let root = am5.Root.new("chartdiv");
+    let root = am5.Root.new("chartDataStunting");
 
     root.setThemes([am5themes_Animated.new(root)]);
 
@@ -20,23 +20,23 @@ class DataStunting extends Component {
     let data = [
       {
         category: "Pasangan Usia Subur",
-        value1: 480,
-        value2: 498
+        value1: 498,
+        value2: 480
       },
       {
         category: "Wanita Usia Subur",
-        value1: 304,
-        value2: 326
+        value1: 326,
+        value2: 304
       },
       {
         category: "Ibu Hamil",
-        value1: 71,
-        value2: 57
+        value1: 57,
+        value2: 71
       },
       {
         category: "Balita",
-        value1: 254,
-        value2: 294
+        value1: 294,
+        value2: 254
       }
     ];
 
@@ -75,7 +75,7 @@ class DataStunting extends Component {
     // Create series
     let series1 = chart.series.push(
       am5xy.ColumnSeries.new(root, {
-        name: "Data Tahun 2022",
+        name: "Data Tahun 2021",
         xAxis: xAxis,
         yAxis: yAxis,
         valueYField: "value1",
@@ -90,7 +90,7 @@ class DataStunting extends Component {
 
     let series2 = chart.series.push(
       am5xy.ColumnSeries.new(root, {
-        name: "Data Tahun 2021",
+        name: "Data Tahun 2022",
         xAxis: xAxis,
         yAxis: yAxis,
         valueYField: "value2",
@@ -167,7 +167,7 @@ class DataStunting extends Component {
   }
 
   render() {
-    return <div id="chartdiv" style={{ width: "100%", height: "500px" }}></div>;
+    return <div id="chartDataStunting" style={{ width: "100%", height: "500px" }}></div>;
   }
 }
 

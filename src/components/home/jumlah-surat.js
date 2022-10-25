@@ -27,7 +27,7 @@ function JumlahSurat() {
                                     <div className="card-body text-center">
                                         <div className="row">
                                             <div className="col-md-5">
-                                                <p className="adm-umum-jumlah fw-bold">30</p>
+                                                <p className="adm-umum-jumlah fw-bold">67</p>
                                             </div>
                                             <div className="col-md-7 center-v">
                                                 <p className="adm-umum-judul">Bulan ini</p>
@@ -41,7 +41,7 @@ function JumlahSurat() {
                                     <div className="card-body text-center">
                                         <div className="row">
                                             <div className="col-md-5">
-                                                <p className="adm-umum-jumlah fw-bold">817</p>
+                                                <p className="adm-umum-jumlah fw-bold">854</p>
                                             </div>
                                             <div className="col-md-7 center-v">
                                                 <p className="adm-umum-judul">Tahun ini</p>

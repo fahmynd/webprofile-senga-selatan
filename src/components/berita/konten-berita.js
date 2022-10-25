@@ -131,7 +131,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
+                                                    <Link to="/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -161,7 +161,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
+                                                    <Link to="/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -191,7 +191,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -221,7 +221,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
+                                            <Link to="/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -254,7 +254,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemdes-senga-selatan-gelar-musdes-ii-pembahasan-rkpdesa-berbasis-sgds-desa-tahun-2023" className="stretched-link"></Link>
+                                                    <Link to="/pemdes-senga-selatan-gelar-musdes-ii-pembahasan-rkpdesa-berbasis-sgds-desa-tahun-2023" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -284,7 +284,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/rumah-adhyaksa-kejari-luwu-dideklarasikan-di-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/rumah-adhyaksa-kejari-luwu-dideklarasikan-di-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -314,7 +314,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/anwar-amir-jabat-pj-kepala-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/anwar-amir-jabat-pj-kepala-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -344,7 +344,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
+                                            <Link to="/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -377,7 +377,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/masuk-kantor-desa-senga-selatan-harus-scan-qr-code-pedulilindungi-apa-manfaatnya" className="stretched-link"></Link>
+                                                    <Link to="/masuk-kantor-desa-senga-selatan-harus-scan-qr-code-pedulilindungi-apa-manfaatnya" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -407,7 +407,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/basmin-tinjau-wisata-vaksin-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/basmin-tinjau-wisata-vaksin-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -437,7 +437,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/desa-senga-selatan-juara-lomba-desa-tangguh-dan-desa-sehat-tingkat-kabupaten" className="stretched-link"></Link>
+                                                    <Link to="/desa-senga-selatan-juara-lomba-desa-tangguh-dan-desa-sehat-tingkat-kabupaten" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -467,7 +467,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/desa-senga-selatan-juara-i-pada-lomba-inovasi-daerah-tingkat-desa-kelurahan-se-kabupaten-luwu" className="stretched-link"></Link>
+                                            <Link to="/desa-senga-selatan-juara-i-pada-lomba-inovasi-daerah-tingkat-desa-kelurahan-se-kabupaten-luwu" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -500,7 +500,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemdes-senga-selatan-juara-2-lomba-festival-layang-layang-hias-polres-luwu" className="stretched-link"></Link>
+                                                    <Link to="/pemdes-senga-selatan-juara-2-lomba-festival-layang-layang-hias-polres-luwu" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -530,7 +530,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pembukan-lomba-adzan-dan-tilawatil-quran-ii-tingkat-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/pembukan-lomba-adzan-dan-tilawatil-quran-ii-tingkat-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -560,7 +560,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemdes-senga-selatan-raih-predikat-badan-publik-desa-informatif" className="stretched-link"></Link>
+                                                    <Link to="/pemdes-senga-selatan-raih-predikat-badan-publik-desa-informatif" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -590,7 +590,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
+                                            <Link to="/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -623,7 +623,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
+                                                    <Link to="/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -653,7 +653,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
+                                                    <Link to="/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -683,7 +683,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -713,7 +713,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
+                                            <Link to="/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -746,7 +746,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
+                                                    <Link to="/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -776,7 +776,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
+                                                    <Link to="/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -806,7 +806,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -836,7 +836,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/pemkab-luwu-upayakan-hadirnya-duta-digital" className="stretched-link"></Link>
+                                            <Link to="/pemkab-luwu-upayakan-hadirnya-duta-digital" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -869,7 +869,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/launching-buku-tamu--anjungan-digital-desa-senga-selatan-basmin-tak-ada-kata-terlambat-untuk-transformasi" className="stretched-link"></Link>
+                                                    <Link to="/launching-buku-tamu--anjungan-digital-desa-senga-selatan-basmin-tak-ada-kata-terlambat-untuk-transformasi" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -899,7 +899,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/masuk-kantor-desa-senga-selatan-harus-scan-qr-code-pedulilindungi-apa-manfaatnya" className="stretched-link"></Link>
+                                                    <Link to="/masuk-kantor-desa-senga-selatan-harus-scan-qr-code-pedulilindungi-apa-manfaatnya" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -929,7 +929,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
+                                                    <Link to="/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -959,7 +959,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="/berita/senga-selatan-yang-dikenang" className="stretched-link"></Link>
+                                            <Link to="/senga-selatan-yang-dikenang" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">
@@ -992,7 +992,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/rapat-koordinasi-tahapan-evaluasi-dan-apresiasi-kip-desa-tingkat-nasional-2022" className="stretched-link"></Link>
+                                                    <Link to="/rapat-koordinasi-tahapan-evaluasi-dan-apresiasi-kip-desa-tingkat-nasional-2022" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -1022,7 +1022,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/lindungi-pantai-taddette-pemerintah-desa-senga-selatan-bersama-ptmda-menggelar-bakti-sosial-gerakan-tanam-sejuta-pohon-mangrove" className="stretched-link"></Link>
+                                                    <Link to="/lindungi-pantai-taddette-pemerintah-desa-senga-selatan-bersama-ptmda-menggelar-bakti-sosial-gerakan-tanam-sejuta-pohon-mangrove" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-12 mb-2">
@@ -1052,7 +1052,7 @@ function KontenBerita() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <Link to="/berita/menunggu-hasil-pemdes-senga-selatan-ikuti-penilaian-akhir-lomba-inovasi-desa" className="stretched-link"></Link>
+                                                    <Link to="/menunggu-hasil-pemdes-senga-selatan-ikuti-penilaian-akhir-lomba-inovasi-desa" className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -1068,3 +1068,11 @@ function KontenBerita() {
 }
 
 export default KontenBerita
+
+// function openInNewTab(href) {
+//     Object.assign(document.createElement('a'), {
+//       target: '_blank',
+//       rel: 'noopener noreferrer',
+//       href: href,
+//     }).click();
+//   }

@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 function Geospasial() {
     useEffect(function () {
-        document.title = "Geospasial | Website Profil Desa Senga Selatan";
+        document.title = "Geospasial | Website Resmi Desa Senga Selatan";
     }, []);
     return (
         <iframe title='webgis' src="https://sengaselatan.digitaldesa.id/webgis/index.html" frameBorder="0" height='580px' width='100%' />

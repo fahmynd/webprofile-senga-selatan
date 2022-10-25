@@ -1,5 +1,5 @@
 import React from 'react'
-import pemerintahan from '../../assets/img/lembaga/pemerintahan.jpeg'
+import pemerintahan from '../../assets/img/lembaga/struktur-pemerintahan.jpg'
 
 function LembagaDesa() {
     return (

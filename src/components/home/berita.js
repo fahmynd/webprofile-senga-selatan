@@ -36,7 +36,7 @@ function Berita() {
                                     </p>
                                 </div>
                             </div>
-                            <Link to="/berita/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
+                            <Link to="/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
                         </div>
                     </div>
                     <div className="col-md-12 col-lg-7">
@@ -76,7 +76,7 @@ function Berita() {
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to="/berita/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
+                                    <Link to="/pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" className="stretched-link"></Link>
                                 </div>
                             </div>
                             <div className="col-md-12 mb-2">
@@ -106,7 +106,7 @@ function Berita() {
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to="/berita/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
+                                    <Link to="/pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" className="stretched-link"></Link>
                                 </div>
                             </div>
                             <div className="col-md-12 mb-2">
@@ -136,7 +136,7 @@ function Berita() {
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to="/berita/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
+                                    <Link to="/pendaftaran-tanah-sistematis-lengkap-ptsl-tahun-2022-desa-senga-selatan" className="stretched-link"></Link>
                                 </div>
                             </div>
                         </div>

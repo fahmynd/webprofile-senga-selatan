@@ -6,7 +6,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import padi from '../../assets/img/potensi/padi.webp'
 import perikanan from '../../assets/img/potensi/perikanan.jpeg'
 import pertambakan from '../../assets/img/potensi/pertambakan.jpg'
-import gracilaria from '../../assets/img/potensi/gracilaria.jpg'
+import gracilaria from '../../assets/img/potensi/gracilaria.jpeg'
 
 const options = {
     loop: true,

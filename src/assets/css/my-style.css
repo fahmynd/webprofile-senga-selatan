@@ -87,6 +87,7 @@ html {
   min-height: 100vh;
   background-color: #eaf8ef;
   position: relative;
+  background:rgba(0,0,0, 1);
 }
 
 #visiMisi {
@@ -367,7 +368,7 @@ footer .info-nav {
 }
 
 .vertical-center {
-  margin-top: 20px;
+  margin-top: 10px;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -383,13 +384,14 @@ footer .info-nav {
 }
 
 .bg-nav {
-  background-color: rgba(50, 176, 88, 0.95);
+  background: linear-gradient(#327a6d, #44a694);
+  /* background-color: rgba(50, 176, 88, 0.95); */
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
 .bg-semi-transparent {
-  background-color: rgba(50, 176, 88, 0.5);
+  background-color: rgba(50, 176, 88, 1);
 }
 
 .info-singkat-desa__nama {
@@ -401,7 +403,27 @@ footer .info-nav {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 65vw;
+  /* width: 65vw; */
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+}
+
+.box-transparent {
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg/bg-tentang-desa.jpg") no-repeat absolute center; */
+    z-index: 10;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+}
+
+.bg-opacity {
+  /* opacity: 0.6; */
+  /* background:rgba(255,255,255, 0.7); */
+  background:rgba(0,0,0, 0.6);
 }
 
 .bg-dots {

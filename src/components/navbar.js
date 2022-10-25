@@ -29,7 +29,7 @@ function Navbar() {
                             <NavLink className="nav-link" aria-current="page" to="/" end>Home</NavLink>
                         </li> */}
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/pemerintahan">Pemerintahan</NavLink>
+                            <NavLink className="nav-link" to="/profil-desa">Profil Desa</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/infografis">Infografis</NavLink>

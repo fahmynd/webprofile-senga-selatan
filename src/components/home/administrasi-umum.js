@@ -8,7 +8,7 @@ function AdministrasiUmum() {
                     <div className="col-md-8 text-center">
                         <h2 className="fw-bold sub-judul">Administrasi Umum</h2>
                         <p>
-                        Sistem digital yang berisi segala bentuk pengeloaan data dan informasi Pemerintahan yang dituangkan pada Buku Administrasi Umum
+                            Sistem digital yang berisi segala bentuk pengeloaan data dan informasi Pemerintahan yang dituangkan pada Buku Administrasi Umum
                         </p>
                     </div>
                 </div>
@@ -16,7 +16,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">16</p>
+                                <p className="adm-umum-jumlah fw-bold">20</p>
                                 <p className="adm-umum-judul">Peraturan Desa</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">79</p>
+                                <p className="adm-umum-jumlah fw-bold">82</p>
                                 <p className="adm-umum-judul">Inventaris Desa</p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">16</p>
+                                <p className="adm-umum-jumlah fw-bold">13</p>
                                 <p className="adm-umum-judul">Lembaran & Berita</p>
                             </div>
                         </div>
