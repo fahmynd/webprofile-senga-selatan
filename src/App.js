@@ -10,7 +10,7 @@ import Footer from "./components/footer";
 import ScrollToTop from "./components/scroll-to-top";
 import './assets/css/my-style.css'
 import Pengaduan from "./pages/pengaduan";
-import Ppid from "./pages/ppid";
+import Ppid from "./pages/ppid/Route.tsx";
 import Geospasial from "./pages/geospasial";
 import TerbaruBerita1 from "./components/berita/detail-berita/terbaru-detail1";
 import TerbaruBerita2 from "./components/berita/detail-berita/terbaru-detail2";
@@ -66,7 +66,7 @@ function App() {
                 <Route path="/lindungi-pantai-taddette-pemerintah-desa-senga-selatan-bersama-ptmda-menggelar-bakti-sosial-gerakan-tanam-sejuta-pohon-mangrove" element={<DllBerita3 />} />
                 <Route path="/menunggu-hasil-pemdes-senga-selatan-ikuti-penilaian-akhir-lomba-inovasi-desa" element={<DllBerita4 />} />
                 <Route path="/belanja" element={<Belanja />} />
-                <Route path="/ppid" element={<Ppid />} />
+                <Route path="/ppid/*" element={<Ppid />} />
                 <Route path="/pengaduan" element={<Pengaduan />} />
                 <Route path="/*" element={<Navigate to="/" />} />
             </Routes>
