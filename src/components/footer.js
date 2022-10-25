@@ -33,7 +33,7 @@ function Footer() {
                         <p className="footer-text__alamat">
                             Jl. Andi Benni No.27 Dusun Kalobang, <br /> Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu <br /> Provinsi Sulawesi Selatan, 91983
                         </p>
-                        <div className="boxCounter">
+                        <div className="boxCounter d-none d-sm-none d-md-block">
                             <div className="row border rounded bg-light">
                                 <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
                                 <div className="col-7 border-start border-top border-bottom">Hari ini</div>

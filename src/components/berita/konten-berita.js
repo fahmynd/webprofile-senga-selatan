@@ -98,7 +98,7 @@ function KontenBerita() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="berita/kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
+                                            <Link to="kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">

@@ -271,6 +271,9 @@ footer .container {
   .mobile-center{
     text-align: center !important;
   }
+  .footer-text_judul {
+    margin-top: 5px;
+  }
  ul.no-bullets {
       list-style-type: none;
       margin: 0;
@@ -282,9 +285,6 @@ footer .container {
       height: 100px;
       font-size: smaller;
       bottom: 0;
-    }
-    .mSocial {
-      margin-top: 20px !important;
     }
     .font-welcome {
       font-size: 1.3rem;
