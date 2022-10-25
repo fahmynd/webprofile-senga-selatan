@@ -43,17 +43,17 @@ function KontenBelanja() {
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                        Semua
+                                    </button>
+                                </li>
+                                <li className="nav-item" role="presentation">
+                                    <button className="nav-link" id="makanan-tab" data-bs-toggle="tab" data-bs-target="#makanan" type="button" role="tab" aria-controls="makanan" aria-selected="false">
                                         Makanan
                                     </button>
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="minuman-tab" data-bs-toggle="tab" data-bs-target="#minuman" type="button" role="tab" aria-controls="minuman" aria-selected="false">
                                         Minuman
-                                    </button>
-                                </li>
-                                <li className="nav-item" role="presentation">
-                                    <button className="nav-link" id="dll-tab" data-bs-toggle="tab" data-bs-target="#dll" type="button" role="tab" aria-controls="dll" aria-selected="false">
-                                        dll
                                     </button>
                                 </li>
                                 {/* <li className="nav-item" role="presentation">
@@ -69,6 +69,79 @@ function KontenBelanja() {
                             </ul>
                             <div className="tab-content" id="myTabContent">
                                 <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div className="row mt-3">
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={padakita} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Padakita Almunium</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp300.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6281242148643&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={bengkel} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Bengkel Kayu</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp200.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6281379005612&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={parfum} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">DeLaFemme Inspired Parfume</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp65.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=628124429200&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="tab-pane fade" id="makanan" role="tabpanel" aria-labelledby="makanan-tab">
                                     <div className="row mt-3">
                                         <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                             <div className="card beli-card">
@@ -231,79 +304,6 @@ function KontenBelanja() {
                                                     </div>
                                                     <div className="text-center wrap-button-penjual">
                                                         <a href="https://api.whatsapp.com/send?phone=6281245867732&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="tab-pane fade" id="dll" role="tabpanel" aria-labelledby="dll-tab">
-                                    <div className="row mt-3">
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src={padakita} className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Padakita Almunium</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp300.000,-</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            {/* <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
-                                                            </p> */}
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <a href="https://api.whatsapp.com/send?phone=6281242148643&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src={bengkel} className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">Bengkel Kayu</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp200.000,-</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            {/* <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
-                                                            </p> */}
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <a href="https://api.whatsapp.com/send?phone=6281379005612&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                            <div className="card beli-card">
-                                                <img src={parfum} className="card-img-top beli-card__img" alt="" />
-                                                <div className="card-body">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__judul">DeLaFemme Inspired Parfume</p>
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <p className="beli-card__harga">Rp65.000,-</p>
-                                                        </div>
-                                                        <div className="col-md-12 mb-4">
-                                                            {/* <p className="beli-card__detail">
-                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
-                                                            </p> */}
-                                                        </div>
-                                                    </div>
-                                                    <div className="text-center wrap-button-penjual">
-                                                        <a href="https://api.whatsapp.com/send?phone=628124429200&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                                                     </div>
                                                 </div>
                                             </div>

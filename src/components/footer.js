@@ -9,7 +9,7 @@ import youtube from '../assets/img/sosmed/youtube.svg'
 function Footer() {
     return (
         <footer>
-            <div className="container">
+            <div className="container mobile-center">
                 <div className="row">
                     <Link to="/" className="col-md-6 col-lg-3 text-decoration-none">
                         <div className="row">
@@ -36,7 +36,7 @@ function Footer() {
                     </div>
                     <div className="offset-md-1 col-md-3">
                         <p className="footer-text_judul clr-white">Nomor Telpon Penting</p>
-                        <ul className="footer-text_telpenting clr-white">
+                        <ul className="footer-text_telpenting clr-white no-bullets">
                             <li>Kapolsek Belopa: <a className='text-decoration-none' style={{ color: "#E8EF4D" }} href="tel:085242160258">085242160258</a></li>
                             <li>Babinsa Senga Selatan: <a className='text-decoration-none' style={{ color: "#E8EF4D" }} href="tel:085398645944">085398645944</a></li>
                             <li>Bhabinkamtibmas Senga Selatan: <a className='text-decoration-none' style={{ color: "#E8EF4D" }} href="tel:085330660550">085330660550</a></li>

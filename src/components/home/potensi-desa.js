@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -83,7 +83,7 @@ class PotensiDesa extends React.Component {
                     </div>
                     <div className="row mt-4">
                         <div className="col-md-12 text-center">
-                            <Link to="#" className="btn btn-outline-secondary">Selengkapnya</Link>
+                            {/* <Link to="#" className="btn btn-outline-secondary">Selengkapnya</Link> */}
                         </div>
                     </div>
                 </div>
