@@ -33,6 +33,19 @@ function Footer() {
                         <p className="footer-text__alamat">
                             Jl. Andi Benni No.27 Dusun Kalobang, <br /> Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu <br /> Provinsi Sulawesi Selatan, 91983
                         </p>
+                        <div className="boxCounter">
+                            <div className="row border rounded bg-light">
+                                <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
+                                <div className="col-7 border-start border-top border-bottom">Hari ini</div>
+                                <div className="col-5 border-end border-top border-bottom">112</div>
+                                <div className="col-7 border-start border-top border-bottom">Kemarin</div>
+                                <div className="col-5 border-end border-top border-bottom">213</div>
+                                <div className="col-7 border-start border-top border-bottom">Semua</div>
+                                <div className="col-5 border-end border-top border-bottom">15539</div>
+                                {/* <div className="col-7 border-start border-top border-bottom">Aktif</div>
+                                <div className="col-5 border-end border-top border-bottom">29</div> */}
+                            </div>
+                        </div>
                     </div>
                     <div className="offset-md-1 col-md-3">
                         <p className="footer-text_judul clr-white">Nomor Telpon Penting</p>
@@ -54,23 +67,10 @@ function Footer() {
                         <p id="footer-text__email">
                             <i className="fas fa-envelope mr-3 fs-6"></i> <a className='text-decoration-none' style={{ color: "#fff" }} href="mailto:pemdessengaselatan@gmail.com">pemdessengaselatan@gmail.com</a>
                         </p>
-                        <div className="boxCounter">
-                            <div className="row border rounded bg-light">
-                                <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
-                                <div className="col-7 border-start border-top border-bottom">Hari ini</div>
-                                <div className="col-5 border-end border-top border-bottom">112</div>
-                                <div className="col-7 border-start border-top border-bottom">Kemarin</div>
-                                <div className="col-5 border-end border-top border-bottom">213</div>
-                                <div className="col-7 border-start border-top border-bottom">Semua</div>
-                                <div className="col-5 border-end border-top border-bottom">15539</div>
-                                {/* <div className="col-7 border-start border-top border-bottom">Aktif</div>
-                                <div className="col-5 border-end border-top border-bottom">29</div> */}
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div className="row mSocial">
-                    <div className="col-md-3">
+                <div className="row">
+                    <div className="col-md-3 mt-5">
                         <p className="footer-text_judul clr-white">Sosial Media</p>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pemdes.selatan.3/">
                             <img className="me-1" src={facebook} alt="" width="25" />

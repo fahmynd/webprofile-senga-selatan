@@ -259,7 +259,13 @@ footer .container {
   padding-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) { 
+/* @media(max-width: 500px) { 
+    .boxCounter {
+      left: 95px !important;
+    }
+ } */
+ 
+@media(max-width: 768px) { 
   .mobile-center{
     text-align: center !important;
   }
@@ -269,18 +275,45 @@ footer .container {
       padding: 0;
     }
     .boxCounter {
-      margin: auto;
+      position: relative;
+      width: 120px;
+      height: 100px;
+      font-size: smaller;
+      bottom: 0;
     }
+    .mSocial {
+      margin-top: 20px !important;
+    }
+    .font-welcome {
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: .95;
+      margin-top: 1rem;
+  }
  }
 
- @media only screen and (max-width: 1044px) {
+ /* @media(max-width: 850px) {
   .boxCounter {
-    margin-right: 100px !important;
+    margin-left: 66px !important;
+    margin-top: 46px !important;
+  }
+ } */
+
+ /* @media(max-width: 945px) {
+  .boxCounter {
+    margin-left: 66px !important;
+    margin-top: 46px !important;
+  }
+ } */
+
+ /* @media(max-width: 1044px) {
+  .boxCounter {
+    margin-left: 75px !important;
   }
   .mSocial {
-    margin-top: auto !important;
+    margin-top: -35px !important;
   }
- }
+ } */
 
 .info-nav-footer {
   margin-bottom: 0px;
@@ -1275,30 +1308,13 @@ img.hover-shadow {
 }
 
 .boxCounter {
+  position: relative;
   width: 120px;
   height: 100px;
   font-size: smaller;
-  margin-left: 122px;
-  margin-top: 50px;
+  margin-left: 10px;
+  /* margin-top: 50px; */
 }
-
-/* @media only screen and (max-width: 1000px) {
-  .boxCounter {
-    width: 120px;
-    height: 100px;
-    font-size: smaller;
-    margin: auto;
-  }
-} */
-
-/* @include media-breakpoint-down(lg) { 
-  .boxCounter {
-    width: 120px;
-    height: 100px;
-    font-size: smaller;
-    margin: auto;
-  }
- } */
 
 .btn-layanan {
   background-color: #44a694;
@@ -1309,117 +1325,13 @@ img.hover-shadow {
   color: white;
 }
 
-/* @media(max-width: 767px) {
+.welcome {
+  margin: 0;
+  padding: 200px 0px 200px 0px;
+}
 
-  .col-xl-3,
-  .col-md-4 {
-    margin-bottom: 2rem;
-  }
-
-  .selamat-datang {
-    margin-top: 2rem;
-  }
-
-  .font-welcome {
-    font-size: 1.3rem;
-    line-height: .5;
-  }
-
-  .navbar-container {
-    min-height: 0px;
-  }
-
-  .tampilan-mobile {
-    display: block !important;
-  }
-
-  .welcome-mobile-section {
-    padding: 25px;
-  }
-
-  .font-welcome-mobile {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: white;
-    line-height: .95;
-    margin-top: 1rem;
-  }
-
-  .judul-pengembangan {
-    font-size: .75rem;
-    line-height: 1.1;
-  }
-
-  .card-pengembangan {
-    box-shadow: 7px 10px 5px -7px rgba(0, 0, 0, 0.3);
-    min-height: 120px;
-  }
-
-  .icon-pengembangan {
-    height: 50px;
-  }
-
-  .col-4 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .col-ket-kepala-desa {
-    padding-left: 15px;
-    margin-top: 3rem;
-  }
-
-  .bg-beli-dari-desa {
-    display: none
-  }
-
-  .center-mobile {
-    text-align: center;
-  }
-
-  .footer-kontak {
-    margin-bottom: .6rem;
-  }
-
-  .nama-Kepala-Desa {
-    font-size: 1.8rem;
-  }
-
-  .namaDesa {
-    line-height: 1.25;
-    margin-bottom: 0rem;
-    font-weight: 700;
-    color: #E8EF4D;
-    font-size: 1rem;
-  }
-
-  .kabDesa {
-    color: white;
-    font-size: .8rem;
-    margin-bottom: 0px;
-  }
-
-  .wrap-nama-desa {
-    margin-left: -17.5px
-  }
-
-  .wrap-nama-desa-footer {
-    margin-left: 5px;
-    margin-top: 5px;
-  }
-
-  .wrap-nama-desa-footer p {
-    text-align: left !important;
-  }
-
-  .background-image-div {
-    top: 0;
-    left: 0;
-    height: 48vh;
-  }
-
-  #backgroundImg::after {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 155%, rgba(0, 0, 0, .5) 100%)
-  }
-
-} */
+.font-welcome {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
