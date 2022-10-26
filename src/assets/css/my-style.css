@@ -93,7 +93,8 @@ html {
 }
 
 #visiMisi {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
@@ -105,97 +106,113 @@ html {
 }
 
 #jelajahiDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #administrasiUmum {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #administrasiKeuangan {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #administrasiPenduduk {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #jumlahSurat {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #apbd {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #fokusPengembanganDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #berita {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #beliDariDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #wisataDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #potensiDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #berbagiMomen {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #petaDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #youtubeSection {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #twitterSection {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #instagramSection {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
@@ -207,7 +224,8 @@ html {
 }
 
 #petaLokasiDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
@@ -261,9 +279,18 @@ footer .container {
   padding-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) { 
+/* @media(max-width: 500px) { 
+    .boxCounter {
+      left: 95px !important;
+    }
+ } */
+ 
+@media(max-width: 768px) { 
   .mobile-center{
     text-align: center !important;
+  }
+  .footer-text_judul {
+    margin-top: 5px;
   }
  ul.no-bullets {
       list-style-type: none;
@@ -271,18 +298,48 @@ footer .container {
       padding: 0;
     }
     .boxCounter {
-      margin: auto;
+      position: relative;
+      width: 120px;
+      height: 100px;
+      font-size: smaller;
+      bottom: 0;
     }
+    .font-welcome {
+      font-size: 1.3rem !important;
+      font-weight: 700 !important;
+      line-height: .95 !important;
+      margin-top: 1rem !important;
+  }
+  .info-singkat-desa__nama {
+    font-size: 1.5rem !important;
+  }
+  .infoDesa {
+    font-size: 12px !important;
+  }
  }
 
- @media only screen and (max-width: 1044px) {
+ /* @media(max-width: 850px) {
   .boxCounter {
-    margin-right: 100px !important;
+    margin-left: 66px !important;
+    margin-top: 46px !important;
+  }
+ } */
+
+ /* @media(max-width: 945px) {
+  .boxCounter {
+    margin-left: 66px !important;
+    margin-top: 46px !important;
+  }
+ } */
+
+ /* @media(max-width: 1044px) {
+  .boxCounter {
+    margin-left: 75px !important;
   }
   .mSocial {
-    margin-top: auto !important;
+    margin-top: -35px !important;
   }
- }
+ } */
 
 .info-nav-footer {
   margin-bottom: 0px;
@@ -1159,6 +1216,26 @@ img.hover-shadow {
   align-items: center;
 }
 
+/* @media only screen and (max-width: 1060px) {
+.font-welcome {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: .95 !important;
+  margin-top: 1rem !important;
+}
+} */
+
+@media only screen and (max-width: 1220px) {
+  .info-nav {
+    font-size: 11px !important;
+  }
+  .nav-link {
+    font-size: 12px;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
 /* Responsive Tablet */
 @media only screen and (max-width: 821px) {
   .navbar-nav {
@@ -1277,30 +1354,13 @@ img.hover-shadow {
 }
 
 .boxCounter {
+  position: relative;
   width: 120px;
   height: 100px;
   font-size: smaller;
-  margin-left: 122px;
-  margin-top: 50px;
+  margin-left: 10px;
+  /* margin-top: 50px; */
 }
-
-/* @media only screen and (max-width: 1000px) {
-  .boxCounter {
-    width: 120px;
-    height: 100px;
-    font-size: smaller;
-    margin: auto;
-  }
-} */
-
-/* @include media-breakpoint-down(lg) { 
-  .boxCounter {
-    width: 120px;
-    height: 100px;
-    font-size: smaller;
-    margin: auto;
-  }
- } */
 
 .btn-layanan {
   background-color: #44a694;
@@ -1311,117 +1371,49 @@ img.hover-shadow {
   color: white;
 }
 
-/* @media(max-width: 767px) {
+.welcome {
+  margin: 0;
+  padding: 200px 0px 200px 0px;
+}
 
-  .col-xl-3,
-  .col-md-4 {
-    margin-bottom: 2rem;
-  }
+.font-welcome {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
 
-  .selamat-datang {
-    margin-top: 2rem;
-  }
+/* .website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .font-welcome {
-    font-size: 1.3rem;
-    line-height: .5;
-  }
+.website-counter {
+  z-index: 1000;
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
 
-  .navbar-container {
-    min-height: 0px;
-  }
-
-  .tampilan-mobile {
-    display: block !important;
-  }
-
-  .welcome-mobile-section {
-    padding: 25px;
-  }
-
-  .font-welcome-mobile {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: white;
-    line-height: .95;
-    margin-top: 1rem;
-  }
-
-  .judul-pengembangan {
-    font-size: .75rem;
-    line-height: 1.1;
-  }
-
-  .card-pengembangan {
-    box-shadow: 7px 10px 5px -7px rgba(0, 0, 0, 0.3);
-    min-height: 120px;
-  }
-
-  .icon-pengembangan {
-    height: 50px;
-  }
-
-  .col-4 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .col-ket-kepala-desa {
-    padding-left: 15px;
-    margin-top: 3rem;
-  }
-
-  .bg-beli-dari-desa {
-    display: none
-  }
-
-  .center-mobile {
-    text-align: center;
-  }
-
-  .footer-kontak {
-    margin-bottom: .6rem;
-  }
-
-  .nama-Kepala-Desa {
-    font-size: 1.8rem;
-  }
-
-  .namaDesa {
-    line-height: 1.25;
-    margin-bottom: 0rem;
-    font-weight: 700;
-    color: #E8EF4D;
-    font-size: 1rem;
-  }
-
-  .kabDesa {
-    color: white;
-    font-size: .8rem;
-    margin-bottom: 0px;
-  }
-
-  .wrap-nama-desa {
-    margin-left: -17.5px
-  }
-
-  .wrap-nama-desa-footer {
-    margin-left: 5px;
-    margin-top: 5px;
-  }
-
-  .wrap-nama-desa-footer p {
-    text-align: left !important;
-  }
-
-  .background-image-div {
-    top: 0;
-    left: 0;
-    height: 48vh;
-  }
-
-  #backgroundImg::after {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 155%, rgba(0, 0, 0, .5) 100%)
-  }
-
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
 } */
+
+.loading {
+  font-style: italic;
+  line-height: 100vh;
+  height: 100vh;
+  text-align: center;
+}

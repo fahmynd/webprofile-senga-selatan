@@ -15,7 +15,7 @@ function Card(props: Parameters<typeof VStack>[0] & Parameters<typeof RouterLink
   mediaSrc: string
 }) {
   const { title, desc, mediaSrc, ...rest } = props
-  const interactStyle = { 
+  const interactStyle = {
     transform: ['scale(1.05)', 'scale(1.05)', 'scale(1.05)', 'scale(1.1)'],
     bgColor: "gray.700",
   }
@@ -37,12 +37,12 @@ function Card(props: Parameters<typeof VStack>[0] & Parameters<typeof RouterLink
       {...rest}
     >
       <Flex mb={5}>
-        <Image _groupHover={{ filter: 'invert(1)' }} src={mediaSrc} boxSize={32}/>
+        <Image _groupHover={{ filter: 'invert(1)' }} src={mediaSrc} boxSize={32} />
       </Flex>
       <VStack justifyContent="stretch" alignItems="stretch">
         <Heading
-          variant="card-title" 
-          textAlign="center" 
+          variant="card-title"
+          textAlign="center"
           rounded="lg" py={1}
           width="full"
           bgColor="gray.700" color="white"
@@ -71,8 +71,8 @@ function FeedItem(props: Parameters<typeof HStack>[0] & {
 }) {
   const { title, date, type, category, href, fileId, ...rest } = props
   return (
-    <Grid 
-      px={3.5} py={3} 
+    <Grid
+      px={3.5} py={3}
       spacing={5}
       alignSelf="stretch" alignItems="center"
       templateColumns="auto max-content"
@@ -80,37 +80,38 @@ function FeedItem(props: Parameters<typeof HStack>[0] & {
     >
       <VStack spacing={0} alignItems="flex-start" flexGrow={1}>
         <Heading variant="card-title">{title}</Heading>
-        <Text 
-          as="span" 
+        <Text
+          as={RouterLink}
+          to={`viewer/${fileId}`}
           fontFamily="heading"
           fontSize={['sm', 'sm', 'md']}
           color="blackAlpha.800"
         >
-          <Icon as={RiNewspaperFill} mr={1}/>
+          <Icon as={RiNewspaperFill} mr={1} />
           {/* <Badge 
             bgColor="blackAlpha.500" 
             color="white" rounded="base"
             px={2} mr={2}
             children={type}
           /> */}
-          { category }
+          {category}
         </Text>
-        <Text 
+        <Text
           as="span" fontSize="sm"
           color="blackAlpha.800"
         >
-          <Icon as={RiTimeFill} mr={1}/> {DateTime.fromSQL(date).toLocaleString(DateTime.DATETIME_MED)}
+          <Icon as={RiTimeFill} mr={1} /> {DateTime.fromSQL(date).toLocaleString(DateTime.DATETIME_MED)}
         </Text>
       </VStack>
       <VStack spacing={2} alignItems="flex-start" flexGrow={1}>
-        <Button 
-          as={RouterLink} 
+        <Button
+          as={RouterLink}
           to={`viewer/${fileId}`}
           variant="filled"
           p={[0, 0, 3]} rounded={['full', 'full', 'lg']}
           boxSize={[12, 12, 'initial']}
           leftIcon={
-            <Icon as={RiEyeLine} boxSize={[6, 6, 5]}/>
+            <Icon as={RiEyeLine} boxSize={[6, 6, 5]} />
           }
           _hover={{
             color: 'white'
@@ -123,13 +124,13 @@ function FeedItem(props: Parameters<typeof HStack>[0] & {
         >
           <Text display={['none', 'none', 'inline']}>View</Text>
         </Button>
-        <Button 
-          as="a" 
+        <Button
+          as="a"
           href={href} variant="filled"
           p={[0, 0, 3]} rounded={['full', 'full', 'lg']}
           boxSize={[12, 12, 'initial']}
           leftIcon={
-            <Icon as={RiFileDownloadLine} boxSize={[6, 6, 5]}/>
+            <Icon as={RiFileDownloadLine} boxSize={[6, 6, 5]} />
           }
           _hover={{
             color: 'white'
@@ -154,8 +155,8 @@ export default function IndexPage() {
   //   isLoading: isLoadingCategories 
   // } = useRootCategories()
 
-  const { 
-    start: getFiles, 
+  const {
+    start: getFiles,
     data: files,
     isLoading: isLoadingFiles
   } = useFiles({ perpage: 5 })
@@ -176,16 +177,16 @@ export default function IndexPage() {
         as="section" id="title"
         minH={[48, 48, 72]}
       >
-        <Container 
+        <Container
           as={VStack}
           maxW="container.lg"
           spacing={[3, 2]} px={10}
           justifyContent="center"
         >
           <Heading variant="hero-title" as="h1" order={1} filter="blur(0.4px)">Pejabat Pengelola Informasi dan Dokumentasi</Heading>
-          <Heading 
-            variant="hero-subtitle" as="span" 
-            rounded="lg" 
+          <Heading
+            variant="hero-subtitle" as="span"
+            rounded="lg"
             // bgColor={['gray.700', 'transparent']} color={['white', 'gray.800']}
             px={3} py={1}
             order={2} filter="blur(0.4px)"
@@ -195,7 +196,7 @@ export default function IndexPage() {
           </Heading>
         </Container>
       </Flex>
-      <VStack 
+      <VStack
         as="section" id="options"
         justifyContent="center"
         position="relative"
@@ -225,13 +226,13 @@ export default function IndexPage() {
             mediaSrc={publicPath('/assets/media/003-test.svg')}
             to="informasi/berkala"
           />
-          <Card 
+          <Card
             title="Informasi Serta Merta"
             desc="Informasi yang dapat mengancam hajat hidup orang banyak dan ketertiban umum."
             mediaSrc={publicPath('/assets/media/002-requirement.svg')}
             to="informasi/serta-merta"
           />
-          <Card 
+          <Card
             title="Informasi Setiap Saat"
             desc="Informasi yang wajib disediakan oleh Badan Publik."
             mediaSrc={publicPath('/assets/media/001-file.svg')}
@@ -246,7 +247,7 @@ export default function IndexPage() {
       >
         <Container
           as={HStack}
-          maxW="container.lg" justifyContent="center" 
+          maxW="container.lg" justifyContent="center"
           px={10}
         >
           {/* <Button variant="outline">Ajukan Permintaan Informasi</Button> */}
@@ -266,13 +267,13 @@ export default function IndexPage() {
           <VStack spacing={0}>
             <Heading variant="section-title">Informasi Publik Terbaru</Heading>
             <Heading as="span" variant="section-subtitle">
-              Terakhir di update: <strong>{ files[0] ? DateTime.fromSQL(files[0].uat).toRelative() : '-'}</strong>.
+              Terakhir di update: <strong>{files[0] ? DateTime.fromSQL(files[0].uat).toRelative() : '-'}</strong>.
             </Heading>
           </VStack>
           <VStack alignSelf="stretch" spacing={3}>
             {/* example: <FeedItem title="Mekanisme Pengajuan Keberatan Informasi" date="Sabtu, 27 September 2021" type="Berkala"/> */}
-            { files.map((file, index) => (
-              <FeedItem key={index} fileId={file.id} title={file.name} date={file.uat} category={file.category} href={file.url}/>
+            {files.map((file, index) => (
+              <FeedItem key={index} fileId={file.id} title={file.name} date={file.uat} category={file.category} href={file.url} />
             ))}
             <Spinner
               display={isLoadingFiles ? 'inline-block' : 'none'}
@@ -282,13 +283,13 @@ export default function IndexPage() {
               color="gray.700"
               boxSize={16}
             />
-            <Heading 
-              as="span" 
+            <Heading
+              as="span"
               display={files.length === 0 && isLoadingFiles === false ? "initial" : "none"}
               fontSize={["md", "lg", "xl"]} py={3} alignSelf="center"
               bgColor="red.500" color="white" px={5} rounded="lg"
             >
-              <Icon as={RiFileForbidFill} boxSize={[5, 5, 6]} mr={3}/>
+              <Icon as={RiFileForbidFill} boxSize={[5, 5, 6]} mr={3} />
               Belum ada file
             </Heading>
           </VStack>

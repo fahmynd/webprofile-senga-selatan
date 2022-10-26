@@ -33,13 +33,14 @@ const DllBerita1 = lazy(() => import("./components/berita/detail-berita/dll-deta
 const DllBerita2 = lazy(() => import("./components/berita/detail-berita/dll-detail2"));
 const DllBerita3 = lazy(() => import("./components/berita/detail-berita/dll-detail3"));
 const DllBerita4 = lazy(() => import("./components/berita/detail-berita/dll-detail4"));
+const Terbaru = lazy(() => import("./components/berita/detail-berita/terbaru"));
 
 function App() {
     return (
         <>
             <Navbar />
             <ScrollToTop />
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div className="loading">Loading...</div>}>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route path="/profil-desa" element={<Pemerintahan />} />
@@ -48,6 +49,7 @@ function App() {
                     <Route path="/idm" element={<Idm />} />
                     <Route path="/berita" element={<Berita />} />
                     <Route path="/berita/*">
+                        <Route path="pemdes-senga-selatan-mengikuti-rakor-persiapan-kegiatan-evaluasi-dan-apresiasi-kip-nasional-2022" element={<Terbaru />} />
                         <Route path="kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" element={<TerbaruBerita1 />} />
                         <Route path="pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" element={<TerbaruBerita2 />} />
                         <Route path="pemerintah-desa-senga-selatan-salurkan-insentif-pegawai-syara-kader-posyandu-kader-pkb-dll" element={<TerbaruBerita3 />} />

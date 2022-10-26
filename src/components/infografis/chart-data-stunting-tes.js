@@ -102,10 +102,10 @@ class DataStunting extends Component {
       })
     );
     series2.data.setAll(data);
-    series1.set("fill", am5.color("#44A694"));
-    series1.set("stroke", am5.color("#44A694"));
-    series2.set("fill", am5.color("#E58B20"));
-    series2.set("stroke", am5.color("#E58B20"));
+    series1.set("fill", am5.color("#E58B20"));
+    series1.set("stroke", am5.color("#E58B20"));
+    series2.set("fill", am5.color("#44A694"));
+    series2.set("stroke", am5.color("#44A694"));
     chart.appear(1000, 100);
     series1.appear(1000);
     series2.appear(1000);

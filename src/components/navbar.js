@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="row" width="40%">
                     <div id="brandWrap" className="col-3">
                         <Link className="navbar-brand" to="/">
-                            <img id="logoNavbar" style={{width: "auto"}} src={logo} alt="" className="d-inline-block align-text-top" />
+                            <img id="logoNavbar" style={{ width: "auto" }} src={logo} alt="" className="d-inline-block align-text-top" />
                         </Link>
                     </div>
                     <Link to="/" id="infoNavWrap" className="col-9 center-v text-decoration-none">
@@ -25,9 +25,9 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link" aria-current="page" to="/" end>Home</NavLink>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/profil-desa">Profil Desa</NavLink>
                         </li>
@@ -37,11 +37,6 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/geospasial">Geospasial</NavLink>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="https://sengaselatan.digitaldesa.id/webgis" target={'_blank'} rel="noreferrer">
-                                Geospasial
-                            </a>
-                        </li> */}
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/idm">IDM</NavLink>
                         </li>

@@ -74,9 +74,14 @@ function KontenIdm() {
         </div>
         <div id="tabMenu">
           <div className="mt-5">
+            {/* <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a href="#tab2" className="nav-link navbar-default active" data-toggle="tab">Rumusan Pokok</a>
+              </li>
+            </ul> */}
             <div className="tab-content">
-              <div className="tab-pane active tab-box mt-3">
-                <table className="tg table-responsive" style={{ width: '100%' }}>
+              <div id="tab2" className="tab-pane active tab-box mt-3 table-responsive">
+                <table className="tg" style={{ width: '100%' }}>
                   <thead style={{ backgroundColor: '#317A75', color: 'white' }}>
                     <tr>
                       <th className="tg-amwm" rowSpan="2" style={{ borderRadius: '7px 0px 0px 0px' }}>No</th>

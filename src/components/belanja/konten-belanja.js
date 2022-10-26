@@ -139,6 +139,167 @@ function KontenBelanja() {
                                                 </div>
                                             </div>
                                         </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={makananDonat} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Donat Bomboloni</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp4.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6281248622527&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={makananLasaro} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Lasaro</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp13.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6285255734028&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={makananSate} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Sate Mama Citra</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp15.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6285395002789&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={makananBolu} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Boluta'</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp60.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Makanan, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=628124429200&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={minumanCendol} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Susu Cendol Cheese by Happy99</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp10.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6285298313171&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={minumanAren} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Susu Cendol Aren by Happy99</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp10.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6285298313171&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            <div className="card beli-card">
+                                                <img src={minumanJuice} className="card-img-top beli-card__img" alt="" />
+                                                <div className="card-body">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__judul">Healty Juice</p>
+                                                        </div>
+                                                        <div className="col-md-12">
+                                                            <p className="beli-card__harga">Rp12.000,-</p>
+                                                        </div>
+                                                        <div className="col-md-12 mb-4">
+                                                            {/* <p className="beli-card__detail">
+                                                                Kondisi: Baru, Berat: 100 Gram, Kategori: Minuman, Etalase: Semua Etalase.
+                                                            </p> */}
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-center wrap-button-penjual">
+                                                        <a href="https://api.whatsapp.com/send?phone=6281245867732&text=Saya%20Tertarik%20dengan%20jualan%20Anda" target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="makanan" role="tabpanel" aria-labelledby="makanan-tab">

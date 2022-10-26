@@ -85,7 +85,7 @@ function ApbdChart(props) {
                 sequencedInterpolation: true,
                 categoryXField: "belanja",
                 tooltip: am5.Tooltip.new(root, {
-                    labelText: "{valueY}",
+                    labelText: "Rp{valueY}",
                 }),
             })
         );
