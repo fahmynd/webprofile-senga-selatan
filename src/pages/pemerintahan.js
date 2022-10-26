@@ -5,6 +5,7 @@ import PetaLokasiDesa from '../components/pemerintahan/peta-lokasi-desa'
 import InfoSingkatDesa from "../components/home/info-singkat-desa";
 import VisiMisi from "../components/home/visi-misi";
 import LembagaDesa from "../components/pemerintahan/lembaga-desa";
+// import ProfilPemda from "../components/pemerintahan/profil-pemda";
 
 function Pemerintahan() {
     useEffect(function () {
@@ -15,6 +16,7 @@ function Pemerintahan() {
             {/* <ProfilPemerintahan /> */}
             <InfoSingkatDesa />
             <VisiMisi />
+            {/* <ProfilPemda /> */}
             <LembagaDesa />
             <PetaLokasiDesa />
         </main>

@@ -20,6 +20,7 @@ import dllBerita1 from '../../assets/img/berita/dll-berita1.jpeg'
 import dllBerita2 from '../../assets/img/berita/dll-berita2.jpg'
 import dllBerita3 from '../../assets/img/berita/dll-berita3.jpeg'
 import dllBerita4 from '../../assets/img/berita/dll-berita4.jpeg'
+import terbaru from '../../assets/img/berita/terbaru.jpeg'
 
 function KontenBerita() {
     return (
@@ -79,26 +80,26 @@ function KontenBerita() {
                                 <div className="row mt-4">
                                     <div className="col-md-12 col-lg-5 mb-5">
                                         <div className="card berita-card">
-                                            <img src={terbaruBerita1} className="card-img-top img-berita" alt="" />
+                                            <img src={terbaru} className="card-img-top img-berita" alt="" />
                                             <div className="card-body">
                                                 <p className="berita-card__judul">
-                                                    Kepala Desa Senga Selatan mengadakan Rakor terkait Peta Lokasi Kawasan Hutan Lindung
+                                                    Pemdes Senga Selatan mengikuti Rakor Persiapan Kegiatan Evaluasi dan Apresiasi KIP Nasional 2022
                                                 </p>
                                                 <div className="berita-card__info">
                                                     <p className="berita-card__penulis me-4">
                                                         <i className="fas fa-user-edit"></i> Admin
                                                     </p>
                                                     <p className="berita-card__tanggal">
-                                                        <i className="fas fa-calendar-day"></i> 20 Oktober 2022
+                                                        <i className="fas fa-calendar-day"></i> 26 Oktober 2022
                                                     </p>
                                                 </div>
                                                 <div className="berita-card__isi">
                                                     <p className="berita-card__shortdesc show-read-more">
-                                                        Koordinasi dengan UPT-KPH Latimojong Dinas Kehutanan Pemprov Sulsel terkait Peta Lokasi Kawasan Hutan Lindung Mangrove di wilayah Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu, Kamis, 20 Oktobe ...
+                                                        Pemerintah Desa Senga Selatan menghadiri Rapat Koordinasi Pelaksanaan Tahapan Evaluasi dan Apresiasi Keterbukaan Informasi Publik Desa Tingkat Nasional Tahun 2022, bertempat di Dinas PMD Provinsi Sula ...
                                                     </p>
                                                 </div>
                                             </div>
-                                            <Link to="kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" className="stretched-link"></Link>
+                                            <Link to="pemdes-senga-selatan-mengikuti-rakor-persiapan-kegiatan-evaluasi-dan-apresiasi-kip-nasional-2022" className="stretched-link"></Link>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-7">

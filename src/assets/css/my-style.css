@@ -93,7 +93,8 @@ html {
 }
 
 #visiMisi {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
@@ -105,97 +106,113 @@ html {
 }
 
 #jelajahiDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #administrasiUmum {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #administrasiKeuangan {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #administrasiPenduduk {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #jumlahSurat {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #apbd {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #fokusPengembanganDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #berita {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #beliDariDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #wisataDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #potensiDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #berbagiMomen {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
 
 #petaDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #youtubeSection {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #twitterSection {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
 
 #instagramSection {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #fff;
   position: relative;
 }
@@ -207,7 +224,8 @@ html {
 }
 
 #petaLokasiDesa {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   background-color: #eaf8ef;
   position: relative;
 }
@@ -294,6 +312,9 @@ footer .container {
   }
   .info-singkat-desa__nama {
     font-size: 1.5rem !important;
+  }
+  .infoDesa {
+    font-size: 12px !important;
   }
  }
 
@@ -1204,16 +1225,14 @@ img.hover-shadow {
 }
 } */
 
-@media only screen and (max-width: 1118px) {
+@media only screen and (max-width: 1220px) {
   .info-nav {
     font-size: 11px !important;
   }
   .nav-link {
-    font-size: 11px;
-  }
-  .navbar-nav {
-    padding-right: 5px;
-    padding-left: 5px;
+    font-size: 12px;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
   }
 }
 
@@ -1391,3 +1410,10 @@ img.hover-shadow {
   color: white;
   border: 0;
 } */
+
+.loading {
+  font-style: italic;
+  line-height: 100vh;
+  height: 100vh;
+  text-align: center;
+}
