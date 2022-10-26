@@ -14,7 +14,9 @@ function Jumbotron() {
                 </div>
             </div>
             <section className='container d-lg-none d-xl-none text-center mt-5'>
-                <img src={pakde} alt="" />
+                <div className='container'>
+                    <img src={pakde} alt="" width="100%" />
+                </div>
                 <div>
                     <h2>Anwar Amir, S.Sos</h2>
                     <p>Kepala Desa Senga Selatan</p>

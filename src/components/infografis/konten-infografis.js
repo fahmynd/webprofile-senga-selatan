@@ -20,6 +20,24 @@ import konghucuIcon from '../../assets/img/icon/icon-konghucu.svg'
 // import wanitaSuburIcon from '../../assets/img/icon/icon-women.svg'
 // import hamilIcon from '../../assets/img/icon/icon-pregnancy.svg'
 import DataStunting from './chart-data-stunting-tes'
+import desaTanpaKemiskinan from '../../assets/img/sdgs/desaTanpaKemiskinan.webp'
+import desaTanpaKelaparan from '../../assets/img/sdgs/desaTanpaKelaparan.webp'
+import desaSehatDanSejahtera from '../../assets/img/sdgs/desaSehatDanSejahtera.webp'
+import pendidikanDesaBerkualitas from '../../assets/img/sdgs/pendidikanDesaBerkualitas.webp'
+import keterlibatanPerempuanDesa from '../../assets/img/sdgs/keterlibatanPerempuanDesa.webp'
+import desaAirBersihSanitasi from '../../assets/img/sdgs/desaAirBersihSanitasi.webp'
+import desaBerenergiBersihDanTerbarukan from '../../assets/img/sdgs/desaBerenergiBersihDanTerbarukan.webp'
+import pertumbuhanEkonomiDesaMerata from '../../assets/img/sdgs/pertumbuhanEkonomiDesaMerata.webp'
+import infrastrukturDanInovasiDesaSesuaiKebutuhan from '../../assets/img/sdgs/infrastrukturDanInovasiDesaSesuaiKebutuhan.webp'
+import desaTanpaKesenjangan from '../../assets/img/sdgs/desaTanpaKesenjangan.webp'
+import kawasanPermukimanDesaAmanDanNyaman from '../../assets/img/sdgs/kawasanPermukimanDesaAmanDanNyaman.webp'
+import konsumsiDanProduksiDesaSadarLingkungan from '../../assets/img/sdgs/konsumsiDanProduksiDesaSadarLingkungan.webp'
+import desaTanggapPerubahanIklim from '../../assets/img/sdgs/desaTanggapPerubahanIklim.webp'
+import desaPeduliLingkunganLaut from '../../assets/img/sdgs/desaPeduliLingkunganLaut.webp'
+import desaPeduliLingkunganDarat from '../../assets/img/sdgs/desaPeduliLingkunganDarat.webp'
+import desaDamaiBerkeadilan from '../../assets/img/sdgs/desaDamaiBerkeadilan.webp'
+import kemitraanUntukPembangunanDesa from '../../assets/img/sdgs/kemitraanUntukPembangunanDesa.webp'
+import kelembagaanDesaDinamisDanBudayaDesaAdaptif from '../../assets/img/sdgs/kelembagaanDesaDinamisDanBudayaDesaAdaptif.webp'
 
 function KontenInfografis() {
     return (
@@ -46,6 +64,11 @@ function KontenInfografis() {
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="dataStunting-tab" data-bs-toggle="tab" data-bs-target="#dataStunting" type="button" role="tab" aria-controls="dataStunting" aria-selected="false">
                                     Data Stunting
+                                </button>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="sdgs-tab" data-bs-toggle="tab" data-bs-target="#sdgs" type="button" role="tab" aria-controls="sdgs" aria-selected="false">
+                                    SDGs Desa
                                 </button>
                             </li>
                             {/* <li className="nav-item" role="presentation">
@@ -1705,6 +1728,184 @@ function KontenInfografis() {
                                         </div>
                                     </div>
                                 </section> */}
+                            </div>
+                            <div className="tab-pane fade" id="sdgs" role="tabpanel" aria-labelledby="sdgs-tab">
+                                <section className=" mt-5">
+                                    <div className="row">
+                                        <div className="col-md-12 text-center">
+                                            <h4 className="fw-bold">52.52</h4>
+                                            <p>Skor SDGs Desa</p>
+                                        </div>
+                                    </div>
+                                    <div className="row mt-3">
+                                        <div className="col-md-12">
+                                            <div className="row text-center">
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaTanpaKemiskinan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaTanpaKelaparan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">50</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaSehatDanSejahtera} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">82.26</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={pendidikanDesaBerkualitas} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">14.85</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={keterlibatanPerempuanDesa} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">0.99</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaAirBersihSanitasi} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">88.2</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaBerenergiBersihDanTerbarukan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">99.82</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={pertumbuhanEkonomiDesaMerata} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">35.82</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={infrastrukturDanInovasiDesaSesuaiKebutuhan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaTanpaKesenjangan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">50.84</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={kawasanPermukimanDesaAmanDanNyaman} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">56.58</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={konsumsiDanProduksiDesaSadarLingkungan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaTanggapPerubahanIklim} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaPeduliLingkunganLaut} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaPeduliLingkunganDarat} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={desaDamaiBerkeadilan} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">80.86</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={kemitraanUntukPembangunanDesa} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">N/A</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-6 col-lg-3 mb-3">
+                                                    <div className="card card-demografi-penduduk">
+                                                        <div className="card-body">
+                                                            <img src={kelembagaanDesaDinamisDanBudayaDesaAdaptif} alt="icon jumlah perempuan" height="100" />
+                                                            <p className="card-demografi-penduduk__jumlah mb-0 mt-4">17.55</p>
+                                                            <p className="card-demografi-penduduk__info mb-4">Nilai</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
                             </div>
                         </div>
                     </div>
