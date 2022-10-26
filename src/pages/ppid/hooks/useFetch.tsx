@@ -53,6 +53,6 @@ export function useFetch<T>(endpoint: string, param?: FetchInput<T>): FetchContr
 export function fetchFactory<T>(endpoint: string) {
   return function Execute(query?: FetchInput<T>) { 
     // nothing complex for now...
-    return useFetch<T>(endpoint)
+    return useFetch<T>(endpoint,query)
   }
 }
