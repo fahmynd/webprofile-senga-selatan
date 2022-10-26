@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/img/logo/sengaselatan.webp'
+// import logo from '../../assets/img/logo/sengaselatan.webp'
 import bgDesa from '../../assets/img/bg/bg-tentang-desa.jpg'
 
 function InfoSingkatDesa() {
@@ -7,10 +7,10 @@ function InfoSingkatDesa() {
         <section id="infoSingkatDesa">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-9">
                         <div className="vertical-center">
-                            <img src={logo} width="70" alt="" />
-                            <span className="info-singkat-desa__nama fw-bold center-v text-dark">Sejarah Desa <span id="#namaDesa">Senga Selatan</span></span>
+                            {/* <img src={logo} width="70" alt="" /><br /> */}
+                            <span className="info-singkat-desa__nama fw-bold center-v bg-opacity p-2 text-light rounded">Sejarah Desa <span id="#namaDesa">Senga Selatan</span></span>
                             <p className="mt-3 bg-opacity p-2 text-light rounded" style={{ textAlign: 'justify' }}>
                                 Desa Senga Selatan yang dulunya masih disebut Senga berasal dari kata “senge” yang artinya desa yang dikenang sepanjang masa sebab pada zaman dahulu di desa tersebut terjadi perang antara Cilellang dengan Senge.
                             </p>
