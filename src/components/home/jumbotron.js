@@ -9,7 +9,7 @@ function Jumbotron() {
                 <div className="row">
                     <div className="col-12 text-center fw-bold bg-dark text-white welcome">
                         <p className='font-welcome'>Selamat Datang</p>
-                        <p className='font-welcome'>Website Desa Senga Selatan</p>
+                        <p className='font-welcome'>Website Resmi Desa Senga Selatan</p>
                     </div>
                 </div>
             </div>

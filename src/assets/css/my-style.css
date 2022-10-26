@@ -20,7 +20,7 @@ html {
 .navbar {
   padding-top: 0.75;
   padding-bottom: 0.75;
-  z-index: 99;
+  z-index: 9999;
   transition: all 0.75s ease;
 }
 
@@ -67,8 +67,8 @@ html {
 
 .nav-link {
   font-size: 0.85rem;
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+  padding-right: 1.2rem !important;
+  padding-left: 1.2rem !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
@@ -332,14 +332,13 @@ footer .container {
   }
  } */
 
- /* @media(max-width: 1044px) {
-  .boxCounter {
-    margin-left: 75px !important;
+ @media(max-width: 1044px) {
+  .adm-umum-judul {
+    /* color: #fff; */
+    font-size: 0.7rem !important;
+    /* margin-bottom: 0.5rem; */
   }
-  .mSocial {
-    margin-top: -35px !important;
-  }
- } */
+ }
 
 .info-nav-footer {
   margin-bottom: 0px;
@@ -601,14 +600,14 @@ footer .info-nav {
 
 .adm-umum-jumlah {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #fff;
 }
 
 .jum-surat-card .adm-umum-jumlah,
 .jum-surat-card__second .adm-umum-jumlah {
   margin-top: 1rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .adm-umum-judul {
@@ -1225,7 +1224,10 @@ img.hover-shadow {
 }
 } */
 
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1225px) {
+  .nama-desa-lite {
+    font-size: 12px;
+  }
   .info-nav {
     font-size: 11px !important;
   }
@@ -1243,7 +1245,7 @@ img.hover-shadow {
   }
 
   .vertical-center {
-    width: 85%;
+    width: 70%;
   }
 
   #pengumuman,
@@ -1377,7 +1379,7 @@ img.hover-shadow {
 }
 
 .font-welcome {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 900;
   line-height: 1;
 }
