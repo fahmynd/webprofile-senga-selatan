@@ -292,6 +292,9 @@ footer .container {
       line-height: .95 !important;
       margin-top: 1rem !important;
   }
+  .info-singkat-desa__nama {
+    font-size: 1.5rem !important;
+  }
  }
 
  /* @media(max-width: 850px) {
@@ -1192,6 +1195,15 @@ img.hover-shadow {
   align-items: center;
 }
 
+/* @media only screen and (max-width: 1060px) {
+.font-welcome {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: .95 !important;
+  margin-top: 1rem !important;
+}
+} */
+
 @media only screen and (max-width: 1118px) {
   .info-nav {
     font-size: 11px !important;
@@ -1350,3 +1362,32 @@ img.hover-shadow {
   font-weight: 900;
   line-height: 1;
 }
+
+/* .website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.website-counter {
+  z-index: 1000;
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+} */

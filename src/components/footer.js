@@ -41,7 +41,8 @@ function Footer() {
                                 <div className="col-7 border-start border-top border-bottom">Kemarin</div>
                                 <div className="col-5 border-end border-top border-bottom">213</div>
                                 <div className="col-7 border-start border-top border-bottom">Semua</div>
-                                <div className="col-5 border-end border-top border-bottom">15539</div>
+                                <div id='#result' className="col-5 border-end border-top border-bottom website-counter">16238</div>
+                                {/* <button id="reset">Reset</button> */}
                                 {/* <div className="col-7 border-start border-top border-bottom">Aktif</div>
                                 <div className="col-5 border-end border-top border-bottom">29</div> */}
                             </div>

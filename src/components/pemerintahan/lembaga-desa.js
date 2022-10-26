@@ -8,7 +8,7 @@ function LembagaDesa() {
                 <h2 className="fw-bold sub-judul text-center">Struktur Pemerintahan Desa</h2>
             </div>
             <div className="mt-5">
-                <img className='w-75 mx-auto d-block' src={pemerintahan} alt="" />
+                <img className='mx-auto d-block' src={pemerintahan} alt="" width='90%' />
             </div>
             {/* <div className="container">
                     <h2 className="fw-bold sub-judul text-center">Struktur BPD</h2>
