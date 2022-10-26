@@ -3,14 +3,14 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import padi from '../../assets/img/potensi/padi.webp'
-import perikanan from '../../assets/img/potensi/perikanan.jpeg'
-import pertambakan from '../../assets/img/potensi/pertambakan.jpg'
-import gracilaria from '../../assets/img/potensi/gracilaria.jpeg'
+import './profil-pemda.css'
+import pakde from '../../assets/img/foto-pakde.webp'
+import man from '../../assets/img/icon/icon-man.svg'
+import women from '../../assets/img/icon/icon-women.svg'
 
 const options = {
     loop: true,
-    margin: 20,
+    margin: 35,
     nav: true,
     center: true,
     navText: [
@@ -45,28 +45,142 @@ class ProfilPemda extends React.Component {
                         <div className="col-md-10">
                             <div className="main-content">
                                 <OwlCarousel id="caroProfilPemda" className="owl-carousel owl-theme" {...options}>
-                                    <div className="item">
-                                        <img src={padi} alt="" />
-                                        <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Padi</p>
+                                    <div className="card">
+                                        <div className="card-body card-testimoni">
+                                            <div className="row">
+                                                <div className="col-md-12 text-center">
+                                                    <div className="img-round center-img">
+                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={pakde} />
+                                                    </div>
+                                                    <p className="testimoni-nama mt-3">Anwar Amir, S.Sos</p>
+                                                    <p className="testimoni-jabatan"><i>Kepala Desa Senga Selatan</i></p>
+                                                </div>
+                                                <div className="col-md-12 mt-3">
+                                                    <h3 id="testimoni" name="testimoni" className="testimoni-text">
+                                                        Pendidikan
+                                                    </h3>
+                                                    <ul className='testimoni-text'>
+                                                        <li>SD:</li>
+                                                        <li>SMP:</li>
+                                                        <li>SMA:</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="item">
-                                        <img src={perikanan} alt="" />
-                                        <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Perikanan</p>
+                                    <div className="card">
+                                        <div className="card-body card-testimoni">
+                                            <div className="row">
+                                                <div className="col-md-12 text-center">
+                                                    <div className="img-round center-img">
+                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={women} />
+                                                    </div>
+                                                    <p className="testimoni-nama mt-3">Herni BTE Suardi</p>
+                                                    <p className="testimoni-jabatan"><i>Sekretaris Desa</i></p>
+                                                </div>
+                                                <div className="col-md-12 mt-3">
+                                                    <h3 id="testimoni" name="testimoni" className="testimoni-text">
+                                                        Pendidikan
+                                                    </h3>
+                                                    <ul className='testimoni-text'>
+                                                        <li>SD:</li>
+                                                        <li>SMP:</li>
+                                                        <li>SMA:</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="item">
-                                        <img src={pertambakan} alt="" />
-                                        <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Pertambakan</p>
+                                    <div className="card">
+                                        <div className="card-body card-testimoni">
+                                            <div className="row">
+                                                <div className="col-md-12 text-center">
+                                                    <div className="img-round center-img">
+                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={man} />
+                                                    </div>
+                                                    <p className="testimoni-nama mt-3">Ayyub Basri</p>
+                                                    <p className="testimoni-jabatan"><i>Kasi Pemerintahan</i></p>
+                                                </div>
+                                                <div className="col-md-12 mt-3">
+                                                    <h3 id="testimoni" name="testimoni" className="testimoni-text">
+                                                        Pendidikan
+                                                    </h3>
+                                                    <ul className='testimoni-text'>
+                                                        <li>SD:</li>
+                                                        <li>SMP:</li>
+                                                        <li>SMA:</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="item">
-                                        <img src={gracilaria} alt="" />
-                                        <div className="item-info">
-                                            <p className="potensi-desa__judul clr-white">Rumput Laut Gracilaria</p>
+                                    <div className="card">
+                                        <div className="card-body card-testimoni">
+                                            <div className="row">
+                                                <div className="col-md-12 text-center">
+                                                    <div className="img-round center-img">
+                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={women} />
+                                                    </div>
+                                                    <p className="testimoni-nama mt-3">Karina</p>
+                                                    <p className="testimoni-jabatan"><i>Kasi Kesejahteraan & Pelayanan</i></p>
+                                                </div>
+                                                <div className="col-md-12 mt-3">
+                                                    <h3 id="testimoni" name="testimoni" className="testimoni-text">
+                                                        Pendidikan
+                                                    </h3>
+                                                    <ul className='testimoni-text'>
+                                                        <li>SD:</li>
+                                                        <li>SMP:</li>
+                                                        <li>SMA:</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="card">
+                                        <div className="card-body card-testimoni">
+                                            <div className="row">
+                                                <div className="col-md-12 text-center">
+                                                    <div className="img-round center-img">
+                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={man} />
+                                                    </div>
+                                                    <p className="testimoni-nama mt-3">Prasetyo Sallo</p>
+                                                    <p className="testimoni-jabatan"><i>Kaur Umum & Perencanaan</i></p>
+                                                </div>
+                                                <div className="col-md-12 mt-3">
+                                                    <h3 id="testimoni" name="testimoni" className="testimoni-text">
+                                                        Pendidikan
+                                                    </h3>
+                                                    <ul className='testimoni-text'>
+                                                        <li>SD:</li>
+                                                        <li>SMP:</li>
+                                                        <li>SMA:</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="card">
+                                        <div className="card-body card-testimoni">
+                                            <div className="row">
+                                                <div className="col-md-12 text-center">
+                                                    <div className="img-round center-img">
+                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={women} />
+                                                    </div>
+                                                    <p className="testimoni-nama mt-3">Sulaeha Anshar</p>
+                                                    <p className="testimoni-jabatan"><i>Kaur Keuangan</i></p>
+                                                </div>
+                                                <div className="col-md-12 mt-3">
+                                                    <h3 id="testimoni" name="testimoni" className="testimoni-text">
+                                                        Pendidikan
+                                                    </h3>
+                                                    <ul className='testimoni-text'>
+                                                        <li>SD:</li>
+                                                        <li>SMP:</li>
+                                                        <li>SMA:</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </OwlCarousel>
