@@ -253,6 +253,7 @@ export default function IndexPage() {
           {/* <Button variant="outline">Ajukan Permintaan Informasi</Button> */}
           <Button as={RouterLink} variant="outline" to="dasar-hukum" size="lg">Dasar Hukum PPID</Button>
           {/* <Button as="a" variant="outline" href={home_url} size="lg">Profil Desa</Button> */}
+          <Button as={RouterLink} variant="outline" to="/profil-ppid" size="lg">PPID Pelaksana</Button>
         </Container>
       </Flex>
       <Flex

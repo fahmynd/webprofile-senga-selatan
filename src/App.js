@@ -12,6 +12,7 @@ const Footer = lazy(() => import("./components/footer"));
 const ScrollToTop = lazy(() => import("./components/scroll-to-top"));
 const Pengaduan = lazy(() => import("./pages/pengaduan"));
 const Ppid = lazy(() => import("./pages/ppid/Route.tsx"));
+const ProfilPpid = lazy(() => import("./components/ppid/profil-ppid"));
 const Geospasial = lazy(() => import("./pages/geospasial"));
 const TerbaruBerita1 = lazy(() => import("./components/berita/detail-berita/terbaru-detail1"));
 const TerbaruBerita2 = lazy(() => import("./components/berita/detail-berita/terbaru-detail2"));
@@ -74,6 +75,7 @@ function App() {
 
                     <Route path="/belanja" element={<Belanja />} />
                     <Route path="/ppid/*" element={<Ppid />} />
+                    <Route path="/profil-ppid" element={<ProfilPpid />} />
                     <Route path="/pengaduan" element={<Pengaduan />} />
                     <Route path="/*" element={<Navigate to="/" />} />
                 </Routes>

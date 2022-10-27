@@ -859,11 +859,11 @@ img.hover-shadow {
 }
 
 .main-content .owl-theme .custom-nav .owl-prev {
-  left: 0;
+  left: -45px;
 }
 
 .main-content .owl-theme .custom-nav .owl-next {
-  right: 0;
+  right: -45px;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
