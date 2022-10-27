@@ -14,6 +14,10 @@ import man from '../../assets/img/icon/icon-man.svg'
 // import women from '../../assets/img/icon/icon-women.svg'
 
 const options = {
+    items: 3,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     loop: true,
     margin: 35,
     nav: true,
@@ -22,6 +26,7 @@ const options = {
         '<span class="fas fa-chevron-left fa-2x"></span>',
         '<span class="fas fa-chevron-right fa-2x"></span>'
     ],
+    responsiveClass: true,
     navContainer: ".main-content .owl-profil",
     responsive: {
         0: {

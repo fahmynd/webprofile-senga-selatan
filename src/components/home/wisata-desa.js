@@ -9,7 +9,10 @@ import wisata3 from '../../assets/img/wisata/wisata3.webp'
 import dots from '../../assets/img/bg/dots.webp'
 
 const options = {
-    stagePadding: 50,
+    // stagePadding: 50,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     loop: true,
     margin: 10,
     nav: true,
@@ -17,6 +20,7 @@ const options = {
         '<i class="fa fa-angle-left" aria-hidden="true"></i>',
         '<i class="fa fa-angle-right" aria-hidden="true"></i>',
     ],
+    responsiveClass: true,
     navContainer: ".main-content .owl-wisata",
     responsive: {
         0: {

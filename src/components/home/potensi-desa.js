@@ -9,6 +9,9 @@ import pertambakan from '../../assets/img/potensi/pertambakan.jpg'
 import gracilaria from '../../assets/img/potensi/gracilaria.jpeg'
 
 const options = {
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     loop: true,
     margin: 20,
     nav: true,
@@ -17,6 +20,7 @@ const options = {
         '<i class="fa fa-angle-left" aria-hidden="true"></i>',
         '<i class="fa fa-angle-right" aria-hidden="true"></i>',
     ],
+    responsiveClass: true,
     navContainer: ".main-content .owl-potensi",
     responsive: {
         0: {

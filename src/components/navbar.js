@@ -26,31 +26,31 @@ function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to="/" end>Home</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/" end><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Home</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/profil-desa">Profil Desa</NavLink>
+                            <NavLink className="nav-link" to="/profil-desa"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Profil Desa</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/infografis">Infografis</NavLink>
+                            <NavLink className="nav-link" to="/infografis"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Infografis</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/geospasial">Geospasial</NavLink>
+                            <NavLink className="nav-link" to="/geospasial"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Geospasial</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/idm">IDM</NavLink>
+                            <NavLink className="nav-link" to="/idm"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">IDM</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/berita">Berita</NavLink>
+                            <NavLink className="nav-link" to="/berita"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Berita</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/belanja">Belanja</NavLink>
+                            <NavLink className="nav-link" to="/belanja"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Belanja</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/ppid">PPID</NavLink>
+                            <NavLink className="nav-link" to="/ppid"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">PPID</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/pengaduan">Pengaduan</NavLink>
+                            <NavLink className="nav-link" to="/pengaduan"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Pengaduan</span></NavLink>
                         </li>
                     </ul>
                 </div>

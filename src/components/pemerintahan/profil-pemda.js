@@ -59,7 +59,7 @@ class ProfilPemda extends React.Component {
                         <div className="col-md-10">
                             <div className="main-content">
                                 <OwlCarousel id="caroProfilPemda" className="owl-carousel owl-theme" {...options}>
-                                    <div className="card">
+                                    {/* <div className="card">
                                         <div className="card-body card-testimoni">
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
@@ -110,7 +110,7 @@ class ProfilPemda extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="card">
                                         <div className="card-body card-testimoni">
                                             <div className="row">
@@ -183,11 +183,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: AYYUB BASRI</li>
+                                                        <li>Tempat/Tanggal Lahir: Belopa, 05 Juli 1983</li>
+                                                        <li>Jenis Kelamin: Laki-Laki</li>
+                                                        <li>Status: Kawin</li>
+                                                        <li>Alamat: Dusun Labulawang Desa Senga Selatan Kecamtan Belopa</li>
+                                                        <li>Nama Istri: MARTINA</li>
+                                                        <li>Jumlah Anak: 2 (dua) orang</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -195,9 +197,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Negeri 21 Taddette,Belopa, Indonesia  ( 1990-1996 )</li>
+                                                        <li>SMP: Sekolah Menengah Pertama Pesantren Moderen Dato Sulaiman, Palopo, Indonesia  ( 1996-1999 )</li>
+                                                        <li>SMA: Sekolah Menengah Atas Negeri 1 Belopa, Indonesia  ( 1999-2002 )</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -214,7 +216,7 @@ class ProfilPemda extends React.Component {
                                                         Pengalaman Organisasi:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
+                                                        <li>Honorer Dinas Peternakan Kabupaten Luwu</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -235,11 +237,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: LILIS</li>
+                                                        <li>Tempat/Tanggal Lahir: Kalobang, 18 Juli 1999</li>
+                                                        <li>Jenis Kelamin: Perempuan</li>
+                                                        <li>Status: Kawin</li>
+                                                        <li>Alamat: Dusun Kalobang Desa Senga Selatan Kecamatan Belopa Kecamtan Belopa</li>
+                                                        <li>Nama Suami: MUH. IDUL</li>
+                                                        <li>Jumlah Anak: 1 (satu) orang</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -247,9 +251,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Negeri 431 Walenna, Belopa, Indonesia (2005-2011)</li>
+                                                        <li>SMP: Sekolah Menengah Pertama Negeri 3 Belopa, Indonesia (2011-2014)</li>
+                                                        <li>SMA: Sekolah Menengah Kejuruan Negeri 1 Belopa, Indonesia (2014-2017)</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -265,9 +269,6 @@ class ProfilPemda extends React.Component {
                                                     <h3 id="testimoni" name="testimoni" className="testimoni-text text-decoration-underline">
                                                         Pengalaman Organisasi:
                                                     </h3>
-                                                    <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -287,11 +288,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: KARINA</li>
+                                                        <li>Tempat/Tanggal Lahir: Balo-Balo, 10 April 1991</li>
+                                                        <li>Jenis Kelamin: Perempuan</li>
+                                                        <li>Status: Kawin</li>
+                                                        <li>Alamat: Dusun Kalobang Desa Senga Selatan Kecamatan Belopa Kecamtan Belopa</li>
+                                                        <li>Nama Suami: KHALIK</li>
+                                                        <li>Jumlah Anak: 2 (dua) orang</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -299,9 +302,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Negeri 26 Balo-Balo, Belopa, Indonesia (1996-2002)</li>
+                                                        <li>SMP: Sekolah Menengah Pertama Negeri 1 Belopa, Indonesia (2002-2005)</li>
+                                                        <li>SMA: Sekolah Menengah Atas Negeri 1 Belopa, Indonesia (2005-2008)</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -318,7 +321,7 @@ class ProfilPemda extends React.Component {
                                                         Pengalaman Organisasi:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
+                                                        <li>Anggota Badan Permusyawaratan Desa</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -339,11 +342,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: PRASETYO SALLO</li>
+                                                        <li>Tempat/Tanggal Lahir: Manado, 07 Februari 1992</li>
+                                                        <li>Jenis Kelamin: Laki-Laki</li>
+                                                        <li>Status: Kawin</li>
+                                                        <li>Alamat: Dusun Mangali-Mangali Desa Senga Selatan Kecamatan Belopa</li>
+                                                        <li>Nama Istri: -</li>
+                                                        <li>Jumlah Anak: -</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -351,9 +356,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Negeri Tugu Utara 15 Pagi Jakarta Utara, Indonesia (1998-2004)</li>
+                                                        <li>SMP: Sekolah Menengah Pertama Negeri 1 Belopa, Indonesia (2004-2007)</li>
+                                                        <li>SMA: Sekolah Menengah Atas Negeri 1 Belopa, Indonesia (2007-2010)</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -370,7 +375,11 @@ class ProfilPemda extends React.Component {
                                                         Pengalaman Organisasi:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
+                                                        <li>Koordinator Bidang Organisasi Persatuan Basket Seluruh Indonesia (Perbasi) Kab. Luwu (2021-sekarang)</li>
+                                                        <li>Wakil Ketua Umum Unit Kegiatan Mahasiswa Basket Universitas Hasanuddin</li>
+                                                        <li>Kepala Bidang Organisasi Fakultas Pertanian Universitas Hasanuddin</li>
+                                                        <li>Ketua Bidang Kewirausahaan HMJ Misekta Jurusan Agribisnis</li>
+                                                        <li>Anggota Badan Pengurus Dan Pemeriksa HMJ Misekta Jurusan Agribisnis Fakultas Pertanian UNHAS</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -391,11 +400,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: SULAEHA ANSHAR</li>
+                                                        <li>Tempat/Tanggal Lahir: Ujung Pandang, 12 Juni 1996</li>
+                                                        <li>Jenis Kelamin: Perempuan</li>
+                                                        <li>Status: Kawin</li>
+                                                        <li>Alamat: Dusun Walenna Timur Desa Senga Selatan Kecamatan Belopa</li>
+                                                        <li>Nama Suami: M.THAJERIMIN, S.KEP.NS</li>
+                                                        <li>Jumlah Anak: 1 (satu) Orang</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -403,9 +414,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Rama Sejahtera, Makassar, Indonesia (2003-2009)</li>
+                                                        <li>SMP: Sekolah Menengah Pertama Rama Sejahtera, Makassar, Indonesia (2009-2012)</li>
+                                                        <li>SMA: Sekolah Menengah Atas Rama Sejahtera, Makassar, Indonesia (2012-2015)</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -422,7 +433,7 @@ class ProfilPemda extends React.Component {
                                                         Pengalaman Organisasi:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
+                                                        <li>Bendahara Di Futsal Elektrik PT. PLN Persero</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -443,11 +454,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: RISKA</li>
+                                                        <li>Tempat/Tanggal Lahir: Labulawang, 25 Mei 2001</li>
+                                                        <li>Jenis Kelamin: Perempuan</li>
+                                                        <li>Status: Kawin</li>
+                                                        <li>Alamat: Dusun Labulawang Desa Senga Selatan Kecamatan Belopa</li>
+                                                        <li>Nama Suami: -</li>
+                                                        <li>Jumlah Anak: -</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -455,9 +468,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Negeri 20 Cimpu, Suli, Indonesia (2007-2013)</li>
+                                                        <li>SMP: Sekolah Menengah Pertama Negeri 3 Belopa, Indonesia (2013-2016)</li>
+                                                        <li>SMA: Sekolah Menengah Kejuruan Negeri 1 Belopa, Indonesia (2016-2019)</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -473,14 +486,11 @@ class ProfilPemda extends React.Component {
                                                     <h3 id="testimoni" name="testimoni" className="testimoni-text text-decoration-underline">
                                                         Pengalaman Organisasi:
                                                     </h3>
-                                                    <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="card">
+                                    {/* <div className="card">
                                         <div className="card-body card-testimoni">
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
@@ -791,7 +801,7 @@ class ProfilPemda extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </OwlCarousel>
                                 <div className="owl-theme">
                                     <div className="owl-controls">
