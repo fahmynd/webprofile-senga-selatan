@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.322c4e28.css",
+    "main.css": "/static/css/main.8aad2fb7.css",
     "main.js": "/static/js/main.a28769bd.js",
     "static/css/331.d365661e.chunk.css": "/static/css/331.d365661e.chunk.css",
     "static/js/331.d4ee9b1a.chunk.js": "/static/js/331.d4ee9b1a.chunk.js",
@@ -166,7 +166,7 @@
     "static/media/youtube.svg": "/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
-    "main.322c4e28.css.map": "/static/css/main.322c4e28.css.map",
+    "main.8aad2fb7.css.map": "/static/css/main.8aad2fb7.css.map",
     "main.a28769bd.js.map": "/static/js/main.a28769bd.js.map",
     "331.d365661e.chunk.css.map": "/static/css/331.d365661e.chunk.css.map",
     "331.d4ee9b1a.chunk.js.map": "/static/js/331.d4ee9b1a.chunk.js.map",
@@ -216,7 +216,7 @@
     "890.09531e38.chunk.js.map": "/static/js/890.09531e38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.322c4e28.css",
+    "static/css/main.8aad2fb7.css",
     "static/js/main.a28769bd.js"
   ]
 }
