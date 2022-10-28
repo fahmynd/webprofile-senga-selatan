@@ -326,12 +326,19 @@ footer .container {
   }
  } */
 
- /* @media(max-width: 945px) {
-  .boxCounter {
-    margin-left: 66px !important;
-    margin-top: 46px !important;
+ @media(max-width: 991px) {
+  .nav-link {
+    font-size: 16px !important;
   }
- } */
+  .nav-link.active {
+    border: none !important;
+    color: #E58B20 !important;
+    font-weight: bolder !important;
+  }
+  .navbar-nav {
+    align-items: center !important;
+  }
+ }
 
  @media(max-width: 1044px) {
   .adm-umum-judul {
@@ -473,7 +480,8 @@ footer .info-nav {
 }
 
 .bg-semi-transparent {
-  background-color: rgba(50, 176, 88, 1);
+  background: linear-gradient(#327a6d, #44a694);
+  /* background-color: rgba(50, 176, 88, 1); */
 }
 
 .info-singkat-desa__nama {
