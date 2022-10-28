@@ -1,0 +1,21 @@
+#besucherzaehler2 {
+        animation-duration: 0.5s;
+        animation-name: animate-fade;
+        animation-delay: 3s;
+        animation-fill-mode: backwards;
+      }
+      
+      @keyframes animate-fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+}
+
+@media(max-width: 700px) {
+#besucherzaehler2 {
+    /* display: none; */
+}
+}
