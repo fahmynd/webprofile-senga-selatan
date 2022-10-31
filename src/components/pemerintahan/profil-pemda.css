@@ -53,7 +53,7 @@
 
   @media (max-width: 767px) {
   .testimoni-nama {
-    margin-bottom: 1.5rem !important;
+    /* margin-bottom: 1.5rem !important; */
   }
   #testimoni {
     font-size: .725rem;

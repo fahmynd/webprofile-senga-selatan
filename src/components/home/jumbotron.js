@@ -1,17 +1,23 @@
 import React from 'react'
 import pakde from '../../assets/img/foto-pakde.webp'
 import ShowMoreText from "react-show-more-text";
+// import blobs1 from '../../assets/img/bg/blobs1.webp'
+// import blobs2 from '../../assets/img/bg/blobs2.webp'
+// import blobs3 from '../../assets/img/bg/blobs3.webp'
 
 function Jumbotron() {
     return (
         <>
             <div className="d-lg-none d-xl-none">
                 <div className="row">
-                    <div className="col-12 text-center fw-bold bg-dark text-white welcome">
+                    <div className="col-12 text-center fw-bold bg-dark text-light welcome">
                         <p className='font-welcome'>Selamat Datang</p>
                         <p className='font-welcome'>Website Resmi Desa Senga Selatan</p>
                     </div>
                 </div>
+                {/* <img id="blobs-1" src={blobs1} alt="" />
+                <img id="blobs-2" src={blobs2} alt="" />
+                <img id="blobs-3" src={blobs3} alt="" /> */}
             </div>
             <section className='container d-lg-none d-xl-none text-center mt-5'>
                 <div className='container'>

@@ -5,6 +5,7 @@ const Home = lazy(() => import("./pages/home"));
 const Pemerintahan = lazy(() => import("./pages/pemerintahan"));
 const Infografis = lazy(() => import("./pages/infografis"));
 const Idm = lazy(() => import("./pages/idm"));
+// const CardNews = lazy(() => import("./components/berita/card"));
 const Berita = lazy(() => import("./pages/berita"));
 const Belanja = lazy(() => import("./pages/belanja"));
 const Navbar = lazy(() => import("./components/navbar"));
@@ -72,7 +73,6 @@ function App() {
                         <Route path="lindungi-pantai-taddette-pemerintah-desa-senga-selatan-bersama-ptmda-menggelar-bakti-sosial-gerakan-tanam-sejuta-pohon-mangrove" element={<DllBerita3 />} />
                         <Route path="menunggu-hasil-pemdes-senga-selatan-ikuti-penilaian-akhir-lomba-inovasi-desa" element={<DllBerita4 />} />
                     </Route>
-
                     <Route path="/belanja" element={<Belanja />} />
                     <Route path="/ppid/*" element={<Ppid />} />
                     <Route path="/profil-ppid" element={<ProfilPpid />} />

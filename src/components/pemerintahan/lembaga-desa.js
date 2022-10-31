@@ -3,13 +3,17 @@ import pemerintahan from '../../assets/img/lembaga/struktur-pemerintahan.jpg'
 
 function LembagaDesa() {
     return (
-        <section>
-            <div className="container">
-                <h2 className="fw-bold sub-judul text-center">Struktur Pemerintahan Desa</h2>
+        <section id='strukturPemda' className="container">
+            <div>
+                <h2 className="fw-bold sub-judul text-center mb-5">Struktur Pemerintahan Desa</h2>
             </div>
-            <div className="mt-5">
+            <input type="checkbox" id="zoomCheck" />
+            <label htmlFor="zoomCheck">
+                <img src={pemerintahan} alt='' />
+            </label>
+            {/* <div className="mt-5">
                 <img className='mx-auto d-block' src={pemerintahan} alt="" width='90%' />
-            </div>
+            </div> */}
             {/* <div className="container">
                     <h2 className="fw-bold sub-judul text-center">Struktur BPD</h2>
                 </div>

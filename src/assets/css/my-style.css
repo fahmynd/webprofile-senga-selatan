@@ -76,7 +76,6 @@ html {
 }
 
 #jumbotron {
-  position: relative;
   height: 100vh;
   width: 100vw;
   z-index: 1;
@@ -327,6 +326,9 @@ footer .container {
  } */
 
  @media(max-width: 991px) {
+  .nama-desa-lite {
+    font-size: 0.8rem !important;
+}
   .nav-link {
     font-size: 16px !important;
   }
@@ -1427,4 +1429,20 @@ img.hover-shadow {
   line-height: 100vh;
   height: 100vh;
   text-align: center;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#strukturPemda img {
+  margin: auto;
+  width: 100%;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
 }

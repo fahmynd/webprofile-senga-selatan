@@ -50,6 +50,12 @@ class ProfilPpid extends React.Component {
                         <div className="col-md-8 text-center">
                             <h2 className="fw-bold sub-judul">PPID Pelaksana</h2>
                             <p>
+                                Website ini merupakan ruang layanan online bagi pemohon informasi publik yang setiap saat dapat diakses oleh masyarakat. Dan ini merupakan salah satu wujud implementasi keterbukaan informasi publik yang diterapkan Pemerintah Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu, Provinsi Sulawesi Selatan.
+                            </p>
+                            <p>
+                                Selaras dengan amanat UU Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik, Pemerintah Desa Senga Selatan sebagai badan publik berupaya secara maksimal memenuhi hak masyarakat atas informasi publik dengan konsep layanan yang cepat, mudah, efektif dan akuntabel.
+                            </p>
+                            <p className='fw-bold'>
                                 Alamat: Jl. Andi Benni No. 27, Dusun Kalobang, Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu
                             </p>
                         </div>
@@ -63,7 +69,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={pakde} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={pakde} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Anwar Amir, S.Sos</p>
                                                     <p className="ppid-jabatan"><i>Atasan PPID</i></p>
@@ -84,7 +90,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={sekdes} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={sekdes} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Herni BTE Suardi</p>
                                                     <p className="ppid-jabatan"><i>PPID Pelaksana</i></p>
@@ -105,7 +111,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kasiPemerintahan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kasiPemerintahan} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Ayyub Basri</p>
                                                     <p className="ppid-jabatan"><i>Tim Pertimbangan</i></p>
@@ -126,7 +132,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kaurUmum} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kaurUmum} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Prasetyo Sallo</p>
                                                     <p className="ppid-jabatan"><i>Tim Pertimbangan</i></p>
@@ -147,7 +153,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kaurKeuangan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kaurKeuangan} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Sulaeha Anshar</p>
                                                     <p className="ppid-jabatan"><i>Tim Pertimbangan</i></p>
@@ -168,7 +174,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={man} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={man} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Muh. Khaer Fatwa</p>
                                                     <p className="ppid-jabatan"><i>Petugas Layanan Informasi</i></p>
@@ -189,7 +195,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={staffPemerintahan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={staffPemerintahan} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Lilis</p>
                                                     <p className="ppid-jabatan"><i>Petugas Layanan Informasi</i></p>
@@ -210,7 +216,7 @@ class ProfilPpid extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={staffKeuangan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={staffKeuangan} />
                                                     </div>
                                                     <p className="ppid-nama mt-3">Riska</p>
                                                     <p className="ppid-jabatan"><i>Petugas Layanan Informasi</i></p>

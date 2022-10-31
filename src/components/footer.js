@@ -33,7 +33,7 @@ function Footer() {
                         <p className="footer-text__alamat">
                             Jl. Andi Benni No.27 Dusun Kalobang, <br /> Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu <br /> Provinsi Sulawesi Selatan, 91983
                         </p>
-                        <div className="boxCounter d-none d-sm-none d-md-block">
+                        {/* <div className="boxCounter d-none d-sm-none d-md-block">
                             <div className="row border rounded bg-light">
                                 <div className="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
                                 <div className="col-7 border-start border-top border-bottom">Hari ini</div>
@@ -42,11 +42,8 @@ function Footer() {
                                 <div className="col-5 border-end border-top border-bottom">213</div>
                                 <div className="col-7 border-start border-top border-bottom">Semua</div>
                                 <div id='result' className="col-5 border-end border-top border-bottom website-counter">16723</div>
-                                {/* <button id="reset">Reset</button> */}
-                                {/* <div className="col-7 border-start border-top border-bottom">Aktif</div>
-                                <div className="col-5 border-end border-top border-bottom">29</div> */}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="offset-md-1 col-md-3">
                         <p className="footer-text_judul clr-white">Nomor Telpon Penting</p>
@@ -71,7 +68,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 mt-5">
+                    <div className="col-md-3 mt-3">
                         <p className="footer-text_judul clr-white">Sosial Media</p>
                         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pemdes.selatan.3/">
                             <img className="me-1" src={facebook} alt="" width="25" />

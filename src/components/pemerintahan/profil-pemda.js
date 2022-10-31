@@ -11,17 +11,20 @@ import kasiKesejahteraan from '../../assets/img/kasi-kesejahteraan.png'
 import kaurUmum from '../../assets/img/kaur-umum.png'
 import kaurKeuangan from '../../assets/img/kaur-keuangan.png'
 import staffKeuangan from '../../assets/img/staff-keuangan.png'
-import kadusMangaliali from '../../assets/img/kadus-mangaliali.png'
-import kadusKalobang from '../../assets/img/kadus-kalobang.png'
-import kadusTaddette from '../../assets/img/kadus-taddette.png'
-import kadusLabulawang from '../../assets/img/kadus-labulawang.png'
-import kadusWalennaBarat from '../../assets/img/kadus-walenna-barat.png'
-import kadusWalennaTimur from '../../assets/img/kadus-walenna-timur.png'
+// import kadusMangaliali from '../../assets/img/kadus-mangaliali.png'
+// import kadusKalobang from '../../assets/img/kadus-kalobang.png'
+// import kadusTaddette from '../../assets/img/kadus-taddette.png'
+// import kadusLabulawang from '../../assets/img/kadus-labulawang.png'
+// import kadusWalennaBarat from '../../assets/img/kadus-walenna-barat.png'
+// import kadusWalennaTimur from '../../assets/img/kadus-walenna-timur.png'
 
 const options = {
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     loop: true,
     margin: 35,
-    nav: true,
+    nav: false,
     center: true,
     // navText: [
     //     '<i class="fa fa-angle-left" aria-hidden="true"></i>',
@@ -31,6 +34,7 @@ const options = {
         '<span class="fas fa-chevron-left fa-2x"></span>',
         '<span class="fas fa-chevron-right fa-2x"></span>'
     ],
+    responsiveClass: true,
     navContainer: ".main-content .owl-profil",
     responsive: {
         0: {
@@ -59,12 +63,12 @@ class ProfilPemda extends React.Component {
                         <div className="col-md-10">
                             <div className="main-content">
                                 <OwlCarousel id="caroProfilPemda" className="owl-carousel owl-theme" {...options}>
-                                    {/* <div className="card">
+                                    <div className="card">
                                         <div className="card-body card-testimoni">
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={pakde} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={pakde} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Anwar Amir, S.Sos</p>
                                                     <p className="testimoni-jabatan"><i>Kepala Desa Senga Selatan</i></p>
@@ -74,11 +78,13 @@ class ProfilPemda extends React.Component {
                                                         Profil:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
-                                                        <li>Tempat/Tanggal Lahir:</li>
-                                                        <li>Jenis Kelamin:</li>
-                                                        <li>Status:</li>
-                                                        <li>Alamat:</li>
+                                                        <li>Nama: ANWAR AMIR,S.Sos</li>
+                                                        <li>Tempat/Tanggal Lahir: Malili, 25 Desember 1975</li>
+                                                        <li>Jenis Kelamin: Laki-Laki</li>
+                                                        <li>Status: Laki-laki</li>
+                                                        <li>Alamat: BTN Griya Belopa Indah Blok.C No.7 Desa Belopa</li>
+                                                        <li>Nama Istri: MARYANA</li>
+                                                        <li>Jumlah Anak: 3 (Tiga) Orang</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -86,9 +92,9 @@ class ProfilPemda extends React.Component {
                                                         Pendidikan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>SD:</li>
-                                                        <li>SMP:</li>
-                                                        <li>SMA:</li>
+                                                        <li>SD: Sekolah Dasar Negeri 274 Mattirowalie, Palopa, Indonesia (1982-1988)</li>
+                                                        <li>SMP: Madrasah Tsanawiyah Negeri Palopo, Indonesia (1988-1991)</li>
+                                                        <li>SMA: PGRI Palopo (1991-1994)</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -96,8 +102,8 @@ class ProfilPemda extends React.Component {
                                                         Jabatan dalam Pemerintahan:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Kepala Desa</li>
-                                                        <li>Nomor SK:</li>
+                                                        <li>Pj. Kepala Desa</li>
+                                                        <li>Nomor SK: 3/I/2022</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -105,18 +111,20 @@ class ProfilPemda extends React.Component {
                                                         Pengalaman Organisasi:
                                                     </h3>
                                                     <ul className='testimoni-text'>
-                                                        <li>Nama:</li>
+                                                        <li>Pengurus Karang Taruna Kabupaten Luwu</li>
+                                                        <li>Dewan Mesjid Kabupten Luwu</li>
+                                                        <li>Pengurus BKPRMI Kabupaten Luwu</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> */}
+                                    </div>
                                     <div className="card">
                                         <div className="card-body card-testimoni">
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={sekdes} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={sekdes} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Herni BTE Suardi</p>
                                                     <p className="testimoni-jabatan"><i>Sekretaris Desa</i></p>
@@ -173,7 +181,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kasiPemerintahan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kasiPemerintahan} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Ayyub Basri</p>
                                                     <p className="testimoni-jabatan"><i>Kasi Pemerintahan</i></p>
@@ -227,7 +235,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={staffPemerintahan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={staffPemerintahan} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Lilis</p>
                                                     <p className="testimoni-jabatan"><i>Staff Pemerintahan</i></p>
@@ -278,7 +286,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kasiKesejahteraan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kasiKesejahteraan} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Karina</p>
                                                     <p className="testimoni-jabatan"><i>Kasi Kesejahteraan & Pelayanan</i></p>
@@ -332,7 +340,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kaurUmum} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kaurUmum} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Prasetyo Sallo</p>
                                                     <p className="testimoni-jabatan"><i>Kaur Umum & Perencanaan</i></p>
@@ -347,8 +355,6 @@ class ProfilPemda extends React.Component {
                                                         <li>Jenis Kelamin: Laki-Laki</li>
                                                         <li>Status: Kawin</li>
                                                         <li>Alamat: Dusun Mangali-Mangali Desa Senga Selatan Kecamatan Belopa</li>
-                                                        <li>Nama Istri: -</li>
-                                                        <li>Jumlah Anak: -</li>
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -367,7 +373,7 @@ class ProfilPemda extends React.Component {
                                                     </h3>
                                                     <ul className='testimoni-text'>
                                                         <li>Kaur Umum & Perencanaan</li>
-                                                        <li>Nomor SK:</li>
+                                                        {/* <li>Nomor SK:</li> */}
                                                     </ul>
                                                 </div>
                                                 <div className="col-md-12">
@@ -390,7 +396,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kaurKeuangan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kaurKeuangan} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Sulaeha Anshar</p>
                                                     <p className="testimoni-jabatan"><i>Kaur Keuangan</i></p>
@@ -444,7 +450,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={staffKeuangan} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={staffKeuangan} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Riska</p>
                                                     <p className="testimoni-jabatan"><i>Staff Keuangan</i></p>
@@ -495,7 +501,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kadusMangaliali} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kadusMangaliali} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Ansar B</p>
                                                     <p className="testimoni-jabatan"><i>Kadus Mangaliali</i></p>
@@ -547,7 +553,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kadusKalobang} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kadusKalobang} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Marsuki</p>
                                                     <p className="testimoni-jabatan"><i>Kadus Kalobang</i></p>
@@ -599,7 +605,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kadusTaddette} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kadusTaddette} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Musmuliadi</p>
                                                     <p className="testimoni-jabatan"><i>Kadus Taddette</i></p>
@@ -651,7 +657,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kadusLabulawang} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kadusLabulawang} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Bahar M</p>
                                                     <p className="testimoni-jabatan"><i>Kadus Labulawang</i></p>
@@ -703,7 +709,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kadusWalennaBarat} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kadusWalennaBarat} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Nuwardi</p>
                                                     <p className="testimoni-jabatan"><i>Kadus Walenna Barat</i></p>
@@ -755,7 +761,7 @@ class ProfilPemda extends React.Component {
                                             <div className="row">
                                                 <div className="col-md-12 text-center">
                                                     <div className="img-round center-img">
-                                                        <img className="img-round" style={{ borderRadius: '50%' }} src={kadusWalennaTimur} />
+                                                        <img alt='' className="img-round" style={{ borderRadius: '50%' }} src={kadusWalennaTimur} />
                                                     </div>
                                                     <p className="testimoni-nama mt-3">Burhan</p>
                                                     <p className="testimoni-jabatan"><i>Kadus Walenna Timur</i></p>
