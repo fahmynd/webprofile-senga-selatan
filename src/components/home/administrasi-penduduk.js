@@ -18,7 +18,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">3.513</p>
+                                        <p className="adm-umum-jumlah fw-bold">3.536</p>
                                         <p className="adm-umum-judul">Jumlah Total Penduduk</p>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1.782</p>
+                                        <p className="adm-umum-jumlah fw-bold">1.791</p>
                                         <p className="adm-umum-judul">Laki-Laki</p>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1.731</p>
+                                        <p className="adm-umum-jumlah fw-bold">1.735</p>
                                         <p className="adm-umum-judul">Perempuan</p>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">971</p>
+                                        <p className="adm-umum-jumlah fw-bold">975</p>
                                         <p className="adm-umum-judul">Kepala Keluarga</p>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ function AdministrasiPenduduk() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">119</p>
+                                        <p className="adm-umum-jumlah fw-bold">124</p>
                                         <p className="adm-umum-judul">Mutasi Penduduk</p>
                                     </div>
                                 </div>

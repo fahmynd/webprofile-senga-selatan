@@ -55,13 +55,13 @@ function ChartPendudukDusun(props) {
             value: 805
         }, {
             dusun: "Labulawang",
-            value: 492
+            value: 500
         }, {
             dusun: "Mangali-Ali",
-            value: 455
+            value: 459
         }, {
             dusun: "Walenna Barat",
-            value: 345
+            value: 346
         }, {
             dusun: "Walenna Timur",
             value: 293

@@ -5,9 +5,10 @@ const Home = lazy(() => import("./pages/home"));
 const Pemerintahan = lazy(() => import("./pages/pemerintahan"));
 const Infografis = lazy(() => import("./pages/infografis"));
 const Idm = lazy(() => import("./pages/idm"));
-// const CardNews = lazy(() => import("./components/berita/card"));
+// const CardNews = lazy(() => import("./components/berita/card-berita"));
 const Berita = lazy(() => import("./pages/berita"));
-const Belanja = lazy(() => import("./pages/belanja"));
+const CardBelanja = lazy(() => import("./components/belanja/card-belanja"));
+// const Belanja = lazy(() => import("./pages/belanja"));
 const Navbar = lazy(() => import("./components/navbar"));
 const Footer = lazy(() => import("./components/footer"));
 const ScrollToTop = lazy(() => import("./components/scroll-to-top"));
@@ -36,6 +37,8 @@ const DllBerita2 = lazy(() => import("./components/berita/detail-berita/dll-deta
 const DllBerita3 = lazy(() => import("./components/berita/detail-berita/dll-detail3"));
 const DllBerita4 = lazy(() => import("./components/berita/detail-berita/dll-detail4"));
 const Terbaru = lazy(() => import("./components/berita/detail-berita/terbaru"));
+const Terbaru31Nov = lazy(() => import("./components/berita/detail-berita/terbaru31Nov"));
+const Terbaru03Nov = lazy(() => import("./components/berita/detail-berita/terbaru03Nov"));
 
 function App() {
     return (
@@ -51,6 +54,8 @@ function App() {
                     <Route path="/idm" element={<Idm />} />
                     <Route path="/berita" element={<Berita />} />
                     <Route path="/berita/*">
+                        <Route path="desa-senga-selatan-luwu-wakili-sulsel-lomba-kip" element={<Terbaru03Nov />} />
+                        <Route path="senga-selatan-wakili-sulsel-di-ajang-apresiasi-kip-desa-tingkat-nasional" element={<Terbaru31Nov />} />
                         <Route path="pemdes-senga-selatan-mengikuti-rakor-persiapan-kegiatan-evaluasi-dan-apresiasi-kip-nasional-2022" element={<Terbaru />} />
                         <Route path="kepala-desa-senga-selatan-mengadakan-rakor-terkait-peta-lokasi-kawasan-hutan-lindung" element={<TerbaruBerita1 />} />
                         <Route path="pemdes-senga-selatan-melaksanakan-musyawarah-desa-dengan-beberapa-agenda" element={<TerbaruBerita2 />} />
@@ -73,7 +78,7 @@ function App() {
                         <Route path="lindungi-pantai-taddette-pemerintah-desa-senga-selatan-bersama-ptmda-menggelar-bakti-sosial-gerakan-tanam-sejuta-pohon-mangrove" element={<DllBerita3 />} />
                         <Route path="menunggu-hasil-pemdes-senga-selatan-ikuti-penilaian-akhir-lomba-inovasi-desa" element={<DllBerita4 />} />
                     </Route>
-                    <Route path="/belanja" element={<Belanja />} />
+                    <Route path="/belanja" element={<CardBelanja />} />
                     <Route path="/ppid/*" element={<Ppid />} />
                     <Route path="/profil-ppid" element={<ProfilPpid />} />
                     <Route path="/pengaduan" element={<Pengaduan />} />

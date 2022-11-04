@@ -1173,7 +1173,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Perempuan</p>
                                                     <img src={prIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.731</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.735</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1182,7 +1182,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Laki-Laki</p>
                                                     <img src={lkIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.782</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.791</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1191,7 +1191,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Total Penduduk</p>
                                                     <img src={tpIcon} alt="icon jumlah perempuan" height="230" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.513</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.536</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1228,23 +1228,23 @@ function KontenInfografis() {
                                                         </tr>
                                                         <tr>
                                                             <td>Tamat SD/Sederajat</td>
-                                                            <td className="td-center">672</td>
+                                                            <td className="td-center">673</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Tidak/Belum Sekolah</td>
-                                                            <td className="td-center">558</td>
+                                                            <td className="td-center">557</td>
                                                         </tr>
                                                         <tr>
                                                             <td>SLTP/Sederajat</td>
-                                                            <td className="td-center">546</td>
+                                                            <td className="td-center">549</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Belum Tamat SD/Sederajat</td>
-                                                            <td className="td-center">365</td>
+                                                            <td className="td-center">375</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Diploma IV/Strata I</td>
-                                                            <td className="td-center">243</td>
+                                                            <td className="td-center">244</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Diploma III/Sarjana Muda</td>
@@ -1267,7 +1267,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">672</p>
+                                                            <p className="penduduk-card__jumlah">673</p>
                                                             <p className="penduduk-card__info">Tamat SD/Sederajat</p>
                                                         </div>
                                                     </div>
@@ -1275,7 +1275,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">558</p>
+                                                            <p className="penduduk-card__jumlah">557</p>
                                                             <p className="penduduk-card__info">Tidak/Belum Sekolah</p>
                                                         </div>
                                                     </div>
@@ -1283,7 +1283,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">546</p>
+                                                            <p className="penduduk-card__jumlah">549</p>
                                                             <p className="penduduk-card__info">SLTP/Sederajat</p>
                                                         </div>
                                                     </div>
@@ -1291,7 +1291,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">365</p>
+                                                            <p className="penduduk-card__jumlah">375</p>
                                                             <p className="penduduk-card__info">Belum Tamat SD/Sederajat</p>
                                                         </div>
                                                     </div>
@@ -1299,7 +1299,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">243</p>
+                                                            <p className="penduduk-card__jumlah">244</p>
                                                             <p className="penduduk-card__info">Diploma IV/Strata I</p>
                                                         </div>
                                                     </div>
@@ -1328,19 +1328,19 @@ function KontenInfografis() {
                                                     <tbody>
                                                         <tr>
                                                             <td>Pelajar/Mahasiswa</td>
-                                                            <td className="td-center">984</td>
+                                                            <td className="td-center">988</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Belum/Tidak Bekerja</td>
-                                                            <td className="td-center">760</td>
+                                                            <td className="td-center">766</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Mengurus Rumah Tangga</td>
-                                                            <td className="td-center">708</td>
+                                                            <td className="td-center">710</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Wiraswasta</td>
-                                                            <td className="td-center">301</td>
+                                                            <td className="td-center">302</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Petani/Pekebun</td>
@@ -1363,7 +1363,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">984</p>
+                                                            <p className="penduduk-card__jumlah">988</p>
                                                             <p className="penduduk-card__info">Pelajar/Mahasiswa</p>
                                                         </div>
                                                     </div>
@@ -1371,7 +1371,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">760</p>
+                                                            <p className="penduduk-card__jumlah">766</p>
                                                             <p className="penduduk-card__info">Belum/Tidak Bekerja</p>
                                                         </div>
                                                     </div>
@@ -1379,7 +1379,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">708</p>
+                                                            <p className="penduduk-card__jumlah">710</p>
                                                             <p className="penduduk-card__info">Mengurus Rumah Tangga</p>
                                                         </div>
                                                     </div>
@@ -1387,7 +1387,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">301</p>
+                                                            <p className="penduduk-card__jumlah">302</p>
                                                             <p className="penduduk-card__info">Wiraswasta</p>
                                                         </div>
                                                     </div>
@@ -1431,27 +1431,27 @@ function KontenInfografis() {
                                                     <tbody>
                                                         <tr>
                                                             <td>15 - 19</td>
-                                                            <td className="td-center">374</td>
+                                                            <td className="td-center">369</td>
                                                         </tr>
                                                         <tr>
                                                             <td>10 - 14</td>
-                                                            <td className="td-center">352</td>
+                                                            <td className="td-center">354</td>
                                                         </tr>
                                                         <tr>
                                                             <td>20 - 24</td>
-                                                            <td className="td-center">346</td>
+                                                            <td className="td-center">348</td>
                                                         </tr>
                                                         <tr>
                                                             <td>25 - 29</td>
-                                                            <td className="td-center">297</td>
+                                                            <td className="td-center">302</td>
                                                         </tr>
                                                         <tr>
                                                             <td>40 - 44</td>
-                                                            <td className="td-center">267</td>
+                                                            <td className="td-center">265</td>
                                                         </tr>
                                                         <tr>
                                                             <td>5 - 9</td>
-                                                            <td className="td-center">262</td>
+                                                            <td className="td-center">263</td>
                                                         </tr>
                                                         <tr>
                                                             <td>35 - 39</td>
@@ -1466,7 +1466,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">1.039</p>
+                                                            <p className="penduduk-card__jumlah">1.046</p>
                                                             <p className="penduduk-card__info">Dewasa</p>
                                                         </div>
                                                     </div>
@@ -1482,7 +1482,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">912</p>
+                                                            <p className="penduduk-card__jumlah">914</p>
                                                             <p className="penduduk-card__info">Orang Tua</p>
                                                         </div>
                                                     </div>
@@ -1490,7 +1490,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">398</p>
+                                                            <p className="penduduk-card__jumlah">399</p>
                                                             <p className="penduduk-card__info">Anak-anak</p>
                                                         </div>
                                                     </div>
@@ -1498,7 +1498,7 @@ function KontenInfografis() {
                                                 <div className="col-6 col-lg-4 mb-3">
                                                     <div className="card penduduk-card">
                                                         <div className="card-body">
-                                                            <p className="penduduk-card__jumlah">228</p>
+                                                            <p className="penduduk-card__jumlah">236</p>
                                                             <p className="penduduk-card__info">Balita</p>
                                                         </div>
                                                     </div>
@@ -1519,7 +1519,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Belum Kawin</p>
                                                     <img src={bkIcon} alt="icon belum kawin" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.821</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.828</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1528,7 +1528,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Kawin</p>
                                                     <img src={kIcon} alt="icon kawin" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.471</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">1.468</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1537,7 +1537,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Cerai Mati</p>
                                                     <img src={cmIcon} alt="icon cerai mati" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">105</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">109</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1546,7 +1546,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Cerai Hidup</p>
                                                     <img src={cIcon} alt="icon hidup" height="180" />
-                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">68</p>
+                                                    <p id="jumlahPerempuan" className="card-demografi-penduduk__jumlah mb-0 mt-4">69</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1564,7 +1564,7 @@ function KontenInfografis() {
                                                 <div className="card-body">
                                                     <p className="card-demografi-penduduk__info mb-4">Islam</p>
                                                     <img src={islamIcon} alt="icon agama islam" height="180" />
-                                                    <p id="jumlahAgamaIslam" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.500</p>
+                                                    <p id="jumlahAgamaIslam" className="card-demografi-penduduk__jumlah mb-0 mt-4">3.514</p>
                                                 </div>
                                             </div>
                                         </div>

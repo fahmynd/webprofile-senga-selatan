@@ -26,7 +26,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to="/" end><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Home</span></NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/" end><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Beranda</span></NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/profil-desa"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">Profil Desa</span></NavLink>
