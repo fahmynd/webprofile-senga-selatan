@@ -1,27 +1,28 @@
-import { useEffect, useState } from "react";
+import React, { Component } from 'react'
+import { useState } from 'react'
+import { useEffect } from 'react'
+import { BelanjaCard } from './BelanjaCard'
+import ReactPaginate from "react-paginate";
 import pakde from '../../assets/img/bg/bg-konten-jualan.webp'
 import makananDonat from '../../assets/img/jualan/makanan-donat.webp'
 import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
-import { formatRupiah } from "./format-rupiah";
+import axios from 'axios';
 
-export default function Content(props) {
-    const { data } = props;
-    const [currentItems, setCurrentItems] = useState([]);
-    const [pageCount, setPageCount] = useState(0);
-    const [itemOffset, setItemOffset] = useState(0);
-    const itemsPerPage = 8;
+export default class BelanjaItem extends Component {
+    state = {
+        item: []
+    }
 
-    useEffect(() => {
-        const endoffset = itemOffset + itemsPerPage;
-        setCurrentItems(data.slice(itemOffset, endoffset));
-        setPageCount(Math.ceil(data.length / itemsPerPage));
-    }, [itemOffset, itemsPerPage, data]);
-    const handlePageClick = (event) => {
-        const newOffset = (event.selected * itemsPerPage) % data.length;
-        setItemOffset(newOffset);
-    };
-    return (
-        <>
+    componentDidMount() {
+        axios.get('https://profil.digitaldesa.id/sengaselatan-luwu/belanja/lists')
+            .then((result) => {
+                this.setState({
+                    item: result.data.data
+                })
+            })
+    }
+    render() {
+        return (
             <main id="kontenBelanja">
                 <section id="headerBelanja">
                     <div className="row justify-content-center mb-3">
@@ -69,9 +70,9 @@ export default function Content(props) {
                                 <div className="tab-content" id="myTabContent">
                                     <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div className="row mt-3">
-                                            {currentItems.map((belanja) => {
+                                            {this.state.currentItems.map((belanja) => {
                                                 return (
-                                                    <Belanja
+                                                    <BelanjaCard
                                                         key={belanja.id}
                                                         image={belanja.foto}
                                                         title={belanja.nama}
@@ -141,37 +142,51 @@ export default function Content(props) {
                                 </div>
                             </div>
                         </div>
+
+                        <ReactPaginate
+                            className="pagination justify-content-center"
+                            nextLabel="Next >"
+                            onPageChange={handlePageClick}
+                            pageRangeDisplayed={3}
+                            marginPagesDisplayed={2}
+                            pageCount={pageCount}
+                            previousLabel="< Previous"
+                            pageClassName="page-item"
+                            pageLinkClassName="page-link"
+                            previousClassName="page-item"
+                            previousLinkClassName="page-link"
+                            nextClassName="page-item"
+                            nextLinkClassName="page-link"
+                            breakLabel="..."
+                            breakClassName="page-item"
+                            breakLinkClassName="page-link"
+                            containerClassName="pagination"
+                            activeClassName="active"
+                            renderOnZeroPageCount={null}
+                        />
+
                     </section>
                 </div>
-            </main>
-        </>
-    );
-}
 
-function Belanja(props) {
-    return (
-        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-            <div className="card beli-card">
-                <img src={'https://api.digitaldesa.id/uploads/belanja/thumbs/' + props.image} className="card-img-top beli-card__img" alt="" />
-                <div className="card-body">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <p className="beli-card__judul">{props.title}</p>
+                <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="staticBackdropLabel">Deskripsi Produk</h5>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body">
+                                ...
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                <button type="button" className="btn btn-primary">Hubungi Penjual</button>
+                            </div>
                         </div>
-                        <div className="col-md-12">
-                            <p className="beli-card__harga">Rp {formatRupiah(props.price)},-</p>
-                        </div>
-                        <div className="col-md-12 mb-4">
-                            <p className="beli-card__detail">
-                                {props.description}
-                            </p>
-                        </div>
-                    </div>
-                    <div className="text-center wrap-button-penjual">
-                        <a href={"https://api.whatsapp.com/send?phone=62" + props.phone + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    )
+
+            </main>
+        )
+    }
 }

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import React from 'react'
-import KontenBelanja from '../components/belanja/konten-belanja'
+import CardBelanja from '../components/belanja/card-belanja-api'
 
 function Belanja() {
     useEffect(function () {
@@ -8,7 +8,7 @@ function Belanja() {
     }, []);
     return (
         <main className="mb-5">
-            <KontenBelanja />
+            <CardBelanja />
         </main>
 
     )

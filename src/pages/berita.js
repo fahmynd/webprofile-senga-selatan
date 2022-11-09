@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import React from 'react'
-import KontenBerita from '../components/berita/konten-berita'
+import BlogPost from '../components/berita/card-berita-api'
 
 function Berita() {
     useEffect(function () {
@@ -8,7 +8,7 @@ function Berita() {
     }, []);
     return (
         <main className="mb-5">
-            <KontenBerita />
+            <BlogPost />
         </main>
     )
 }

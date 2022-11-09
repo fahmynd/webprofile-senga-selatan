@@ -1,14 +1,17 @@
 import React, { Suspense, lazy } from "react";
+import { Fragment } from "react";
 import { Routes, Route, Navigate } from 'react-router-dom';
 import './assets/css/my-style.css'
+
 const Home = lazy(() => import("./pages/home"));
 const Pemerintahan = lazy(() => import("./pages/pemerintahan"));
 const Infografis = lazy(() => import("./pages/infografis"));
 const Idm = lazy(() => import("./pages/idm"));
-// const CardNews = lazy(() => import("./components/berita/card-berita"));
+const PostDetail = lazy(() => import("./components/berita/PostDetail"));
 const Berita = lazy(() => import("./pages/berita"));
-const CardBelanja = lazy(() => import("./components/belanja/card-belanja"));
-// const Belanja = lazy(() => import("./pages/belanja"));
+// const BelanjaItem = lazy(() => import("./components/belanja/BelanjaItem"));
+const Belanja = lazy(() => import("./pages/belanja"));
+const BelanjaDetail = lazy(() => import("./components/belanja/BelanjaDetail"));
 const Navbar = lazy(() => import("./components/navbar"));
 const Footer = lazy(() => import("./components/footer"));
 const ScrollToTop = lazy(() => import("./components/scroll-to-top"));
@@ -16,33 +19,34 @@ const Pengaduan = lazy(() => import("./pages/pengaduan"));
 const Ppid = lazy(() => import("./pages/ppid/Route.tsx"));
 const ProfilPpid = lazy(() => import("./components/ppid/profil-ppid"));
 const Geospasial = lazy(() => import("./pages/geospasial"));
-const TerbaruBerita1 = lazy(() => import("./components/berita/detail-berita/terbaru-detail1"));
-const TerbaruBerita2 = lazy(() => import("./components/berita/detail-berita/terbaru-detail2"));
-const TerbaruBerita3 = lazy(() => import("./components/berita/detail-berita/terbaru-detail3"));
-const TerbaruBerita4 = lazy(() => import("./components/berita/detail-berita/terbaru-detail4"));
-const PolitikBerita2 = lazy(() => import("./components/berita/detail-berita/politik-detail2"));
-const PolitikBerita3 = lazy(() => import("./components/berita/detail-berita/politik-detail3"));
-const PolitikBerita4 = lazy(() => import("./components/berita/detail-berita/politik-detail4"));
-const KesehatanBerita2 = lazy(() => import("./components/berita/detail-berita/kesehatan-detail2"));
-const KesehatanBerita3 = lazy(() => import("./components/berita/detail-berita/kesehatan-detail3"));
-const KesehatanBerita4 = lazy(() => import("./components/berita/detail-berita/kesehatan-detail4"));
-const SeniBerita1 = lazy(() => import("./components/berita/detail-berita/seni-detail1"));
-const SeniBerita2 = lazy(() => import("./components/berita/detail-berita/seni-detail2"));
-const SeniBerita3 = lazy(() => import("./components/berita/detail-berita/seni-detail3"));
-const SeniBerita4 = lazy(() => import("./components/berita/detail-berita/seni-detail4"));
-const TeknologiBerita1 = lazy(() => import("./components/berita/detail-berita/teknologi-detail1"));
-const TeknologiBerita2 = lazy(() => import("./components/berita/detail-berita/teknologi-detail2"));
-const DllBerita1 = lazy(() => import("./components/berita/detail-berita/dll-detail1"));
-const DllBerita2 = lazy(() => import("./components/berita/detail-berita/dll-detail2"));
-const DllBerita3 = lazy(() => import("./components/berita/detail-berita/dll-detail3"));
-const DllBerita4 = lazy(() => import("./components/berita/detail-berita/dll-detail4"));
-const Terbaru = lazy(() => import("./components/berita/detail-berita/terbaru"));
-const Terbaru31Nov = lazy(() => import("./components/berita/detail-berita/terbaru31Nov"));
-const Terbaru03Nov = lazy(() => import("./components/berita/detail-berita/terbaru03Nov"));
+// const TerbaruBerita1 = lazy(() => import("./components/berita/detail-berita/terbaru-detail1"));
+// const TerbaruBerita2 = lazy(() => import("./components/berita/detail-berita/terbaru-detail2"));
+// const TerbaruBerita3 = lazy(() => import("./components/berita/detail-berita/terbaru-detail3"));
+// const TerbaruBerita4 = lazy(() => import("./components/berita/detail-berita/terbaru-detail4"));
+// const PolitikBerita2 = lazy(() => import("./components/berita/detail-berita/politik-detail2"));
+// const PolitikBerita3 = lazy(() => import("./components/berita/detail-berita/politik-detail3"));
+// const PolitikBerita4 = lazy(() => import("./components/berita/detail-berita/politik-detail4"));
+// const KesehatanBerita2 = lazy(() => import("./components/berita/detail-berita/kesehatan-detail2"));
+// const KesehatanBerita3 = lazy(() => import("./components/berita/detail-berita/kesehatan-detail3"));
+// const KesehatanBerita4 = lazy(() => import("./components/berita/detail-berita/kesehatan-detail4"));
+// const SeniBerita1 = lazy(() => import("./components/berita/detail-berita/seni-detail1"));
+// const SeniBerita2 = lazy(() => import("./components/berita/detail-berita/seni-detail2"));
+// const SeniBerita3 = lazy(() => import("./components/berita/detail-berita/seni-detail3"));
+// const SeniBerita4 = lazy(() => import("./components/berita/detail-berita/seni-detail4"));
+// const TeknologiBerita1 = lazy(() => import("./components/berita/detail-berita/teknologi-detail1"));
+// const TeknologiBerita2 = lazy(() => import("./components/berita/detail-berita/teknologi-detail2"));
+// const DllBerita1 = lazy(() => import("./components/berita/detail-berita/dll-detail1"));
+// const DllBerita2 = lazy(() => import("./components/berita/detail-berita/dll-detail2"));
+// const DllBerita3 = lazy(() => import("./components/berita/detail-berita/dll-detail3"));
+// const DllBerita4 = lazy(() => import("./components/berita/detail-berita/dll-detail4"));
+// const Terbaru = lazy(() => import("./components/berita/detail-berita/terbaru"));
+// const Terbaru31Nov = lazy(() => import("./components/berita/detail-berita/terbaru31Nov"));
+// const Terbaru03Nov = lazy(() => import("./components/berita/detail-berita/terbaru03Nov"));
+// const Terbaru04Nov = lazy(() => import("./components/berita/detail-berita/terbaru04Nov"));
 
 function App() {
     return (
-        <>
+        <Fragment>
             <Navbar />
             <ScrollToTop />
             <Suspense fallback={<div className="loading">Loading...</div>}>
@@ -53,7 +57,9 @@ function App() {
                     <Route path="/geospasial" element={<Geospasial />} />
                     <Route path="/idm" element={<Idm />} />
                     <Route path="/berita" element={<Berita />} />
-                    <Route path="/berita/*">
+                    <Route path="/berita/:slug" element={<PostDetail />} />
+                    {/* <Route path="/berita/*">
+                        <Route path="pemdes-senga-selatan-mengikut-rapat-koordinasi-pelaksanaan-lomba-inovasi-daerah-tahun-2023" element={<Terbaru04Nov />} />
                         <Route path="desa-senga-selatan-luwu-wakili-sulsel-lomba-kip" element={<Terbaru03Nov />} />
                         <Route path="senga-selatan-wakili-sulsel-di-ajang-apresiasi-kip-desa-tingkat-nasional" element={<Terbaru31Nov />} />
                         <Route path="pemdes-senga-selatan-mengikuti-rakor-persiapan-kegiatan-evaluasi-dan-apresiasi-kip-nasional-2022" element={<Terbaru />} />
@@ -77,8 +83,9 @@ function App() {
                         <Route path="rapat-koordinasi-tahapan-evaluasi-dan-apresiasi-kip-desa-tingkat-nasional-2022" element={<DllBerita2 />} />
                         <Route path="lindungi-pantai-taddette-pemerintah-desa-senga-selatan-bersama-ptmda-menggelar-bakti-sosial-gerakan-tanam-sejuta-pohon-mangrove" element={<DllBerita3 />} />
                         <Route path="menunggu-hasil-pemdes-senga-selatan-ikuti-penilaian-akhir-lomba-inovasi-desa" element={<DllBerita4 />} />
-                    </Route>
-                    <Route path="/belanja" element={<CardBelanja />} />
+                    </Route> */}
+                    <Route path="/belanja" element={<Belanja />} />
+                    <Route path="/belanja/:id" element={<BelanjaDetail />} />
                     <Route path="/ppid/*" element={<Ppid />} />
                     <Route path="/profil-ppid" element={<ProfilPpid />} />
                     <Route path="/pengaduan" element={<Pengaduan />} />
@@ -86,7 +93,7 @@ function App() {
                 </Routes>
             </Suspense>
             <Footer />
-        </>
+        </Fragment>
     );
 }
 

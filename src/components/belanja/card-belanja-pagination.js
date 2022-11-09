@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
+import { Link } from "react-router-dom";
 import pakde from '../../assets/img/bg/bg-konten-jualan.webp'
-import makananDonat from '../../assets/img/jualan/makanan-donat.webp'
-import minumanCendol from '../../assets/img/jualan/minuman-cendol.jpg'
 import { formatRupiah } from "./format-rupiah";
 
 export default function Content(props) {
@@ -50,7 +49,7 @@ export default function Content(props) {
                     <section id="kontenBelanja">
                         <div className="row mt-4 mb-4">
                             <div className="col-md-12">
-                                <ul className="nav nav-tabs" id="myTab" role="tablist">
+                                {/* <ul className="nav nav-tabs" id="myTab" role="tablist">
                                     <li className="nav-item" role="presentation">
                                         <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
                                             Semua
@@ -66,7 +65,7 @@ export default function Content(props) {
                                             Minuman
                                         </button>
                                     </li>
-                                </ul>
+                                </ul> */}
                                 <div className="tab-content" id="myTabContent">
                                     <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div className="row mt-3">
@@ -74,11 +73,7 @@ export default function Content(props) {
                                                 return (
                                                     <Belanja
                                                         key={belanja.id}
-                                                        image={belanja.foto}
-                                                        title={belanja.nama}
-                                                        description={belanja.jenis}
-                                                        price={belanja.harga}
-                                                        phone={belanja.notelp}
+                                                        data={belanja}
                                                     />
                                                 )
                                             })
@@ -87,7 +82,7 @@ export default function Content(props) {
                                     </div>
                                     <div className="tab-pane fade" id="makanan" role="tabpanel" aria-labelledby="makanan-tab">
                                         <div className="row mt-3">
-                                            <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            {/* <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                                 <div className="card beli-card">
                                                     <img src={makananDonat} className="card-img-top beli-card__img" alt="" />
                                                     <div className="card-body">
@@ -109,12 +104,12 @@ export default function Content(props) {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="tab-pane fade" id="minuman" role="tabpanel" aria-labelledby="minuman-tab">
                                         <div className="row mt-3">
-                                            <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                            {/* <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
                                                 <div className="card beli-card">
                                                     <img src={minumanCendol} className="card-img-top beli-card__img" alt="" />
                                                     <div className="card-body">
@@ -136,7 +131,7 @@ export default function Content(props) {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -172,30 +167,56 @@ export default function Content(props) {
     );
 }
 
+
+// function Pagination(props) {
+//     return (
+//         <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+//             <div className="modal-dialog modal-dialog-centered">
+//                 <div className="modal-content">
+//                     <div className="modal-header">
+//                         <h5 className="modal-title" id="staticBackdropLabel">Deskripsi Produk</h5>
+//                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+//                     </div>
+//                     <div className="modal-body">
+//                         ...
+//                     </div>
+//                     <div className="modal-footer">
+//                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+//                         <button type="button" className="btn btn-primary">Hubungi Penjual</button>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+
 function Belanja(props) {
     return (
-        <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-            <div className="card beli-card">
-                <img src={'https://api.digitaldesa.id/uploads/belanja/thumbs/' + props.image} className="card-img-top beli-card__img" alt="" />
-                <div className="card-body">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <p className="beli-card__judul">{props.title}</p>
+        <>
+            <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div className="card beli-card">
+                    <img src={'https://api.digitaldesa.id/uploads/belanja/thumbs/' + props.data.foto} className="card-img-top beli-card__img" alt="" />
+                    <div className="card-body">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <p className="beli-card__judul">{props.data.nama}</p>
+                            </div>
+                            <div className="col-md-12">
+                                <p className="beli-card__harga">Rp {formatRupiah(props.data.harga)},-</p>
+                            </div>
+                            <div className="col-md-12 mb-4">
+                                <p className="beli-card__detail">
+                                    {props.data.jenis}
+                                </p>
+                            </div>
                         </div>
-                        <div className="col-md-12">
-                            <p className="beli-card__harga">Rp {formatRupiah(props.price)},-</p>
-                        </div>
-                        <div className="col-md-12 mb-4">
-                            <p className="beli-card__detail">
-                                {props.description}
-                            </p>
+                        <div className="text-center wrap-button-penjual">
+                            <a href={"https://api.whatsapp.com/send?phone=62" + props.data.notelp + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                         </div>
                     </div>
-                    <div className="text-center wrap-button-penjual">
-                        <a href={"https://api.whatsapp.com/send?phone=62" + props.phone + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
-                    </div>
+                    <Link to={'/belanja/' + props.data.id} style={{ cursor: 'pointer' }} className="stretched-link" ></Link>
                 </div>
             </div>
-        </div>
+        </>
     )
 }

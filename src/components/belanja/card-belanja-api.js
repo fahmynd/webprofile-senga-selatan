@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Content from "./pagination";
+import Content from "./card-belanja-pagination";
 
 const Pasar = () => {
     const url = 'https://profil.digitaldesa.id/sengaselatan-luwu/belanja/lists';
