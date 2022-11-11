@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0164604.css",
-    "main.js": "/static/js/main.a5da57cb.js",
-    "static/css/771.74d992cd.chunk.css": "/static/css/771.74d992cd.chunk.css",
-    "static/js/771.1f4b8cd2.chunk.js": "/static/js/771.1f4b8cd2.chunk.js",
+    "main.css": "/static/css/main.a684f58f.css",
+    "main.js": "/static/js/main.80894b28.js",
+    "static/css/159.a7bbf82f.chunk.css": "/static/css/159.a7bbf82f.chunk.css",
+    "static/js/159.8e35ce1f.chunk.js": "/static/js/159.8e35ce1f.chunk.js",
     "static/css/93.582daeb6.chunk.css": "/static/css/93.582daeb6.chunk.css",
     "static/js/93.3894049f.chunk.js": "/static/js/93.3894049f.chunk.js",
     "static/js/379.eab72153.chunk.js": "/static/js/379.eab72153.chunk.js",
@@ -11,9 +11,10 @@
     "static/js/85.f0e4523a.chunk.js": "/static/js/85.f0e4523a.chunk.js",
     "static/js/308.170c4c9c.chunk.js": "/static/js/308.170c4c9c.chunk.js",
     "static/css/262.de81ee8c.chunk.css": "/static/css/262.de81ee8c.chunk.css",
-    "static/js/262.f284190f.chunk.js": "/static/js/262.f284190f.chunk.js",
-    "static/js/393.d1c48885.chunk.js": "/static/js/393.d1c48885.chunk.js",
-    "static/js/207.9dde5917.chunk.js": "/static/js/207.9dde5917.chunk.js",
+    "static/js/262.ff788c32.chunk.js": "/static/js/262.ff788c32.chunk.js",
+    "static/js/393.df947fca.chunk.js": "/static/js/393.df947fca.chunk.js",
+    "static/css/599.9a01d9f1.chunk.css": "/static/css/599.9a01d9f1.chunk.css",
+    "static/js/599.90ce6124.chunk.js": "/static/js/599.90ce6124.chunk.js",
     "static/js/962.e3acb77a.chunk.js": "/static/js/962.e3acb77a.chunk.js",
     "static/js/226.c6ec5201.chunk.js": "/static/js/226.c6ec5201.chunk.js",
     "static/js/674.a9a2a5f8.chunk.js": "/static/js/674.a9a2a5f8.chunk.js",
@@ -106,10 +107,10 @@
     "static/media/youtube.svg": "/static/media/youtube.f08df60f0690e70e7486ab810a8f3bef.svg",
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
-    "main.f0164604.css.map": "/static/css/main.f0164604.css.map",
-    "main.a5da57cb.js.map": "/static/js/main.a5da57cb.js.map",
-    "771.74d992cd.chunk.css.map": "/static/css/771.74d992cd.chunk.css.map",
-    "771.1f4b8cd2.chunk.js.map": "/static/js/771.1f4b8cd2.chunk.js.map",
+    "main.a684f58f.css.map": "/static/css/main.a684f58f.css.map",
+    "main.80894b28.js.map": "/static/js/main.80894b28.js.map",
+    "159.a7bbf82f.chunk.css.map": "/static/css/159.a7bbf82f.chunk.css.map",
+    "159.8e35ce1f.chunk.js.map": "/static/js/159.8e35ce1f.chunk.js.map",
     "93.582daeb6.chunk.css.map": "/static/css/93.582daeb6.chunk.css.map",
     "93.3894049f.chunk.js.map": "/static/js/93.3894049f.chunk.js.map",
     "379.eab72153.chunk.js.map": "/static/js/379.eab72153.chunk.js.map",
@@ -117,9 +118,10 @@
     "85.f0e4523a.chunk.js.map": "/static/js/85.f0e4523a.chunk.js.map",
     "308.170c4c9c.chunk.js.map": "/static/js/308.170c4c9c.chunk.js.map",
     "262.de81ee8c.chunk.css.map": "/static/css/262.de81ee8c.chunk.css.map",
-    "262.f284190f.chunk.js.map": "/static/js/262.f284190f.chunk.js.map",
-    "393.d1c48885.chunk.js.map": "/static/js/393.d1c48885.chunk.js.map",
-    "207.9dde5917.chunk.js.map": "/static/js/207.9dde5917.chunk.js.map",
+    "262.ff788c32.chunk.js.map": "/static/js/262.ff788c32.chunk.js.map",
+    "393.df947fca.chunk.js.map": "/static/js/393.df947fca.chunk.js.map",
+    "599.9a01d9f1.chunk.css.map": "/static/css/599.9a01d9f1.chunk.css.map",
+    "599.90ce6124.chunk.js.map": "/static/js/599.90ce6124.chunk.js.map",
     "962.e3acb77a.chunk.js.map": "/static/js/962.e3acb77a.chunk.js.map",
     "226.c6ec5201.chunk.js.map": "/static/js/226.c6ec5201.chunk.js.map",
     "674.a9a2a5f8.chunk.js.map": "/static/js/674.a9a2a5f8.chunk.js.map",
@@ -140,7 +142,7 @@
     "890.09531e38.chunk.js.map": "/static/js/890.09531e38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0164604.css",
-    "static/js/main.a5da57cb.js"
+    "static/css/main.a684f58f.css",
+    "static/js/main.80894b28.js"
   ]
 }
