@@ -1,0 +1,45 @@
+.btn-default {
+    color: #f6f6f6;
+    background: #cf5022;
+    border: 0;
+    padding: auto;
+    margin: 0 8px;
+    font-size: 18px;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  .btn-default:hover,
+  .btn-default:focus,
+  .btn-default.focus,
+  .btn-default:active,
+  .btn-default.active {
+    color: #f6f6f6;
+    background-color: #a13e1a;
+  }
+
+  .beli-card-detail {
+    background-color: #eaf8ef;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    /* cursor: pointer; */
+  }
+  
+  .beli-card-detail__img {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .beli-card-detail__judul {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .beli-card-detail__harga {
+    font-size: 1rem;
+  }
+  
+  .beli-card-detail__detail {
+    font-size: 0.85rem;
+  }

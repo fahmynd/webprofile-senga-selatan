@@ -4,8 +4,7 @@ import ReactPaginate from "react-paginate";
 import ReactShowMoreText from "react-show-more-text";
 import { Link } from 'react-router-dom'
 import htmlToFormattedText from 'html-to-formatted-text'
-// import terbaru04Nov from '../../assets/img/berita/terbaru04Nov.jpeg'
-// import { tgl_indo } from '../../components/helper.min.js'
+import terbaru04Nov from '../../assets/img/berita/terbaru04Nov.jpeg'
 
 export default function Detail(props) {
     const { data } = props;
@@ -69,16 +68,30 @@ export default function Detail(props) {
                             <div className="tab-content" id="myTabContent">
                                 <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div className="row mt-4">
-                                        {Object.entries(currentItems).map((post, i) => {
-                                            if (!i) {
-                                                return (
-                                                    <MainCards key={post.id} data={post[1]} />
-                                                )
-                                            }
-
-                                            return false
-                                        })
-                                        }
+                                        <div className="col-md-12 col-lg-5 mb-5">
+                                            <div className="card berita-card">
+                                                <img src={terbaru04Nov} className="card-img-top img-berita" alt="" />
+                                                <div className="card-body">
+                                                    <p className="berita-card__judul">
+                                                        Pemdes Senga Selatan mengikut Rapat Koordinasi Pelaksanaan Lomba Inovasi Daerah Tahun 2023
+                                                    </p>
+                                                    <div className="berita-card__info">
+                                                        <p className="berita-card__penulis me-4">
+                                                            <i className="fas fa-user-edit"></i> Admin
+                                                        </p>
+                                                        <p className="berita-card__tanggal">
+                                                            <i className="fas fa-calendar-day"></i> 04 November 2022
+                                                        </p>
+                                                    </div>
+                                                    <div className="berita-card__isi">
+                                                        <p className="berita-card__shortdesc show-read-more">
+                                                            Rapat Koordinasi dalam rangka pelaksanaan Kompetisi Inovasi Pelayanan Publik di Lingkungan Kementerian/ Lembaga, Pemerintah Daerah, Badan Usaha Milik Negara, dan Badan Usaha Milik Daerah Tahun 2023 di ...
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <Link to="pemdes-senga-selatan-mengikut-rapat-koordinasi-pelaksanaan-lomba-inovasi-daerah-tahun-2023" className="stretched-link"></Link>
+                                            </div>
+                                        </div>
                                         <div className="col-md-12 col-lg-7">
                                             <div className="row mt-2">
                                                 {Object.entries(currentItems).map((post, i) => {
@@ -144,7 +157,7 @@ function Cards(props) {
                                         <i className="fas fa-user-edit"></i> {props.data.penulis}
                                     </p>
                                     <p className="berita-card__tanggal">
-                                        <i className="fas fa-calendar-day"></i> {new Date(props.data.iat).toLocaleString("id-ID", { day: "2-digit", month: "long", year: "numeric" })}
+                                        <i className="fas fa-calendar-day"></i> {props.data.iat}
                                     </p>
                                 </div>
                                 <div className="berita-card__isi">
@@ -155,39 +168,6 @@ function Cards(props) {
                                     </ReactShowMoreText>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <Link to={'/berita/' + props.data.slug} style={{ cursor: 'pointer' }} className="stretched-link" ></Link>
-                </div>
-            </div>
-        </Fragment>
-    )
-}
-
-function MainCards(props) {
-    return (
-        <Fragment>
-            <div className="col-md-12 col-lg-5 mb-5">
-                <div className="card berita-card">
-                    <img src={'https://profil.digitaldesa.id/uploads/73.17.07.2014/berita/thumbs/' + props.data.foto} className="card-img-top img-berita" alt="" />
-                    <div className="card-body">
-                        <p className="berita-card__judul">
-                            {props.data.judul}
-                        </p>
-                        <div className="berita-card__info">
-                            <p className="berita-card__penulis me-4">
-                                <i className="fas fa-user-edit"></i> {props.data.penulis}
-                            </p>
-                            <p className="berita-card__tanggal">
-                                <i className="fas fa-calendar-day"></i> {new Date(props.data.iat).toLocaleString("id-ID", { day: "2-digit", month: "long", year: "numeric" })}
-                            </p>
-                        </div>
-                        <div className="berita-card__isi">
-                            <ReactShowMoreText className="berita-card__shortdesc" lines={3} more={false} truncatedEndingComponent=' . . .'>
-                                <p className="berita-card__shortdesc show-read-more">
-                                    {htmlToFormattedText(props.data.isi)}
-                                </p>
-                            </ReactShowMoreText>
                         </div>
                     </div>
                     <Link to={'/berita/' + props.data.slug} style={{ cursor: 'pointer' }} className="stretched-link" ></Link>

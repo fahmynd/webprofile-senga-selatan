@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 import pakde from '../../assets/img/bg/bg-konten-jualan.webp'
-import { formatRupiah } from "./format-rupiah";
+// import { formatRupiah } from "./format-rupiah";
+import { rupiah } from "../helper.min";
 
 export default function Content(props) {
     const { data } = props;
@@ -167,29 +168,6 @@ export default function Content(props) {
     );
 }
 
-
-// function Pagination(props) {
-//     return (
-//         <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-//             <div className="modal-dialog modal-dialog-centered">
-//                 <div className="modal-content">
-//                     <div className="modal-header">
-//                         <h5 className="modal-title" id="staticBackdropLabel">Deskripsi Produk</h5>
-//                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-//                     </div>
-//                     <div className="modal-body">
-//                         ...
-//                     </div>
-//                     <div className="modal-footer">
-//                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-//                         <button type="button" className="btn btn-primary">Hubungi Penjual</button>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
 function Belanja(props) {
     return (
         <>
@@ -202,7 +180,7 @@ function Belanja(props) {
                                 <p className="beli-card__judul">{props.data.nama}</p>
                             </div>
                             <div className="col-md-12">
-                                <p className="beli-card__harga">Rp {formatRupiah(props.data.harga)},-</p>
+                                <p className="beli-card__harga">{rupiah(props.data.harga)}</p>
                             </div>
                             <div className="col-md-12 mb-4">
                                 <p className="beli-card__detail">
@@ -211,10 +189,11 @@ function Belanja(props) {
                             </div>
                         </div>
                         <div className="text-center wrap-button-penjual">
-                            <a href={"https://api.whatsapp.com/send?phone=62" + props.data.notelp + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
+                            {/* <a href={"https://api.whatsapp.com/send?phone=62" + props.data.notelp + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a> */}
+                            <Link to={'/belanja/' + props.data.id} className="btn-penjual__text stretched-link"> Lihat Deskripsi</Link>
                         </div>
                     </div>
-                    <Link to={'/belanja/' + props.data.id} style={{ cursor: 'pointer' }} className="stretched-link" ></Link>
+                    <Link to={'/belanja/' + props.data.id} className="btn-penjual__text stretched-link" />
                 </div>
             </div>
         </>

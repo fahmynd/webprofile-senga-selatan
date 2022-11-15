@@ -911,7 +911,7 @@ img.hover-shadow {
   background-color: #eaf8ef;
   border: none;
   border-radius: 20px 20px 20px 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .beli-card__img {
@@ -940,7 +940,7 @@ img.hover-shadow {
 }
 
 .btn-penjual__text {
-  color: #C1C1C1;
+  color: #fff;
   text-decoration: none;
 }
 

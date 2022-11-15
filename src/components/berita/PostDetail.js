@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom'
 import htmlToFormattedText from 'html-to-formatted-text'
+import { tgl_indo } from '../../components/helper.min';
 
 const PostDetail = () => {
     const { slug } = useParams();
@@ -37,7 +38,7 @@ const PostDetail = () => {
                 <div className="row mt-5">
                     <div className="col-md-12">
                         <h1 style={{ fontSize: '1.75rem' }} itemProp="name">{judul}</h1>
-                        <p>{date}</p>
+                        <p>{tgl_indo(date)}</p>
                     </div>
                     <div className="col-md-12 mt-2 text-center">
                         <img className="img-content" src={'https://profil.digitaldesa.id/uploads/73.17.07.2014/berita/thumbs/' + foto} width="70%" alt="Foto Berita" />
