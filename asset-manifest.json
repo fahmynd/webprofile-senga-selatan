@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.81627909.css",
-    "main.js": "/static/js/main.f387f298.js",
+    "main.js": "/static/js/main.c1f30b32.js",
     "static/css/487.9606611c.chunk.css": "/static/css/487.9606611c.chunk.css",
     "static/js/487.eceb92be.chunk.js": "/static/js/487.eceb92be.chunk.js",
     "static/css/93.582daeb6.chunk.css": "/static/css/93.582daeb6.chunk.css",
-    "static/js/93.1546c3cc.chunk.js": "/static/js/93.1546c3cc.chunk.js",
+    "static/js/93.1ce00c08.chunk.js": "/static/js/93.1ce00c08.chunk.js",
     "static/js/379.eab72153.chunk.js": "/static/js/379.eab72153.chunk.js",
     "static/css/85.8075afe9.chunk.css": "/static/css/85.8075afe9.chunk.css",
     "static/js/85.f0e4523a.chunk.js": "/static/js/85.f0e4523a.chunk.js",
@@ -100,11 +100,11 @@
     "static/media/facebook.svg": "/static/media/facebook.0fb29c28fe68f38960bfbc0662c61383.svg",
     "static/media/potensi-desa.svg": "/static/media/potensi-desa.90ed3b3e22195f53ab8892b801af0477.svg",
     "main.81627909.css.map": "/static/css/main.81627909.css.map",
-    "main.f387f298.js.map": "/static/js/main.f387f298.js.map",
+    "main.c1f30b32.js.map": "/static/js/main.c1f30b32.js.map",
     "487.9606611c.chunk.css.map": "/static/css/487.9606611c.chunk.css.map",
     "487.eceb92be.chunk.js.map": "/static/js/487.eceb92be.chunk.js.map",
     "93.582daeb6.chunk.css.map": "/static/css/93.582daeb6.chunk.css.map",
-    "93.1546c3cc.chunk.js.map": "/static/js/93.1546c3cc.chunk.js.map",
+    "93.1ce00c08.chunk.js.map": "/static/js/93.1ce00c08.chunk.js.map",
     "379.eab72153.chunk.js.map": "/static/js/379.eab72153.chunk.js.map",
     "85.8075afe9.chunk.css.map": "/static/css/85.8075afe9.chunk.css.map",
     "85.f0e4523a.chunk.js.map": "/static/js/85.f0e4523a.chunk.js.map",
@@ -135,6 +135,6 @@
   },
   "entrypoints": [
     "static/css/main.81627909.css",
-    "static/js/main.f387f298.js"
+    "static/js/main.c1f30b32.js"
   ]
 }
