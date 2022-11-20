@@ -1,0 +1,145 @@
+{
+    "navbar": {
+        "logo": "sengaselatan.webp",
+        "namaProvinsi": "Provinsi Sulawesi Selatan",
+        "namaKabupaten": "Kabupaten Luwu",
+        "namaDesa": "Desa Senga Selatan"
+    },
+    "footer": {
+        "logo": "logo.png",
+        "namaProvinsi": "Provinsi Sulawesi Selatan",
+        "namaKabupaten": "Kabupaten Luwu",
+        "namaDesa": "Desa Senga Selatan",
+        "facebook": "https://www.facebook.com/pemdes.selatan.3/",
+        "instagram": "https://www.instagram.com/pemdessengaselatan/",
+        "twitter": "https://twitter.com/pemdessengasel/",
+        "youtube": "https://www.youtube.com/channel/UC24pHBJoaZ6H3aaKmUwSezw",
+        "telpDesa": "08124429200",
+        "telponPenting": [
+            {
+                "nama": "Kapolsek Belopa: ",
+                "telp": "085242160258",
+                "url": "tel:085242160258"
+            },
+            {
+                "nama": "Babinsa Senga Selatan: ",
+                "telp": "085398645944",
+                "url": "tel:085398645944"
+            },
+            {
+                "nama": "Bhabinkamtibmas Senga Selatan: ",
+                "telp": "085330660550",
+                "url": "tel:085330660550"
+            },
+            {
+                "nama": "Bidan Desa Senga Selatan: ",
+                "telp": "082187563443",
+                "url": "tel:082187563443"
+            }
+        ]
+    },
+    "jumbotron": {
+        "welcome": "Website Resmi Desa Senga Selatan",
+        "sambutan": "<p>Assalamu'alaikum warahmatullahi wabarakatuh.<br />Selamat Datang di Website Desa Senga Selatan. Melalui website ini, kami berupaya menghadirkan informasi secara aktual dan efektif terkait program dan kegiatan pembangunan Pemerintah Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu, Provinsi Sulawesi Selatan.</p><p>Website ini kami hadirkan untuk menyahuti tuntutan kebutuhan pemanfaatan teknologi informasi yang kian pesat. Website ini hadir dari ide kreatif dan inovatif, serta merupakan wujud terobosan transformasi kinerja untuk lebih mendekatkan pelayanan kepada masyarakat. Kami akan terus berupaya agar informasi penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan publik di Desa Senga Selatan menjadi lebih transparan, interaktif, partisipatif dan akuntabel.</p><p>Apresiasi dan ucapan terima kasih yang tulus kami sampaikan kepada semua pihak yang telah turut memberi dukungan dan kontribusi dalam upaya memajukan kinerja Pemerintah Desa Senga Selatan. Baik berupa tenaga, pemikiran dan dorongan semangat. Semoga dengan hadirnya website ini, dapat memberikan nilai manfaat dan membawa kemaslahatan bagi segenap warga Desa Senga Selatan dan masyarakat luas.</p>",
+        "nama": "Anwar Amir, S.Sos",
+        "foto": "Anwar Amir, S.Sos",
+        "jabatan": "Kepala Desa Senga Selatan",
+        "namaDesa": "Desa Senga Selatan"
+    },
+    "admUmum": {
+        "peraturanDesa": "20",
+        "keputusanKepalaDesa": "10",
+        "inventarisDesa": "82",
+        "berita": "13",
+        "bukuAgenda": "105",
+        "suratEkspedisi": "24",
+        "aparatPemerintahDesa": "13",
+        "tanahKasDesa": "0",
+        "luasTanahDesa": "7.766.437"
+    },
+    "admKeuangan": {
+        "apbd": "6",
+        "rabd": "1",
+        "kasKegiatan": "1",
+        "kasUmum": "1",
+        "kasPembantu": "0",
+        "bankBukuDesa": "1"
+    },
+    "admPenduduk": {
+        "total": "3.536",
+        "lk": "1.791",
+        "pr": "1.735",
+        "kk": "975",
+        "pendudukSementara": "0",
+        "mutasiPenduduk": "124"
+    },
+    "surat": {
+        "today": "4",
+        "month": "6",
+        "year": "888",
+        "top1": "Surat Keterangan Usaha",
+        "top2": "Surat Keterangan Domisili",
+        "top3": "Formulir Permohonan KTP",
+        "jumlahTop1": "3",
+        "jumlahTop2": "2",
+        "jumlahTop3": "2"
+    },
+    "apbd": {
+        "pendapatan": "Rp1.437.909.473",
+        "belanja": "Rp1.437.909.473"
+    },
+    "apbdChart": {
+        "penyelenggaraan": "417099120",
+        "pelaksanaan": "342206200",
+        "pembinaan": "158004153",
+        "pemberdayaan": "85000000",
+        "penanggulangan": "435600000"
+    },
+    "wisata": [
+        {
+            "judul": "Hammock Labulawang",
+            "deskripsi": "Wisata hammock ini berada di perkebunan pohon jati putih. Pohon-pohon itu menjulang tinggi dan berjejer rapi. Ketika berkunjung ke tempat ini, Hammock menjadi syarat wajib untuk bersantai sambil berayun menikmati pemandangan indah.",
+            "foto": "wisata1.webp"
+        },
+        {
+            "judul": "Kampung Kuliner Pakde",
+            "deskripsi": "Kampung Kuliner Pakde merupakan salah satu unit usaha Bumdesa Masagenae Desa Senga Selatan yang bertujuan untuk meningkatkan kesejahteraan UMKM Lokal, dengan memfasilitasi tempat atau kawasan kuliner demi meningkatkan pendapatan masyarakat Desa Senga Selatan. Di Kampung Kuliner Pakde juga, para pengunjung akan di suguhkan aneka menu yang luar biasa enaknya.",
+            "foto": "wisata2.webp"
+        },
+        {
+            "judul": "Jembatan Pelangi",
+            "deskripsi": "Jembatan ini menjadi salah satu tempat favorit pengunjung untuk berfoto.",
+            "foto": "wisata3.webp"
+        }
+    ],
+    "potensi": [
+        {
+            "judul": "Rumput Laut Gracilaria",
+            "foto": "gracilaria.jpg"
+        },
+        {
+            "judul": "Pertambakan",
+            "foto": "pertambakan.jpg"
+        },
+        {
+            "judul": "Perikanan",
+            "foto": "perikanan.jpeg"
+        },
+        {
+            "judul": "Padi",
+            "foto": "padi.webp"
+        }
+    ],
+    "map": {
+        "url": "https://maps.google.com/maps?q=senga%20selatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "youtube": {
+        "url": "https://www.youtube.com/watch?v=Ja4GDlIIdr4"
+    },
+    "instagram": {
+        "url": "https://www.instagram.com/p/CeOejjElDa4/"
+    },
+    "twitter": {
+        "url": "https://twitter.com/pemdessengasel/status/1494228523392724998"
+    }
+}
