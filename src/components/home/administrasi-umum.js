@@ -1,6 +1,34 @@
+import axios from 'axios';
 import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 
-function AdministrasiUmum() {
+const AdministrasiUmum = () => {
+    const [peraturan, setPeraturan] = useState();
+    const [keputusan, setKeputusan] = useState();
+    const [inventaris, setInventaris] = useState();
+    const [lembaran, setLembaran] = useState();
+    const [agenda, setAgenda] = useState();
+    const [ekspedisi, setEkspedisi] = useState();
+    const [aparat, setAparat] = useState();
+    const [tanah, setTanah] = useState();
+    const [luas, setLuas] = useState();
+
+    useEffect(() => {
+        axios.get('db.json')
+            .then((result) => {
+                const data = result.data.admUmum;
+                setPeraturan(data.peraturanDesa)
+                setKeputusan(data.keputusanKepalaDesa)
+                setInventaris(data.inventarisDesa)
+                setLembaran(data.berita)
+                setAgenda(data.bukuAgenda)
+                setEkspedisi(data.suratEkspedisi)
+                setAparat(data.aparatPemerintahDesa)
+                setTanah(data.tanahKasDesa)
+                setLuas(data.luasTanahDesa)
+            })
+    })
     return (
         <section id="administrasiUmum">
             <div className="container">
@@ -16,7 +44,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">20</p>
+                                <p className="adm-umum-jumlah fw-bold">{peraturan}</p>
                                 <p className="adm-umum-judul">Peraturan Desa</p>
                             </div>
                         </div>
@@ -24,7 +52,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">10</p>
+                                <p className="adm-umum-jumlah fw-bold">{keputusan}</p>
                                 <p className="adm-umum-judul">Keputusan Kepala Desa</p>
                             </div>
                         </div>
@@ -32,7 +60,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">82</p>
+                                <p className="adm-umum-jumlah fw-bold">{inventaris}</p>
                                 <p className="adm-umum-judul">Inventaris Desa</p>
                             </div>
                         </div>
@@ -40,7 +68,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">13</p>
+                                <p className="adm-umum-jumlah fw-bold">{lembaran}</p>
                                 <p className="adm-umum-judul">Lembaran & Berita</p>
                             </div>
                         </div>
@@ -48,7 +76,7 @@ function AdministrasiUmum() {
                     <div className="col mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">105</p>
+                                <p className="adm-umum-jumlah fw-bold">{agenda}</p>
                                 <p className="adm-umum-judul">Buku Agenda</p>
                             </div>
                         </div>
@@ -58,7 +86,7 @@ function AdministrasiUmum() {
                     <div className="col-6 col-lg-3 mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">24</p>
+                                <p className="adm-umum-jumlah fw-bold">{ekspedisi}</p>
                                 <p className="adm-umum-judul">Surat Ekspedisi</p>
                             </div>
                         </div>
@@ -66,7 +94,7 @@ function AdministrasiUmum() {
                     <div className="col-6 col-lg-3 mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">13</p>
+                                <p className="adm-umum-jumlah fw-bold">{aparat}</p>
                                 <p className="adm-umum-judul">Aparat Pemerintah Desa</p>
                             </div>
                         </div>
@@ -74,7 +102,7 @@ function AdministrasiUmum() {
                     <div className="col-6 col-lg-3 mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">0m<sup>2</sup></p>
+                                <p className="adm-umum-jumlah fw-bold">{tanah}m<sup>2</sup></p>
                                 <p className="adm-umum-judul">Tanah Kas Desa</p>
                             </div>
                         </div>
@@ -82,7 +110,7 @@ function AdministrasiUmum() {
                     <div className="col-6 col-lg-3 mb-3">
                         <div className="card adm-umum-card">
                             <div className="card-body text-center">
-                                <p className="adm-umum-jumlah fw-bold">7.766.437m<sup>2</sup></p>
+                                <p className="adm-umum-jumlah fw-bold">{luas}m<sup>2</sup></p>
                                 <p className="adm-umum-judul">Luas Tanah Desa</p>
                             </div>
                         </div>

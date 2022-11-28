@@ -316,6 +316,17 @@ footer .container {
   .infoDesa {
     font-size: 12px !important;
   }
+  .beli-card__judul {
+    font-size: 0.9rem!important;
+  }
+  
+  .beli-card__harga {
+    font-size: 0.8rem!important;
+  }
+  
+  .beli-card__detail {
+    font-size: 0.65rem!important;
+  }
  }
 
  /* @media(max-width: 850px) {
@@ -928,6 +939,7 @@ img.hover-shadow {
 
 .beli-card__harga {
   font-size: 1rem;
+  color: red;
 }
 
 .beli-card__detail {

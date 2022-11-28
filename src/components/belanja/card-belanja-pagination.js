@@ -171,8 +171,8 @@ export default function Content(props) {
 function Belanja(props) {
     return (
         <>
-            <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div className="card beli-card">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div className="card h-100 beli-card">
                     <img src={'https://api.digitaldesa.id/uploads/belanja/thumbs/' + props.data.foto} className="card-img-top beli-card__img" alt="" />
                     <div className="card-body">
                         <div className="row">
@@ -188,10 +188,10 @@ function Belanja(props) {
                                 </p>
                             </div>
                         </div>
-                        <div className="text-center wrap-button-penjual">
-                            {/* <a href={"https://api.whatsapp.com/send?phone=62" + props.data.notelp + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a> */}
+                        {/* <div className="text-center wrap-button-penjual">
+                            <a href={"https://api.whatsapp.com/send?phone=62" + props.data.notelp + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className="stretched-link btn-penjual__text">Hubungi Penjual</a>
                             <Link to={'/belanja/' + props.data.id} className="btn-penjual__text stretched-link"> Lihat Deskripsi</Link>
-                        </div>
+                        </div> */}
                     </div>
                     <Link to={'/belanja/' + props.data.id} className="btn-penjual__text stretched-link" />
                 </div>

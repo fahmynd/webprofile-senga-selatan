@@ -23,7 +23,7 @@ function JelajahiDesa() {
             </div>
             <div className="container mt-10">
                 <div className="row justify-content-center">
-                    <div className="col-md-6 col-lg-2 mb-3">
+                    <div className="col-6 col-md-6 col-lg-2 mb-3">
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={saranaIcon} alt="" width="40%" />
@@ -35,7 +35,7 @@ function JelajahiDesa() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2 mb-3">
+                    <div className="col-6 col-md-6 col-lg-2 mb-3">
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={layananIcon} alt="" width="40%" />
@@ -47,7 +47,7 @@ function JelajahiDesa() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2 mb-3">
+                    <div className="col-6 col-md-6 col-lg-2 mb-3">
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={pasarIcon} alt="" width="40%" />
@@ -59,7 +59,7 @@ function JelajahiDesa() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2 mb-3">
+                    <div className="col-6 col-md-6 col-lg-2 mb-3">
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={beritaIcon} alt="" width="40%" />
@@ -71,7 +71,7 @@ function JelajahiDesa() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2 mb-3">
+                    <div className="col-6 col-md-6 col-lg-2 mb-3">
                         <div className="card jelajahi-desa-card">
                             <div className="card-body text-center">
                                 <img src={potensiIcon} alt="" width="40%" />

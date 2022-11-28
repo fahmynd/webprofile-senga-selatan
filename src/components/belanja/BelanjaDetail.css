@@ -19,15 +19,15 @@
 
   .beli-card-detail {
     background-color: #eaf8ef;
-    border: none;
-    border-radius: 20px 20px 20px 20px;
+    /* border: none;
+    border-radius: 20px 20px 20px 20px; */
     /* cursor: pointer; */
   }
   
   .beli-card-detail__img {
     object-fit: cover;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
+    /* height: 200px;
+    border-radius: 20px 20px 0px 0px; */
   }
   
   .beli-card-detail__judul {

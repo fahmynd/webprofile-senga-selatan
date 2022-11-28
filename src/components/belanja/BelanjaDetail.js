@@ -40,30 +40,9 @@ const BelanjaDetail = () => {
 
     return (
         <>
-            {/* <div className="col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div className="card beli-card-detail">
-                    <img src={'https://api.digitaldesa.id/uploads/belanja/thumbs/' + foto} className="card-img-top beli-card-detail__img" alt="" />
-                    <div className="card-body">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <p className="beli-card-detail__judul">{nama}</p>
-                            </div>
-                            <div className="col-md-12">
-                                <p className="beli-card-detail__harga">Rp {harga},-</p>
-                            </div>
-                            <div className="col-md-12 mb-4">
-                                <p className="beli-card-detail__detail">
-                                    {jenis}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
             <section className="py-5">
                 <div className="container px-4 px-lg-5 my-5">
-                    <div className="row gx-4 gx-lg-5 align-items-center">
+                    <div className="row gx-4 gx-lg-5 align-items-center beli-card-detail">
                         <div className="col-md-6"><img className="card-img-top mb-5 mb-md-0" src={'https://api.digitaldesa.id/uploads/belanja/thumbs/' + foto} alt="..." /></div>
                         <div className="col-md-6">
                             <div className="small mb-1">Kategori: <strong>{jenis}</strong></div>
@@ -73,7 +52,7 @@ const BelanjaDetail = () => {
                                 <span>{rupiah(harga)}</span>
                             </div>
                             <p className="lead">{isi}</p>
-                            <div className="justify-content-start mt-4">
+                            <div className="justify-content-start mt-4 mb-4">
                                 <button type="button" className="btn btn-secondary" onClick={() => navigate(-1)}>Batal</button>
                                 <button type="button" className="btn btn-default"><a href={"https://api.whatsapp.com/send?phone=62" + telp + '&text=Saya%20Tertarik%20dengan%20jualan%20Anda'} target="_blank" rel="noreferrer" className='btn-penjual__text'>Hubungi Penjual</a></button>
                             </div>

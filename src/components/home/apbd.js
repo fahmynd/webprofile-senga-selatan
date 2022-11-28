@@ -7,9 +7,9 @@ function Apbd() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8 text-center">
-                        <h2 className="fw-bold sub-judul">APBD</h2>
+                        <h2 className="fw-bold sub-judul">APBDes</h2>
                         <p>
-                        Sistem digital yang mempermudah pencatatan pengelolaan APBDes dan juga meningkatkan transparansi kinerja pemerintahan
+                            Sistem digital yang mempermudah pencatatan pengelolaan APBDes dan juga meningkatkan transparansi kinerja pemerintahan
                         </p>
                     </div>
                 </div>

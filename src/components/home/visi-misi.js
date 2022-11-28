@@ -2,8 +2,23 @@ import React from 'react'
 import logo from '../../assets/img/logo/sengaselatan.webp'
 // import dots from '../../assets/img/bg/dots.webp'
 import ShowMoreText from "react-show-more-text";
+import { useEffect } from 'react';
+import axios from 'axios';
+import { useState } from 'react';
 
-function VisiMisi() {
+const VisiMisi = () => {
+    const [visi, setVisi] = useState();
+    // const [misi, setMisi] = useState();
+
+    useEffect(() => {
+        axios.get('https://profil.digitaldesa.id/sengaselatan-luwu/pemerintah/?ajax=1')
+            .then((result) => {
+                // console.log(result.data.data.data.info);
+                const data = result.data.data.data.info;
+                setVisi(data.visi)
+                // setMisi(data.misi)
+            })
+    })
     return (
         <section id="visiMisi">
             <div className="container">
@@ -22,7 +37,7 @@ function VisiMisi() {
                         <div className="wrap-visi">
                             <h3 className="fw-bold">Visi</h3>
                             <p>
-                                "TERWUJUDNYA DESA SENGA SELATAN YANG MANDIRI, KREATIF, BERBUDAYA DAN RELIGIUS"
+                                "{visi}"
                             </p>
                         </div>
                         <div className="wrap-misi mt-4" style={{ textAlign: 'justify' }}>
@@ -48,5 +63,12 @@ function VisiMisi() {
         </section>
     )
 }
+
+// function Misi(props) {
+//     return (
+//         <li>{props.data.misi}</li>
+//     )
+// }
+
 
 export default VisiMisi

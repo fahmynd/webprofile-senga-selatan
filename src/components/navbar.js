@@ -1,8 +1,24 @@
+import axios from 'axios';
 import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom'
 import logo from '../assets/img/logo/sengaselatan.webp'
 
-function Navbar() {
+const Navbar = () => {
+    const [prov, setProv] = useState();
+    const [kab, setKab] = useState();
+    const [desa, setDesa] = useState();
+
+    useEffect(() => {
+        axios.get('db.json')
+            .then((result) => {
+                const data = result.data.navbar;
+                setProv(data.namaProvinsi)
+                setKab(data.namaKabupaten)
+                setDesa(data.namaDesa)
+            })
+    })
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-semi-transparent">
             <div className="container-fluid">
@@ -14,9 +30,9 @@ function Navbar() {
                     </div>
                     <Link to="/" id="infoNavWrap" className="col-9 center-v text-decoration-none">
                         <p className="info-nav">
-                            <span id="namaProvinsi">Provinsi Sulawesi Selatan</span> <br />
-                            <span id="namaKabupaten">Kabupaten Luwu</span> <br />
-                            <span id="namaDesa">Desa Senga Selatan</span>
+                            <span id="namaProvinsi">{prov}</span> <br />
+                            <span id="namaKabupaten">{kab}</span> <br />
+                            <span id="namaDesa">{desa}</span>
                         </p>
                     </Link>
                 </div>

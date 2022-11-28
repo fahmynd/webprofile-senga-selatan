@@ -1,6 +1,6 @@
 import React from 'react'
 
-function VisiMisi() {
+const VisiMisi = () => {
     return (
         <section id="visiMisi">
             <div className="container">

@@ -1,7 +1,29 @@
-import React from 'react'
+import axios from 'axios';
+import React, { useEffect } from 'react'
+import { useState } from 'react';
 import blobs from '../../assets/img/bg/blobs3.webp'
 
-function AdministrasiKeuangan() {
+const AdministrasiKeuangan = () => {
+    const [apbd, setApbd] = useState();
+    const [rabd, setRabd] = useState();
+    const [kegiatan, setKegiatan] = useState();
+    const [umum, setUmum] = useState();
+    const [pembantu, setPembantu] = useState();
+    const [bank, setBank] = useState();
+
+    useEffect(() => {
+        axios.get('db.json')
+            .then((result) => {
+                // console.log(result.data.admKeuangan);
+                const data = result.data.admKeuangan;
+                setApbd(data.apbd)
+                setRabd(data.rabd)
+                setKegiatan(data.kasKegiatan)
+                setUmum(data.kasUmum)
+                setPembantu(data.kasPembantu)
+                setBank(data.bankBukuDesa)
+            })
+    })
     return (
         <section id="administrasiKeuangan">
             <div className="container">
@@ -19,7 +41,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">6</p>
+                                        <p className="adm-umum-jumlah fw-bold">{apbd}</p>
                                         <p className="adm-umum-judul">APB Desa</p>
                                     </div>
                                 </div>
@@ -27,7 +49,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1</p>
+                                        <p className="adm-umum-jumlah fw-bold">{rabd}</p>
                                         <p className="adm-umum-judul">RAB Desa</p>
                                     </div>
                                 </div>
@@ -35,7 +57,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1</p>
+                                        <p className="adm-umum-jumlah fw-bold">{kegiatan}</p>
                                         <p className="adm-umum-judul">Kas Kegiatan</p>
                                     </div>
                                 </div>
@@ -43,7 +65,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1</p>
+                                        <p className="adm-umum-jumlah fw-bold">{umum}</p>
                                         <p className="adm-umum-judul">Kas Umum</p>
                                     </div>
                                 </div>
@@ -51,7 +73,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">0</p>
+                                        <p className="adm-umum-jumlah fw-bold">{pembantu}</p>
                                         <p className="adm-umum-judul">Kas Pembantu</p>
                                     </div>
                                 </div>
@@ -59,7 +81,7 @@ function AdministrasiKeuangan() {
                             <div className="col-6 col-lg-4 mb-3">
                                 <div className="card adm-umum-card">
                                     <div className="card-body text-center">
-                                        <p className="adm-umum-jumlah fw-bold">1</p>
+                                        <p className="adm-umum-jumlah fw-bold">{bank}</p>
                                         <p className="adm-umum-judul">Bank Buku Desa</p>
                                     </div>
                                 </div>
