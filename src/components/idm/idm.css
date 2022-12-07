@@ -1,6 +1,6 @@
     .tg  {border-collapse:collapse;border-spacing:0;}
-    .tg td{border-color:#E0E0E0;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg th{border-color:black;border-style:solid;border-width:0px;font-size:14px;
+    .tg td{border-color:#E0E0E0;border-style:solid;border-width:1px;font-size:12px;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:0px;font-size:12px;
       font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;vertical-align: middle}
     .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:middle;}
     .tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
@@ -37,13 +37,14 @@
       .card-mobile-margin{
         margin-bottom: 1rem;
       }
-      .table-responsive {
-          width: 100%;
-          margin-bottom: 15px;
-          overflow-x: auto;
-          overflow-y: hidden;
-          -webkit-overflow-scrolling: touch;
-          -ms-overflow-style: -ms-autohiding-scrollbar;
-          border: 1px solid #DDD;
-      }
+    }
+
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #DDD;
     }

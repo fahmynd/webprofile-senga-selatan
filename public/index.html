@@ -69,9 +69,9 @@
 <body>
 
 
-  <script type="text/javascript" src="assets/js/counter.js"></script>
+  <!-- <script type="text/javascript" src="assets/js/counter.js"></script>
   <a id="besucherzaehler2" href='https://www.versicherungen.at/hausversicherung-rechner/'></a>
-  <script type="text/javascript" src="assets/js/counter2.js"></script>
+  <script type="text/javascript" src="assets/js/counter2.js"></script> -->
   <!-- <script type='text/javascript'
     src='https://www.whomania.com/ctr?id=0b1e55d92932d68b670a9307c7bb5a4f2febd14b'></script> -->
 
@@ -82,6 +82,44 @@
   <a href='https://www.versicherungen.at/hausversicherung-rechner/'>Gebäudeversicherung</a>
   <script type='text/javascript'
     src='https://www.whomania.com/ctr?id=d5e0f095a3658fb0093e279f51d8dc0cb679382d'></script> -->
+  <!-- <div class="boxCounter d-none d-sm-none d-md-block">
+    <div class="row border rounded bg-light">
+      <div class="col-12 border text-center fw-bold bg-success bg-gradient p-2 text-white">Jumlah Pengunjung</div>
+      <div class="col-7 border-start border-top border-bottom">Hari ini</div>
+      <div id="visits-count" class="col-5 border-end border-top border-bottom">112</div>
+      <div class="col-7 border-start border-top border-bottom">Kemarin</div>
+      <div class="col-5 border-end border-top border-bottom">213</div>
+      <div class="col-7 border-start border-top border-bottom">Semua</div>
+      <div id='result' class="col-5 border-end border-top border-bottom website-counter">16723</div>
+    </div>
+  </div> -->
+
+  <!-- <script>
+    const pageviewsCount = document.getElementById('pageviews-count');
+    const visitsCount = document.getElementById('visits-count');
+
+    if (sessionStorage.getItem('visit') === null) {
+      // New visit and pageview
+      updateCounter('type=visit-pageview');
+    } else {
+      // Pageview
+      updateCounter('type=pageview');
+    }
+
+    function updateCounter(type) {
+
+      fetch('http://127.0.0.1:3002/api?' + type) // Dynamic request with URL parameter
+        .then(res => res.json())
+        .then(data => {
+          pageviewsCount.textContent = data.pageviews; // Display pageviews to user
+          visitsCount.textContent = data.visits; // Display visits to user
+        })
+
+    }
+
+    sessionStorage.setItem('visit', 'x');
+// 'visit' item persists in storage for the remainder of the user session
+  </script> -->
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/navbar.js"></script>

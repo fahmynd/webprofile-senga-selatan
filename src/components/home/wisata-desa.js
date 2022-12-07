@@ -51,7 +51,7 @@ class WisataDesa extends React.Component {
                     <div className="row mt-5">
                         <div className="col-md-12">
                             <div className="main-content">
-                                <OwlCarousel id="caroWisataDesa" className="owl-carousel owl-theme" {...options}>
+                                <OwlCarousel id="caroWisataDesa" className="owl-carousel owl-theme img-responsive" {...options}>
                                     <div className="item">
                                         <img src={wisata1} alt="" />
                                         <div className="item-info">

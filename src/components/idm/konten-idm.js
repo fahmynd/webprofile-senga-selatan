@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect } from 'react'
 import { useState } from 'react';
+import IdmChart from './idm-chart';
 import './idm.css'
 
 const KontenIdm = () => {
@@ -113,6 +114,9 @@ const KontenIdm = () => {
             <p className="fs-5">{Number(ikl).toFixed(4)}</p>
           </div>
         </div>
+
+        <IdmChart />
+
         <div id="tabMenu">
           <div className="mt-5">
             {/* <ul class="nav nav-tabs">
@@ -120,7 +124,7 @@ const KontenIdm = () => {
                 <a href="#tab2" className="nav-link navbar-default active" data-toggle="tab">Rumusan Pokok</a>
               </li>
             </ul> */}
-            <div className="tab-content">
+            <div className="">
               <div id="tab2" className="tab-pane active tab-box mt-3 table-responsive">
                 <table className="tg" style={{ width: '100%' }}>
                   <thead style={{ backgroundColor: '#317A75', color: 'white' }}>

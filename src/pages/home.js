@@ -8,7 +8,7 @@ import Berita from "../components/home/berita-api";
 // import InfoSingkatDesa from "../components/home/info-singkat-desa";
 import InstagramSection from "../components/home/instagram-section";
 import JelajahiDesa from "../components/home/jelajahi-desa";
-import Jumbotron from "../components/home/jumbotron copy";
+import Jumbotron from "../components/home/jumbotron-old";
 import JumlahSurat from "../components/home/jumlah-surat";
 import PetaDesa from "../components/home/peta-desa";
 import PotensiDesa from "../components/home/potensi-desa";

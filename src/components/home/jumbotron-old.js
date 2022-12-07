@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import pakde from '../../assets/img/foto-pakde.webp'
 import ShowMoreText from "react-show-more-text";
 import { useState } from 'react';
@@ -25,7 +25,7 @@ const Jumbotron = () => {
             })
     })
     return (
-        <>
+        <Fragment>
             <div className="d-lg-none d-xl-none">
                 <div className="row">
                     <div className="col-12 text-center fw-bold bg-dark text-light welcome">
@@ -91,7 +91,7 @@ const Jumbotron = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </Fragment>
     )
 }
 

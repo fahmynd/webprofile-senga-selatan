@@ -14,7 +14,7 @@
   
   /* Carousel base class */
   .carousel {
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -81,3 +81,22 @@
     }
   }
   
+  .bannerImg {
+    width: 100%;
+    height: 100%;
+    /* z-index: 1; */
+    object-fit: cover;
+    /* opacity: 0.8; */
+  }
+  
+  .overlay {
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));    
+  }
+
+  .img-container { 
+    background-color: #000000; 
+  }
+
+  .img-container img { 
+    opacity: 0.5; 
+  }

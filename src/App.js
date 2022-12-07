@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { Fragment } from "react";
 import { Routes, Route, Navigate } from 'react-router-dom';
 import './assets/css/my-style.css'
+import Galeri from "./pages/galeri";
 
 const Home = lazy(() => import("./pages/home"));
 const Pemerintahan = lazy(() => import("./pages/pemerintahan"));
@@ -39,6 +40,7 @@ function App() {
                     <Route path="/profil-ppid" element={<ProfilPpid />} />
                     <Route path="/pengaduan" element={<Pengaduan />} />
                     <Route path="/*" element={<Navigate to="/" />} />
+                    <Route path="/galeri" element={<Galeri />} />
                 </Routes>
             </Suspense>
             <Footer />
