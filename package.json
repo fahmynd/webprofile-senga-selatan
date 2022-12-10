@@ -5,10 +5,10 @@
   "dependencies": {
     "@amcharts/amcharts5": "^5.2.29",
     "@chakra-ui/react": "^1.6.8",
+    "@cyntler/react-doc-viewer": "^1.10.3",
     "@emotion/memoize": "^0.7.5",
     "@emotion/react": "11",
     "@emotion/styled": "11",
-    "@react-pdf-viewer/core": "^3.7.0",
     "@react-pdf-viewer/default-layout": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
