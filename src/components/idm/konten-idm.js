@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import IdmChart from './idm-chart';
+import IdmChart from './idm-chart3';
 import './idm.css'
 
 const KontenIdm = () => {
@@ -46,77 +46,92 @@ const KontenIdm = () => {
   })
   return (
     <main id="kontenIDM">
+
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-6'>
+            <h2 className="fw-bold mt-4 text-center">Skor IDM Tahun 2022</h2>
+            <div className="row mt-4">
+              <div className="col-md-12 mb-4">
+                <div className="card card-idm card-idm__skor">
+                  <div className="card-body">
+                    <div className="row">
+                      <div className="col-md-6">
+                        <p className="card-idm__text">
+                          Skor IDM <br />
+                          Tahun <span>{tahun}</span>
+                        </p>
+                      </div>
+                      <div className="col-md-6 text-center center-v">
+                        <p className="card-idm__jumlah">{Number(skor_idm).toFixed(4)}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-12 mb-4">
+                <div className="card card-idm card-idm__status">
+                  <div className="card-body">
+                    <div className="row">
+                      <div className="col-md-6">
+                        <p className="card-idm__text">
+                          Status IDM <br />
+                          Tahun <span>{tahun}</span>
+                        </p>
+                      </div>
+                      <div className="col-md-6 text-center center-v">
+                        <p className="card-idm__infoStatus">{status}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row text-center mt-4">
+              <div className='col-md-12'>
+                <div className='row'>
+                  <div className="col-6 col-md-4 mb-3">
+                    <p className="fw-bold">Target Status</p>
+                    <p className="fs-5">{target}</p>
+                  </div>
+                  <div className="col-6 col-md-4 mb-3">
+                    <p className="fw-bold">Skor Minimal</p>
+                    <p className="fs-5">{minimal}</p>
+                  </div>
+                  <div className="col-6 col-md-4 mb-3">
+                    <p className="fw-bold">Penambahan</p>
+                    <p className="fs-5">{Number(penambahan).toFixed(4)}</p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-12'>
+                <div className='row'>
+                  <div className="col-6 col-md-4 mb-3">
+                    <p className="fw-bold">Skor IKS</p>
+                    <p className="fs-5">{Number(iks).toFixed(4)}</p>
+                  </div>
+                  <div className="col-6 col-md-4 mb-3">
+                    <p className="fw-bold">Skor IKE</p>
+                    <p className="fs-5">{Number(ike).toFixed(4)}</p>
+                  </div>
+                  <div className="col-6 col-md-4 mb-3">
+                    <p className="fw-bold">Skor IKL</p>
+                    <p className="fs-5">{Number(ikl).toFixed(4)}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-6'>
+            <h2 className="fw-bold mt-4 text-center">Skor IDM Tahun Ke Tahun</h2>
+            <div>
+              <IdmChart />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-md-12">
-            <h2 className="fw-bold mt-4">Skor Indeks Desa Membangun</h2>
-          </div>
-        </div>
-        <div className="row mt-4">
-          <div className="col-md-6 mb-4">
-            <div className="card card-idm card-idm__skor">
-              <div className="card-body">
-                <div className="row">
-                  <div className="col-md-6">
-                    <p className="card-idm__text">
-                      Skor IDM <br />
-                      Tahun <span>{tahun}</span>
-                    </p>
-                  </div>
-                  <div className="col-md-6 text-center center-v">
-                    <p className="card-idm__jumlah">{Number(skor_idm).toFixed(4)}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 mb-4">
-            <div className="card card-idm card-idm__status">
-              <div className="card-body">
-                <div className="row">
-                  <div className="col-md-6">
-                    <p className="card-idm__text">
-                      Status IDM <br />
-                      Tahun <span>{tahun}</span>
-                    </p>
-                  </div>
-                  <div className="col-md-6 text-center center-v">
-                    <p className="card-idm__infoStatus">{status}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row text-center mt-4">
-          <div className="col-6 col-md-2 mb-3">
-            <p className="fw-bold">Target Status</p>
-            <p className="fs-5">{target}</p>
-          </div>
-          <div className="col-6 col-md-2 mb-3">
-            <p className="fw-bold">Skor Minimal</p>
-            <p className="fs-5">{minimal}</p>
-          </div>
-          <div className="col-6 col-md-2 mb-3">
-            <p className="fw-bold">Penambahan</p>
-            <p className="fs-5">{Number(penambahan).toFixed(4)}</p>
-          </div>
-          <div className="col-6 col-md-2 mb-3">
-            <p className="fw-bold">Skor IKS</p>
-            <p className="fs-5">{Number(iks).toFixed(4)}</p>
-          </div>
-          <div className="col-6 col-md-2 mb-3">
-            <p className="fw-bold">Skor IKE</p>
-            <p className="fs-5">{Number(ike).toFixed(4)}</p>
-          </div>
-          <div className="col-6 col-md-2 mb-3">
-            <p className="fw-bold">Skor IKL</p>
-            <p className="fs-5">{Number(ikl).toFixed(4)}</p>
-          </div>
-        </div>
-
-        <IdmChart />
-
         <div id="tabMenu">
           <div className="mt-5">
             {/* <ul class="nav nav-tabs">

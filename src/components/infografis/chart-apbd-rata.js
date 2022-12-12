@@ -3,9 +3,9 @@ import * as am5 from "@amcharts/amcharts5";
 import * as am5xy from "@amcharts/amcharts5/xy";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
-class DataStunting extends Component {
+class Average extends Component {
   componentDidMount() {
-    let root = am5.Root.new("chartDataStunting");
+    let root = am5.Root.new("average");
 
     root.setThemes([am5themes_Animated.new(root)]);
 
@@ -19,24 +19,19 @@ class DataStunting extends Component {
     // Define data
     let data = [
       {
-        category: "Pasangan Usia Subur",
-        value1: 498,
-        value2: 480
+        category: "Tahun 2020",
+        value1: 842818327,
+        value2: 446267500
       },
       {
-        category: "Wanita Usia Subur",
-        value1: 326,
-        value2: 304
+        category: "Tahun 2021",
+        value1: 1188318327,
+        value2: 1187497700
       },
       {
-        category: "Ibu Hamil",
-        value1: 57,
-        value2: 71
-      },
-      {
-        category: "Balita",
-        value1: 294,
-        value2: 254
+        category: "Tahun 2022",
+        value1: 1437909473,
+        value2: 1437909473
       }
     ];
 
@@ -79,14 +74,14 @@ class DataStunting extends Component {
     // Create series
     let series1 = chart.series.push(
       am5xy.ColumnSeries.new(root, {
-        name: "Data Tahun 2021",
+        name: "Pendapatan Desa",
         xAxis: xAxis,
         yAxis: yAxis,
         valueYField: "value1",
         sequencedInterpolation: true,
         categoryXField: "category",
         tooltip: am5.Tooltip.new(root, {
-          labelText: "{valueY} {categoryX}",
+          labelText: "{name} {categoryX} = Rp{valueY}",
         }),
       })
     );
@@ -94,22 +89,22 @@ class DataStunting extends Component {
 
     let series2 = chart.series.push(
       am5xy.ColumnSeries.new(root, {
-        name: "Data Tahun 2022",
+        name: "Belanja Desa",
         xAxis: xAxis,
         yAxis: yAxis,
         valueYField: "value2",
         sequencedInterpolation: true,
         categoryXField: "category",
         tooltip: am5.Tooltip.new(root, {
-          labelText: "{valueY} {categoryX}",
+          labelText: "{name} {categoryX} = Rp{valueY}",
         }),
       })
     );
     series2.data.setAll(data);
-    series1.set("fill", am5.color("#E58B20"));
-    series1.set("stroke", am5.color("#E58B20"));
-    series2.set("fill", am5.color("#44A694"));
-    series2.set("stroke", am5.color("#44A694"));
+    series1.set("fill", am5.color("#44A694"));
+    series1.set("stroke", am5.color("#44A694"));
+    series2.set("fill", am5.color("#E58B20"));
+    series2.set("stroke", am5.color("#E58B20"));
     chart.appear(1000, 100);
     series1.appear(1000);
     series2.appear(1000);
@@ -129,7 +124,7 @@ class DataStunting extends Component {
         locationY: 1,
         fontSize: 12,
         sprite: am5.Label.new(root, {
-          text: "{valueY}",
+          text: "Rp{valueY}",
           centerX: am5.percent(50),
           centerY: am5.percent(100),
           textAlign: "center",
@@ -143,7 +138,7 @@ class DataStunting extends Component {
         locationY: 1,
         fontSize: 12,
         sprite: am5.Label.new(root, {
-          text: "{valueY}",
+          text: "Rp{valueY}",
           centerX: am5.percent(50),
           centerY: am5.percent(100),
           textAlign: "center",
@@ -179,8 +174,8 @@ class DataStunting extends Component {
   }
 
   render() {
-    return <div id="chartDataStunting" style={{ width: "100%", height: "500px" }}></div>;
+    return <div id="average" style={{ width: "100%", height: "500px" }}></div>;
   }
 }
 
-export default DataStunting;
+export default Average;

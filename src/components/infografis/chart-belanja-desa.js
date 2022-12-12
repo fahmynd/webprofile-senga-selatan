@@ -58,6 +58,7 @@ function ChartBelanjaDesa(props) {
 
         let yAxis = chart.yAxes.push(
             am5xy.ValueAxis.new(root, {
+
                 maxDeviation: 0.3,
                 renderer: am5xy.AxisRendererY.new(root, {}),
             })
@@ -65,8 +66,9 @@ function ChartBelanjaDesa(props) {
 
         xAxis.get("renderer").labels.template.setAll({
             oversizedBehavior: "wrap",
-            maxWidth: 150,
-            fontSize: 13,
+            maxWidth: 100,
+            fontSize: 12,
+            textAlign: "center",
         });
 
         xAxis.data.setAll(data);
@@ -113,8 +115,8 @@ function ChartBelanjaDesa(props) {
         chart.appear(1000, 100);
 
         // Add legend
-        let legend = chart.children.push(am5.Legend.new(root, {}));
-        legend.data.setAll(chart.series.values);
+        // let legend = chart.children.push(am5.Legend.new(root, {}));
+        // legend.data.setAll(chart.series.values);
 
         // Add cursor
         let cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));

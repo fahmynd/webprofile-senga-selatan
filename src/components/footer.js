@@ -10,7 +10,7 @@ function Footer() {
     return (
         <footer>
             <div className="container mobile-center">
-                <div className="row">
+                {/* <div className="row">
                     <Link to="/" className="col-md-6 col-lg-3 text-decoration-none">
                         <div className="row">
                             <div className="col-md-3 col-lg-3">
@@ -26,9 +26,26 @@ function Footer() {
                             </div>
                         </div>
                     </Link>
-                </div>
+                </div> */}
                 <div className="row mt-4">
                     <div className="col-md-4">
+                        <div className="row mb-4">
+                            <Link to="/" className="col-md-12 col-lg-12 text-decoration-none">
+                                <div className="row">
+                                    <div className="col-md-3 col-lg-2">
+                                        <img id="" src={logo} alt="" height="50" className="d-inline-block align-text-top" />
+                                    </div>
+                                    <div className="col-md-9 col-lg-10">
+                                        <p className="info-nav-footer">
+                                            <span id="namaProvinsi">Provinsi Sulawesi Selatan</span>
+                                            <br />
+                                            <span id="namaKabupaten">Kabupaten Luwu</span> <br />
+                                            <span id="namaDesa">Desa Senga Selatan</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
                         <p className="footer-text_judul clr-white">Alamat Kantor Desa</p>
                         <p className="footer-text__alamat">
                             Jl. Andi Benni No.27 Dusun Kalobang, <br /> Desa Senga Selatan, Kecamatan Belopa, Kabupaten Luwu <br /> Provinsi Sulawesi Selatan, 91983

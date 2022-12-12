@@ -3,7 +3,7 @@ import * as am5 from "@amcharts/amcharts5";
 import * as am5xy from "@amcharts/amcharts5/xy";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
-function ApbdChart(props) {
+function ApbdChart() {
     useLayoutEffect(() => {
 
         let root = am5.Root.new("apbdChart");
@@ -17,6 +17,7 @@ function ApbdChart(props) {
                 panX: false,
                 panY: false,
                 pinchZoomX: false,
+                layout: root.verticalLayout
             })
         );
 
@@ -60,25 +61,38 @@ function ApbdChart(props) {
             })
         );
 
+        xAxis.get("renderer").labels.template.setAll({
+            oversizedBehavior: "wrap",
+            maxWidth: 100,
+            fontSize: 10,
+            textAlign: "center",
+        });
+
+        xAxis.data.setAll(data);
+
         let yAxis = chart.yAxes.push(
             am5xy.ValueAxis.new(root, {
+                extraMax: 0.1,
                 maxDeviation: 0.3,
                 renderer: am5xy.AxisRendererY.new(root, {}),
             })
         );
 
-        xAxis.get("renderer").labels.template.setAll({
-            oversizedBehavior: "wrap",
-            maxWidth: 100,
-            fontSize: 10,
+        // var yAxis = chart.yAxes.push(
+        //     am5xy.ValueAxis.new(root, {
+        //         renderer: am5xy.AxisRendererY.new(root, {})
+        //     })
+        // );
+
+        yAxis.get("renderer").labels.template.setAll({
+            visible: true
         });
 
-        xAxis.data.setAll(data);
 
         // Create series
         let series = chart.series.push(
             am5xy.ColumnSeries.new(root, {
-                name: "",
+                // name: false,
                 xAxis: xAxis,
                 yAxis: yAxis,
                 valueYField: "value",
@@ -110,6 +124,8 @@ function ApbdChart(props) {
             });
         });
 
+
+
         series.data.setAll(data);
         series.set("fill", am5.color("#E58B20"));
         series.set("stroke", am5.color("#E58B20"));
@@ -117,12 +133,12 @@ function ApbdChart(props) {
         chart.appear(1000, 100);
 
         // Add legend
-        let legend = chart.children.push(am5.Legend.new(root, {}));
-        legend.data.setAll(chart.series.values);
+        // let legend = chart.children.push(am5.Legend.new(root, {}));
+        // legend.data.setAll(chart.series.values);
 
         // Add cursor
         let cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
-        cursor.lineY.set("visible", false);
+        cursor.lineY.set("visible", true);
 
         return () => {
             root.dispose();

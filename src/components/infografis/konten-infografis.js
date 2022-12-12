@@ -21,6 +21,7 @@ import desaDamaiBerkeadilan from '../../assets/img/sdgs/desaDamaiBerkeadilan.web
 import kemitraanUntukPembangunanDesa from '../../assets/img/sdgs/kemitraanUntukPembangunanDesa.webp'
 import kelembagaanDesaDinamisDanBudayaDesaAdaptif from '../../assets/img/sdgs/kelembagaanDesaDinamisDanBudayaDesaAdaptif.webp'
 import DataPenduduk from './data-penduduk'
+import Average from './chart-apbd-rata'
 
 function KontenInfografis() {
     return (
@@ -148,20 +149,24 @@ function KontenInfografis() {
                                         </div>
                                     </div>
                                 </div>
-                                <section className="row mt-10">
+                                <div className="col-md-12 mt-5">
                                     <div className="col-md-12 text-center">
-                                        <h4 className="fw-bold">Pendapatan Desa</h4>
+                                        <h4 className="fw-bold">Pendapatan dan Belanja Desa Tahun ke Tahun</h4>
                                     </div>
-                                    <div className="col-md-12">
-                                        <ChartPendapatanDesa />
-                                    </div>
-                                </section>
+                                    <Average />
+                                </div>
                                 <section className="row mt-10">
-                                    <div className="col-md-12 text-center">
-                                        <h4 className="fw-bold">Belanja Desa</h4>
+                                    <div className="col-md-6 text-center">
+                                        <h4 className="fw-bold">Pendapatan Desa Tahun 2022</h4>
+                                        <div>
+                                            <ChartPendapatanDesa />
+                                        </div>
                                     </div>
-                                    <div className="col-md-12">
-                                        <ChartBelanjaDesa />
+                                    <div className="col-md-6 text-center">
+                                        <h4 className="fw-bold">Belanja Desa Tahun 2022</h4>
+                                        <div>
+                                            <ChartBelanjaDesa />
+                                        </div>
                                     </div>
                                 </section>
                                 <section className="row mt-10">
